@@ -1,0 +1,375 @@
+{
+  "updated_at": "2026-02-18T10:00:28.189189+00:00",
+  "summary": {
+    "pending": 38,
+    "wins": 0,
+    "losses": 2,
+    "win_rate": 0.0,
+    "total_pnl": -2.0,
+    "avg_bin_edge": 0.0328
+  },
+  "pending_picks": [
+    {
+      "market_id": "562186",
+      "question": "Will Ken Paxton win the 2026 Texas Republican Primary?",
+      "direction": "BUY NO",
+      "order_price": 0.27,
+      "mid_price": 0.73,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0291
+    },
+    {
+      "market_id": "614253",
+      "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0176
+    },
+    {
+      "market_id": "1139645",
+      "question": "Will Player 167 win Beast Games: Season 2?",
+      "direction": "BUY NO",
+      "order_price": 0.085,
+      "mid_price": 0.919,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0382
+    },
+    {
+      "market_id": "897776",
+      "question": "Will Canada win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
+      "direction": "BUY NO",
+      "order_price": 0.46,
+      "mid_price": 0.545,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0261
+    },
+    {
+      "market_id": "614719",
+      "question": "Will Paul Thomas Anderson win Best Director at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.1,
+      "mid_price": 0.905,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0522
+    },
+    {
+      "market_id": "614008",
+      "question": "Will Timoth\u00e9e Chalamet win Best Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.22,
+      "mid_price": 0.785,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0133
+    },
+    {
+      "market_id": "949430",
+      "question": "Will a contestant numbered 151 - 175 win Beast Games: Season 2?",
+      "direction": "BUY NO",
+      "order_price": 0.077,
+      "mid_price": 0.9065,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0507
+    },
+    {
+      "market_id": "1116334",
+      "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the February decision?",
+      "direction": "BUY NO",
+      "order_price": 0.42,
+      "mid_price": 0.58,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0066
+    },
+    {
+      "market_id": "1273938",
+      "question": "Will the US not strike Iran by February 28, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.18,
+      "mid_price": 0.825,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0176
+    },
+    {
+      "market_id": "1277193",
+      "question": "Will Anthropic have the best AI model at the end of February 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.297,
+      "mid_price": 0.7125,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0821
+    },
+    {
+      "market_id": "614311",
+      "question": "Will Jessie Buckley win Best Actress at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.09,
+      "mid_price": 0.915,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0422
+    },
+    {
+      "market_id": "896983",
+      "question": "Will Italy win the second most gold medals in the 2026 Winter Olympics?",
+      "direction": "BUY NO",
+      "order_price": 0.397,
+      "mid_price": 0.6065,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0194
+    },
+    {
+      "market_id": "614870",
+      "question": "Will Frankenstein win Best Production Design at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.19,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0308
+    },
+    {
+      "market_id": "1377480",
+      "question": "Will Elon Musk post 90-114 tweets from February 16 to February 18, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.45,
+      "mid_price": 0.555,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0161
+    },
+    {
+      "market_id": "1117242",
+      "question": "Nothing Ever Happens: Khamenei",
+      "direction": "BUY NO",
+      "order_price": 0.17,
+      "mid_price": 0.83,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0071
+    },
+    {
+      "market_id": "614355",
+      "question": "Will Teyana Taylor win Best Supporting Actress at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.32,
+      "mid_price": 0.68,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0076
+    },
+    {
+      "market_id": "614430",
+      "question": "Will Sinners win Best Original Screenplay at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.19,
+      "mid_price": 0.805,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0408
+    },
+    {
+      "market_id": "614763",
+      "question": "Will One Battle After Another win Best Film Editing at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0176
+    },
+    {
+      "market_id": "1335054",
+      "question": "Will Newcastle United FC win on 2026-02-18?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0541
+    },
+    {
+      "market_id": "569311",
+      "question": "Will PH win the most seats in the 2026 Colombian Chamber of Representatives election?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0591
+    },
+    {
+      "market_id": "1341285",
+      "question": "Will FC Internazionale Milano win on 2026-02-18?",
+      "direction": "BUY NO",
+      "order_price": 0.45,
+      "mid_price": 0.555,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0161
+    },
+    {
+      "market_id": "1385945",
+      "question": "Solana Up or Down on February 18?",
+      "direction": "BUY NO",
+      "order_price": 0.38,
+      "mid_price": 0.605,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0209
+    },
+    {
+      "market_id": "1144477",
+      "question": "Will \"Hamnet\" win Outstanding British Film at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.09,
+      "mid_price": 0.905,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0522
+    },
+    {
+      "market_id": "644095",
+      "question": "Will Victor Wembanyama lead the NBA in blocks during the 2025\u201326 NBA season?",
+      "direction": "BUY NO",
+      "order_price": 0.09,
+      "mid_price": 0.905,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0515
+    },
+    {
+      "market_id": "1335106",
+      "question": "Will Bruno Mars have the greatest number of monthly Spotify listeners this month?",
+      "direction": "BUY NO",
+      "order_price": 0.1,
+      "mid_price": 0.905,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0618
+    },
+    {
+      "market_id": "703514",
+      "question": "Will John Cornyn come in 2nd in the 2026 Texas Republican Primary?",
+      "direction": "BUY NO",
+      "order_price": 0.34,
+      "mid_price": 0.605,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.0174
+    },
+    {
+      "market_id": "1237512",
+      "question": "Will Apple be the second-largest company in the world by market cap on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.24,
+      "mid_price": 0.75,
+      "first_seen": "2026-02-17T20:42:38Z",
+      "bin_edge": 0.016
+    },
+    {
+      "market_id": "537484",
+      "question": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "direction": "BUY NO",
+      "order_price": 0.091,
+      "mid_price": 0.915,
+      "first_seen": "2026-02-17T21:15:19Z",
+      "bin_edge": 0.0456
+    },
+    {
+      "market_id": "1354427",
+      "question": "Will Manchester City FC win on 2026-02-21?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-17T21:15:19Z",
+      "bin_edge": 0.0109
+    },
+    {
+      "market_id": "896989",
+      "question": "Will the United States win the second most gold medals in the 2026 Winter Olympics?",
+      "direction": "BUY NO",
+      "order_price": 0.53,
+      "mid_price": 0.46,
+      "first_seen": "2026-02-17T21:57:47Z",
+      "bin_edge": 0.0533
+    },
+    {
+      "market_id": "643392",
+      "question": "Will the Minnesota Timberwolves make the NBA Playoffs?",
+      "direction": "BUY NO",
+      "order_price": 0.08,
+      "mid_price": 0.92,
+      "first_seen": "2026-02-17T22:12:47Z",
+      "bin_edge": 0.0365
+    },
+    {
+      "market_id": "1146054",
+      "question": "Will Timoth\u00e9e Chalamet win Best Actor at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.17,
+      "mid_price": 0.805,
+      "first_seen": "2026-02-17T22:12:47Z",
+      "bin_edge": 0.0416
+    },
+    {
+      "market_id": "1144455",
+      "question": "Will \"One Battle After Another\" win Best Film at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-17T22:12:47Z",
+      "bin_edge": 0.0141
+    },
+    {
+      "market_id": "1145101",
+      "question": "Will \"One Battle After Another\" win Best Director at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.09,
+      "mid_price": 0.91,
+      "first_seen": "2026-02-17T22:12:47Z",
+      "bin_edge": 0.0472
+    },
+    {
+      "market_id": "567560",
+      "question": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.395,
+      "first_seen": "2026-02-17T23:12:47Z",
+      "bin_edge": 0.0339
+    },
+    {
+      "market_id": "1329450",
+      "question": "Will China record a gold medal at the 2026 Winter Olympics?",
+      "direction": "BUY NO",
+      "order_price": 0.177,
+      "mid_price": 0.8215,
+      "first_seen": "2026-02-17T23:27:47Z",
+      "bin_edge": 0.0429
+    },
+    {
+      "market_id": "663317",
+      "question": "Will Michigan win the 2025-2026 Big 10 Men's Basketball regular season championship?",
+      "direction": "BUY NO",
+      "order_price": 0.12,
+      "mid_price": 0.825,
+      "first_seen": "2026-02-18T02:27:48Z",
+      "bin_edge": 0.0208
+    },
+    {
+      "market_id": "666696",
+      "question": "Israel x Iran ceasefire broken by March 31, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.53,
+      "mid_price": 0.465,
+      "first_seen": "2026-02-18T06:42:48Z",
+      "bin_edge": 0.034
+    }
+  ],
+  "recent_resolutions": [
+    {
+      "market_id": "1372557",
+      "question": "Dota 2: Natus Vincere vs GamerLegion (BO2) - DreamLeague Stage 1 Group B",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-18T06:15:48Z",
+      "bin_edge": 0.0216
+    },
+    {
+      "market_id": "1366144",
+      "question": "Akron Zips vs. Western Michigan Broncos",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-18T06:15:48Z",
+      "bin_edge": 0.0456
+    }
+  ]
+}

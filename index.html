@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moltys.AI — Bayesian Prediction Markets</title>
+  <meta name="description" content="AI-powered prediction market analysis using Bayesian signal fusion. Scored picks and transparent track record.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0a0a0f',
+            surface: '#12121a',
+            border: '#1e1e2e',
+            accent: '#6366f1',
+            'accent-dim': '#4f46e5',
+            profit: '#22c55e',
+            loss: '#ef4444',
+            muted: '#6b7280',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background: #0a0a0f; }
+    .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+    .signal-tag { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; }
+    .fade-in { animation: fadeIn 0.4s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .row-yes { border-left: 3px solid #22c55e; }
+    .row-no { border-left: 3px solid #ef4444; }
+    .expand-btn { cursor: pointer; user-select: none; }
+    .signal-detail { display: none; }
+    .signal-detail.open { display: table-row; }
+    @media (max-width: 768px) {
+      .hide-mobile { display: none; }
+    }
+  </style>
+</head>
+<body class="text-gray-200 min-h-screen">
+
+  <!-- Hero -->
+  <header class="border-b border-border">
+    <div class="max-w-7xl mx-auto px-4 py-8 sm:py-12">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 rounded-lg bg-accent flex items-center justify-center text-white font-bold text-xl">M</div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Moltys<span class="text-accent">.AI</span></h1>
+      </div>
+      <p class="text-lg text-gray-400 max-w-2xl">Bayesian signal fusion for prediction markets. Every pick is scored, ranked, and tracked.</p>
+      <div class="flex flex-wrap gap-4 mt-6 text-sm">
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Active Picks</span>
+          <span id="stat-picks" class="ml-2 text-white font-semibold">—</span>
+        </div>
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Pending</span>
+          <span id="stat-pending" class="ml-2 text-white font-semibold">—</span>
+        </div>
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Win Rate</span>
+          <span id="stat-winrate" class="ml-2 text-white font-semibold">—</span>
+        </div>
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Resolved</span>
+          <span id="stat-resolved" class="ml-2 text-white font-semibold">—</span>
+        </div>
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">P&L</span>
+          <span id="stat-pnl" class="ml-2 font-semibold">—</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Disclaimer Banner -->
+  <div class="bg-amber-900/20 border-b border-amber-700/30">
+    <div class="max-w-7xl mx-auto px-4 py-3 text-sm text-amber-200/90 text-center">
+      This site is for informational and educational purposes only. Nothing here constitutes financial advice. Prediction markets carry risk of total loss. Any use of this information is entirely at your own risk.
+    </div>
+  </div>
+
+  <!-- Current Picks -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-white mb-1">Current Picks</h2>
+    <p class="text-sm text-muted mb-6">Sorted by soonest to resolve. Click a row to expand bin signal detail.</p>
+
+    <div class="bg-surface border border-border rounded-xl overflow-hidden glow">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="text-left text-muted text-xs uppercase tracking-wider border-b border-border">
+              <th class="px-4 py-3 w-12">#</th>
+              <th class="px-4 py-3">Market</th>
+              <th class="px-4 py-3 w-24">Direction</th>
+              <th class="px-4 py-3 w-24 text-right" title="Empirical bin edge from historical win rates. Only shown when bin data is available.">Bin Edge</th>
+              <th class="px-4 py-3 w-20 text-right hide-mobile" title="Current market mid-price">Market Price</th>
+              <th class="px-4 py-3 w-16 text-center hide-mobile" title="Number of independent signals contributing to this pick">Signals</th>
+              <th class="px-4 py-3 w-20 text-right" title="Composite ranking score combining edge, confidence, and liquidity">Score</th>
+              <th class="px-4 py-3 w-20 text-right hide-mobile" title="Estimated time until market resolves">Resolve</th>
+            </tr>
+          </thead>
+          <tbody id="picks-body">
+            <tr><td colspan="8" class="px-4 py-12 text-center text-muted">Loading picks...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Track Record -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-white mb-1">Track Record</h2>
+    <p class="text-sm text-muted mb-6">Live performance from resolved positions.</p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <!-- Summary Cards -->
+      <div class="space-y-4">
+        <div class="bg-surface border border-border rounded-xl p-6 glow">
+          <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Performance Summary</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div>
+              <div class="text-2xl font-bold text-white" id="perf-winrate">—</div>
+              <div class="text-xs text-muted">Win Rate</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-profit" id="perf-wins">—</div>
+              <div class="text-xs text-muted">Wins</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold text-loss" id="perf-losses">—</div>
+              <div class="text-xs text-muted">Losses</div>
+            </div>
+            <div>
+              <div class="text-2xl font-bold" id="perf-pnl">—</div>
+              <div class="text-xs text-muted">Total P&L</div>
+            </div>
+          </div>
+          <div class="mt-4 pt-4 border-t border-border/50">
+            <div>
+              <div class="text-lg font-semibold text-accent" id="perf-avg-bin-edge">—</div>
+              <div class="text-xs text-muted">Avg Bin Edge (empirical)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Resolutions -->
+        <div class="bg-surface border border-border rounded-xl p-6">
+          <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Recent Resolutions</h3>
+          <div id="resolutions-list" class="space-y-2 text-sm max-h-80 overflow-y-auto">
+            <p class="text-muted">No resolved positions yet.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pending Picks -->
+      <div class="bg-surface border border-border rounded-xl p-6 glow">
+        <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Pending Picks</h3>
+        <p class="text-xs text-muted mb-4">Tracked picks awaiting resolution.</p>
+        <div id="pending-list" class="space-y-2 text-sm max-h-96 overflow-y-auto">
+          <p class="text-muted">No pending picks.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-border mt-12">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-muted">
+      <div>
+        <span class="text-gray-400 font-medium">Moltys.AI</span> &mdash; Bayesian prediction market signals
+      </div>
+      <div id="last-updated" class="text-center">Last updated: —</div>
+      <div class="text-right max-w-lg">
+        This is not financial advice. The information on this site is provided for informational and educational purposes only. Prediction markets carry risk of total loss. Past performance does not guarantee future results. Any action you take based on this information is strictly at your own risk.
+      </div>
+    </div>
+  </footer>
+
+<script>
+// ── Helpers ──
+const $ = (sel) => document.querySelector(sel);
+const fmt = (n, d = 2) => Number(n).toFixed(d);
+const fmtPct = (n) => (n * 100).toFixed(1) + '%';
+const fmtEdge = (n) => (n >= 0 ? '+' : '') + (n * 100).toFixed(1) + '%';
+const fmtPnl = (n) => (n >= 0 ? '+' : '') + Number(n).toFixed(2);
+const fmtHours = (h) => {
+  if (h < 1) return '<1h';
+  if (h < 24) return Math.round(h) + 'h';
+  const d = Math.floor(h / 24);
+  const rem = Math.round(h % 24);
+  return d + 'd ' + rem + 'h';
+};
+const timeAgo = (iso) => {
+  if (!iso) return '—';
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  return Math.floor(hrs / 24) + 'd ago';
+};
+
+// ── Load Picks ──
+async function loadPicks() {
+  try {
+    const res = await fetch('data/picks.json');
+    if (!res.ok) throw new Error(res.status);
+    const picks = await res.json();
+    renderPicks(picks);
+    $('#stat-picks').textContent = picks.length;
+  } catch (e) {
+    console.error('Failed to load picks:', e);
+    $('#picks-body').innerHTML = '<tr><td colspan="8" class="px-4 py-12 text-center text-muted">Failed to load picks data.</td></tr>';
+  }
+}
+
+function renderPicks(picks) {
+  const tbody = $('#picks-body');
+  if (!picks.length) {
+    tbody.innerHTML = '<tr><td colspan="8" class="px-4 py-12 text-center text-muted">No active picks right now.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = '';
+  picks.forEach((p, i) => {
+    const isYes = p.direction === 'BUY YES';
+    const rowClass = isYes ? 'row-yes' : 'row-no';
+    const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
+
+    const hasBin = p.bin_edge != null;
+    const edgeCell = hasBin
+      ? `<span class="text-accent">${fmtEdge(p.bin_edge)}</span>`
+      : '<span class="text-muted">—</span>';
+
+    const mktPrice = p.market_implied != null ? fmtPct(p.market_implied) : '—';
+
+    // Main row
+    const tr = document.createElement('tr');
+    tr.className = `border-b border-border/50 hover:bg-white/[0.02] ${rowClass} fade-in` + (hasBin ? ' expand-btn' : '');
+    tr.style.animationDelay = (i * 30) + 'ms';
+    tr.innerHTML = `
+      <td class="px-4 py-3 text-muted font-mono">${i + 1}</td>
+      <td class="px-4 py-3 text-white font-medium">${escHtml(p.question)}</td>
+      <td class="px-4 py-3"><span class="text-xs font-semibold px-2 py-1 rounded ${dirBg}">${p.direction}</span></td>
+      <td class="px-4 py-3 text-right font-mono">${edgeCell}</td>
+      <td class="px-4 py-3 text-right font-mono hide-mobile">${mktPrice}</td>
+      <td class="px-4 py-3 text-center hide-mobile">${p.n_signals}</td>
+      <td class="px-4 py-3 text-right font-mono text-accent font-semibold">${fmt(p.score, 0)}</td>
+      <td class="px-4 py-3 text-right text-muted hide-mobile">${fmtHours(p.hours_to_resolve)}</td>
+    `;
+
+    // Signal detail row (only for picks with bin signals)
+    const detailTr = document.createElement('tr');
+    detailTr.className = 'signal-detail border-b border-border/30 bg-white/[0.01]';
+    if (hasBin) {
+      const signalHtml = (p.signals || []).map(s => {
+        const sDir = s.direction === 'BUY YES' ? 'text-profit' : 'text-loss';
+        return `<div class="flex items-center gap-2 py-1">
+          <span class="signal-tag bg-amber-900/50 text-amber-300">Historical Pattern</span>
+          <span class="${sDir} font-mono text-xs">${s.direction}</span>
+          <span class="text-muted text-xs">edge ${fmtPct(s.edge)}</span>
+        </div>`;
+      }).join('');
+      detailTr.innerHTML = `<td colspan="8" class="px-4 py-3 pl-12">${signalHtml}</td>`;
+      tr.addEventListener('click', () => detailTr.classList.toggle('open'));
+    } else {
+      detailTr.innerHTML = `<td colspan="8" class="px-4 py-3 pl-12 text-muted text-xs">No bin data for this market.</td>`;
+    }
+
+    tbody.appendChild(tr);
+    tbody.appendChild(detailTr);
+  });
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// ── Load Portfolio ──
+async function loadPortfolio() {
+  try {
+    const res = await fetch('data/portfolio.json');
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    renderPortfolio(data);
+  } catch (e) {
+    console.error('Failed to load portfolio:', e);
+  }
+}
+
+function renderPortfolio(data) {
+  const s = data.summary;
+  const resolved = s.wins + s.losses;
+
+  // Header stats
+  $('#stat-pending').textContent = s.pending > 0 ? s.pending : '—';
+  $('#stat-winrate').textContent = resolved > 0 ? fmtPct(s.win_rate) : '—';
+  $('#stat-resolved').textContent = resolved > 0 ? resolved : '—';
+
+  const pnlEl = $('#stat-pnl');
+  if (resolved > 0) {
+    pnlEl.textContent = fmtPnl(s.total_pnl);
+    pnlEl.className = 'ml-2 font-semibold ' + (s.total_pnl >= 0 ? 'text-profit' : 'text-loss');
+  }
+
+  // Performance section
+  $('#perf-winrate').textContent = resolved > 0 ? fmtPct(s.win_rate) : '—';
+  $('#perf-wins').textContent = resolved > 0 ? s.wins : '—';
+  $('#perf-losses').textContent = resolved > 0 ? s.losses : '—';
+
+  const pnlPerf = $('#perf-pnl');
+  if (resolved > 0) {
+    pnlPerf.textContent = fmtPnl(s.total_pnl);
+    pnlPerf.className = 'text-2xl font-bold ' + (s.total_pnl >= 0 ? 'text-profit' : 'text-loss');
+  }
+
+  // Avg bin edge
+  const avgBinEdge = $('#perf-avg-bin-edge');
+  avgBinEdge.textContent = s.avg_bin_edge != null ? fmtEdge(s.avg_bin_edge) : '—';
+
+  // Recent resolutions
+  const resList = $('#resolutions-list');
+  if (data.recent_resolutions && data.recent_resolutions.length) {
+    resList.innerHTML = data.recent_resolutions.map(r => {
+      const isWin = r.status === 'won';
+      const icon = isWin ? '&#x2713;' : '&#x2717;';
+      const cls = isWin ? 'text-profit' : 'text-loss';
+      const edgeStr = r.bin_edge != null ? fmtEdge(r.bin_edge) : '—';
+      return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
+        <div class="flex items-center gap-2">
+          <span class="${cls} font-bold">${icon}</span>
+          <span class="text-gray-300 truncate max-w-xs">${escHtml(r.question)}</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="text-muted text-xs font-mono">${edgeStr}</span>
+          <span class="font-semibold font-mono ${cls}">${fmtPnl(r.pnl)}</span>
+          <span class="text-muted text-xs">${timeAgo(r.resolved_at)}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Pending picks
+  const pendingList = $('#pending-list');
+  if (data.pending_picks && data.pending_picks.length) {
+    pendingList.innerHTML = data.pending_picks.map(p => {
+      const isYes = (p.direction || '').includes('YES');
+      const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
+      const edgeStr = p.bin_edge != null ? fmtEdge(p.bin_edge) : '—';
+      return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="text-xs font-semibold px-1.5 py-0.5 rounded ${dirBg} shrink-0">${p.direction}</span>
+          <span class="text-gray-300 truncate">${escHtml(p.question)}</span>
+        </div>
+        <div class="flex items-center gap-3 shrink-0 ml-2">
+          <span class="text-muted text-xs font-mono">${edgeStr}</span>
+          <span class="text-muted text-xs font-mono">@${fmt(p.order_price, 2)}</span>
+          <span class="text-muted text-xs">${timeAgo(p.first_seen)}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Last updated
+  if (data.updated_at) {
+    $('#last-updated').textContent = 'Last updated: ' + timeAgo(data.updated_at);
+  }
+}
+
+// ── Init ──
+loadPicks();
+loadPortfolio();
+</script>
+</body>
+</html>
