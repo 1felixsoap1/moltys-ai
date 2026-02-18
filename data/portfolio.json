@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-18T22:00:29.561280+00:00",
+  "updated_at": "2026-02-18T23:00:39.318851+00:00",
   "summary": {
-    "pending": 50,
+    "pending": 58,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0372
+    "avg_bin_edge": 0.038
   },
   "pending_picks": [
     {
@@ -558,6 +558,94 @@
       "bin_edge": 0.057,
       "bin_n": 1143963,
       "category": "sports"
+    },
+    {
+      "market_id": "1178277",
+      "question": "Will US or Israel strike Iran first?",
+      "direction": "BUY YES",
+      "order_price": 0.54,
+      "mid_price": 0.54,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0475,
+      "bin_n": 2735872,
+      "category": "other"
+    },
+    {
+      "market_id": "1363755",
+      "question": "Will MrBeast say \"Challenge\" during his next YouTube video?",
+      "direction": "BUY YES",
+      "order_price": 0.59,
+      "mid_price": 0.605,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0455,
+      "bin_n": 1231235,
+      "category": "other"
+    },
+    {
+      "market_id": "898191",
+      "question": "Will Finland win the Men's Ice Hockey bronze medal at the 2026 Winter Olympics?",
+      "direction": "BUY YES",
+      "order_price": 0.533,
+      "mid_price": 0.54,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0316,
+      "bin_n": 1806938,
+      "category": "sports"
+    },
+    {
+      "market_id": "1169231",
+      "question": "Will \"F1\" win Best Editing at the 2026 BAFTA Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.44,
+      "mid_price": 0.505,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0666,
+      "bin_n": 1806938,
+      "category": "sports"
+    },
+    {
+      "market_id": "1377521",
+      "question": "Will the price of Bitcoin be above $64,000 on February 21?",
+      "direction": "BUY YES",
+      "order_price": 0.8,
+      "mid_price": 0.8,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0494,
+      "bin_n": 865144,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1221318",
+      "question": "Will Israel strike \u22641 countries in February 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.49,
+      "mid_price": 0.51,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0275,
+      "bin_n": 2119757,
+      "category": "other"
+    },
+    {
+      "market_id": "1230008",
+      "question": "Will Trump say \"Hegseth\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "order_price": 0.6,
+      "mid_price": 0.6,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0505,
+      "bin_n": 1231235,
+      "category": "politics"
+    },
+    {
+      "market_id": "1334172",
+      "question": "Will USD reach 1.7M Iranian rials by February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.53,
+      "mid_price": 0.535,
+      "first_seen": "2026-02-18T23:00:39Z",
+      "bin_edge": 0.0258,
+      "bin_n": 2048258,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
