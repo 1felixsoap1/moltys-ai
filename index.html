@@ -1,21 +1,395 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moltys.AI — Coming Soon</title>
+  <title>Moltys.AI — Data-Driven Prediction Markets</title>
+  <meta name="description" content="Empirical prediction market analysis backed by historical win rates. Transparent picks with sample sizes and track record.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0a0a0f',
+            surface: '#12121a',
+            border: '#1e1e2e',
+            accent: '#6366f1',
+            'accent-dim': '#4f46e5',
+            profit: '#22c55e',
+            loss: '#ef4444',
+            muted: '#6b7280',
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    body { background: #0a0a0f; color: #e5e7eb; font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
-    .container { text-align: center; max-width: 480px; padding: 2rem; }
-    h1 { font-size: 2.5rem; font-weight: 700; color: #fff; margin-bottom: 0.5rem; }
-    h1 span { color: #6366f1; }
-    p { color: #6b7280; line-height: 1.6; }
+    body { background: #0a0a0f; }
+    .glow { box-shadow: 0 0 30px rgba(99, 102, 241, 0.15); }
+    .signal-tag { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; }
+    .fade-in { animation: fadeIn 0.4s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .row-yes { border-left: 3px solid #22c55e; }
+    .row-no { border-left: 3px solid #ef4444; }
+    @media (max-width: 768px) {
+      .hide-mobile { display: none; }
+    }
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>Moltys<span>.AI</span></h1>
-    <p>Recalibrating. New data scan in progress.</p>
+<body class="text-gray-200 min-h-screen">
+
+  <!-- Hero -->
+  <header class="border-b border-border">
+    <div class="max-w-7xl mx-auto px-4 py-8 sm:py-12">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 rounded-lg bg-accent flex items-center justify-center text-white font-bold text-xl">M</div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Moltys<span class="text-accent">.AI</span></h1>
+      </div>
+      <p class="text-lg text-gray-400 max-w-2xl">Empirical prediction market analysis. Every pick is backed by historical win rates with verifiable sample sizes.</p>
+      <div class="flex flex-wrap gap-4 mt-6 text-sm">
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Active Picks</span>
+          <span id="stat-picks" class="ml-2 text-white font-semibold">—</span>
+        </div>
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Pending</span>
+          <span id="stat-pending" class="ml-2 text-white font-semibold">—</span>
+        </div>
+        <div class="bg-surface border border-border rounded-lg px-4 py-2">
+          <span class="text-muted">Avg Bin Edge</span>
+          <span id="stat-edge" class="ml-2 text-accent font-semibold">—</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Disclaimer Banner -->
+  <div class="bg-amber-900/20 border-b border-amber-700/30">
+    <div class="max-w-7xl mx-auto px-4 py-3 text-sm text-amber-200/90 text-center">
+      This site is for informational and educational purposes only. Nothing here constitutes financial advice. Prediction markets carry risk of total loss. Any use of this information is entirely at your own risk.
+    </div>
   </div>
+
+  <!-- Current Picks -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-white mb-1">Current Picks</h2>
+    <p class="text-sm text-muted mb-6">Sorted by soonest to resolve. Only picks where the empirical bin signal agrees with the pick direction are shown.</p>
+
+    <div class="bg-surface border border-border rounded-xl overflow-hidden glow">
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="text-left text-muted text-xs uppercase tracking-wider border-b border-border">
+              <th class="px-4 py-3 w-12">#</th>
+              <th class="px-4 py-3">Market</th>
+              <th class="px-4 py-3 w-28 hide-mobile" title="Market category">Category</th>
+              <th class="px-4 py-3 w-24">Direction</th>
+              <th class="px-4 py-3 w-24 text-right" title="Empirical edge: historical win rate minus market price minus transaction costs">Bin Edge</th>
+              <th class="px-4 py-3 w-20 text-right hide-mobile" title="Historical win rate for this price/time-to-expiry bin">Win Rate</th>
+              <th class="px-4 py-3 w-24 text-right hide-mobile" title="Number of historical observations in this bin">Sample Size</th>
+              <th class="px-4 py-3 w-20 text-right hide-mobile" title="Current market mid-price">Market Price</th>
+              <th class="px-4 py-3 w-20 text-right" title="Estimated time until market resolves">Resolve</th>
+            </tr>
+          </thead>
+          <tbody id="picks-body">
+            <tr><td colspan="9" class="px-4 py-12 text-center text-muted">Loading picks...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Track Record -->
+  <section id="track-record" class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-white mb-1">Track Record</h2>
+    <p class="text-sm text-muted mb-6">Live performance from resolved positions.</p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <!-- Summary Cards -->
+      <div class="space-y-4">
+        <div id="perf-card" class="bg-surface border border-border rounded-xl p-6 glow">
+          <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Performance Summary</h3>
+          <div id="perf-content">
+            <p class="text-muted text-sm">Collecting data. Performance metrics will appear once enough picks have resolved to be statistically meaningful.</p>
+          </div>
+        </div>
+
+        <!-- Recent Resolutions -->
+        <div class="bg-surface border border-border rounded-xl p-6">
+          <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Recent Resolutions</h3>
+          <div id="resolutions-list" class="space-y-2 text-sm max-h-80 overflow-y-auto">
+            <p class="text-muted">No resolved positions yet.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pending Picks -->
+      <div class="bg-surface border border-border rounded-xl p-6 glow">
+        <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Pending Picks</h3>
+        <p class="text-xs text-muted mb-4">Tracked picks awaiting resolution.</p>
+        <div id="pending-list" class="space-y-2 text-sm max-h-96 overflow-y-auto">
+          <p class="text-muted">No pending picks.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Methodology -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-white mb-1">Methodology</h2>
+    <p class="text-sm text-muted mb-6">How picks are generated and scored.</p>
+
+    <div class="bg-surface border border-border rounded-xl p-6 space-y-6">
+      <div>
+        <h3 class="text-white font-semibold mb-2">Data Collection</h3>
+        <p class="text-sm text-gray-400">Orderbook snapshots are collected every 2 minutes for all active Polymarket binary markets. When a market resolves, we record the outcome (YES or NO won) and join it with the full history of orderbook snapshots for that market.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Bin Statistics</h3>
+        <p class="text-sm text-gray-400">Each snapshot is bucketed by two dimensions: <strong class="text-gray-300">price</strong> (mid-price at the time) and <strong class="text-gray-300">&tau;</strong> (normalised time remaining, where 1.0 = market just opened, 0.0 = resolution). For each (price, &tau;) bin, we compute the empirical win rate: what fraction of snapshots in that bin belonged to markets where the higher-priced side ultimately won.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Edge Calculation</h3>
+        <p class="text-sm text-gray-400">The edge for a given market is: <code class="text-accent bg-accent/10 px-1.5 py-0.5 rounded">edge = historical_win_rate - current_price - transaction_costs</code>. A positive edge means the historical win rate at this price/time combination exceeds what the market is currently charging, net of the ~2.5% round-trip cost (spread + fees).</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Filtering</h3>
+        <p class="text-sm text-gray-400">Only picks where the bin signal <strong class="text-gray-300">agrees</strong> with the pick direction are published. If the empirical data suggests YES but the pick says NO (or vice versa), the pick is excluded. Every edge shown on this site traces directly to an empirical win rate with a verifiable sample size — typically tens of thousands of observations.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Limitations</h3>
+        <p class="text-sm text-gray-400">Historical win rates are not guarantees. Market conditions change, and past patterns may not persist. Bin statistics are computed per category (sports, politics, crypto, entertainment) where sufficient data exists, with a global fallback for smaller categories. Sample sizes vary by bin; smaller bins have wider confidence intervals. This is observational data, not a causal model.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-border mt-12">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-muted">
+      <div>
+        <span class="text-gray-400 font-medium">Moltys.AI</span> &mdash; Empirical prediction market signals
+      </div>
+      <div id="last-updated" class="text-center">Last updated: —</div>
+      <div class="text-right max-w-lg">
+        This is not financial advice. The information on this site is provided for informational and educational purposes only. Prediction markets carry risk of total loss. Past performance does not guarantee future results. Any action you take based on this information is strictly at your own risk.
+      </div>
+    </div>
+  </footer>
+
+<script>
+// ── Helpers ──
+const $ = (sel) => document.querySelector(sel);
+const fmt = (n, d = 2) => Number(n).toFixed(d);
+const fmtPct = (n) => (n * 100).toFixed(1) + '%';
+const fmtEdge = (n) => (n >= 0 ? '+' : '') + (n * 100).toFixed(1) + '%';
+const fmtPnl = (n) => (n >= 0 ? '+' : '') + Number(n).toFixed(2);
+const fmtN = (n) => n != null ? Number(n).toLocaleString() : '—';
+const fmtHours = (h) => {
+  if (h < 1) return '<1h';
+  if (h < 24) return Math.round(h) + 'h';
+  const d = Math.floor(h / 24);
+  const rem = Math.round(h % 24);
+  return d + 'd ' + rem + 'h';
+};
+const catColors = {
+  sports: 'bg-blue-900/40 text-blue-300 border-blue-700/50',
+  politics: 'bg-red-900/40 text-red-300 border-red-700/50',
+  crypto: 'bg-orange-900/40 text-orange-300 border-orange-700/50',
+  entertainment: 'bg-purple-900/40 text-purple-300 border-purple-700/50',
+  other: 'bg-gray-800/40 text-gray-400 border-gray-600/50',
+};
+const catLabel = (c) => (c || 'other').charAt(0).toUpperCase() + (c || 'other').slice(1);
+const catBadge = (c) => {
+  const key = (c || 'other').toLowerCase();
+  const cls = catColors[key] || catColors.other;
+  return `<span class="text-[0.6rem] font-medium px-1.5 py-0.5 rounded border ${cls}">${catLabel(key)}</span>`;
+};
+const timeAgo = (iso) => {
+  if (!iso) return '—';
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  return Math.floor(hrs / 24) + 'd ago';
+};
+
+// ── Load Picks ──
+async function loadPicks() {
+  try {
+    const res = await fetch('data/picks.json');
+    if (!res.ok) throw new Error(res.status);
+    const picks = await res.json();
+    renderPicks(picks);
+    $('#stat-picks').textContent = picks.length;
+  } catch (e) {
+    console.error('Failed to load picks:', e);
+    $('#picks-body').innerHTML = '<tr><td colspan="9" class="px-4 py-12 text-center text-muted">Failed to load picks data.</td></tr>';
+  }
+}
+
+function renderPicks(picks) {
+  const tbody = $('#picks-body');
+  if (!picks.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="px-4 py-12 text-center text-muted">No active picks right now.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = '';
+  picks.forEach((p, i) => {
+    const isYes = p.direction === 'BUY YES';
+    const rowClass = isYes ? 'row-yes' : 'row-no';
+    const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
+    const mktPrice = p.market_implied != null ? fmtPct(p.market_implied) : '—';
+
+    const tr = document.createElement('tr');
+    tr.className = `border-b border-border/50 hover:bg-white/[0.02] ${rowClass} fade-in`;
+    tr.style.animationDelay = (i * 30) + 'ms';
+    tr.innerHTML = `
+      <td class="px-4 py-3 text-muted font-mono">${i + 1}</td>
+      <td class="px-4 py-3 text-white font-medium">${escHtml(p.question)}</td>
+      <td class="px-4 py-3 hide-mobile">${catBadge(p.category)}</td>
+      <td class="px-4 py-3"><span class="text-xs font-semibold px-2 py-1 rounded ${dirBg}">${p.direction}</span></td>
+      <td class="px-4 py-3 text-right font-mono text-accent">${fmtEdge(p.bin_edge)}</td>
+      <td class="px-4 py-3 text-right font-mono hide-mobile">${p.bin_win_rate != null ? fmtPct(p.bin_win_rate) : '—'}</td>
+      <td class="px-4 py-3 text-right font-mono text-muted hide-mobile">${fmtN(p.bin_n)}</td>
+      <td class="px-4 py-3 text-right font-mono hide-mobile">${mktPrice}</td>
+      <td class="px-4 py-3 text-right text-muted">${fmtHours(p.hours_to_resolve)}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function escHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// ── Load Portfolio ──
+async function loadPortfolio() {
+  try {
+    const res = await fetch('data/portfolio.json');
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    renderPortfolio(data);
+  } catch (e) {
+    console.error('Failed to load portfolio:', e);
+  }
+}
+
+const MIN_RESOLUTIONS = 10;
+
+function renderPortfolio(data) {
+  const s = data.summary;
+  const resolved = s.wins + s.losses;
+
+  // Header stats
+  $('#stat-pending').textContent = s.pending > 0 ? s.pending : '—';
+  $('#stat-edge').textContent = s.avg_bin_edge != null ? fmtEdge(s.avg_bin_edge) : '—';
+
+  // Performance section — only show full stats after MIN_RESOLUTIONS
+  const perfContent = $('#perf-content');
+  if (resolved >= MIN_RESOLUTIONS) {
+    perfContent.innerHTML = `
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div>
+          <div class="text-2xl font-bold text-white">${fmtPct(s.win_rate)}</div>
+          <div class="text-xs text-muted">Win Rate</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-profit">${s.wins}</div>
+          <div class="text-xs text-muted">Wins</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-loss">${s.losses}</div>
+          <div class="text-xs text-muted">Losses</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold ${s.total_pnl >= 0 ? 'text-profit' : 'text-loss'}">${fmtPnl(s.total_pnl)}</div>
+          <div class="text-xs text-muted">Total P&L</div>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t border-border/50">
+        <div>
+          <div class="text-lg font-semibold text-accent">${s.avg_bin_edge != null ? fmtEdge(s.avg_bin_edge) : '—'}</div>
+          <div class="text-xs text-muted">Avg Bin Edge (empirical)</div>
+        </div>
+      </div>`;
+  } else if (resolved > 0) {
+    perfContent.innerHTML = `
+      <p class="text-sm text-gray-400 mb-3">${resolved} of ${MIN_RESOLUTIONS} resolutions needed before displaying performance metrics.</p>
+      <div class="w-full bg-border rounded-full h-2">
+        <div class="bg-accent h-2 rounded-full" style="width: ${resolved / MIN_RESOLUTIONS * 100}%"></div>
+      </div>
+      <p class="text-xs text-muted mt-2">${s.wins}W / ${s.losses}L so far. Full statistics shown after ${MIN_RESOLUTIONS} resolutions to ensure statistical relevance.</p>`;
+  }
+  // else: keep default "Collecting data" message
+
+  // Recent resolutions — always show if any exist
+  const resList = $('#resolutions-list');
+  if (data.recent_resolutions && data.recent_resolutions.length) {
+    resList.innerHTML = data.recent_resolutions.map(r => {
+      const isWin = r.status === 'won';
+      const icon = isWin ? '&#x2713;' : '&#x2717;';
+      const cls = isWin ? 'text-profit' : 'text-loss';
+      const nStr = r.bin_n != null ? `n=${fmtN(r.bin_n)}` : '';
+      return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="${cls} font-bold">${icon}</span>
+          ${catBadge(r.category)}
+          <span class="text-gray-300 truncate max-w-xs">${escHtml(r.question)}</span>
+        </div>
+        <div class="flex items-center gap-3 shrink-0 ml-2">
+          <span class="text-muted text-xs font-mono">${fmtEdge(r.bin_edge)}</span>
+          <span class="text-muted text-xs font-mono hide-mobile">${nStr}</span>
+          <span class="font-semibold font-mono ${cls}">${fmtPnl(r.pnl)}</span>
+          <span class="text-muted text-xs">${timeAgo(r.resolved_at)}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Pending picks
+  const pendingList = $('#pending-list');
+  if (data.pending_picks && data.pending_picks.length) {
+    pendingList.innerHTML = data.pending_picks.map(p => {
+      const isYes = (p.direction || '').includes('YES');
+      const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
+      const nStr = p.bin_n != null ? `n=${fmtN(p.bin_n)}` : '';
+      return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="text-xs font-semibold px-1.5 py-0.5 rounded ${dirBg} shrink-0">${p.direction}</span>
+          ${catBadge(p.category)}
+          <span class="text-gray-300 truncate">${escHtml(p.question)}</span>
+        </div>
+        <div class="flex items-center gap-3 shrink-0 ml-2">
+          <span class="text-muted text-xs font-mono">${fmtEdge(p.bin_edge)}</span>
+          <span class="text-muted text-xs font-mono hide-mobile">${nStr}</span>
+          <span class="text-muted text-xs font-mono">@${fmt(p.order_price, 2)}</span>
+          <span class="text-muted text-xs">${timeAgo(p.first_seen)}</span>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // Last updated
+  if (data.updated_at) {
+    $('#last-updated').textContent = 'Last updated: ' + timeAgo(data.updated_at);
+  }
+}
+
+// ── Init ──
+loadPicks();
+loadPortfolio();
+</script>
 </body>
 </html>
