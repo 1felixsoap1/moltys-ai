@@ -156,7 +156,7 @@
 
       <div>
         <h3 class="text-white font-semibold mb-2">Signal 2: Edge Model</h3>
-        <p class="text-sm text-gray-400">A logistic regression model (AUC 0.83) predicts P(YES) from 8 orderbook features: mid-price, &tau;, spread, bid/ask imbalance, depth, and cross-terms. In the filtered universe of liquid binary markets with &tau; &le; 0.40, NO outcomes historically dominate at ~70%. When the model predicts high P(YES), this is interpreted as YES being <strong class="text-gray-300">overpriced</strong> &mdash; the signal points to BUY NO. This inverted interpretation ("nofirst") reflects the empirical base rate rather than taking the model's prediction at face value.</p>
+        <p class="text-sm text-gray-400">A logistic regression model (AUC 0.83 on training data; not independently validated out-of-sample) predicts P(YES) from 8 orderbook features: mid-price, &tau;, spread, bid/ask imbalance, log(depth), and three cross-terms (price&times;&tau;, spread/price, imbalance&times;(1&minus;&tau;)). In the filtered universe of liquid binary markets with &tau; &le; 0.60, the NO side historically wins more often than implied by market prices. When the model predicts high P(YES), this is interpreted as YES being <strong class="text-gray-300">overpriced</strong> &mdash; the signal points to BUY NO. This inverted interpretation is a heuristic, not a calibrated Bayesian update &mdash; it leverages the base-rate asymmetry rather than the model's raw probability.</p>
       </div>
 
       <div>
@@ -166,12 +166,12 @@
 
       <div>
         <h3 class="text-white font-semibold mb-2">Signal Fusion</h3>
-        <p class="text-sm text-gray-400">The three signals are fused via a Bayesian-style posterior. The system starts with a <strong class="text-gray-300">70% structural NO prior</strong> &mdash; reflecting the empirical base rate that NO wins ~70% of the time in the filtered market universe. Each signal adjusts this prior: agreeing signals boost it, contradicting signals penalise it. The final fused edge is: <code class="text-accent bg-accent/10 px-1.5 py-0.5 rounded">fused_edge = posterior - no_price - 2.5% costs</code>. A pick must clear a 1% fused edge after costs to be recorded. Position sizing uses fractional Kelly criterion, capped at 10% per market.</p>
+        <p class="text-sm text-gray-400">The three signals are fused via a heuristic scoring system. The system starts with a <strong class="text-gray-300">70% structural NO prior</strong> &mdash; an empirical observation that in the filtered universe, NO-side bets have historically been profitable at this rate. This is not a calibrated Bayesian posterior but a weighted adjustment scheme. Each signal adjusts this prior: agreeing signals boost it, contradicting signals penalise it. The final fused edge is: <code class="text-accent bg-accent/10 px-1.5 py-0.5 rounded">fused_edge = posterior - no_price - 2.5% costs</code>. A pick must clear a 1% fused edge after costs to be recorded. Position sizing uses fractional Kelly criterion, capped at 10% per market.</p>
       </div>
 
       <div>
         <h3 class="text-white font-semibold mb-2">Structural NO Bias</h3>
-        <p class="text-sm text-gray-400">The pipeline overwhelmingly outputs BUY NO. A YES override requires <strong class="text-gray-300">all</strong> signals to agree on YES unanimously, each with &ge;70% win rate and a combined edge &ge;15%. This is by design: in the filtered universe (liquid, short-horizon binary markets), YES outcomes tend to be overpriced. The system is intentionally conservative about going against this base rate.</p>
+        <p class="text-sm text-gray-400">The pipeline overwhelmingly outputs BUY NO. A YES override requires <strong class="text-gray-300">all</strong> signals to agree on YES unanimously, each with &ge;70% win rate and a combined edge &ge;10%. This is by design: in the filtered universe (liquid, short-horizon binary markets), YES outcomes tend to be overpriced. The system is intentionally conservative about going against this base rate.</p>
       </div>
 
       <div>
@@ -181,7 +181,7 @@
 
       <div>
         <h3 class="text-white font-semibold mb-2">Limitations</h3>
-        <p class="text-sm text-gray-400">Historical win rates are not guarantees. Market conditions change, and past patterns may not persist. The 70% NO base rate is an empirical observation, not a law &mdash; it could shift as market composition changes. The logistic regression model was trained on historical data and may degrade on new market types. Category inference is keyword-based and imperfect. Sample sizes vary by bin; smaller bins have wider confidence intervals. This is observational data, not a causal model.</p>
+        <p class="text-sm text-gray-400">Historical win rates are not guarantees. Market conditions change, and past patterns may not persist. The 70% NO base rate is an empirical observation from a specific filtered universe &mdash; it could shift as market composition changes. The logistic regression model was trained on historical data and has not been validated on an independent out-of-sample test set; the reported AUC may overstate true predictive power. With 100 bins &times; 5 categories, some apparent edges will exist by chance alone (multiple comparisons problem). Snapshots from the same market are highly correlated &mdash; sample sizes reflect snapshot counts, not independent market observations. Category inference is keyword-based and imperfect. This is observational data, not a causal model.</p>
       </div>
     </div>
   </section>
