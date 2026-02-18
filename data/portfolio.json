@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-18T11:00:28.874476+00:00",
+  "updated_at": "2026-02-18T21:18:03.381606+00:00",
   "summary": {
     "pending": 11,
     "wins": 0,
@@ -17,7 +17,8 @@
       "mid_price": 0.69,
       "first_seen": "2026-02-17T20:42:38Z",
       "bin_edge": 0.0176,
-      "bin_n": 63574
+      "bin_n": 63574,
+      "category": "other"
     },
     {
       "market_id": "614008",
@@ -27,7 +28,8 @@
       "mid_price": 0.785,
       "first_seen": "2026-02-17T20:42:38Z",
       "bin_edge": 0.0133,
-      "bin_n": 82853
+      "bin_n": 82853,
+      "category": "other"
     },
     {
       "market_id": "1116334",
@@ -37,7 +39,8 @@
       "mid_price": 0.58,
       "first_seen": "2026-02-17T20:42:38Z",
       "bin_edge": 0.0066,
-      "bin_n": 126303
+      "bin_n": 126303,
+      "category": "other"
     },
     {
       "market_id": "614355",
@@ -47,7 +50,8 @@
       "mid_price": 0.68,
       "first_seen": "2026-02-17T20:42:38Z",
       "bin_edge": 0.0076,
-      "bin_n": 63574
+      "bin_n": 63574,
+      "category": "other"
     },
     {
       "market_id": "614763",
@@ -57,7 +61,8 @@
       "mid_price": 0.69,
       "first_seen": "2026-02-17T20:42:38Z",
       "bin_edge": 0.0176,
-      "bin_n": 63574
+      "bin_n": 63574,
+      "category": "other"
     },
     {
       "market_id": "1354427",
@@ -67,7 +72,8 @@
       "mid_price": 0.695,
       "first_seen": "2026-02-17T21:15:19Z",
       "bin_edge": 0.0109,
-      "bin_n": 53144
+      "bin_n": 53144,
+      "category": "other"
     },
     {
       "market_id": "896989",
@@ -77,7 +83,8 @@
       "mid_price": 0.46,
       "first_seen": "2026-02-17T21:57:47Z",
       "bin_edge": 0.0533,
-      "bin_n": 33522
+      "bin_n": 33522,
+      "category": "other"
     },
     {
       "market_id": "1144455",
@@ -87,7 +94,8 @@
       "mid_price": 0.69,
       "first_seen": "2026-02-17T22:12:47Z",
       "bin_edge": 0.0141,
-      "bin_n": 38913
+      "bin_n": 38913,
+      "category": "other"
     },
     {
       "market_id": "567560",
@@ -97,7 +105,8 @@
       "mid_price": 0.395,
       "first_seen": "2026-02-17T23:12:47Z",
       "bin_edge": 0.0339,
-      "bin_n": 52729
+      "bin_n": 52729,
+      "category": "other"
     },
     {
       "market_id": "666696",
@@ -107,7 +116,8 @@
       "mid_price": 0.465,
       "first_seen": "2026-02-18T06:42:48Z",
       "bin_edge": 0.034,
-      "bin_n": 110055
+      "bin_n": 110055,
+      "category": "other"
     },
     {
       "market_id": "791705",
@@ -117,7 +127,8 @@
       "mid_price": 0.46,
       "first_seen": "2026-02-18T10:47:11Z",
       "bin_edge": 0.0094,
-      "bin_n": 127189
+      "bin_n": 127189,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
