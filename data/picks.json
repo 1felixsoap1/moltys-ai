@@ -8,20 +8,32 @@
     "bin_n": 63574,
     "market_implied": 0.305,
     "n_signals": 2,
-    "score": 713.21,
-    "hours_to_resolve": 62.0
+    "score": 722.28,
+    "hours_to_resolve": 61.2
+  },
+  {
+    "market_id": "896989",
+    "question": "Will the United States win the second most gold medals in the 2026 Winter Olympics?",
+    "direction": "BUY NO",
+    "bin_edge": 0.0833,
+    "bin_win_rate": 0.6183,
+    "bin_n": 33522,
+    "market_implied": 0.51,
+    "n_signals": 1,
+    "score": 1068.17,
+    "hours_to_resolve": 85.2
   },
   {
     "market_id": "896983",
     "question": "Will Italy win the second most gold medals in the 2026 Winter Olympics?",
     "direction": "BUY NO",
-    "bin_edge": 0.0363,
+    "bin_edge": 0.0733,
     "bin_win_rate": 0.6183,
     "bin_n": 33522,
-    "market_implied": 0.557,
+    "market_implied": 0.52,
     "n_signals": 1,
-    "score": 655.05,
-    "hours_to_resolve": 86.0
+    "score": 899.49,
+    "hours_to_resolve": 85.2
   },
   {
     "market_id": "703514",
@@ -32,8 +44,20 @@
     "bin_n": 63574,
     "market_implied": 0.305,
     "n_signals": 2,
-    "score": 809.48,
-    "hours_to_resolve": 302.0
+    "score": 811.57,
+    "hours_to_resolve": 301.2
+  },
+  {
+    "market_id": "614870",
+    "question": "Will Frankenstein win Best Production Design at the 98th Academy Awards?",
+    "direction": "BUY NO",
+    "bin_edge": 0.0133,
+    "bin_win_rate": 0.2533,
+    "bin_n": 82853,
+    "market_implied": 0.215,
+    "n_signals": 2,
+    "score": 1072.68,
+    "hours_to_resolve": 589.2
   },
   {
     "market_id": "614763",
@@ -44,7 +68,19 @@
     "bin_n": 63574,
     "market_implied": 0.31,
     "n_signals": 2,
-    "score": 832.02,
-    "hours_to_resolve": 590.0
+    "score": 833.12,
+    "hours_to_resolve": 589.2
+  },
+  {
+    "market_id": "791705",
+    "question": "Israel strikes Iran by March 31, 2026?",
+    "direction": "BUY NO",
+    "bin_edge": 0.0094,
+    "bin_win_rate": 0.5744,
+    "bin_n": 127189,
+    "market_implied": 0.54,
+    "n_signals": 1,
+    "score": 609.61,
+    "hours_to_resolve": 973.2
   }
 ]

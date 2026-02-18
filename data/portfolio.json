@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-18T10:42:51.058764+00:00",
+  "updated_at": "2026-02-18T10:47:11.786454+00:00",
   "summary": {
-    "pending": 10,
+    "pending": 11,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0209
+    "avg_bin_edge": 0.0198
   },
   "pending_picks": [
     {
@@ -108,6 +108,16 @@
       "first_seen": "2026-02-18T06:42:48Z",
       "bin_edge": 0.034,
       "bin_n": 110055
+    },
+    {
+      "market_id": "791705",
+      "question": "Israel strikes Iran by March 31, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.54,
+      "mid_price": 0.46,
+      "first_seen": "2026-02-18T10:47:11Z",
+      "bin_edge": 0.0094,
+      "bin_n": 127189
     }
   ],
   "recent_resolutions": []
