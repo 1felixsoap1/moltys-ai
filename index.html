@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moltys.AI — Bayesian Prediction Markets</title>
-  <meta name="description" content="AI-powered prediction market analysis using Bayesian signal fusion. Scored picks and transparent track record.">
+  <title>Moltys.AI — Data-Driven Prediction Markets</title>
+  <meta name="description" content="Empirical prediction market analysis backed by historical win rates. Transparent picks with sample sizes and track record.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -33,9 +33,6 @@
     @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
     .row-yes { border-left: 3px solid #22c55e; }
     .row-no { border-left: 3px solid #ef4444; }
-    .expand-btn { cursor: pointer; user-select: none; }
-    .signal-detail { display: none; }
-    .signal-detail.open { display: table-row; }
     @media (max-width: 768px) {
       .hide-mobile { display: none; }
     }
@@ -50,7 +47,7 @@
         <div class="w-10 h-10 rounded-lg bg-accent flex items-center justify-center text-white font-bold text-xl">M</div>
         <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Moltys<span class="text-accent">.AI</span></h1>
       </div>
-      <p class="text-lg text-gray-400 max-w-2xl">Bayesian signal fusion for prediction markets. Every pick is scored, ranked, and tracked.</p>
+      <p class="text-lg text-gray-400 max-w-2xl">Empirical prediction market analysis. Every pick is backed by historical win rates with verifiable sample sizes.</p>
       <div class="flex flex-wrap gap-4 mt-6 text-sm">
         <div class="bg-surface border border-border rounded-lg px-4 py-2">
           <span class="text-muted">Active Picks</span>
@@ -61,16 +58,8 @@
           <span id="stat-pending" class="ml-2 text-white font-semibold">—</span>
         </div>
         <div class="bg-surface border border-border rounded-lg px-4 py-2">
-          <span class="text-muted">Win Rate</span>
-          <span id="stat-winrate" class="ml-2 text-white font-semibold">—</span>
-        </div>
-        <div class="bg-surface border border-border rounded-lg px-4 py-2">
-          <span class="text-muted">Resolved</span>
-          <span id="stat-resolved" class="ml-2 text-white font-semibold">—</span>
-        </div>
-        <div class="bg-surface border border-border rounded-lg px-4 py-2">
-          <span class="text-muted">P&L</span>
-          <span id="stat-pnl" class="ml-2 font-semibold">—</span>
+          <span class="text-muted">Avg Bin Edge</span>
+          <span id="stat-edge" class="ml-2 text-accent font-semibold">—</span>
         </div>
       </div>
     </div>
@@ -86,7 +75,7 @@
   <!-- Current Picks -->
   <section class="max-w-7xl mx-auto px-4 py-8">
     <h2 class="text-2xl font-bold text-white mb-1">Current Picks</h2>
-    <p class="text-sm text-muted mb-6">Sorted by soonest to resolve. Click a row to expand bin signal detail.</p>
+    <p class="text-sm text-muted mb-6">Sorted by soonest to resolve. Only picks where the empirical bin signal agrees with the pick direction are shown.</p>
 
     <div class="bg-surface border border-border rounded-xl overflow-hidden glow">
       <div class="overflow-x-auto">
@@ -96,11 +85,11 @@
               <th class="px-4 py-3 w-12">#</th>
               <th class="px-4 py-3">Market</th>
               <th class="px-4 py-3 w-24">Direction</th>
-              <th class="px-4 py-3 w-24 text-right" title="Empirical bin edge from historical win rates. Only shown when bin data is available.">Bin Edge</th>
+              <th class="px-4 py-3 w-24 text-right" title="Empirical edge: historical win rate minus market price minus transaction costs">Bin Edge</th>
+              <th class="px-4 py-3 w-20 text-right hide-mobile" title="Historical win rate for this price/time-to-expiry bin">Win Rate</th>
+              <th class="px-4 py-3 w-24 text-right hide-mobile" title="Number of historical observations in this bin">Sample Size</th>
               <th class="px-4 py-3 w-20 text-right hide-mobile" title="Current market mid-price">Market Price</th>
-              <th class="px-4 py-3 w-16 text-center hide-mobile" title="Number of independent signals contributing to this pick">Signals</th>
-              <th class="px-4 py-3 w-20 text-right" title="Composite ranking score combining edge, confidence, and liquidity">Score</th>
-              <th class="px-4 py-3 w-20 text-right hide-mobile" title="Estimated time until market resolves">Resolve</th>
+              <th class="px-4 py-3 w-20 text-right" title="Estimated time until market resolves">Resolve</th>
             </tr>
           </thead>
           <tbody id="picks-body">
@@ -112,7 +101,7 @@
   </section>
 
   <!-- Track Record -->
-  <section class="max-w-7xl mx-auto px-4 py-8">
+  <section id="track-record" class="max-w-7xl mx-auto px-4 py-8">
     <h2 class="text-2xl font-bold text-white mb-1">Track Record</h2>
     <p class="text-sm text-muted mb-6">Live performance from resolved positions.</p>
 
@@ -120,31 +109,10 @@
 
       <!-- Summary Cards -->
       <div class="space-y-4">
-        <div class="bg-surface border border-border rounded-xl p-6 glow">
+        <div id="perf-card" class="bg-surface border border-border rounded-xl p-6 glow">
           <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Performance Summary</h3>
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <div>
-              <div class="text-2xl font-bold text-white" id="perf-winrate">—</div>
-              <div class="text-xs text-muted">Win Rate</div>
-            </div>
-            <div>
-              <div class="text-2xl font-bold text-profit" id="perf-wins">—</div>
-              <div class="text-xs text-muted">Wins</div>
-            </div>
-            <div>
-              <div class="text-2xl font-bold text-loss" id="perf-losses">—</div>
-              <div class="text-xs text-muted">Losses</div>
-            </div>
-            <div>
-              <div class="text-2xl font-bold" id="perf-pnl">—</div>
-              <div class="text-xs text-muted">Total P&L</div>
-            </div>
-          </div>
-          <div class="mt-4 pt-4 border-t border-border/50">
-            <div>
-              <div class="text-lg font-semibold text-accent" id="perf-avg-bin-edge">—</div>
-              <div class="text-xs text-muted">Avg Bin Edge (empirical)</div>
-            </div>
+          <div id="perf-content">
+            <p class="text-muted text-sm">Collecting data. Performance metrics will appear once enough picks have resolved to be statistically meaningful.</p>
           </div>
         </div>
 
@@ -169,11 +137,44 @@
     </div>
   </section>
 
+  <!-- Methodology -->
+  <section class="max-w-7xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-white mb-1">Methodology</h2>
+    <p class="text-sm text-muted mb-6">How picks are generated and scored.</p>
+
+    <div class="bg-surface border border-border rounded-xl p-6 space-y-6">
+      <div>
+        <h3 class="text-white font-semibold mb-2">Data Collection</h3>
+        <p class="text-sm text-gray-400">Orderbook snapshots are collected every 2 minutes for all active Polymarket binary markets. When a market resolves, we record the outcome (YES or NO won) and join it with the full history of orderbook snapshots for that market.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Bin Statistics</h3>
+        <p class="text-sm text-gray-400">Each snapshot is bucketed by two dimensions: <strong class="text-gray-300">price</strong> (mid-price at the time) and <strong class="text-gray-300">&tau;</strong> (normalised time remaining, where 1.0 = market just opened, 0.0 = resolution). For each (price, &tau;) bin, we compute the empirical win rate: what fraction of snapshots in that bin belonged to markets where the higher-priced side ultimately won.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Edge Calculation</h3>
+        <p class="text-sm text-gray-400">The edge for a given market is: <code class="text-accent bg-accent/10 px-1.5 py-0.5 rounded">edge = historical_win_rate - current_price - transaction_costs</code>. A positive edge means the historical win rate at this price/time combination exceeds what the market is currently charging, net of the ~2.5% round-trip cost (spread + fees).</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Filtering</h3>
+        <p class="text-sm text-gray-400">Only picks where the bin signal <strong class="text-gray-300">agrees</strong> with the pick direction are published. If the empirical data suggests YES but the pick says NO (or vice versa), the pick is excluded. Every edge shown on this site traces directly to an empirical win rate with a verifiable sample size — typically tens of thousands of observations.</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-2">Limitations</h3>
+        <p class="text-sm text-gray-400">Historical win rates are not guarantees. Market conditions change, and past patterns may not persist. Bin statistics are aggregated across all market types — sports, politics, crypto, etc. — and may not reflect the dynamics of any individual market. Sample sizes vary by bin; smaller bins have wider confidence intervals. This is observational data, not a causal model.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer class="border-t border-border mt-12">
     <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-muted">
       <div>
-        <span class="text-gray-400 font-medium">Moltys.AI</span> &mdash; Bayesian prediction market signals
+        <span class="text-gray-400 font-medium">Moltys.AI</span> &mdash; Empirical prediction market signals
       </div>
       <div id="last-updated" class="text-center">Last updated: —</div>
       <div class="text-right max-w-lg">
@@ -189,6 +190,7 @@ const fmt = (n, d = 2) => Number(n).toFixed(d);
 const fmtPct = (n) => (n * 100).toFixed(1) + '%';
 const fmtEdge = (n) => (n >= 0 ? '+' : '') + (n * 100).toFixed(1) + '%';
 const fmtPnl = (n) => (n >= 0 ? '+' : '') + Number(n).toFixed(2);
+const fmtN = (n) => n != null ? Number(n).toLocaleString() : '—';
 const fmtHours = (h) => {
   if (h < 1) return '<1h';
   if (h < 24) return Math.round(h) + 'h';
@@ -232,49 +234,22 @@ function renderPicks(picks) {
     const isYes = p.direction === 'BUY YES';
     const rowClass = isYes ? 'row-yes' : 'row-no';
     const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
-
-    const hasBin = p.bin_edge != null;
-    const edgeCell = hasBin
-      ? `<span class="text-accent">${fmtEdge(p.bin_edge)}</span>`
-      : '<span class="text-muted">—</span>';
-
     const mktPrice = p.market_implied != null ? fmtPct(p.market_implied) : '—';
 
-    // Main row
     const tr = document.createElement('tr');
-    tr.className = `border-b border-border/50 hover:bg-white/[0.02] ${rowClass} fade-in` + (hasBin ? ' expand-btn' : '');
+    tr.className = `border-b border-border/50 hover:bg-white/[0.02] ${rowClass} fade-in`;
     tr.style.animationDelay = (i * 30) + 'ms';
     tr.innerHTML = `
       <td class="px-4 py-3 text-muted font-mono">${i + 1}</td>
       <td class="px-4 py-3 text-white font-medium">${escHtml(p.question)}</td>
       <td class="px-4 py-3"><span class="text-xs font-semibold px-2 py-1 rounded ${dirBg}">${p.direction}</span></td>
-      <td class="px-4 py-3 text-right font-mono">${edgeCell}</td>
+      <td class="px-4 py-3 text-right font-mono text-accent">${fmtEdge(p.bin_edge)}</td>
+      <td class="px-4 py-3 text-right font-mono hide-mobile">${p.bin_win_rate != null ? fmtPct(p.bin_win_rate) : '—'}</td>
+      <td class="px-4 py-3 text-right font-mono text-muted hide-mobile">${fmtN(p.bin_n)}</td>
       <td class="px-4 py-3 text-right font-mono hide-mobile">${mktPrice}</td>
-      <td class="px-4 py-3 text-center hide-mobile">${p.n_signals}</td>
-      <td class="px-4 py-3 text-right font-mono text-accent font-semibold">${fmt(p.score, 0)}</td>
-      <td class="px-4 py-3 text-right text-muted hide-mobile">${fmtHours(p.hours_to_resolve)}</td>
+      <td class="px-4 py-3 text-right text-muted">${fmtHours(p.hours_to_resolve)}</td>
     `;
-
-    // Signal detail row (only for picks with bin signals)
-    const detailTr = document.createElement('tr');
-    detailTr.className = 'signal-detail border-b border-border/30 bg-white/[0.01]';
-    if (hasBin) {
-      const signalHtml = (p.signals || []).map(s => {
-        const sDir = s.direction === 'BUY YES' ? 'text-profit' : 'text-loss';
-        return `<div class="flex items-center gap-2 py-1">
-          <span class="signal-tag bg-amber-900/50 text-amber-300">Historical Pattern</span>
-          <span class="${sDir} font-mono text-xs">${s.direction}</span>
-          <span class="text-muted text-xs">edge ${fmtPct(s.edge)}</span>
-        </div>`;
-      }).join('');
-      detailTr.innerHTML = `<td colspan="8" class="px-4 py-3 pl-12">${signalHtml}</td>`;
-      tr.addEventListener('click', () => detailTr.classList.toggle('open'));
-    } else {
-      detailTr.innerHTML = `<td colspan="8" class="px-4 py-3 pl-12 text-muted text-xs">No bin data for this market.</td>`;
-    }
-
     tbody.appendChild(tr);
-    tbody.appendChild(detailTr);
   });
 }
 
@@ -296,51 +271,70 @@ async function loadPortfolio() {
   }
 }
 
+const MIN_RESOLUTIONS = 10;
+
 function renderPortfolio(data) {
   const s = data.summary;
   const resolved = s.wins + s.losses;
 
   // Header stats
   $('#stat-pending').textContent = s.pending > 0 ? s.pending : '—';
-  $('#stat-winrate').textContent = resolved > 0 ? fmtPct(s.win_rate) : '—';
-  $('#stat-resolved').textContent = resolved > 0 ? resolved : '—';
+  $('#stat-edge').textContent = s.avg_bin_edge != null ? fmtEdge(s.avg_bin_edge) : '—';
 
-  const pnlEl = $('#stat-pnl');
-  if (resolved > 0) {
-    pnlEl.textContent = fmtPnl(s.total_pnl);
-    pnlEl.className = 'ml-2 font-semibold ' + (s.total_pnl >= 0 ? 'text-profit' : 'text-loss');
+  // Performance section — only show full stats after MIN_RESOLUTIONS
+  const perfContent = $('#perf-content');
+  if (resolved >= MIN_RESOLUTIONS) {
+    perfContent.innerHTML = `
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div>
+          <div class="text-2xl font-bold text-white">${fmtPct(s.win_rate)}</div>
+          <div class="text-xs text-muted">Win Rate</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-profit">${s.wins}</div>
+          <div class="text-xs text-muted">Wins</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold text-loss">${s.losses}</div>
+          <div class="text-xs text-muted">Losses</div>
+        </div>
+        <div>
+          <div class="text-2xl font-bold ${s.total_pnl >= 0 ? 'text-profit' : 'text-loss'}">${fmtPnl(s.total_pnl)}</div>
+          <div class="text-xs text-muted">Total P&L</div>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t border-border/50">
+        <div>
+          <div class="text-lg font-semibold text-accent">${s.avg_bin_edge != null ? fmtEdge(s.avg_bin_edge) : '—'}</div>
+          <div class="text-xs text-muted">Avg Bin Edge (empirical)</div>
+        </div>
+      </div>`;
+  } else if (resolved > 0) {
+    perfContent.innerHTML = `
+      <p class="text-sm text-gray-400 mb-3">${resolved} of ${MIN_RESOLUTIONS} resolutions needed before displaying performance metrics.</p>
+      <div class="w-full bg-border rounded-full h-2">
+        <div class="bg-accent h-2 rounded-full" style="width: ${resolved / MIN_RESOLUTIONS * 100}%"></div>
+      </div>
+      <p class="text-xs text-muted mt-2">${s.wins}W / ${s.losses}L so far. Full statistics shown after ${MIN_RESOLUTIONS} resolutions to ensure statistical relevance.</p>`;
   }
+  // else: keep default "Collecting data" message
 
-  // Performance section
-  $('#perf-winrate').textContent = resolved > 0 ? fmtPct(s.win_rate) : '—';
-  $('#perf-wins').textContent = resolved > 0 ? s.wins : '—';
-  $('#perf-losses').textContent = resolved > 0 ? s.losses : '—';
-
-  const pnlPerf = $('#perf-pnl');
-  if (resolved > 0) {
-    pnlPerf.textContent = fmtPnl(s.total_pnl);
-    pnlPerf.className = 'text-2xl font-bold ' + (s.total_pnl >= 0 ? 'text-profit' : 'text-loss');
-  }
-
-  // Avg bin edge
-  const avgBinEdge = $('#perf-avg-bin-edge');
-  avgBinEdge.textContent = s.avg_bin_edge != null ? fmtEdge(s.avg_bin_edge) : '—';
-
-  // Recent resolutions
+  // Recent resolutions — always show if any exist
   const resList = $('#resolutions-list');
   if (data.recent_resolutions && data.recent_resolutions.length) {
     resList.innerHTML = data.recent_resolutions.map(r => {
       const isWin = r.status === 'won';
       const icon = isWin ? '&#x2713;' : '&#x2717;';
       const cls = isWin ? 'text-profit' : 'text-loss';
-      const edgeStr = r.bin_edge != null ? fmtEdge(r.bin_edge) : '—';
+      const nStr = r.bin_n != null ? `n=${fmtN(r.bin_n)}` : '';
       return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
         <div class="flex items-center gap-2">
           <span class="${cls} font-bold">${icon}</span>
           <span class="text-gray-300 truncate max-w-xs">${escHtml(r.question)}</span>
         </div>
         <div class="flex items-center gap-3">
-          <span class="text-muted text-xs font-mono">${edgeStr}</span>
+          <span class="text-muted text-xs font-mono">${fmtEdge(r.bin_edge)}</span>
+          <span class="text-muted text-xs font-mono hide-mobile">${nStr}</span>
           <span class="font-semibold font-mono ${cls}">${fmtPnl(r.pnl)}</span>
           <span class="text-muted text-xs">${timeAgo(r.resolved_at)}</span>
         </div>
@@ -354,14 +348,15 @@ function renderPortfolio(data) {
     pendingList.innerHTML = data.pending_picks.map(p => {
       const isYes = (p.direction || '').includes('YES');
       const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
-      const edgeStr = p.bin_edge != null ? fmtEdge(p.bin_edge) : '—';
+      const nStr = p.bin_n != null ? `n=${fmtN(p.bin_n)}` : '';
       return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
         <div class="flex items-center gap-2 min-w-0">
           <span class="text-xs font-semibold px-1.5 py-0.5 rounded ${dirBg} shrink-0">${p.direction}</span>
           <span class="text-gray-300 truncate">${escHtml(p.question)}</span>
         </div>
         <div class="flex items-center gap-3 shrink-0 ml-2">
-          <span class="text-muted text-xs font-mono">${edgeStr}</span>
+          <span class="text-muted text-xs font-mono">${fmtEdge(p.bin_edge)}</span>
+          <span class="text-muted text-xs font-mono hide-mobile">${nStr}</span>
           <span class="text-muted text-xs font-mono">@${fmt(p.order_price, 2)}</span>
           <span class="text-muted text-xs">${timeAgo(p.first_seen)}</span>
         </div>

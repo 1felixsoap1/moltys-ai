@@ -2,6 +2,7 @@
 """Export velocity picks and portfolio stats to JSON for the Moltys.AI website."""
 
 import json
+import re
 import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,63 +18,75 @@ PICKS_DST = DATA_DIR / "picks.json"
 PORTFOLIO_DST = DATA_DIR / "portfolio.json"
 
 
-def _extract_bin_edge(signals):
-    """Return the bin signal's edge if present, else None."""
+def _get_aligned_bin_signal(signals, direction):
+    """Return the bin signal if it agrees with the pick direction, else None."""
     for s in signals:
-        if s.get("source") == "bin":
-            return s["edge"]
+        if s.get("source") == "bin" and s.get("direction") == direction:
+            return s
+    return None
+
+
+def _parse_sample_size(detail):
+    """Extract sample size from bin signal detail string like 'n=44,835'."""
+    m = re.search(r"n=([\d,]+)", detail or "")
+    if m:
+        return int(m.group(1).replace(",", ""))
     return None
 
 
 def sanitize_pick(pick):
     """Strip strategy-sensitive fields from a pick before publishing.
 
-    Only expose bin-sourced edge (empirically grounded). Model-only
-    edges are omitted.
+    Only expose bin-sourced edge where bin direction agrees with pick direction.
+    Includes sample size and win rate for transparency.
     """
     signals = pick.get("signals", [])
-    bin_edge = _extract_bin_edge(signals)
+    bin_sig = _get_aligned_bin_signal(signals, pick["direction"])
 
     public = {
         "market_id": pick["market_id"],
         "question": pick["question"],
         "direction": pick["direction"],
-        "bin_edge": bin_edge,
+        "bin_edge": bin_sig["edge"],
+        "bin_win_rate": bin_sig.get("win_rate"),
+        "bin_n": _parse_sample_size(bin_sig.get("detail")),
         "market_implied": pick["market_implied"],
         "n_signals": pick["n_signals"],
         "score": pick["score"],
         "hours_to_resolve": pick["hours_to_resolve"],
-        "signals": [
-            {"source": s["source"], "direction": s["direction"], "edge": s["edge"]}
-            for s in signals
-            if s["source"] == "bin"
-        ],
     }
     return public
 
 
-def _extract_bin_edge_from_json(signals_json):
-    """Parse signals_json string and return bin edge if present."""
+def _get_aligned_bin_from_json(signals_json, direction):
+    """Parse signals_json and return aligned bin signal dict, or None."""
     try:
         signals = json.loads(signals_json) if signals_json else []
     except (json.JSONDecodeError, TypeError):
         return None
-    return _extract_bin_edge(signals)
+    return _get_aligned_bin_signal(signals, direction)
 
 
 def export_picks():
-    """Load velocity_picks.json, publish only bin-backed picks."""
+    """Load velocity_picks.json, publish only aligned bin-backed picks."""
     if not PICKS_SRC.exists():
         print(f"Warning: {PICKS_SRC} not found, writing empty picks.")
         PICKS_DST.write_text("[]")
         return
     picks = json.loads(PICKS_SRC.read_text())
-    # Only publish picks with empirical bin data, sorted by soonest to resolve
-    bin_picks = [p for p in picks if _extract_bin_edge(p.get("signals", [])) is not None]
-    bin_picks.sort(key=lambda p: p.get("hours_to_resolve", float("inf")))
-    public_picks = [sanitize_pick(p) for p in bin_picks]
+    # Only publish picks where bin signal agrees with pick direction
+    aligned = [
+        p for p in picks
+        if _get_aligned_bin_signal(p.get("signals", []), p["direction"]) is not None
+    ]
+    aligned.sort(key=lambda p: p.get("hours_to_resolve", float("inf")))
+    public_picks = [sanitize_pick(p) for p in aligned]
     PICKS_DST.write_text(json.dumps(public_picks, indent=2))
-    print(f"Exported {len(public_picks)}/{len(picks)} picks (bin-backed only).")
+    bin_total = sum(1 for p in picks if any(s["source"] == "bin" for s in p.get("signals", [])))
+    print(
+        f"Exported {len(public_picks)}/{len(picks)} picks "
+        f"({bin_total} bin-backed, {len(public_picks)} aligned)."
+    )
 
 
 def export_portfolio():
@@ -102,30 +115,31 @@ def export_portfolio():
     conn = sqlite3.connect(str(MONITOR_DB))
     conn.row_factory = sqlite3.Row
 
-    # Load all picks and filter to bin-backed only
+    # Load all picks and filter to aligned bin-backed only
     all_rows = conn.execute(
         "SELECT market_id, question, direction, order_price, "
         "       mid_price, first_seen, status, pnl, resolved_at, signals_json "
         "FROM tracked_picks"
     ).fetchall()
 
-    bin_rows = []
+    aligned_rows = []
     for r in all_rows:
-        be = _extract_bin_edge_from_json(r["signals_json"])
-        if be is not None:
+        bin_sig = _get_aligned_bin_from_json(r["signals_json"], r["direction"])
+        if bin_sig is not None:
             d = dict(r)
-            d["bin_edge"] = be
+            d["bin_edge"] = bin_sig["edge"]
+            d["bin_n"] = _parse_sample_size(bin_sig.get("detail"))
             del d["signals_json"]
-            bin_rows.append(d)
+            aligned_rows.append(d)
 
-    # Summary — bin-backed picks only
-    pending = sum(1 for r in bin_rows if r["status"] == "pending")
-    wins = sum(1 for r in bin_rows if r["status"] == "won")
-    losses = sum(1 for r in bin_rows if r["status"] == "lost")
-    total_pnl = sum(r["pnl"] for r in bin_rows if r["status"] in ("won", "lost") and r["pnl"])
+    # Summary — aligned bin-backed picks only
+    pending = sum(1 for r in aligned_rows if r["status"] == "pending")
+    wins = sum(1 for r in aligned_rows if r["status"] == "won")
+    losses = sum(1 for r in aligned_rows if r["status"] == "lost")
+    total_pnl = sum(r["pnl"] for r in aligned_rows if r["status"] in ("won", "lost") and r["pnl"])
     resolved = wins + losses
     win_rate = round(wins / resolved, 4) if resolved > 0 else 0.0
-    bin_edges = [r["bin_edge"] for r in bin_rows]
+    bin_edges = [r["bin_edge"] for r in aligned_rows]
     avg_bin_edge = round(sum(bin_edges) / len(bin_edges), 4) if bin_edges else None
 
     portfolio["summary"] = {
@@ -137,21 +151,21 @@ def export_portfolio():
         "avg_bin_edge": avg_bin_edge,
     }
 
-    # Pending picks — bin-backed only
+    # Pending picks — aligned bin-backed only
     portfolio["pending_picks"] = [
         {k: r[k] for k in ("market_id", "question", "direction", "order_price",
-                            "mid_price", "first_seen", "bin_edge")}
-        for r in bin_rows if r["status"] == "pending"
+                            "mid_price", "first_seen", "bin_edge", "bin_n")}
+        for r in aligned_rows if r["status"] == "pending"
     ]
 
-    # Recent resolutions — bin-backed only (last 50)
+    # Recent resolutions — aligned bin-backed only (last 50)
     resolved_rows = sorted(
-        [r for r in bin_rows if r["status"] in ("won", "lost")],
+        [r for r in aligned_rows if r["status"] in ("won", "lost")],
         key=lambda r: r["resolved_at"] or "", reverse=True,
     )[:50]
     portfolio["recent_resolutions"] = [
         {k: r[k] for k in ("market_id", "question", "direction", "status",
-                            "pnl", "resolved_at", "bin_edge")}
+                            "pnl", "resolved_at", "bin_edge", "bin_n")}
         for r in resolved_rows
     ]
 
@@ -161,7 +175,7 @@ def export_portfolio():
     total_tracked = len(all_rows)
     bin_edge_str = f"{avg_bin_edge:.1%}" if avg_bin_edge is not None else "n/a"
     print(
-        f"Exported portfolio: {len(bin_rows)}/{total_tracked} bin-backed, "
+        f"Exported portfolio: {len(aligned_rows)}/{total_tracked} aligned bin-backed, "
         f"{pending} pending, {wins}W/{losses}L, "
         f"PnL={total_pnl:+.2f}, avg bin edge={bin_edge_str}"
     )

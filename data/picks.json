@@ -1,376 +1,50 @@
 [
   {
-    "market_id": "1369971",
-    "question": "Will the price of XRP be above $1.40 on February 19?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0556,
-    "market_implied": 0.095,
-    "n_signals": 1,
-    "score": 713.11,
-    "hours_to_resolve": 14.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0556
-      }
-    ]
-  },
-  {
     "market_id": "1354427",
     "question": "Will Manchester City FC win on 2026-02-21?",
     "direction": "BUY NO",
     "bin_edge": 0.0226,
+    "bin_win_rate": 0.3526,
+    "bin_n": 63574,
     "market_implied": 0.305,
     "n_signals": 2,
     "score": 713.21,
-    "hours_to_resolve": 62.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY NO",
-        "edge": 0.0226
-      }
-    ]
-  },
-  {
-    "market_id": "897776",
-    "question": "Will Canada win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0261,
-    "market_implied": 0.455,
-    "n_signals": 0,
-    "score": 2765.98,
-    "hours_to_resolve": 86.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0261
-      }
-    ]
-  },
-  {
-    "market_id": "896989",
-    "question": "Will the United States win the second most gold medals in the 2026 Winter Olympics?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0411,
-    "market_implied": 0.47,
-    "n_signals": 0,
-    "score": 1083.35,
-    "hours_to_resolve": 86.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0411
-      }
-    ]
+    "hours_to_resolve": 62.0
   },
   {
     "market_id": "896983",
     "question": "Will Italy win the second most gold medals in the 2026 Winter Olympics?",
     "direction": "BUY NO",
     "bin_edge": 0.0363,
+    "bin_win_rate": 0.6183,
+    "bin_n": 33522,
     "market_implied": 0.557,
     "n_signals": 1,
     "score": 655.05,
-    "hours_to_resolve": 86.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY NO",
-        "edge": 0.0363
-      }
-    ]
-  },
-  {
-    "market_id": "949430",
-    "question": "Will a contestant numbered 151 - 175 win Beast Games: Season 2?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0446,
-    "market_implied": 0.084,
-    "n_signals": 1,
-    "score": 1964.51,
-    "hours_to_resolve": 158.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0446
-      }
-    ]
-  },
-  {
-    "market_id": "537484",
-    "question": "Will the U.S. collect less than $100b in revenue in 2025?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0406,
-    "market_implied": 0.08,
-    "n_signals": 2,
-    "score": 8285.75,
-    "hours_to_resolve": 230.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0406
-      }
-    ]
-  },
-  {
-    "market_id": "1277193",
-    "question": "Will Anthropic have the best AI model at the end of February 2026?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0475,
-    "market_implied": 0.2815,
-    "n_signals": 1,
-    "score": 1815.01,
-    "hours_to_resolve": 230.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0475
-      }
-    ]
-  },
-  {
-    "market_id": "1273938",
-    "question": "Will the US not strike Iran by February 28, 2026?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0644,
-    "market_implied": 0.2,
-    "n_signals": 1,
-    "score": 1608.07,
-    "hours_to_resolve": 230.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0644
-      }
-    ]
-  },
-  {
-    "market_id": "1237550",
-    "question": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0444,
-    "market_implied": 0.18,
-    "n_signals": 1,
-    "score": 572.76,
-    "hours_to_resolve": 230.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0444
-      }
-    ]
-  },
-  {
-    "market_id": "562186",
-    "question": "Will Ken Paxton win the 2026 Texas Republican Primary?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0141,
-    "market_implied": 0.255,
-    "n_signals": 1,
-    "score": 4820.05,
-    "hours_to_resolve": 302.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0141
-      }
-    ]
+    "hours_to_resolve": 86.0
   },
   {
     "market_id": "703514",
     "question": "Will John Cornyn come in 2nd in the 2026 Texas Republican Primary?",
     "direction": "BUY NO",
     "bin_edge": 0.0226,
+    "bin_win_rate": 0.3526,
+    "bin_n": 63574,
     "market_implied": 0.305,
     "n_signals": 2,
     "score": 809.48,
-    "hours_to_resolve": 302.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY NO",
-        "edge": 0.0226
-      }
-    ]
-  },
-  {
-    "market_id": "663317",
-    "question": "Will Michigan win the 2025-2026 Big 10 Men's Basketball regular season championship?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0058,
-    "market_implied": 0.16,
-    "n_signals": 1,
-    "score": 594.3,
-    "hours_to_resolve": 398.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0058
-      }
-    ]
-  },
-  {
-    "market_id": "569311",
-    "question": "Will PH win the most seats in the 2026 Colombian Chamber of Representatives election?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0341,
-    "market_implied": 0.275,
-    "n_signals": 1,
-    "score": 843.86,
-    "hours_to_resolve": 422.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0341
-      }
-    ]
-  },
-  {
-    "market_id": "614719",
-    "question": "Will Paul Thomas Anderson win Best Director at the 98th Academy Awards?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0572,
-    "market_implied": 0.1,
-    "n_signals": 1,
-    "score": 2627.0,
-    "hours_to_resolve": 590.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0572
-      }
-    ]
-  },
-  {
-    "market_id": "614311",
-    "question": "Will Jessie Buckley win Best Actress at the 98th Academy Awards?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0472,
-    "market_implied": 0.09,
-    "n_signals": 1,
-    "score": 1565.17,
-    "hours_to_resolve": 590.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0472
-      }
-    ]
-  },
-  {
-    "market_id": "614355",
-    "question": "Will Teyana Taylor win Best Supporting Actress at the 98th Academy Awards?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0167,
-    "market_implied": 0.295,
-    "n_signals": 1,
-    "score": 918.7,
-    "hours_to_resolve": 590.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0167
-      }
-    ]
-  },
-  {
-    "market_id": "614430",
-    "question": "Will Sinners win Best Original Screenplay at the 98th Academy Awards?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0408,
-    "market_implied": 0.195,
-    "n_signals": 1,
-    "score": 846.96,
-    "hours_to_resolve": 590.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0408
-      }
-    ]
+    "hours_to_resolve": 302.0
   },
   {
     "market_id": "614763",
     "question": "Will One Battle After Another win Best Film Editing at the 98th Academy Awards?",
     "direction": "BUY NO",
     "bin_edge": 0.0176,
+    "bin_win_rate": 0.3526,
+    "bin_n": 63574,
     "market_implied": 0.31,
     "n_signals": 2,
     "score": 832.02,
-    "hours_to_resolve": 590.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY NO",
-        "edge": 0.0176
-      }
-    ]
-  },
-  {
-    "market_id": "1117242",
-    "question": "Nothing Ever Happens: Khamenei",
-    "direction": "BUY NO",
-    "bin_edge": 0.0171,
-    "market_implied": 0.18,
-    "n_signals": 1,
-    "score": 853.38,
-    "hours_to_resolve": 974.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0171
-      }
-    ]
-  },
-  {
-    "market_id": "666696",
-    "question": "Israel x Iran ceasefire broken by March 31, 2026?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0506,
-    "market_implied": 0.5,
-    "n_signals": 0,
-    "score": 601.42,
-    "hours_to_resolve": 974.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0506
-      }
-    ]
-  },
-  {
-    "market_id": "644095",
-    "question": "Will Victor Wembanyama lead the NBA in blocks during the 2025\u201326 NBA season?",
-    "direction": "BUY NO",
-    "bin_edge": 0.0365,
-    "market_implied": 0.08,
-    "n_signals": 1,
-    "score": 694.62,
-    "hours_to_resolve": 1262.0,
-    "signals": [
-      {
-        "source": "bin",
-        "direction": "BUY YES",
-        "edge": 0.0365
-      }
-    ]
+    "hours_to_resolve": 590.0
   }
 ]
