@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-19T04:00:41.001358+00:00",
+  "updated_at": "2026-02-19T05:00:40.066912+00:00",
   "summary": {
-    "pending": 83,
+    "pending": 87,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0409
+    "avg_bin_edge": 0.0408
   },
   "pending_picks": [
     {
@@ -920,6 +920,50 @@
       "first_seen": "2026-02-19T04:00:40Z",
       "bin_edge": 0.0377,
       "bin_n": 1072157,
+      "category": "other"
+    },
+    {
+      "market_id": "1299205",
+      "question": "Will Seattle have between 3 and 4 inches of precipitation in February?",
+      "direction": "BUY YES",
+      "order_price": 0.48,
+      "mid_price": 0.51,
+      "first_seen": "2026-02-19T05:00:40Z",
+      "bin_edge": 0.0508,
+      "bin_n": 2048258,
+      "category": "other"
+    },
+    {
+      "market_id": "1230256",
+      "question": "Will Trump say \"Japan\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-19T05:00:40Z",
+      "bin_edge": 0.0509,
+      "bin_n": 1507429,
+      "category": "politics"
+    },
+    {
+      "market_id": "1373457",
+      "question": "Will there be exactly 0 earthquakes of magnitude 6.5 or higher worldwide by February 22?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-19T05:00:40Z",
+      "bin_edge": 0.0377,
+      "bin_n": 1072157,
+      "category": "other"
+    },
+    {
+      "market_id": "1383763",
+      "question": "Spread: Knicks (-3.5)",
+      "direction": "BUY YES",
+      "order_price": 0.52,
+      "mid_price": 0.52,
+      "first_seen": "2026-02-19T05:00:40Z",
+      "bin_edge": 0.0142,
+      "bin_n": 2347115,
       "category": "other"
     }
   ],
