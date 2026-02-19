@@ -1,21 +1,5 @@
 [
   {
-    "market_id": "1362049",
-    "question": "Will Elon Musk post 300-319 tweets from February 13 to February 20, 2026?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.0685,
-    "bin_win_rate": 0.3985,
-    "bin_n": 234930,
-    "distinct_markets": 818,
-    "ci_lower": 0.3655,
-    "ci_edge": 0.0355,
-    "market_implied": 0.305,
-    "n_signals": 1,
-    "score": 299.45,
-    "hours_to_resolve": 13.0
-  },
-  {
     "market_id": "1372830",
     "question": "Rockets vs. Hornets",
     "direction": "BUY YES",
@@ -29,39 +13,71 @@
     "market_implied": 0.625,
     "n_signals": 1,
     "score": 256.15,
-    "hours_to_resolve": 13.0
-  },
-  {
-    "market_id": "1362044",
-    "question": "Will Elon Musk post 260-279 tweets from February 13 to February 20, 2026?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.0401,
-    "bin_win_rate": 0.1741,
-    "bin_n": 398539,
-    "distinct_markets": 1153,
-    "ci_lower": 0.1535,
-    "ci_edge": 0.0195,
-    "market_implied": 0.109,
-    "n_signals": 1,
-    "score": 212.79,
-    "hours_to_resolve": 13.0
+    "hours_to_resolve": 12.0
   },
   {
     "market_id": "1373524",
     "question": "Will the price of Bitcoin be above $64,000 on February 20?",
+    "direction": "BUY NO",
+    "category": "crypto",
+    "bin_edge": 0.0933,
+    "bin_win_rate": 0.2483,
+    "bin_n": 34644,
+    "distinct_markets": 231,
+    "ci_lower": 0.6938,
+    "ci_edge": 0.5388,
+    "market_implied": 0.13,
+    "n_signals": 1,
+    "score": 192.51,
+    "hours_to_resolve": 12.0
+  },
+  {
+    "market_id": "1362049",
+    "question": "Will Elon Musk post 300-319 tweets from February 13 to February 20, 2026?",
+    "direction": "BUY YES",
+    "category": "other",
+    "bin_edge": 0.0435,
+    "bin_win_rate": 0.3985,
+    "bin_n": 234930,
+    "distinct_markets": 818,
+    "ci_lower": 0.3655,
+    "ci_edge": 0.0105,
+    "market_implied": 0.33,
+    "n_signals": 1,
+    "score": 190.16,
+    "hours_to_resolve": 12.0
+  },
+  {
+    "market_id": "1373146",
+    "question": "Will ChatGPT be #1 Free App in the US Apple App Store on February 20?",
+    "direction": "BUY NO",
+    "category": "other",
+    "bin_edge": 0.0643,
+    "bin_win_rate": 0.3993,
+    "bin_n": 232228,
+    "distinct_markets": 811,
+    "ci_lower": 0.5664,
+    "ci_edge": 0.2314,
+    "market_implied": 0.31000000000000005,
+    "n_signals": 1,
+    "score": 120.67,
+    "hours_to_resolve": 12.0
+  },
+  {
+    "market_id": "1373526",
+    "question": "Will the price of Bitcoin be above $66,000 on February 20?",
     "direction": "BUY YES",
     "category": "crypto",
-    "bin_edge": 0.0423,
-    "bin_win_rate": 0.9673,
-    "bin_n": 617196,
-    "distinct_markets": 1040,
-    "ci_lower": 0.9547,
-    "ci_edge": 0.0297,
-    "market_implied": 0.9,
+    "bin_edge": 0.085,
+    "bin_win_rate": 0.72,
+    "bin_n": 18698,
+    "distinct_markets": 160,
+    "ci_lower": 0.6446,
+    "ci_edge": 0.0096,
+    "market_implied": 0.61,
     "n_signals": 1,
-    "score": 87.28,
-    "hours_to_resolve": 13.0
+    "score": 97.87,
+    "hours_to_resolve": 12.0
   },
   {
     "market_id": "1372924",
@@ -77,7 +93,23 @@
     "market_implied": 0.615,
     "n_signals": 1,
     "score": 82.93,
-    "hours_to_resolve": 13.0
+    "hours_to_resolve": 12.0
+  },
+  {
+    "market_id": "1372396",
+    "question": "Will the U.S. flu hospitalization rate per 100,000 in Week 6 be between 60 and 70?",
+    "direction": "BUY NO",
+    "category": "other",
+    "bin_edge": 0.0443,
+    "bin_win_rate": 0.3993,
+    "bin_n": 232228,
+    "distinct_markets": 811,
+    "ci_lower": 0.5664,
+    "ci_edge": 0.2114,
+    "market_implied": 0.33000000000000007,
+    "n_signals": 1,
+    "score": 61.46,
+    "hours_to_resolve": 12.0
   },
   {
     "market_id": "1363757",
@@ -93,23 +125,23 @@
     "market_implied": 0.335,
     "n_signals": 1,
     "score": 53.66,
-    "hours_to_resolve": 13.0
+    "hours_to_resolve": 12.0
   },
   {
-    "market_id": "1363766",
-    "question": "Will MrBeast say \"Feastables\" during his next YouTube video?",
-    "direction": "BUY YES",
+    "market_id": "1373120",
+    "question": "Will Shadowrocket be #1 Paid App in the US Apple App Store on February 20?",
+    "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0365,
-    "bin_win_rate": 0.9815,
-    "bin_n": 4283193,
-    "distinct_markets": 4446,
-    "ci_lower": 0.9772,
-    "ci_edge": 0.0322,
-    "market_implied": 0.92,
+    "bin_edge": 0.0443,
+    "bin_win_rate": 0.3993,
+    "bin_n": 232228,
+    "distinct_markets": 811,
+    "ci_lower": 0.5664,
+    "ci_edge": 0.2114,
+    "market_implied": 0.33000000000000007,
     "n_signals": 1,
-    "score": 39.18,
-    "hours_to_resolve": 13.0
+    "score": 35.48,
+    "hours_to_resolve": 12.0
   },
   {
     "market_id": "1354356",
@@ -124,24 +156,24 @@
     "ci_edge": 0.0541,
     "market_implied": 0.805,
     "n_signals": 1,
-    "score": 111.94,
-    "hours_to_resolve": 37.0
+    "score": 115.05,
+    "hours_to_resolve": 36.0
   },
   {
     "market_id": "1377521",
     "question": "Will the price of Bitcoin be above $64,000 on February 21?",
     "direction": "BUY NO",
     "category": "crypto",
-    "bin_edge": 0.0866,
+    "bin_edge": 0.0616,
     "bin_win_rate": 0.2316,
     "bin_n": 49182,
     "distinct_markets": 235,
     "ci_lower": 0.7123,
-    "ci_edge": 0.5673,
-    "market_implied": 0.12,
+    "ci_edge": 0.5423,
+    "market_implied": 0.14500000000000002,
     "n_signals": 1,
-    "score": 71.87,
-    "hours_to_resolve": 37.0
+    "score": 52.54,
+    "hours_to_resolve": 36.0
   },
   {
     "market_id": "1266081",
@@ -157,55 +189,55 @@
     "market_implied": 0.625,
     "n_signals": 1,
     "score": 49.22,
-    "hours_to_resolve": 37.0
+    "hours_to_resolve": 36.0
   },
   {
-    "market_id": "1354815",
-    "question": "Will Real Madrid CF win on 2026-02-21?",
-    "direction": "BUY NO",
-    "category": "sports",
-    "bin_edge": 0.0147,
-    "bin_win_rate": 0.4547,
-    "bin_n": 1614000,
-    "distinct_markets": 3798,
-    "ci_lower": 0.5294,
-    "ci_edge": 0.0894,
-    "market_implied": 0.41500000000000004,
+    "market_id": "1377524",
+    "question": "Will the price of Bitcoin be above $66,000 on February 21?",
+    "direction": "BUY YES",
+    "category": "crypto",
+    "bin_edge": 0.0889,
+    "bin_win_rate": 0.7039,
+    "bin_n": 46298,
+    "distinct_markets": 128,
+    "ci_lower": 0.619,
+    "ci_edge": 0.004,
+    "market_implied": 0.59,
     "n_signals": 1,
-    "score": 30.9,
-    "hours_to_resolve": 37.0
+    "score": 39.38,
+    "hours_to_resolve": 36.0
   },
   {
     "market_id": "1145160",
     "question": "Will \"Sinners\" win Best Original Screenplay at the 2026 BAFTA Awards?",
     "direction": "BUY YES",
     "category": "entertainment",
-    "bin_edge": 0.1693,
+    "bin_edge": 0.1793,
     "bin_win_rate": 0.7143,
     "bin_n": 224161,
     "distinct_markets": 382,
     "ci_lower": 0.6674,
-    "ci_edge": 0.1224,
-    "market_implied": 0.52,
+    "ci_edge": 0.1324,
+    "market_implied": 0.51,
     "n_signals": 1,
-    "score": 181.21,
-    "hours_to_resolve": 61.0
+    "score": 191.91,
+    "hours_to_resolve": 60.0
   },
   {
     "market_id": "1144455",
     "question": "Will \"One Battle After Another\" win Best Film at the 2026 BAFTA Awards?",
     "direction": "BUY YES",
     "category": "entertainment",
-    "bin_edge": 0.0813,
+    "bin_edge": 0.0863,
     "bin_win_rate": 0.8213,
     "bin_n": 170233,
     "distinct_markets": 388,
     "ci_lower": 0.781,
-    "ci_edge": 0.041,
-    "market_implied": 0.7150000000000001,
+    "ci_edge": 0.046,
+    "market_implied": 0.71,
     "n_signals": 1,
-    "score": 100.75,
-    "hours_to_resolve": 61.0
+    "score": 106.94,
+    "hours_to_resolve": 60.0
   },
   {
     "market_id": "903277",
@@ -221,39 +253,87 @@
     "market_implied": 0.12,
     "n_signals": 1,
     "score": 78.46,
-    "hours_to_resolve": 61.0
-  },
-  {
-    "market_id": "1146172",
-    "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 2026 BAFTA Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0613,
-    "bin_win_rate": 0.8213,
-    "bin_n": 170233,
-    "distinct_markets": 388,
-    "ci_lower": 0.781,
-    "ci_edge": 0.021,
-    "market_implied": 0.735,
-    "n_signals": 1,
-    "score": 57.05,
-    "hours_to_resolve": 61.0
+    "hours_to_resolve": 60.0
   },
   {
     "market_id": "1144884",
     "question": "Will \"The Perfect Neighbour\" win Best Documentary at the 2026 BAFTA Awards?",
     "direction": "BUY YES",
     "category": "entertainment",
-    "bin_edge": 0.0993,
+    "bin_edge": 0.1243,
     "bin_win_rate": 0.7143,
     "bin_n": 224161,
     "distinct_markets": 382,
     "ci_lower": 0.6674,
-    "ci_edge": 0.0524,
-    "market_implied": 0.5900000000000001,
+    "ci_edge": 0.0774,
+    "market_implied": 0.565,
     "n_signals": 1,
-    "score": 51.89,
-    "hours_to_resolve": 61.0
+    "score": 64.95,
+    "hours_to_resolve": 60.0
+  },
+  {
+    "market_id": "1146172",
+    "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 2026 BAFTA Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.0663,
+    "bin_win_rate": 0.8213,
+    "bin_n": 170233,
+    "distinct_markets": 388,
+    "ci_lower": 0.781,
+    "ci_edge": 0.026,
+    "market_implied": 0.73,
+    "n_signals": 1,
+    "score": 61.71,
+    "hours_to_resolve": 60.0
+  },
+  {
+    "market_id": "1382276",
+    "question": "Will the price of Bitcoin be above $70,000 on February 22?",
+    "direction": "BUY YES",
+    "category": "crypto",
+    "bin_edge": 0.1019,
+    "bin_win_rate": 0.2269,
+    "bin_n": 62944,
+    "distinct_markets": 268,
+    "ci_lower": 0.1815,
+    "ci_edge": 0.0565,
+    "market_implied": 0.1,
+    "n_signals": 1,
+    "score": 45.76,
+    "hours_to_resolve": 60.0
+  },
+  {
+    "market_id": "1144477",
+    "question": "Will \"Hamnet\" win Outstanding British Film at the 2026 BAFTA Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.0387,
+    "bin_win_rate": 0.8987,
+    "bin_n": 236188,
+    "distinct_markets": 393,
+    "ci_lower": 0.8644,
+    "ci_edge": 0.0044,
+    "market_implied": 0.835,
+    "n_signals": 1,
+    "score": 44.95,
+    "hours_to_resolve": 60.0
+  },
+  {
+    "market_id": "1382271",
+    "question": "Will the price of Bitcoin be above $66,000 on February 22?",
+    "direction": "BUY YES",
+    "category": "crypto",
+    "bin_edge": 0.1005,
+    "bin_win_rate": 0.7055,
+    "bin_n": 42722,
+    "distinct_markets": 147,
+    "ci_lower": 0.6294,
+    "ci_edge": 0.0244,
+    "market_implied": 0.58,
+    "n_signals": 1,
+    "score": 40.3,
+    "hours_to_resolve": 60.0
   },
   {
     "market_id": "1145101",
@@ -269,87 +349,7 @@
     "market_implied": 0.91,
     "n_signals": 1,
     "score": 33.41,
-    "hours_to_resolve": 61.0
-  },
-  {
-    "market_id": "1382276",
-    "question": "Will the price of Bitcoin be above $70,000 on February 22?",
-    "direction": "BUY YES",
-    "category": "crypto",
-    "bin_edge": 0.0669,
-    "bin_win_rate": 0.2269,
-    "bin_n": 62944,
-    "distinct_markets": 268,
-    "ci_lower": 0.1815,
-    "ci_edge": 0.0215,
-    "market_implied": 0.135,
-    "n_signals": 1,
-    "score": 29.55,
-    "hours_to_resolve": 61.0
-  },
-  {
-    "market_id": "1144914",
-    "question": "Will \"Zootropolis 2\" win Best Animated Film at the 2026 BAFTA Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0413,
-    "bin_win_rate": 0.8213,
-    "bin_n": 170233,
-    "distinct_markets": 388,
-    "ci_lower": 0.781,
-    "ci_edge": 0.001,
-    "market_implied": 0.755,
-    "n_signals": 1,
-    "score": 28.31,
-    "hours_to_resolve": 61.0
-  },
-  {
-    "market_id": "1116335",
-    "question": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate after the February decision?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.0658,
-    "bin_win_rate": 0.5958,
-    "bin_n": 500235,
-    "distinct_markets": 839,
-    "ci_lower": 0.5624,
-    "ci_edge": 0.0324,
-    "market_implied": 0.505,
-    "n_signals": 1,
-    "score": 122.81,
-    "hours_to_resolve": 85.0
-  },
-  {
-    "market_id": "1230041",
-    "question": "Will Trump say \"Biden\" during the State of the Union address?",
-    "direction": "BUY YES",
-    "category": "politics",
-    "bin_edge": 0.0315,
-    "bin_win_rate": 0.9715,
-    "bin_n": 296196,
-    "distinct_markets": 263,
-    "ci_lower": 0.9461,
-    "ci_edge": 0.0061,
-    "market_implied": 0.915,
-    "n_signals": 1,
-    "score": 28.19,
-    "hours_to_resolve": 109.0
-  },
-  {
-    "market_id": "1341342",
-    "question": "Will Violet Bridgerton get engaged in Bridgerton: Season 4?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.0546,
-    "bin_win_rate": 0.6796,
-    "bin_n": 169183,
-    "distinct_markets": 786,
-    "ci_lower": 0.646,
-    "ci_edge": 0.021,
-    "market_implied": 0.6,
-    "n_signals": 1,
-    "score": 34.27,
-    "hours_to_resolve": 157.0
+    "hours_to_resolve": 60.0
   },
   {
     "market_id": "1301878",
@@ -364,24 +364,24 @@
     "ci_edge": 0.0307,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 45.57,
-    "hours_to_resolve": 181.0
+    "score": 45.82,
+    "hours_to_resolve": 180.0
   },
   {
     "market_id": "1273938",
     "question": "Will the US not strike Iran by February 28, 2026?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.0334,
+    "bin_edge": 0.0434,
     "bin_win_rate": 0.7884,
     "bin_n": 199920,
     "distinct_markets": 903,
     "ci_lower": 0.7607,
-    "ci_edge": 0.0057,
-    "market_implied": 0.73,
+    "ci_edge": 0.0157,
+    "market_implied": 0.72,
     "n_signals": 1,
-    "score": 124.07,
-    "hours_to_resolve": 205.0
+    "score": 162.0,
+    "hours_to_resolve": 204.0
   },
   {
     "market_id": "1335106",
@@ -396,24 +396,24 @@
     "ci_edge": 0.0361,
     "market_implied": 0.915,
     "n_signals": 1,
-    "score": 58.08,
-    "hours_to_resolve": 205.0
+    "score": 58.36,
+    "hours_to_resolve": 204.0
   },
   {
     "market_id": "1334172",
     "question": "Will USD reach 1.7M Iranian rials by February 28?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.0446,
+    "bin_edge": 0.0496,
     "bin_win_rate": 0.6796,
     "bin_n": 169183,
     "distinct_markets": 786,
     "ci_lower": 0.646,
-    "ci_edge": 0.011,
-    "market_implied": 0.61,
+    "ci_edge": 0.016,
+    "market_implied": 0.605,
     "n_signals": 1,
-    "score": 39.53,
-    "hours_to_resolve": 205.0
+    "score": 44.18,
+    "hours_to_resolve": 204.0
   },
   {
     "market_id": "1339355",
@@ -428,28 +428,76 @@
     "ci_edge": 0.0411,
     "market_implied": 0.91,
     "n_signals": 1,
-    "score": 30.42,
-    "hours_to_resolve": 205.0
+    "score": 30.57,
+    "hours_to_resolve": 204.0
+  },
+  {
+    "market_id": "1303674",
+    "question": "Will Solana dip to $60 in February?",
+    "direction": "BUY YES",
+    "category": "crypto",
+    "bin_edge": 0.0964,
+    "bin_win_rate": 0.2269,
+    "bin_n": 62944,
+    "distinct_markets": 268,
+    "ci_lower": 0.1815,
+    "ci_edge": 0.051,
+    "market_implied": 0.10550000000000001,
+    "n_signals": 1,
+    "score": 270.4,
+    "hours_to_resolve": 228.0
   },
   {
     "market_id": "1303404",
     "question": "Will Ethereum dip to $1,600 in February?",
     "direction": "BUY YES",
     "category": "crypto",
-    "bin_edge": 0.0689,
+    "bin_edge": 0.0634,
     "bin_win_rate": 0.2269,
     "bin_n": 62944,
     "distinct_markets": 268,
     "ci_lower": 0.1815,
-    "ci_edge": 0.0235,
-    "market_implied": 0.133,
+    "ci_edge": 0.018,
+    "market_implied": 0.1385,
     "n_signals": 1,
-    "score": 227.47,
-    "hours_to_resolve": 229.0
+    "score": 210.23,
+    "hours_to_resolve": 228.0
   },
   {
     "market_id": "1003708",
     "question": "Will Teyana Taylor win Best Supporting Actress in a Motion Picture at the 2026 SAG Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.0903,
+    "bin_win_rate": 0.7703,
+    "bin_n": 235470,
+    "distinct_markets": 485,
+    "ci_lower": 0.7317,
+    "ci_edge": 0.0517,
+    "market_implied": 0.655,
+    "n_signals": 1,
+    "score": 75.19,
+    "hours_to_resolve": 228.0
+  },
+  {
+    "market_id": "1006303",
+    "question": "Will Jean Smart win Best Actress in a Comedy Series at the 2026 SAG Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.0806,
+    "bin_win_rate": 0.6756,
+    "bin_n": 216952,
+    "distinct_markets": 435,
+    "ci_lower": 0.6305,
+    "ci_edge": 0.0355,
+    "market_implied": 0.5700000000000001,
+    "n_signals": 1,
+    "score": 52.34,
+    "hours_to_resolve": 228.0
+  },
+  {
+    "market_id": "1003758",
+    "question": "Will Sinners win Best Cast in a Motion Picture at the 2026 SAG Awards?",
     "direction": "BUY YES",
     "category": "entertainment",
     "bin_edge": 0.1103,
@@ -460,8 +508,8 @@
     "ci_edge": 0.0717,
     "market_implied": 0.635,
     "n_signals": 1,
-    "score": 91.44,
-    "hours_to_resolve": 229.0
+    "score": 49.8,
+    "hours_to_resolve": 228.0
   },
   {
     "market_id": "1005749",
@@ -476,72 +524,24 @@
     "ci_edge": 0.0261,
     "market_implied": 0.745,
     "n_signals": 1,
-    "score": 48.65,
-    "hours_to_resolve": 229.0
-  },
-  {
-    "market_id": "1006303",
-    "question": "Will Jean Smart win Best Actress in a Comedy Series at the 2026 SAG Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0706,
-    "bin_win_rate": 0.6756,
-    "bin_n": 216952,
-    "distinct_markets": 435,
-    "ci_lower": 0.6305,
-    "ci_edge": 0.0255,
-    "market_implied": 0.5800000000000001,
-    "n_signals": 1,
-    "score": 45.65,
-    "hours_to_resolve": 229.0
-  },
-  {
-    "market_id": "1003758",
-    "question": "Will Sinners win Best Cast in a Motion Picture at the 2026 SAG Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0653,
-    "bin_win_rate": 0.7703,
-    "bin_n": 235470,
-    "distinct_markets": 485,
-    "ci_lower": 0.7317,
-    "ci_edge": 0.0267,
-    "market_implied": 0.6799999999999999,
-    "n_signals": 1,
-    "score": 29.36,
-    "hours_to_resolve": 229.0
-  },
-  {
-    "market_id": "1006353",
-    "question": "Will The Pitt win Best Ensemble in a Drama Series at the 2026 SAG Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0486,
-    "bin_win_rate": 0.9786,
-    "bin_n": 369279,
-    "distinct_markets": 484,
-    "ci_lower": 0.9624,
-    "ci_edge": 0.0324,
-    "market_implied": 0.905,
-    "n_signals": 1,
-    "score": 27.53,
-    "hours_to_resolve": 229.0
+    "score": 48.87,
+    "hours_to_resolve": 228.0
   },
   {
     "market_id": "663317",
     "question": "Will Michigan win the 2025-2026 Big 10 Men's Basketball regular season championship?",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.0558,
+    "bin_edge": 0.0508,
     "bin_win_rate": 0.9058,
     "bin_n": 392103,
     "distinct_markets": 819,
     "ci_lower": 0.8841,
-    "ci_edge": 0.0341,
-    "market_implied": 0.825,
+    "ci_edge": 0.0291,
+    "market_implied": 0.8300000000000001,
     "n_signals": 1,
-    "score": 65.13,
-    "hours_to_resolve": 373.0
+    "score": 59.45,
+    "hours_to_resolve": 372.0
   },
   {
     "market_id": "614253",
@@ -556,24 +556,24 @@
     "ci_edge": 0.0217,
     "market_implied": 0.685,
     "n_signals": 1,
-    "score": 712.77,
-    "hours_to_resolve": 565.0
+    "score": 714.03,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "613835",
     "question": "Will One Battle After Another win Best Picture at the 98th Academy Awards?",
     "direction": "BUY YES",
     "category": "entertainment",
-    "bin_edge": 0.0665,
+    "bin_edge": 0.0715,
     "bin_win_rate": 0.8315,
     "bin_n": 253315,
     "distinct_markets": 477,
     "ci_lower": 0.7961,
-    "ci_edge": 0.0311,
-    "market_implied": 0.74,
+    "ci_edge": 0.0361,
+    "market_implied": 0.735,
     "n_signals": 1,
-    "score": 525.99,
-    "hours_to_resolve": 565.0
+    "score": 566.54,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "614719",
@@ -588,8 +588,8 @@
     "ci_edge": 0.0374,
     "market_implied": 0.9,
     "n_signals": 1,
-    "score": 250.15,
-    "hours_to_resolve": 565.0
+    "score": 250.59,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "614355",
@@ -604,8 +604,8 @@
     "ci_edge": 0.0661,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 240.43,
-    "hours_to_resolve": 565.0
+    "score": 240.86,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "614311",
@@ -620,8 +620,8 @@
     "ci_edge": 0.0324,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 132.21,
-    "hours_to_resolve": 565.0
+    "score": 132.45,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "614763",
@@ -636,8 +636,8 @@
     "ci_edge": 0.0217,
     "market_implied": 0.685,
     "n_signals": 1,
-    "score": 130.88,
-    "hours_to_resolve": 565.0
+    "score": 131.11,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "1242494",
@@ -652,8 +652,8 @@
     "ci_edge": 0.0692,
     "market_implied": 0.51,
     "n_signals": 1,
-    "score": 40.38,
-    "hours_to_resolve": 565.0
+    "score": 40.46,
+    "hours_to_resolve": 564.0
   },
   {
     "market_id": "1220190",
@@ -668,24 +668,24 @@
     "ci_edge": 0.0018,
     "market_implied": 0.7,
     "n_signals": 1,
-    "score": 74.4,
-    "hours_to_resolve": 637.0
+    "score": 74.52,
+    "hours_to_resolve": 636.0
   },
   {
     "market_id": "1261938",
     "question": "Nuggets vs. Grizzlies: O/U 225.5",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.0518,
+    "bin_edge": 0.0618,
     "bin_win_rate": 0.6168,
     "bin_n": 2382756,
     "distinct_markets": 3816,
     "ci_lower": 0.6013,
-    "ci_edge": 0.0363,
-    "market_implied": 0.54,
+    "ci_edge": 0.0463,
+    "market_implied": 0.53,
     "n_signals": 1,
-    "score": 39.05,
-    "hours_to_resolve": 637.0
+    "score": 46.67,
+    "hours_to_resolve": 636.0
   },
   {
     "market_id": "991022",
@@ -700,24 +700,24 @@
     "ci_edge": 0.0346,
     "market_implied": 0.9165000000000001,
     "n_signals": 1,
-    "score": 47.04,
-    "hours_to_resolve": 661.0
+    "score": 47.11,
+    "hours_to_resolve": 660.0
   },
   {
     "market_id": "791705",
     "question": "Israel strikes Iran by March 31, 2026?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.073,
+    "bin_edge": 0.078,
     "bin_win_rate": 0.613,
     "bin_n": 195994,
     "distinct_markets": 600,
     "ci_lower": 0.5738,
-    "ci_edge": 0.0338,
-    "market_implied": 0.515,
+    "ci_edge": 0.0388,
+    "market_implied": 0.51,
     "n_signals": 1,
-    "score": 331.18,
-    "hours_to_resolve": 949.0
+    "score": 354.24,
+    "hours_to_resolve": 948.0
   },
   {
     "market_id": "677393",
@@ -732,24 +732,24 @@
     "ci_edge": 0.0007,
     "market_implied": 0.3,
     "n_signals": 1,
-    "score": 44.26,
-    "hours_to_resolve": 949.0
+    "score": 44.31,
+    "hours_to_resolve": 948.0
   },
   {
     "market_id": "666697",
     "question": "Will USD.AI launch a token by March 31?",
     "direction": "BUY NO",
     "category": "crypto",
-    "bin_edge": 0.0516,
+    "bin_edge": 0.0566,
     "bin_win_rate": 0.2316,
     "bin_n": 49182,
     "distinct_markets": 235,
     "ci_lower": 0.7123,
-    "ci_edge": 0.5323,
-    "market_implied": 0.15500000000000003,
+    "ci_edge": 0.5373,
+    "market_implied": 0.15000000000000002,
     "n_signals": 1,
-    "score": 43.34,
-    "hours_to_resolve": 973.0
+    "score": 47.59,
+    "hours_to_resolve": 972.0
   },
   {
     "market_id": "643398",
@@ -764,8 +764,8 @@
     "ci_edge": 0.0231,
     "market_implied": 0.825,
     "n_signals": 1,
-    "score": 61.27,
-    "hours_to_resolve": 1237.0
+    "score": 61.32,
+    "hours_to_resolve": 1236.0
   },
   {
     "market_id": "643441",
@@ -780,8 +780,8 @@
     "ci_edge": 0.0131,
     "market_implied": 0.835,
     "n_signals": 1,
-    "score": 35.89,
-    "hours_to_resolve": 1237.0
+    "score": 35.92,
+    "hours_to_resolve": 1236.0
   },
   {
     "market_id": "643397",
@@ -796,7 +796,7 @@
     "ci_edge": 0.0081,
     "market_implied": 0.84,
     "n_signals": 1,
-    "score": 28.64,
-    "hours_to_resolve": 1237.0
+    "score": 28.66,
+    "hours_to_resolve": 1236.0
   }
 ]
