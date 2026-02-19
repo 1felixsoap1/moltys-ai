@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-19T05:00:40.066912+00:00",
+  "updated_at": "2026-02-19T06:00:40.610612+00:00",
   "summary": {
-    "pending": 87,
+    "pending": 88,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
@@ -965,6 +965,17 @@
       "bin_edge": 0.0142,
       "bin_n": 2347115,
       "category": "other"
+    },
+    {
+      "market_id": "643396",
+      "question": "Will the Orlando Magic make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.6,
+      "mid_price": 0.615,
+      "first_seen": "2026-02-19T06:00:40Z",
+      "bin_edge": 0.0408,
+      "bin_n": 813001,
+      "category": "sports"
     }
   ],
   "recent_resolutions": []
