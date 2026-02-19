@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-19T09:00:29.924817+00:00",
+  "updated_at": "2026-02-19T10:00:28.546510+00:00",
   "summary": {
-    "pending": 104,
+    "pending": 111,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.045
+    "avg_bin_edge": 0.0459
   },
   "pending_picks": [
     {
@@ -1151,6 +1151,83 @@
       "first_seen": "2026-02-19T09:00:29Z",
       "bin_edge": 0.0426,
       "bin_n": 352435,
+      "category": "sports"
+    },
+    {
+      "market_id": "1303674",
+      "question": "Will Solana dip to $60 in February?",
+      "direction": "BUY YES",
+      "order_price": 0.099,
+      "mid_price": 0.105,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.0969,
+      "bin_n": 62944,
+      "category": "crypto"
+    },
+    {
+      "market_id": "897035",
+      "question": "Will France win the third most gold medals in the 2026 Winter Olympics?",
+      "direction": "BUY YES",
+      "order_price": 0.102,
+      "mid_price": 0.105,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.0441,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "903316",
+      "question": "Will Japan win the third most medals in the 2026 Winter Olympics?",
+      "direction": "BUY YES",
+      "order_price": 0.095,
+      "mid_price": 0.1005,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.0486,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "643964",
+      "question": "Will Nikola Jokic lead the NBA in assists during the 2025\u201326 NBA season?",
+      "direction": "BUY YES",
+      "order_price": 0.69,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.0464,
+      "bin_n": 806579,
+      "category": "sports"
+    },
+    {
+      "market_id": "1299197",
+      "question": "Will NYC have less than 2 inches of precipitation in February?",
+      "direction": "BUY YES",
+      "order_price": 0.69,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.0584,
+      "bin_n": 199920,
+      "category": "other"
+    },
+    {
+      "market_id": "1382276",
+      "question": "Will the price of Bitcoin be above $70,000 on February 22?",
+      "direction": "BUY YES",
+      "order_price": 0.11,
+      "mid_price": 0.115,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.0869,
+      "bin_n": 62944,
+      "category": "crypto"
+    },
+    {
+      "market_id": "643397",
+      "question": "Will the Philadelphia 76ers make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.84,
+      "mid_price": 0.84,
+      "first_seen": "2026-02-19T10:00:28Z",
+      "bin_edge": 0.036,
+      "bin_n": 255915,
       "category": "sports"
     }
   ],
