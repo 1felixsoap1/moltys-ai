@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-19T12:00:29.482996+00:00",
+  "updated_at": "2026-02-19T13:00:29.297907+00:00",
   "summary": {
-    "pending": 121,
+    "pending": 123,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
@@ -1339,6 +1339,28 @@
       "bin_edge": 0.0889,
       "bin_n": 46298,
       "category": "crypto"
+    },
+    {
+      "market_id": "1362052",
+      "question": "Will Elon Musk post 320-339 tweets from February 13 to February 20, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.113,
+      "mid_price": 0.1205,
+      "first_seen": "2026-02-19T13:00:29Z",
+      "bin_edge": 0.0286,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1169287",
+      "question": "Will \"Sinners\" win Best Original Score at the 2026 BAFTA Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.81,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-19T13:00:29Z",
+      "bin_edge": 0.0587,
+      "bin_n": 236188,
+      "category": "entertainment"
     }
   ],
   "recent_resolutions": []
