@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-19T15:00:29.294534+00:00",
+  "updated_at": "2026-02-19T16:00:29.821780+00:00",
   "summary": {
-    "pending": 131,
+    "pending": 134,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0471
+    "avg_bin_edge": 0.0475
   },
   "pending_picks": [
     {
@@ -1449,6 +1449,39 @@
       "bin_edge": 0.0415,
       "bin_n": 296196,
       "category": "politics"
+    },
+    {
+      "market_id": "1373121",
+      "question": "Will HotSchedules be #1 Paid App in the US Apple App Store on February 20?",
+      "direction": "BUY YES",
+      "order_price": 0.25,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-19T16:00:29Z",
+      "bin_edge": 0.0735,
+      "bin_n": 234930,
+      "category": "other"
+    },
+    {
+      "market_id": "1327790",
+      "question": "Will Sport Lisboa e Benfica win on 2026-02-21?",
+      "direction": "BUY YES",
+      "order_price": 0.9,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-19T16:00:29Z",
+      "bin_edge": 0.051,
+      "bin_n": 2908317,
+      "category": "sports"
+    },
+    {
+      "market_id": "1373494",
+      "question": "Will the price of Ethereum be above $2,000 on February 20?",
+      "direction": "BUY YES",
+      "order_price": 0.15,
+      "mid_price": 0.155,
+      "first_seen": "2026-02-19T16:00:29Z",
+      "bin_edge": 0.0652,
+      "bin_n": 34790,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": []
