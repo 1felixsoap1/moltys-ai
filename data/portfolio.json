@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-19T18:00:42.409126+00:00",
+  "updated_at": "2026-02-19T19:00:43.992295+00:00",
   "summary": {
-    "pending": 17,
+    "pending": 21,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0463
+    "avg_bin_edge": 0.0464
   },
   "pending_picks": [
     {
@@ -195,6 +195,50 @@
       "bin_edge": 0.0457,
       "bin_n": 1315881,
       "category": "politics"
+    },
+    {
+      "market_id": "614805",
+      "question": "Will One Battle After Another win Best Cinematography at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.5,
+      "first_seen": "2026-02-19T19:00:43Z",
+      "bin_edge": 0.0342,
+      "bin_n": 2347115,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1199490",
+      "question": "Will Teyana Taylor win Best Supporting Actress at the 2026 BAFTA Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.515,
+      "first_seen": "2026-02-19T19:00:43Z",
+      "bin_edge": 0.0566,
+      "bin_n": 1806938,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1362027",
+      "question": "Will Donald Trump post 120-139 Truth Social posts from February 13 to February 20, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.63,
+      "mid_price": 0.64,
+      "first_seen": "2026-02-19T19:00:43Z",
+      "bin_edge": 0.0271,
+      "bin_n": 1072965,
+      "category": "politics"
+    },
+    {
+      "market_id": "1301685",
+      "question": "Will Amazon (AMZN) close above $200 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.68,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-19T19:00:43Z",
+      "bin_edge": 0.0707,
+      "bin_n": 1315881,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
