@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-19T22:00:37.737812+00:00",
+  "updated_at": "2026-02-19T23:00:37.606449+00:00",
   "summary": {
-    "pending": 33,
+    "pending": 41,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0493
+    "avg_bin_edge": 0.0472
   },
   "pending_picks": [
     {
@@ -370,6 +370,94 @@
       "first_seen": "2026-02-19T22:00:37Z",
       "bin_edge": 0.0444,
       "bin_n": 865144,
+      "category": "sports"
+    },
+    {
+      "market_id": "1301572",
+      "question": "Will Apple (AAPL) close above $250 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.766,
+      "mid_price": 0.8055,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0439,
+      "bin_n": 865144,
+      "category": "other"
+    },
+    {
+      "market_id": "1347169",
+      "question": "Will Canada win the gold medal for Winter Olympics 2026: Curling - Men's at the 2026 Milano Cortina Winter Olympics?",
+      "direction": "BUY YES",
+      "order_price": 0.48,
+      "mid_price": 0.51,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0242,
+      "bin_n": 2347115,
+      "category": "sports"
+    },
+    {
+      "market_id": "1230270",
+      "question": "Will Trump say \"New York\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0509,
+      "bin_n": 1507429,
+      "category": "politics"
+    },
+    {
+      "market_id": "1372412",
+      "question": "Trump approval Up or Down this week?",
+      "direction": "BUY YES",
+      "order_price": 0.76,
+      "mid_price": 0.82,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0282,
+      "bin_n": 1033620,
+      "category": "politics"
+    },
+    {
+      "market_id": "1230000",
+      "question": "Will Trump say \"Beckstrom\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "order_price": 0.51,
+      "mid_price": 0.51,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0242,
+      "bin_n": 2347115,
+      "category": "politics"
+    },
+    {
+      "market_id": "1348948",
+      "question": "Will Tom Sell be the Republican Nominee for TX-19?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.5,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0793,
+      "bin_n": 2210962,
+      "category": "politics"
+    },
+    {
+      "market_id": "643901",
+      "question": "Will Nikola Jokic lead the NBA in rebounds during the 2025\u201326 NBA season?",
+      "direction": "BUY YES",
+      "order_price": 0.75,
+      "mid_price": 0.75,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0207,
+      "bin_n": 1315881,
+      "category": "sports"
+    },
+    {
+      "market_id": "1334095",
+      "question": "Predators vs. Blue Jackets",
+      "direction": "BUY YES",
+      "order_price": 0.54,
+      "mid_price": 0.545,
+      "first_seen": "2026-02-19T23:00:37Z",
+      "bin_edge": 0.0343,
+      "bin_n": 2210962,
       "category": "sports"
     }
   ],
