@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-19T23:00:37.606449+00:00",
+  "updated_at": "2026-02-20T00:00:37.403012+00:00",
   "summary": {
-    "pending": 41,
+    "pending": 44,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0472
+    "avg_bin_edge": 0.0479
   },
   "pending_picks": [
     {
@@ -458,6 +458,39 @@
       "first_seen": "2026-02-19T23:00:37Z",
       "bin_edge": 0.0343,
       "bin_n": 2210962,
+      "category": "sports"
+    },
+    {
+      "market_id": "1262137",
+      "question": "Mavericks vs. Bucks: O/U 219.5",
+      "direction": "BUY YES",
+      "order_price": 0.49,
+      "mid_price": 0.525,
+      "first_seen": "2026-02-20T00:00:37Z",
+      "bin_edge": 0.0625,
+      "bin_n": 2735872,
+      "category": "sports"
+    },
+    {
+      "market_id": "1266856",
+      "question": "Spread: Bucks (-2.5)",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.545,
+      "first_seen": "2026-02-20T00:00:37Z",
+      "bin_edge": 0.0425,
+      "bin_n": 2735872,
+      "category": "other"
+    },
+    {
+      "market_id": "1261668",
+      "question": "Mavericks vs. Bucks: O/U 220.5",
+      "direction": "BUY YES",
+      "order_price": 0.52,
+      "mid_price": 0.52,
+      "first_seen": "2026-02-20T00:00:37Z",
+      "bin_edge": 0.0675,
+      "bin_n": 2735872,
       "category": "sports"
     }
   ],
