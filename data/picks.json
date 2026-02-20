@@ -14,24 +14,24 @@
     "market_implied": 0.915,
     "n_signals": 1,
     "score": 51.8,
-    "hours_to_resolve": 8.0
+    "hours_to_resolve": 7.9
   },
   {
     "market_id": "897778",
     "question": "Will Finland win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
     "direction": "BUY NO",
     "category": "sports",
-    "bin_edge": 0.0364,
+    "bin_edge": 0.0369,
     "bin_win_rate": 0.9799,
     "bin_n": 9459981,
     "distinct_markets": 12330,
     "ci_lower": 0.9773,
-    "ci_edge": 0.0338,
+    "ci_edge": 0.0343,
     "bonferroni_significant": true,
-    "market_implied": 0.9185,
+    "market_implied": 0.918,
     "n_signals": 1,
-    "score": 354.47,
-    "hours_to_resolve": 32.0
+    "score": 359.34,
+    "hours_to_resolve": 31.9
   },
   {
     "market_id": "1310506",
@@ -48,24 +48,24 @@
     "market_implied": 0.7050000000000001,
     "n_signals": 1,
     "score": 140.61,
-    "hours_to_resolve": 32.0
+    "hours_to_resolve": 31.9
   },
   {
     "market_id": "1146053",
     "question": "Will Robert Aramayo win Best Actor at the 2026 BAFTA Awards?",
     "direction": "BUY NO",
     "category": "entertainment",
-    "bin_edge": 0.0479,
+    "bin_edge": 0.0499,
     "bin_win_rate": 0.9799,
     "bin_n": 9459981,
     "distinct_markets": 12330,
     "ci_lower": 0.9773,
-    "ci_edge": 0.0453,
+    "ci_edge": 0.0473,
     "bonferroni_significant": true,
-    "market_implied": 0.907,
+    "market_implied": 0.905,
     "n_signals": 1,
-    "score": 37.65,
-    "hours_to_resolve": 32.0
+    "score": 39.23,
+    "hours_to_resolve": 31.9
   },
   {
     "market_id": "1321391",
@@ -81,8 +81,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.815,
     "n_signals": 1,
-    "score": 26.79,
-    "hours_to_resolve": 80.0
+    "score": 26.81,
+    "hours_to_resolve": 79.9
   },
   {
     "market_id": "1273714",
@@ -98,42 +98,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.9085,
     "n_signals": 1,
-    "score": 45.44,
-    "hours_to_resolve": 128.0
-  },
-  {
-    "market_id": "1301637",
-    "question": "Will Microsoft (MSFT) close above $420 end of February?",
-    "direction": "BUY NO",
-    "category": "other",
-    "bin_edge": 0.0419,
-    "bin_win_rate": 0.9719,
-    "bin_n": 2559352,
-    "distinct_markets": 5371,
-    "ci_lower": 0.9671,
-    "ci_edge": 0.0371,
-    "bonferroni_significant": true,
-    "market_implied": 0.905,
-    "n_signals": 1,
-    "score": 29.13,
-    "hours_to_resolve": 152.0
+    "score": 45.46,
+    "hours_to_resolve": 127.9
   },
   {
     "market_id": "1301939",
     "question": "Will Palantir (PLTR) close above $140 end of February?",
     "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0489,
+    "bin_edge": 0.0524,
     "bin_win_rate": 0.7964,
     "bin_n": 1276117,
     "distinct_markets": 3590,
     "ci_lower": 0.7829,
-    "ci_edge": 0.0354,
+    "ci_edge": 0.0389,
     "bonferroni_significant": true,
-    "market_implied": 0.7225,
+    "market_implied": 0.719,
     "n_signals": 1,
-    "score": 24.46,
-    "hours_to_resolve": 152.0
+    "score": 26.22,
+    "hours_to_resolve": 151.9
   },
   {
     "market_id": "1277190",
@@ -149,8 +132,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 259.09,
-    "hours_to_resolve": 176.0
+    "score": 259.17,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1198451",
@@ -166,8 +149,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.835,
     "n_signals": 1,
-    "score": 112.8,
-    "hours_to_resolve": 176.0
+    "score": 112.83,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1169205",
@@ -183,8 +166,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.825,
     "n_signals": 1,
-    "score": 109.42,
-    "hours_to_resolve": 176.0
+    "score": 109.45,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1198784",
@@ -200,8 +183,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.815,
     "n_signals": 1,
-    "score": 77.04,
-    "hours_to_resolve": 176.0
+    "score": 77.07,
+    "hours_to_resolve": 175.9
+  },
+  {
+    "market_id": "1232099",
+    "question": "Will India join the Board of Peace?",
+    "direction": "BUY NO",
+    "category": "other",
+    "bin_edge": 0.0484,
+    "bin_win_rate": 0.8784,
+    "bin_n": 1018134,
+    "distinct_markets": 2819,
+    "ci_lower": 0.8657,
+    "ci_edge": 0.0357,
+    "bonferroni_significant": true,
+    "market_implied": 0.8049999999999999,
+    "n_signals": 1,
+    "score": 47.29,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1302443",
@@ -217,8 +217,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 31.72,
-    "hours_to_resolve": 176.0
+    "score": 31.73,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1301491",
@@ -234,8 +234,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 29.46,
-    "hours_to_resolve": 176.0
+    "score": 29.47,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1236416",
@@ -251,8 +251,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.9155,
     "n_signals": 1,
-    "score": 26.92,
-    "hours_to_resolve": 176.0
+    "score": 26.93,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1243294",
@@ -268,8 +268,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.904,
     "n_signals": 1,
-    "score": 26.79,
-    "hours_to_resolve": 176.0
+    "score": 26.8,
+    "hours_to_resolve": 175.9
   },
   {
     "market_id": "1058747",
@@ -285,8 +285,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.8005,
     "n_signals": 1,
-    "score": 49.1,
-    "hours_to_resolve": 200.0
+    "score": 49.12,
+    "hours_to_resolve": 199.9
   },
   {
     "market_id": "1266129",
@@ -302,8 +302,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.91,
     "n_signals": 1,
-    "score": 46.79,
-    "hours_to_resolve": 200.0
+    "score": 46.81,
+    "hours_to_resolve": 199.9
   },
   {
     "market_id": "1058744",
@@ -319,8 +319,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.7275,
     "n_signals": 1,
-    "score": 43.94,
-    "hours_to_resolve": 200.0
+    "score": 43.95,
+    "hours_to_resolve": 199.9
   },
   {
     "market_id": "1262848",
@@ -336,8 +336,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.7050000000000001,
     "n_signals": 1,
-    "score": 39.83,
-    "hours_to_resolve": 200.0
+    "score": 39.84,
+    "hours_to_resolve": 199.9
   },
   {
     "market_id": "1322007",
@@ -353,8 +353,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 27.92,
-    "hours_to_resolve": 200.0
+    "score": 27.93,
+    "hours_to_resolve": 199.9
   },
   {
     "market_id": "1262742",
@@ -371,7 +371,7 @@
     "market_implied": 0.42000000000000004,
     "n_signals": 1,
     "score": 25.03,
-    "hours_to_resolve": 200.0
+    "hours_to_resolve": 199.9
   },
   {
     "market_id": "562187",
@@ -388,7 +388,7 @@
     "market_implied": 0.815,
     "n_signals": 1,
     "score": 211.38,
-    "hours_to_resolve": 248.0
+    "hours_to_resolve": 247.9
   },
   {
     "market_id": "569259",
@@ -405,7 +405,7 @@
     "market_implied": 0.92,
     "n_signals": 1,
     "score": 90.54,
-    "hours_to_resolve": 368.0
+    "hours_to_resolve": 367.9
   },
   {
     "market_id": "569311",
@@ -422,7 +422,7 @@
     "market_implied": 0.30500000000000005,
     "n_signals": 1,
     "score": 48.65,
-    "hours_to_resolve": 368.0
+    "hours_to_resolve": 367.9
   },
   {
     "market_id": "956347",
@@ -438,8 +438,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.815,
     "n_signals": 1,
-    "score": 46.19,
-    "hours_to_resolve": 368.0
+    "score": 46.2,
+    "hours_to_resolve": 367.9
   },
   {
     "market_id": "956349",
@@ -456,7 +456,7 @@
     "market_implied": 0.9065,
     "n_signals": 1,
     "score": 42.44,
-    "hours_to_resolve": 368.0
+    "hours_to_resolve": 367.9
   },
   {
     "market_id": "956346",
@@ -472,8 +472,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 34.04,
-    "hours_to_resolve": 368.0
+    "score": 34.05,
+    "hours_to_resolve": 367.9
   },
   {
     "market_id": "614007",
@@ -489,8 +489,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 232.78,
-    "hours_to_resolve": 536.0
+    "score": 232.8,
+    "hours_to_resolve": 535.9
   },
   {
     "market_id": "614253",
@@ -506,8 +506,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.31499999999999995,
     "n_signals": 1,
-    "score": 196.87,
-    "hours_to_resolve": 536.0
+    "score": 196.89,
+    "hours_to_resolve": 535.9
   },
   {
     "market_id": "614361",
@@ -523,8 +523,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.8085,
     "n_signals": 1,
-    "score": 163.99,
-    "hours_to_resolve": 536.0
+    "score": 164.01,
+    "hours_to_resolve": 535.9
   },
   {
     "market_id": "614355",
@@ -540,8 +540,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 122.1,
-    "hours_to_resolve": 536.0
+    "score": 122.11,
+    "hours_to_resolve": 535.9
   },
   {
     "market_id": "614252",
@@ -557,8 +557,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.8200000000000001,
     "n_signals": 1,
-    "score": 108.39,
-    "hours_to_resolve": 536.0
+    "score": 108.4,
+    "hours_to_resolve": 535.9
   },
   {
     "market_id": "614566",
@@ -574,8 +574,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 75.66,
-    "hours_to_resolve": 536.0
+    "score": 75.67,
+    "hours_to_resolve": 535.9
   },
   {
     "market_id": "677361",
@@ -591,8 +591,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.71,
     "n_signals": 1,
-    "score": 177.06,
-    "hours_to_resolve": 920.0
+    "score": 177.07,
+    "hours_to_resolve": 919.9
   },
   {
     "market_id": "665426",
@@ -608,8 +608,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 100.65,
-    "hours_to_resolve": 920.0
+    "score": 100.66,
+    "hours_to_resolve": 919.9
   },
   {
     "market_id": "677393",
@@ -625,25 +625,42 @@
     "bonferroni_significant": true,
     "market_implied": 0.7050000000000001,
     "n_signals": 1,
-    "score": 91.58,
-    "hours_to_resolve": 920.0
+    "score": 91.59,
+    "hours_to_resolve": 919.9
   },
   {
     "market_id": "693647",
     "question": "Will Polymarket mindshare hit 85%?",
     "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0524,
+    "bin_edge": 0.0529,
     "bin_win_rate": 0.7964,
     "bin_n": 1276117,
     "distinct_markets": 3590,
     "ci_lower": 0.7829,
-    "ci_edge": 0.0389,
+    "ci_edge": 0.0394,
     "bonferroni_significant": true,
-    "market_implied": 0.719,
+    "market_implied": 0.7185,
     "n_signals": 1,
-    "score": 85.5,
-    "hours_to_resolve": 920.0
+    "score": 86.32,
+    "hours_to_resolve": 919.9
+  },
+  {
+    "market_id": "676387",
+    "question": "Will Trump create a tariff dividend by March 31?",
+    "direction": "BUY NO",
+    "category": "politics",
+    "bin_edge": 0.0319,
+    "bin_win_rate": 0.9719,
+    "bin_n": 2559352,
+    "distinct_markets": 5371,
+    "ci_lower": 0.9671,
+    "ci_edge": 0.0271,
+    "bonferroni_significant": true,
+    "market_implied": 0.915,
+    "n_signals": 1,
+    "score": 37.02,
+    "hours_to_resolve": 919.9
   },
   {
     "market_id": "677397",
@@ -659,25 +676,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.915,
     "n_signals": 1,
-    "score": 36.8,
-    "hours_to_resolve": 920.0
+    "score": 36.81,
+    "hours_to_resolve": 919.9
   },
   {
     "market_id": "801449",
     "question": "Will Anthropic have the best AI model at the end of March 2026?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.0268,
+    "bin_edge": 0.0228,
     "bin_win_rate": 0.5573,
     "bin_n": 790512,
     "distinct_markets": 2501,
     "ci_lower": 0.5378,
-    "ci_edge": 0.0073,
+    "ci_edge": 0.0033,
     "bonferroni_significant": true,
-    "market_implied": 0.5055000000000001,
+    "market_implied": 0.5095000000000001,
     "n_signals": 1,
-    "score": 34.29,
-    "hours_to_resolve": 920.0
+    "score": 29.17,
+    "hours_to_resolve": 919.9
   },
   {
     "market_id": "658929",
@@ -694,7 +711,7 @@
     "market_implied": 0.9145,
     "n_signals": 1,
     "score": 25.17,
-    "hours_to_resolve": 1016.0
+    "hours_to_resolve": 1015.9
   },
   {
     "market_id": "567560",
@@ -710,25 +727,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.405,
     "n_signals": 1,
-    "score": 227.6,
-    "hours_to_resolve": 1208.0
+    "score": 227.61,
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "567561",
     "question": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
     "direction": "BUY NO",
     "category": "politics",
-    "bin_edge": 0.0176,
+    "bin_edge": 0.0276,
     "bin_win_rate": 0.4676,
     "bin_n": 1197066,
     "distinct_markets": 3173,
     "ci_lower": 0.4504,
-    "ci_edge": 0.0004,
+    "ci_edge": 0.0104,
     "bonferroni_significant": true,
-    "market_implied": 0.42500000000000004,
+    "market_implied": 0.41500000000000004,
     "n_signals": 1,
-    "score": 138.41,
-    "hours_to_resolve": 1208.0
+    "score": 217.06,
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "643461",
@@ -744,8 +761,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.7050000000000001,
     "n_signals": 1,
-    "score": 130.53,
-    "hours_to_resolve": 1208.0
+    "score": 130.54,
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "550703",
@@ -762,41 +779,41 @@
     "market_implied": 0.725,
     "n_signals": 1,
     "score": 59.07,
-    "hours_to_resolve": 1208.0
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "643369",
     "question": "Will the Atlanta Hawks make the NBA Playoffs?",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.0444,
+    "bin_edge": 0.0394,
     "bin_win_rate": 0.4794,
     "bin_n": 995464,
     "distinct_markets": 3241,
     "ci_lower": 0.4623,
-    "ci_edge": 0.0273,
+    "ci_edge": 0.0223,
     "bonferroni_significant": true,
-    "market_implied": 0.41,
+    "market_implied": 0.415,
     "n_signals": 1,
-    "score": 34.71,
-    "hours_to_resolve": 1208.0
+    "score": 30.8,
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "643459",
     "question": "Will the Atlanta Hawks win the 2025\u20132026 NBA Southeast Division?",
     "direction": "BUY NO",
     "category": "sports",
-    "bin_edge": 0.0304,
+    "bin_edge": 0.0294,
     "bin_win_rate": 0.9719,
     "bin_n": 2559352,
     "distinct_markets": 5371,
     "ci_lower": 0.9671,
-    "ci_edge": 0.0256,
+    "ci_edge": 0.0246,
     "bonferroni_significant": true,
-    "market_implied": 0.9165,
+    "market_implied": 0.9175,
     "n_signals": 1,
-    "score": 30.81,
-    "hours_to_resolve": 1208.0
+    "score": 29.8,
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "643443",
@@ -813,24 +830,7 @@
     "market_implied": 0.92,
     "n_signals": 1,
     "score": 27.91,
-    "hours_to_resolve": 1208.0
-  },
-  {
-    "market_id": "643386",
-    "question": "Will the Los Angeles Clippers make the NBA Playoffs?",
-    "direction": "BUY YES",
-    "category": "sports",
-    "bin_edge": 0.0194,
-    "bin_win_rate": 0.4794,
-    "bin_n": 995464,
-    "distinct_markets": 3241,
-    "ci_lower": 0.4623,
-    "ci_edge": 0.0023,
-    "bonferroni_significant": true,
-    "market_implied": 0.435,
-    "n_signals": 1,
-    "score": 24.64,
-    "hours_to_resolve": 1208.0
+    "hours_to_resolve": 1207.9
   },
   {
     "market_id": "568629",
@@ -847,6 +847,6 @@
     "market_implied": 0.725,
     "n_signals": 1,
     "score": 28.47,
-    "hours_to_resolve": 1232.0
+    "hours_to_resolve": 1231.9
   }
 ]
