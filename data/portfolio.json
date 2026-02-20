@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-20T11:00:31.972564+00:00",
+  "updated_at": "2026-02-20T12:00:28.596103+00:00",
   "summary": {
-    "pending": 73,
+    "pending": 74,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0914
+    "avg_bin_edge": 0.0922
   },
   "pending_picks": [
     {
@@ -810,6 +810,17 @@
       "first_seen": "2026-02-20T11:00:31Z",
       "bin_edge": 0.1022,
       "bin_n": 586808,
+      "category": "sports"
+    },
+    {
+      "market_id": "643386",
+      "question": "Will the Los Angeles Clippers make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.39,
+      "mid_price": 0.4,
+      "first_seen": "2026-02-20T12:00:28Z",
+      "bin_edge": 0.153,
+      "bin_n": 769763,
       "category": "sports"
     }
   ],
