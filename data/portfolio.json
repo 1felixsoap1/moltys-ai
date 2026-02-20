@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-20T13:00:28.239756+00:00",
+  "updated_at": "2026-02-20T14:00:28.142221+00:00",
   "summary": {
-    "pending": 76,
+    "pending": 77,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0928
+    "avg_bin_edge": 0.0921
   },
   "pending_picks": [
     {
@@ -843,6 +843,17 @@
       "first_seen": "2026-02-20T13:00:28Z",
       "bin_edge": 0.0388,
       "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "958442",
+      "question": "Will the Iranian regime fall by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.913,
+      "mid_price": 0.0965,
+      "first_seen": "2026-02-20T14:00:28Z",
+      "bin_edge": 0.0387,
+      "bin_n": 1163272,
       "category": "other"
     }
   ],

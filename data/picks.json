@@ -14,7 +14,7 @@
     "market_implied": 0.525,
     "n_signals": 1,
     "score": 613.15,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354815",
@@ -31,7 +31,7 @@
     "market_implied": 0.585,
     "n_signals": 1,
     "score": 555.88,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1377032",
@@ -48,24 +48,24 @@
     "market_implied": 0.585,
     "n_signals": 1,
     "score": 547.15,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354393",
     "question": "Will Aston Villa FC win on 2026-02-21?",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.283,
+    "bin_edge": 0.278,
     "bin_win_rate": 0.833,
     "bin_n": 686360,
     "distinct_markets": 1335,
     "ci_lower": 0.812,
-    "ci_edge": 0.262,
+    "ci_edge": 0.257,
     "bonferroni_significant": true,
-    "market_implied": 0.525,
+    "market_implied": 0.53,
     "n_signals": 1,
-    "score": 450.29,
-    "hours_to_resolve": 11.0
+    "score": 442.33,
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354427",
@@ -82,7 +82,7 @@
     "market_implied": 0.655,
     "n_signals": 1,
     "score": 408.65,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1377029",
@@ -99,7 +99,7 @@
     "market_implied": 0.495,
     "n_signals": 1,
     "score": 305.81,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1377036",
@@ -116,7 +116,7 @@
     "market_implied": 0.14500000000000002,
     "n_signals": 1,
     "score": 293.27,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354331",
@@ -133,7 +133,7 @@
     "market_implied": 0.46499999999999997,
     "n_signals": 1,
     "score": 288.72,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354325",
@@ -150,7 +150,7 @@
     "market_implied": 0.475,
     "n_signals": 1,
     "score": 269.12,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354802",
@@ -167,7 +167,7 @@
     "market_implied": 0.515,
     "n_signals": 1,
     "score": 241.36,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1377024",
@@ -184,7 +184,7 @@
     "market_implied": 0.535,
     "n_signals": 1,
     "score": 221.52,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "1354353",
@@ -201,7 +201,7 @@
     "market_implied": 0.505,
     "n_signals": 1,
     "score": 208.57,
-    "hours_to_resolve": 11.0
+    "hours_to_resolve": 10.0
   },
   {
     "market_id": "897776",
@@ -218,7 +218,7 @@
     "market_implied": 0.475,
     "n_signals": 1,
     "score": 2330.61,
-    "hours_to_resolve": 35.0
+    "hours_to_resolve": 34.0
   },
   {
     "market_id": "897777",
@@ -235,7 +235,7 @@
     "market_implied": 0.435,
     "n_signals": 1,
     "score": 2179.21,
-    "hours_to_resolve": 35.0
+    "hours_to_resolve": 34.0
   },
   {
     "market_id": "898177",
@@ -252,24 +252,7 @@
     "market_implied": 0.43,
     "n_signals": 1,
     "score": 319.33,
-    "hours_to_resolve": 35.0
-  },
-  {
-    "market_id": "898191",
-    "question": "Will Finland win the Men's Ice Hockey bronze medal at the 2026 Winter Olympics?",
-    "direction": "BUY YES",
-    "category": "sports",
-    "bin_edge": 0.2675,
-    "bin_win_rate": 0.833,
-    "bin_n": 686360,
-    "distinct_markets": 1335,
-    "ci_lower": 0.812,
-    "ci_edge": 0.2465,
-    "bonferroni_significant": true,
-    "market_implied": 0.5405,
-    "n_signals": 1,
-    "score": 297.77,
-    "hours_to_resolve": 35.0
+    "hours_to_resolve": 34.0
   },
   {
     "market_id": "1358246",
@@ -285,8 +268,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.545,
     "n_signals": 1,
-    "score": 279.96,
-    "hours_to_resolve": 35.0
+    "score": 288.19,
+    "hours_to_resolve": 34.0
+  },
+  {
+    "market_id": "1145161",
+    "question": "Will \"Sentimental Value\" win Best Original Screenplay at the 2026 BAFTA Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.2815,
+    "bin_win_rate": 0.8115,
+    "bin_n": 57262,
+    "distinct_markets": 122,
+    "ci_lower": 0.733,
+    "ci_edge": 0.203,
+    "bonferroni_significant": true,
+    "market_implied": 0.505,
+    "n_signals": 1,
+    "score": 282.66,
+    "hours_to_resolve": 34.0
   },
   {
     "market_id": "1310526",
@@ -303,24 +303,24 @@
     "market_implied": 0.5700000000000001,
     "n_signals": 1,
     "score": 277.04,
-    "hours_to_resolve": 35.0
+    "hours_to_resolve": 34.0
   },
   {
-    "market_id": "898176",
-    "question": "Will Canada win the Men's Ice Hockey silver medal at the 2026 Winter Olympics?",
+    "market_id": "898191",
+    "question": "Will Finland win the Men's Ice Hockey bronze medal at the 2026 Winter Olympics?",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.1923,
-    "bin_win_rate": 0.5173,
-    "bin_n": 568577,
-    "distinct_markets": 1593,
-    "ci_lower": 0.4927,
-    "ci_edge": 0.1677,
+    "bin_edge": 0.247,
+    "bin_win_rate": 0.833,
+    "bin_n": 686360,
+    "distinct_markets": 1335,
+    "ci_lower": 0.812,
+    "ci_edge": 0.226,
     "bonferroni_significant": true,
-    "market_implied": 0.3,
+    "market_implied": 0.5609999999999999,
     "n_signals": 1,
-    "score": 237.18,
-    "hours_to_resolve": 35.0
+    "score": 274.95,
+    "hours_to_resolve": 34.0
   },
   {
     "market_id": "1310507",
@@ -337,41 +337,7 @@
     "market_implied": 0.575,
     "n_signals": 1,
     "score": 205.46,
-    "hours_to_resolve": 35.0
-  },
-  {
-    "market_id": "1310591",
-    "question": "Will the fight be won by KO or TKO?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.3765,
-    "bin_win_rate": 0.9065,
-    "bin_n": 185418,
-    "distinct_markets": 535,
-    "ci_lower": 0.8789,
-    "ci_edge": 0.3489,
-    "bonferroni_significant": true,
-    "market_implied": 0.505,
-    "n_signals": 1,
-    "score": 195.99,
-    "hours_to_resolve": 35.0
-  },
-  {
-    "market_id": "1310506",
-    "question": "UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)",
-    "direction": "BUY YES",
-    "category": "sports",
-    "bin_edge": 0.0466,
-    "bin_win_rate": 0.3666,
-    "bin_n": 720092,
-    "distinct_markets": 1852,
-    "ci_lower": 0.345,
-    "ci_edge": 0.025,
-    "bonferroni_significant": true,
-    "market_implied": 0.295,
-    "n_signals": 1,
-    "score": 194.43,
-    "hours_to_resolve": 35.0
+    "hours_to_resolve": 34.0
   },
   {
     "market_id": "1116334",
@@ -388,7 +354,7 @@
     "market_implied": 0.405,
     "n_signals": 1,
     "score": 1778.84,
-    "hours_to_resolve": 59.0
+    "hours_to_resolve": 58.0
   },
   {
     "market_id": "1116335",
@@ -405,7 +371,7 @@
     "market_implied": 0.595,
     "n_signals": 1,
     "score": 534.74,
-    "hours_to_resolve": 59.0
+    "hours_to_resolve": 58.0
   },
   {
     "market_id": "1347169",
@@ -421,8 +387,42 @@
     "bonferroni_significant": true,
     "market_implied": 0.54,
     "n_signals": 1,
-    "score": 224.5,
-    "hours_to_resolve": 59.0
+    "score": 228.37,
+    "hours_to_resolve": 58.0
+  },
+  {
+    "market_id": "1139645",
+    "question": "Will Player 167 win Beast Games: Season 2?",
+    "direction": "BUY YES",
+    "category": "other",
+    "bin_edge": 0.0542,
+    "bin_win_rate": 0.9982,
+    "bin_n": 4283185,
+    "distinct_markets": 4446,
+    "ci_lower": 0.9965,
+    "ci_edge": 0.0525,
+    "bonferroni_significant": true,
+    "market_implied": 0.919,
+    "n_signals": 1,
+    "score": 388.78,
+    "hours_to_resolve": 106.0
+  },
+  {
+    "market_id": "1221318",
+    "question": "Will Israel strike \u22641 countries in February 2026?",
+    "direction": "BUY YES",
+    "category": "other",
+    "bin_edge": 0.2596,
+    "bin_win_rate": 0.8796,
+    "bin_n": 125744,
+    "distinct_markets": 490,
+    "ci_lower": 0.8478,
+    "ci_edge": 0.2278,
+    "bonferroni_significant": true,
+    "market_implied": 0.595,
+    "n_signals": 1,
+    "score": 332.21,
+    "hours_to_resolve": 178.0
   },
   {
     "market_id": "1273938",
@@ -438,8 +438,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.735,
     "n_signals": 1,
-    "score": 305.45,
-    "hours_to_resolve": 179.0
+    "score": 307.16,
+    "hours_to_resolve": 178.0
   },
   {
     "market_id": "1277190",
@@ -455,93 +455,76 @@
     "bonferroni_significant": false,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 235.9,
-    "hours_to_resolve": 179.0
-  },
-  {
-    "market_id": "1221318",
-    "question": "Will Israel strike \u22641 countries in February 2026?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.1534,
-    "bin_win_rate": 0.7784,
-    "bin_n": 132215,
-    "distinct_markets": 677,
-    "ci_lower": 0.7456,
-    "ci_edge": 0.1206,
-    "bonferroni_significant": true,
-    "market_implied": 0.6,
-    "n_signals": 1,
-    "score": 195.21,
-    "hours_to_resolve": 179.0
+    "score": 237.23,
+    "hours_to_resolve": 178.0
   },
   {
     "market_id": "1194246",
     "question": "Will Team Vitality win PGL Cluj-Napoca 2026?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.2505,
+    "bin_edge": 0.2805,
     "bin_win_rate": 0.8505,
     "bin_n": 169261,
     "distinct_markets": 535,
     "ci_lower": 0.8178,
-    "ci_edge": 0.2178,
+    "ci_edge": 0.2478,
     "bonferroni_significant": true,
-    "market_implied": 0.575,
+    "market_implied": 0.545,
     "n_signals": 1,
-    "score": 191.14,
-    "hours_to_resolve": 179.0
-  },
-  {
-    "market_id": "1334172",
-    "question": "Will USD reach 1.7M Iranian rials by February 28?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.1849,
-    "bin_win_rate": 0.6699,
-    "bin_n": 95706,
-    "distinct_markets": 409,
-    "ci_lower": 0.623,
-    "ci_edge": 0.138,
-    "bonferroni_significant": true,
-    "market_implied": 0.45999999999999996,
-    "n_signals": 1,
-    "score": 187.68,
-    "hours_to_resolve": 179.0
+    "score": 215.23,
+    "hours_to_resolve": 178.0
   },
   {
     "market_id": "1303404",
     "question": "Will Ethereum dip to $1,600 in February?",
     "direction": "BUY YES",
     "category": "crypto",
-    "bin_edge": 0.1043,
+    "bin_edge": 0.0873,
     "bin_win_rate": 0.2478,
     "bin_n": 49189,
     "distinct_markets": 230,
     "ci_lower": 0.1965,
-    "ci_edge": 0.053,
+    "ci_edge": 0.036,
     "bonferroni_significant": true,
-    "market_implied": 0.1185,
+    "market_implied": 0.1355,
     "n_signals": 1,
-    "score": 388.45,
-    "hours_to_resolve": 203.0
+    "score": 326.74,
+    "hours_to_resolve": 202.0
+  },
+  {
+    "market_id": "1345641",
+    "question": "Will Bitcoin reach $75,000 in February?",
+    "direction": "BUY YES",
+    "category": "crypto",
+    "bin_edge": 0.0713,
+    "bin_win_rate": 0.2313,
+    "bin_n": 62944,
+    "distinct_markets": 268,
+    "ci_lower": 0.1849,
+    "ci_edge": 0.0249,
+    "bonferroni_significant": false,
+    "market_implied": 0.135,
+    "n_signals": 1,
+    "score": 276.32,
+    "hours_to_resolve": 202.0
   },
   {
     "market_id": "1006303",
     "question": "Will Jean Smart win Best Actress in a Comedy Series at the 2026 SAG Awards?",
     "direction": "BUY YES",
     "category": "entertainment",
-    "bin_edge": 0.2648,
+    "bin_edge": 0.2748,
     "bin_win_rate": 0.8848,
     "bin_n": 77033,
     "distinct_markets": 165,
     "ci_lower": 0.8272,
-    "ci_edge": 0.2072,
+    "ci_edge": 0.2172,
     "bonferroni_significant": true,
-    "market_implied": 0.595,
+    "market_implied": 0.585,
     "n_signals": 1,
-    "score": 193.15,
-    "hours_to_resolve": 203.0
+    "score": 201.43,
+    "hours_to_resolve": 202.0
   },
   {
     "market_id": "956344",
@@ -557,8 +540,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.45999999999999996,
     "n_signals": 1,
-    "score": 364.14,
-    "hours_to_resolve": 371.0
+    "score": 365.12,
+    "hours_to_resolve": 370.0
   },
   {
     "market_id": "614253",
@@ -574,8 +557,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.685,
     "n_signals": 1,
-    "score": 1144.89,
-    "hours_to_resolve": 539.0
+    "score": 1147.02,
+    "hours_to_resolve": 538.0
   },
   {
     "market_id": "613835",
@@ -591,8 +574,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.745,
     "n_signals": 1,
-    "score": 455.19,
-    "hours_to_resolve": 539.0
+    "score": 456.03,
+    "hours_to_resolve": 538.0
   },
   {
     "market_id": "614805",
@@ -608,8 +591,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.46499999999999997,
     "n_signals": 1,
-    "score": 261.38,
-    "hours_to_resolve": 539.0
+    "score": 261.87,
+    "hours_to_resolve": 538.0
   },
   {
     "market_id": "614355",
@@ -625,8 +608,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 235.64,
-    "hours_to_resolve": 539.0
+    "score": 236.08,
+    "hours_to_resolve": 538.0
   },
   {
     "market_id": "614763",
@@ -642,8 +625,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.675,
     "n_signals": 1,
-    "score": 232.98,
-    "hours_to_resolve": 539.0
+    "score": 233.41,
+    "hours_to_resolve": 538.0
   },
   {
     "market_id": "614007",
@@ -659,8 +642,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 224.79,
-    "hours_to_resolve": 539.0
+    "score": 225.21,
+    "hours_to_resolve": 538.0
   },
   {
     "market_id": "581560",
@@ -676,25 +659,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.5449999999999999,
     "n_signals": 1,
-    "score": 231.51,
-    "hours_to_resolve": 803.0
-  },
-  {
-    "market_id": "791705",
-    "question": "Israel strikes Iran by March 31, 2026?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.2708,
-    "bin_win_rate": 0.8308,
-    "bin_n": 96458,
-    "distinct_markets": 396,
-    "ci_lower": 0.7907,
-    "ci_edge": 0.2307,
-    "bonferroni_significant": true,
-    "market_implied": 0.535,
-    "n_signals": 1,
-    "score": 1263.16,
-    "hours_to_resolve": 923.0
+    "score": 231.8,
+    "hours_to_resolve": 802.0
   },
   {
     "market_id": "666696",
@@ -710,25 +676,59 @@
     "bonferroni_significant": true,
     "market_implied": 0.545,
     "n_signals": 1,
-    "score": 1229.59,
-    "hours_to_resolve": 923.0
+    "score": 1230.93,
+    "hours_to_resolve": 922.0
+  },
+  {
+    "market_id": "791705",
+    "question": "Israel strikes Iran by March 31, 2026?",
+    "direction": "BUY YES",
+    "category": "other",
+    "bin_edge": 0.2608,
+    "bin_win_rate": 0.8308,
+    "bin_n": 96458,
+    "distinct_markets": 396,
+    "ci_lower": 0.7907,
+    "ci_edge": 0.2207,
+    "bonferroni_significant": true,
+    "market_implied": 0.545,
+    "n_signals": 1,
+    "score": 1217.84,
+    "hours_to_resolve": 922.0
   },
   {
     "market_id": "677361",
     "question": "Will Russia capture Kostyantynivka by March 31?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.0994,
+    "bin_edge": 0.1044,
     "bin_win_rate": 0.4294,
     "bin_n": 135420,
     "distinct_markets": 687,
     "ci_lower": 0.3929,
-    "ci_edge": 0.0629,
+    "ci_edge": 0.0679,
     "bonferroni_significant": true,
-    "market_implied": 0.305,
+    "market_implied": 0.3,
     "n_signals": 1,
-    "score": 285.71,
-    "hours_to_resolve": 923.0
+    "score": 300.4,
+    "hours_to_resolve": 922.0
+  },
+  {
+    "market_id": "958442",
+    "question": "Will the Iranian regime fall by March 31?",
+    "direction": "BUY NO",
+    "category": "other",
+    "bin_edge": 0.0387,
+    "bin_win_rate": 0.9672,
+    "bin_n": 1163272,
+    "distinct_markets": 2347,
+    "ci_lower": 0.9592,
+    "ci_edge": 0.0307,
+    "bonferroni_significant": false,
+    "market_implied": 0.9035,
+    "n_signals": 1,
+    "score": 228.19,
+    "hours_to_resolve": 922.0
   },
   {
     "market_id": "1004797",
@@ -744,42 +744,42 @@
     "bonferroni_significant": true,
     "market_implied": 0.575,
     "n_signals": 1,
-    "score": 204.17,
-    "hours_to_resolve": 923.0
+    "score": 204.39,
+    "hours_to_resolve": 922.0
   },
   {
     "market_id": "801449",
     "question": "Will Anthropic have the best AI model at the end of March 2026?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.1514,
+    "bin_edge": 0.1594,
     "bin_win_rate": 0.6699,
     "bin_n": 95706,
     "distinct_markets": 409,
     "ci_lower": 0.623,
-    "ci_edge": 0.1045,
+    "ci_edge": 0.1125,
     "bonferroni_significant": true,
-    "market_implied": 0.49350000000000005,
+    "market_implied": 0.4855,
     "n_signals": 1,
-    "score": 193.06,
-    "hours_to_resolve": 923.0
+    "score": 203.48,
+    "hours_to_resolve": 922.0
   },
   {
     "market_id": "550706",
     "question": "Will Poland qualify for the 2026 FIFA World Cup?",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.2065,
+    "bin_edge": 0.2015,
     "bin_win_rate": 0.6465,
     "bin_n": 865556,
     "distinct_markets": 2328,
     "ci_lower": 0.6268,
-    "ci_edge": 0.1868,
+    "ci_edge": 0.1818,
     "bonferroni_significant": true,
-    "market_implied": 0.415,
+    "market_implied": 0.42,
     "n_signals": 1,
-    "score": 641.28,
-    "hours_to_resolve": 1211.0
+    "score": 626.27,
+    "hours_to_resolve": 1210.0
   },
   {
     "market_id": "550694",
@@ -795,8 +795,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.565,
     "n_signals": 1,
-    "score": 502.79,
-    "hours_to_resolve": 1211.0
+    "score": 503.21,
+    "hours_to_resolve": 1210.0
   },
   {
     "market_id": "644404",
@@ -812,8 +812,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.5215,
     "n_signals": 1,
-    "score": 370.58,
-    "hours_to_resolve": 1211.0
+    "score": 370.88,
+    "hours_to_resolve": 1210.0
   },
   {
     "market_id": "644416",
@@ -829,8 +829,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.5245,
     "n_signals": 1,
-    "score": 342.84,
-    "hours_to_resolve": 1211.0
+    "score": 343.13,
+    "hours_to_resolve": 1210.0
   },
   {
     "market_id": "550703",
@@ -846,7 +846,7 @@
     "bonferroni_significant": true,
     "market_implied": 0.315,
     "n_signals": 1,
-    "score": 201.53,
-    "hours_to_resolve": 1211.0
+    "score": 201.69,
+    "hours_to_resolve": 1210.0
   }
 ]
