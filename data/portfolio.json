@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-20T15:00:28.981405+00:00",
+  "updated_at": "2026-02-20T16:00:28.863730+00:00",
   "summary": {
-    "pending": 78,
+    "pending": 113,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0927
+    "avg_bin_edge": 0.0765
   },
   "pending_picks": [
     {
@@ -866,6 +866,391 @@
       "bin_edge": 0.1393,
       "bin_n": 664594,
       "category": "sports"
+    },
+    {
+      "market_id": "897778",
+      "question": "Will Finland win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
+      "direction": "BUY NO",
+      "order_price": 0.926,
+      "mid_price": 0.0815,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0364,
+      "bin_n": 9459981,
+      "category": "sports"
+    },
+    {
+      "market_id": "562187",
+      "question": "Will John Cornyn win the 2026 Texas Republican Primary?",
+      "direction": "BUY NO",
+      "order_price": 0.82,
+      "mid_price": 0.185,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.02,
+      "bin_n": 1082209,
+      "category": "politics"
+    },
+    {
+      "market_id": "614361",
+      "question": "Will Amy Madigan win Best Supporting Actress at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.818,
+      "mid_price": 0.1915,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0449,
+      "bin_n": 1018134,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1198451",
+      "question": "Israel strikes Iran by February 28, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.84,
+      "mid_price": 0.165,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0184,
+      "bin_n": 1018134,
+      "category": "other"
+    },
+    {
+      "market_id": "1169205",
+      "question": "Iran Strike on Israel by February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.83,
+      "mid_price": 0.175,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0284,
+      "bin_n": 1018134,
+      "category": "other"
+    },
+    {
+      "market_id": "614252",
+      "question": "Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.82,
+      "mid_price": 0.18,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0334,
+      "bin_n": 1018134,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "665426",
+      "question": "Will a new country join the Abraham Accords by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.69,
+      "mid_price": 0.295,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0664,
+      "bin_n": 1276117,
+      "category": "other"
+    },
+    {
+      "market_id": "569259",
+      "question": "Will CD win the most seats in the 2026 Colombian Senate election?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.08,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0349,
+      "bin_n": 9459981,
+      "category": "politics"
+    },
+    {
+      "market_id": "693647",
+      "question": "Will Polymarket mindshare hit 85%?",
+      "direction": "BUY NO",
+      "order_price": 0.718,
+      "mid_price": 0.281,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0524,
+      "bin_n": 1276117,
+      "category": "other"
+    },
+    {
+      "market_id": "1198784",
+      "question": "Iran strike on US military by February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.82,
+      "mid_price": 0.185,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0384,
+      "bin_n": 1018134,
+      "category": "other"
+    },
+    {
+      "market_id": "614566",
+      "question": "Will Hamnet win Best Adapted Screenplay at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0415,
+      "bin_n": 4080643,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1377042",
+      "question": "Nets vs. Thunder",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0399,
+      "bin_n": 9459981,
+      "category": "sports"
+    },
+    {
+      "market_id": "1058747",
+      "question": "Will Movistar KOI win the LEC 2026 Versus?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.1995,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0529,
+      "bin_n": 1018134,
+      "category": "other"
+    },
+    {
+      "market_id": "1266129",
+      "question": "Will MegaETH perform an airdrop by March 15?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.09,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0369,
+      "bin_n": 2559352,
+      "category": "crypto"
+    },
+    {
+      "market_id": "956347",
+      "question": "Will South Africa win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY NO",
+      "order_price": 0.82,
+      "mid_price": 0.185,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0384,
+      "bin_n": 1018134,
+      "category": "other"
+    },
+    {
+      "market_id": "1273714",
+      "question": "Will Angeliki Stogia - Labour win the Gorton and Denton by-election?",
+      "direction": "BUY NO",
+      "order_price": 0.913,
+      "mid_price": 0.0915,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.038,
+      "bin_n": 4080643,
+      "category": "politics"
+    },
+    {
+      "market_id": "1058744",
+      "question": "Will G2 Esports win the LEC 2026 Versus?",
+      "direction": "BUY NO",
+      "order_price": 0.72,
+      "mid_price": 0.2725,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0294,
+      "bin_n": 1488528,
+      "category": "other"
+    },
+    {
+      "market_id": "956349",
+      "question": "Will New Zealand win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY NO",
+      "order_price": 0.913,
+      "mid_price": 0.0935,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.04,
+      "bin_n": 4080643,
+      "category": "other"
+    },
+    {
+      "market_id": "1262848",
+      "question": "Will NVIDIA reach $200 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.71,
+      "mid_price": 0.295,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0664,
+      "bin_n": 1276117,
+      "category": "other"
+    },
+    {
+      "market_id": "1146053",
+      "question": "Will Robert Aramayo win Best Actor at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.891,
+      "mid_price": 0.093,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0479,
+      "bin_n": 9459981,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "677397",
+      "question": "Will Israel launch a major ground offensive in Lebanon by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0319,
+      "bin_n": 2559352,
+      "category": "other"
+    },
+    {
+      "market_id": "643369",
+      "question": "Will the Atlanta Hawks make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.36,
+      "mid_price": 0.41,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0444,
+      "bin_n": 995464,
+      "category": "sports"
+    },
+    {
+      "market_id": "956346",
+      "question": "Will England win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0415,
+      "bin_n": 4080643,
+      "category": "other"
+    },
+    {
+      "market_id": "1302443",
+      "question": "Will Elon Musk\u2019s net worth be between $670b and $680b on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.7,
+      "mid_price": 0.295,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0664,
+      "bin_n": 1276117,
+      "category": "other"
+    },
+    {
+      "market_id": "643459",
+      "question": "Will the Atlanta Hawks win the 2025\u20132026 NBA Southeast Division?",
+      "direction": "BUY NO",
+      "order_price": 0.908,
+      "mid_price": 0.0835,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0304,
+      "bin_n": 2559352,
+      "category": "sports"
+    },
+    {
+      "market_id": "1301491",
+      "question": "Houthi strike on Israel by February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0419,
+      "bin_n": 2559352,
+      "category": "other"
+    },
+    {
+      "market_id": "1301637",
+      "question": "Will Microsoft (MSFT) close above $420 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0419,
+      "bin_n": 2559352,
+      "category": "other"
+    },
+    {
+      "market_id": "568629",
+      "question": "Will Scottie Scheffler win the 2026 Masters tournament?",
+      "direction": "BUY NO",
+      "order_price": 0.7,
+      "mid_price": 0.275,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0464,
+      "bin_n": 1276117,
+      "category": "other"
+    },
+    {
+      "market_id": "1322007",
+      "question": "Will Hyperliquid dip to $24 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.039,
+      "bin_n": 2029321,
+      "category": "other"
+    },
+    {
+      "market_id": "643443",
+      "question": "Will the Houston Rockets win the 2025\u20132026 NBA Southwest Division?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.08,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0269,
+      "bin_n": 2559352,
+      "category": "sports"
+    },
+    {
+      "market_id": "1236416",
+      "question": "Will Italy join the Board of Peace?",
+      "direction": "BUY NO",
+      "order_price": 0.924,
+      "mid_price": 0.0845,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.031,
+      "bin_n": 4080643,
+      "category": "other"
+    },
+    {
+      "market_id": "1243294",
+      "question": "French forces seize another oil tanker by Feb 28?",
+      "direction": "BUY NO",
+      "order_price": 0.889,
+      "mid_price": 0.096,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0425,
+      "bin_n": 4080643,
+      "category": "other"
+    },
+    {
+      "market_id": "1321391",
+      "question": "Will Dana White attend the 2026 State of the Union address?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.185,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0384,
+      "bin_n": 1018134,
+      "category": "other"
+    },
+    {
+      "market_id": "658929",
+      "question": "Will Florida win the 2026 NCAA Tournament?",
+      "direction": "BUY NO",
+      "order_price": 0.917,
+      "mid_price": 0.0855,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0324,
+      "bin_n": 2559352,
+      "category": "other"
+    },
+    {
+      "market_id": "1301939",
+      "question": "Will Palantir (PLTR) close above $140 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.705,
+      "mid_price": 0.2775,
+      "first_seen": "2026-02-20T16:00:28Z",
+      "bin_edge": 0.0489,
+      "bin_n": 1276117,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
