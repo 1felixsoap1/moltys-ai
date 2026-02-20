@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-20T08:00:38.793738+00:00",
+  "updated_at": "2026-02-20T08:56:49.620428+00:00",
   "summary": {
-    "pending": 50,
+    "pending": 68,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0482
+    "avg_bin_edge": 0.0882
   },
   "pending_picks": [
     {
@@ -557,6 +557,204 @@
       "first_seen": "2026-02-20T08:00:38Z",
       "bin_edge": 0.0325,
       "bin_n": 2119757,
+      "category": "sports"
+    },
+    {
+      "market_id": "897777",
+      "question": "Will United States win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
+      "direction": "BUY YES",
+      "order_price": 0.44,
+      "mid_price": 0.44,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.2138,
+      "bin_n": 658749,
+      "category": "sports"
+    },
+    {
+      "market_id": "1310506",
+      "question": "UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1923,
+      "bin_n": 568577,
+      "category": "sports"
+    },
+    {
+      "market_id": "1377029",
+      "question": "Jazz vs. Grizzlies",
+      "direction": "BUY YES",
+      "order_price": 0.45,
+      "mid_price": 0.455,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1988,
+      "bin_n": 658749,
+      "category": "sports"
+    },
+    {
+      "market_id": "956344",
+      "question": "Will India win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.45,
+      "mid_price": 0.455,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.2287,
+      "bin_n": 167252,
+      "category": "other"
+    },
+    {
+      "market_id": "677361",
+      "question": "Will Russia capture Kostyantynivka by March 31?",
+      "direction": "BUY YES",
+      "order_price": 0.29,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1044,
+      "bin_n": 135420,
+      "category": "other"
+    },
+    {
+      "market_id": "1354331",
+      "question": "Will Juventus FC win on 2026-02-21?",
+      "direction": "BUY YES",
+      "order_price": 0.46,
+      "mid_price": 0.465,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1888,
+      "bin_n": 658749,
+      "category": "sports"
+    },
+    {
+      "market_id": "1310526",
+      "question": "UFC Fight Night: Ante Delija vs. Serghei Spivac (Heavyweight, Main Card)",
+      "direction": "BUY YES",
+      "order_price": 0.56,
+      "mid_price": 0.56,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.248,
+      "bin_n": 686360,
+      "category": "sports"
+    },
+    {
+      "market_id": "1377036",
+      "question": "Mavericks vs. Timberwolves",
+      "direction": "BUY YES",
+      "order_price": 0.15,
+      "mid_price": 0.155,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1245,
+      "bin_n": 348454,
+      "category": "sports"
+    },
+    {
+      "market_id": "1354325",
+      "question": "Will Brentford FC win on 2026-02-21?",
+      "direction": "BUY YES",
+      "order_price": 0.48,
+      "mid_price": 0.485,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1688,
+      "bin_n": 658749,
+      "category": "sports"
+    },
+    {
+      "market_id": "1358246",
+      "question": "Will Liverpool FC win on 2026-02-22?",
+      "direction": "BUY YES",
+      "order_price": 0.54,
+      "mid_price": 0.545,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.2041,
+      "bin_n": 905838,
+      "category": "sports"
+    },
+    {
+      "market_id": "581560",
+      "question": "Will Arsenal win the 2025\u201326 Carabao Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.52,
+      "mid_price": 0.525,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.3005,
+      "bin_n": 169261,
+      "category": "other"
+    },
+    {
+      "market_id": "801449",
+      "question": "Will Anthropic have the best AI model at the end of March 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.453,
+      "mid_price": 0.4555,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.1894,
+      "bin_n": 95706,
+      "category": "other"
+    },
+    {
+      "market_id": "1285272",
+      "question": "Will Google Gemini score at least 50% on Humanity\u2019s Last Exam?",
+      "direction": "BUY YES",
+      "order_price": 0.54,
+      "mid_price": 0.56,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.2946,
+      "bin_n": 125744,
+      "category": "other"
+    },
+    {
+      "market_id": "614007",
+      "question": "Will Leonardo DiCaprio win Best Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.0403,
+      "bin_n": 363783,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1385911",
+      "question": "Will Elon Musk post 65-89 tweets from February 19 to February 21, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.43,
+      "mid_price": 0.435,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.2487,
+      "bin_n": 167252,
+      "category": "other"
+    },
+    {
+      "market_id": "1310507",
+      "question": "Fight to Go the Distance?",
+      "direction": "BUY YES",
+      "order_price": 0.57,
+      "mid_price": 0.575,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.3065,
+      "bin_n": 185418,
+      "category": "other"
+    },
+    {
+      "market_id": "1377039",
+      "question": "Bucks vs. Pelicans",
+      "direction": "BUY YES",
+      "order_price": 0.4,
+      "mid_price": 0.405,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.2488,
+      "bin_n": 658749,
+      "category": "sports"
+    },
+    {
+      "market_id": "550708",
+      "question": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.335,
+      "first_seen": "2026-02-20T08:56:49Z",
+      "bin_edge": 0.0891,
+      "bin_n": 692242,
       "category": "sports"
     }
   ],
