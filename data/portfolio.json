@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-20T02:00:37.982702+00:00",
+  "updated_at": "2026-02-20T03:00:27.839732+00:00",
   "summary": {
-    "pending": 46,
+    "pending": 47,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
@@ -514,6 +514,17 @@
       "bin_edge": 0.062,
       "bin_n": 1143963,
       "category": "other"
+    },
+    {
+      "market_id": "1352259",
+      "question": "Will Finley Melville Ives (NZL) win the gold medal for Ski Halfpipe - Men's at the 2026 Milano Cortina Winter Olympics?",
+      "direction": "BUY YES",
+      "order_price": 0.6,
+      "mid_price": 0.605,
+      "first_seen": "2026-02-20T03:00:27Z",
+      "bin_edge": 0.0455,
+      "bin_n": 1231235,
+      "category": "sports"
     }
   ],
   "recent_resolutions": []
