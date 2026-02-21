@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T22:00:25.133807+00:00",
+  "updated_at": "2026-02-21T23:00:25.399207+00:00",
   "summary": {
-    "pending": 111,
+    "pending": 113,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0547
+    "avg_bin_edge": 0.0549
   },
   "pending_picks": [
     {
@@ -1228,6 +1228,28 @@
       "first_seen": "2026-02-21T21:00:27Z",
       "bin_edge": 0.0534,
       "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1360922",
+      "question": "Will Hims & Hers Health (HIMS) beat quarterly earnings?",
+      "direction": "BUY NO",
+      "order_price": 0.32,
+      "mid_price": 0.68,
+      "first_seen": "2026-02-21T23:00:25Z",
+      "bin_edge": 0.0988,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1321389",
+      "question": "Will Elon Musk attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "order_price": 0.21,
+      "mid_price": 0.21,
+      "first_seen": "2026-02-21T23:00:25Z",
+      "bin_edge": 0.0307,
+      "bin_n": 287534,
       "category": "other"
     }
   ],
