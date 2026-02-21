@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T16:00:27.878017+00:00",
+  "updated_at": "2026-02-21T17:00:28.075151+00:00",
   "summary": {
-    "pending": 101,
+    "pending": 103,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0549
+    "avg_bin_edge": 0.0548
   },
   "pending_picks": [
     {
@@ -1119,6 +1119,28 @@
       "bin_edge": 0.0299,
       "bin_n": 397357,
       "category": "other"
+    },
+    {
+      "market_id": "1375502",
+      "question": "Will Elon Musk post 380-399 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.812,
+      "mid_price": 0.1935,
+      "first_seen": "2026-02-21T17:00:28Z",
+      "bin_edge": 0.0554,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1003708",
+      "question": "Will Teyana Taylor win Best Supporting Actress in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.61,
+      "mid_price": 0.63,
+      "first_seen": "2026-02-21T17:00:28Z",
+      "bin_edge": 0.0512,
+      "bin_n": 118489,
+      "category": "entertainment"
     }
   ],
   "recent_resolutions": []
