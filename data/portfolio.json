@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-21T17:00:28.075151+00:00",
+  "updated_at": "2026-02-21T18:00:27.918498+00:00",
   "summary": {
-    "pending": 103,
+    "pending": 104,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
@@ -1141,6 +1141,17 @@
       "bin_edge": 0.0512,
       "bin_n": 118489,
       "category": "entertainment"
+    },
+    {
+      "market_id": "644095",
+      "question": "Will Victor Wembanyama lead the NBA in blocks during the 2025\u201326 NBA season?",
+      "direction": "BUY YES",
+      "order_price": 0.81,
+      "mid_price": 0.83,
+      "first_seen": "2026-02-21T18:00:27Z",
+      "bin_edge": 0.046,
+      "bin_n": 255915,
+      "category": "sports"
     }
   ],
   "recent_resolutions": []
