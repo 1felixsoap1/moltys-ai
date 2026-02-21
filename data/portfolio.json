@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T09:00:27.276010+00:00",
+  "updated_at": "2026-02-21T10:00:27.735290+00:00",
   "summary": {
-    "pending": 65,
+    "pending": 71,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0563
+    "avg_bin_edge": 0.0557
   },
   "pending_picks": [
     {
@@ -723,6 +723,72 @@
       "bin_edge": 0.0709,
       "bin_n": 192167,
       "category": "other"
+    },
+    {
+      "market_id": "1116334",
+      "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the February decision?",
+      "direction": "BUY YES",
+      "order_price": 0.4,
+      "mid_price": 0.4,
+      "first_seen": "2026-02-21T10:00:27Z",
+      "bin_edge": 0.0492,
+      "bin_n": 180494,
+      "category": "other"
+    },
+    {
+      "market_id": "1273938",
+      "question": "Will the US not strike Iran by February 28, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.81,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-21T10:00:27Z",
+      "bin_edge": 0.0414,
+      "bin_n": 285491,
+      "category": "other"
+    },
+    {
+      "market_id": "614764",
+      "question": "Will Sinners win Best Film Editing at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.082,
+      "first_seen": "2026-02-21T10:00:27Z",
+      "bin_edge": 0.0363,
+      "bin_n": 363783,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "643397",
+      "question": "Will the Philadelphia 76ers make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.82,
+      "first_seen": "2026-02-21T10:00:27Z",
+      "bin_edge": 0.056,
+      "bin_n": 255915,
+      "category": "sports"
+    },
+    {
+      "market_id": "1322007",
+      "question": "Will Hyperliquid dip to $24 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-21T10:00:27Z",
+      "bin_edge": 0.0584,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1005867",
+      "question": "Will Noah Wyle win Best Actor in a Drama Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.88,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-21T10:00:27Z",
+      "bin_edge": 0.0536,
+      "bin_n": 369279,
+      "category": "entertainment"
     }
   ],
   "recent_resolutions": []
