@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T13:00:27.293971+00:00",
+  "updated_at": "2026-02-21T14:00:27.722027+00:00",
   "summary": {
-    "pending": 87,
+    "pending": 95,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0562
+    "avg_bin_edge": 0.0558
   },
   "pending_picks": [
     {
@@ -964,6 +964,94 @@
       "first_seen": "2026-02-21T13:00:27Z",
       "bin_edge": 0.0542,
       "bin_n": 2204595,
+      "category": "other"
+    },
+    {
+      "market_id": "1237513",
+      "question": "Will Alphabet be the second-largest company in the world by market cap on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0539,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1237549",
+      "question": "Will Apple be the third-largest company in the world by market cap on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.31,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0439,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1144457",
+      "question": "Will \"Hamnet\" win Best Film at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.8,
+      "mid_price": 0.195,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0688,
+      "bin_n": 235388,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1237550",
+      "question": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0447,
+      "bin_n": 165451,
+      "category": "other"
+    },
+    {
+      "market_id": "550706",
+      "question": "Will Poland qualify for the 2026 FIFA World Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.42,
+      "mid_price": 0.42,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0223,
+      "bin_n": 865556,
+      "category": "sports"
+    },
+    {
+      "market_id": "1382273",
+      "question": "Will the price of Bitcoin be above $68,000 on February 22?",
+      "direction": "BUY YES",
+      "order_price": 0.6,
+      "mid_price": 0.6,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0934,
+      "bin_n": 18275,
+      "category": "crypto"
+    },
+    {
+      "market_id": "614953",
+      "question": "Will Frankenstein win Best Makeup and Hairstyling at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.78,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0352,
+      "bin_n": 216587,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1375496",
+      "question": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.19,
+      "first_seen": "2026-02-21T14:00:27Z",
+      "bin_edge": 0.0519,
+      "bin_n": 289008,
       "category": "other"
     }
   ],
