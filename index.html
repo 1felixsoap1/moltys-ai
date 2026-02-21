@@ -109,29 +109,18 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
       <!-- Summary Cards -->
-      <div class="space-y-4">
-        <div id="perf-card" class="bg-surface border border-border rounded-xl p-6 glow">
-          <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Performance Summary</h3>
-          <div id="perf-content">
-            <p class="text-muted text-sm">Collecting data. Performance metrics will appear once enough picks have resolved to be statistically meaningful.</p>
-          </div>
-        </div>
-
-        <!-- Recent Resolutions -->
-        <div class="bg-surface border border-border rounded-xl p-6">
-          <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Recent Resolutions</h3>
-          <div id="resolutions-list" class="space-y-2 text-sm max-h-80 overflow-y-auto">
-            <p class="text-muted">No resolved positions yet.</p>
-          </div>
+      <div id="perf-card" class="bg-surface border border-border rounded-xl p-6 glow">
+        <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Performance Summary</h3>
+        <div id="perf-content">
+          <p class="text-muted text-sm">Collecting data. Performance metrics will appear once enough picks have resolved to be statistically meaningful.</p>
         </div>
       </div>
 
-      <!-- Pending Picks -->
-      <div class="bg-surface border border-border rounded-xl p-6 glow">
-        <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Pending Picks</h3>
-        <p class="text-xs text-muted mb-4">Tracked picks awaiting resolution.</p>
-        <div id="pending-list" class="space-y-2 text-sm max-h-96 overflow-y-auto">
-          <p class="text-muted">No pending picks.</p>
+      <!-- Recent Resolutions -->
+      <div class="bg-surface border border-border rounded-xl p-6">
+        <h3 class="text-sm text-muted uppercase tracking-wider mb-4">Recent Resolutions</h3>
+        <div id="resolutions-list" class="space-y-2 text-sm max-h-80 overflow-y-auto">
+          <p class="text-muted">No resolved positions yet.</p>
         </div>
       </div>
 
@@ -320,29 +309,6 @@ function renderPortfolio(data) {
           <span class="text-muted text-xs font-mono hide-mobile">${nStr}</span>
           <span class="font-semibold font-mono ${cls}">${fmtPnl(r.pnl)}</span>
           <span class="text-muted text-xs">${timeAgo(r.resolved_at)}</span>
-        </div>
-      </div>`;
-    }).join('');
-  }
-
-  // Pending picks
-  const pendingList = $('#pending-list');
-  if (data.pending_picks && data.pending_picks.length) {
-    pendingList.innerHTML = data.pending_picks.map(p => {
-      const isYes = (p.direction || '').includes('YES');
-      const dirBg = isYes ? 'bg-green-900/30 text-profit' : 'bg-red-900/30 text-loss';
-      const nStr = p.bin_n != null ? `n=${fmtN(p.bin_n)}` : '';
-      return `<div class="flex justify-between items-center py-1.5 border-b border-border/30">
-        <div class="flex items-center gap-2 min-w-0">
-          <span class="text-xs font-semibold px-1.5 py-0.5 rounded ${dirBg} shrink-0">${p.direction}</span>
-          ${catBadge(p.category)}
-          <span class="text-gray-300 truncate">${escHtml(p.question)}</span>
-        </div>
-        <div class="flex items-center gap-3 shrink-0 ml-2">
-          <span class="text-muted text-xs font-mono">${fmtEdge(p.bin_edge)}</span>
-          <span class="text-muted text-xs font-mono hide-mobile">${nStr}</span>
-          <span class="text-muted text-xs font-mono">@${fmt(p.order_price, 2)}</span>
-          <span class="text-muted text-xs">${timeAgo(p.first_seen)}</span>
         </div>
       </div>`;
     }).join('');
