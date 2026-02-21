@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T14:00:27.722027+00:00",
+  "updated_at": "2026-02-21T15:00:28.310434+00:00",
   "summary": {
-    "pending": 95,
+    "pending": 98,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0558
+    "avg_bin_edge": 0.0554
   },
   "pending_picks": [
     {
@@ -1052,6 +1052,39 @@
       "first_seen": "2026-02-21T14:00:27Z",
       "bin_edge": 0.0519,
       "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1277193",
+      "question": "Will Anthropic have the best AI model at the end of February 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.121,
+      "mid_price": 0.888,
+      "first_seen": "2026-02-21T15:00:28Z",
+      "bin_edge": 0.0306,
+      "bin_n": 337942,
+      "category": "other"
+    },
+    {
+      "market_id": "1237512",
+      "question": "Will Apple be the second-largest company in the world by market cap on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.685,
+      "first_seen": "2026-02-21T15:00:28Z",
+      "bin_edge": 0.0397,
+      "bin_n": 165451,
+      "category": "other"
+    },
+    {
+      "market_id": "956346",
+      "question": "Will England win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-21T15:00:28Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
       "category": "other"
     }
   ],
