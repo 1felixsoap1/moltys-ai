@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T01:35:42.085320+00:00",
+  "updated_at": "2026-02-21T08:00:28.064208+00:00",
   "summary": {
-    "pending": 133,
+    "pending": 143,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0732
+    "avg_bin_edge": 0.0731
   },
   "pending_picks": [
     {
@@ -1471,6 +1471,116 @@
       "bin_edge": 0.0587,
       "bin_n": 111467,
       "category": "entertainment"
+    },
+    {
+      "market_id": "1242301",
+      "question": "Will The Secret Agent win Best International Feature Film at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.2481,
+      "bin_n": 8610,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "614722",
+      "question": "Will Ryan Coogler win Best Director at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.927,
+      "mid_price": 0.081,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0353,
+      "bin_n": 363783,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "614766",
+      "question": "Will F1: The Movie win Best Film Editing at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.723,
+      "mid_price": 0.2785,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0329,
+      "bin_n": 947528,
+      "category": "sports"
+    },
+    {
+      "market_id": "957646",
+      "question": "Israel x Hamas Ceasefire Phase II by June 30?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0552,
+      "bin_n": 138094,
+      "category": "other"
+    },
+    {
+      "market_id": "1199485",
+      "question": "Will Inga Ibsdotter Lilleaas win Best Supporting Actress at the 2026 BAFTA Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.68,
+      "mid_price": 0.27,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0603,
+      "bin_n": 156028,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "991023",
+      "question": "Bank of Japan increases interest rates by 25 bps after March 2026 meeting?",
+      "direction": "BUY NO",
+      "order_price": 0.893,
+      "mid_price": 0.099,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0624,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "643391",
+      "question": "Will the Milwaukee Bucks make the NBA Playoffs?",
+      "direction": "BUY NO",
+      "order_price": 0.8,
+      "mid_price": 0.19,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0729,
+      "bin_n": 250528,
+      "category": "sports"
+    },
+    {
+      "market_id": "643399",
+      "question": "Will the Portland Trail Blazers make the NBA Playoffs?",
+      "direction": "BUY NO",
+      "order_price": 0.72,
+      "mid_price": 0.285,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0405,
+      "bin_n": 785318,
+      "category": "sports"
+    },
+    {
+      "market_id": "1375508",
+      "question": "Will Elon Musk post 420-439 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.0895,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0529,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1302446",
+      "question": "Will Elon Musk\u2019s net worth be at least $700b on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-21T08:00:28Z",
+      "bin_edge": 0.0584,
+      "bin_n": 1374601,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
