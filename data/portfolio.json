@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T18:00:27.918498+00:00",
+  "updated_at": "2026-02-21T19:00:27.666984+00:00",
   "summary": {
-    "pending": 104,
+    "pending": 105,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0548
+    "avg_bin_edge": 0.0546
   },
   "pending_picks": [
     {
@@ -1152,6 +1152,17 @@
       "bin_edge": 0.046,
       "bin_n": 255915,
       "category": "sports"
+    },
+    {
+      "market_id": "614252",
+      "question": "Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.185,
+      "first_seen": "2026-02-21T19:00:27Z",
+      "bin_edge": 0.0376,
+      "bin_n": 206941,
+      "category": "entertainment"
     }
   ],
   "recent_resolutions": []
