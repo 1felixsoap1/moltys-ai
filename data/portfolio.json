@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T15:00:28.310434+00:00",
+  "updated_at": "2026-02-21T16:00:27.878017+00:00",
   "summary": {
-    "pending": 98,
+    "pending": 101,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0554
+    "avg_bin_edge": 0.0549
   },
   "pending_picks": [
     {
@@ -1085,6 +1085,39 @@
       "first_seen": "2026-02-21T15:00:28Z",
       "bin_edge": 0.0575,
       "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1382276",
+      "question": "Will the price of Bitcoin be above $70,000 on February 22?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.0955,
+      "first_seen": "2026-02-21T16:00:27Z",
+      "bin_edge": 0.0379,
+      "bin_n": 616602,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1230041",
+      "question": "Will Trump say \"Biden\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "order_price": 0.92,
+      "mid_price": 0.92,
+      "first_seen": "2026-02-21T16:00:27Z",
+      "bin_edge": 0.0469,
+      "bin_n": 986649,
+      "category": "politics"
+    },
+    {
+      "market_id": "1373457",
+      "question": "Will there be exactly 0 earthquakes of magnitude 6.5 or higher worldwide by February 22?",
+      "direction": "BUY NO",
+      "order_price": 0.11,
+      "mid_price": 0.875,
+      "first_seen": "2026-02-21T16:00:27Z",
+      "bin_edge": 0.0299,
+      "bin_n": 397357,
       "category": "other"
     }
   ],
