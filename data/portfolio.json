@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-21T10:00:27.735290+00:00",
+  "updated_at": "2026-02-21T11:00:27.844375+00:00",
   "summary": {
-    "pending": 71,
+    "pending": 75,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0557
+    "avg_bin_edge": 0.0558
   },
   "pending_picks": [
     {
@@ -789,6 +789,50 @@
       "bin_edge": 0.0536,
       "bin_n": 369279,
       "category": "entertainment"
+    },
+    {
+      "market_id": "1277442",
+      "question": "Will Google have the #1 AI model at the end of February 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.892,
+      "mid_price": 0.0995,
+      "first_seen": "2026-02-21T11:00:27Z",
+      "bin_edge": 0.0629,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1121549",
+      "question": "Nothing Ever Happens: MicroStrategy",
+      "direction": "BUY YES",
+      "order_price": 0.91,
+      "mid_price": 0.91,
+      "first_seen": "2026-02-21T11:00:27Z",
+      "bin_edge": 0.0415,
+      "bin_n": 916799,
+      "category": "other"
+    },
+    {
+      "market_id": "1006313",
+      "question": "Will Catherine O'Hara win Best Actress in a Comedy Series at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.3715,
+      "first_seen": "2026-02-21T11:00:27Z",
+      "bin_edge": 0.0628,
+      "bin_n": 124220,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1301637",
+      "question": "Will Microsoft (MSFT) close above $420 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-21T11:00:27Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
