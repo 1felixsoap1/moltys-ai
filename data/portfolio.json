@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-21T08:46:45.624325+00:00",
+  "updated_at": "2026-02-21T09:00:27.276010+00:00",
   "summary": {
-    "pending": 62,
+    "pending": 65,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
@@ -689,6 +689,39 @@
       "first_seen": "2026-02-21T08:46:45Z",
       "bin_edge": 0.0423,
       "bin_n": 135761,
+      "category": "other"
+    },
+    {
+      "market_id": "677393",
+      "question": "Hezbollah strike on Israel by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.72,
+      "mid_price": 0.28,
+      "first_seen": "2026-02-21T09:00:27Z",
+      "bin_edge": 0.0396,
+      "bin_n": 195298,
+      "category": "other"
+    },
+    {
+      "market_id": "666697",
+      "question": "Will USD.AI launch a token by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.14,
+      "mid_price": 0.855,
+      "first_seen": "2026-02-21T09:00:27Z",
+      "bin_edge": 0.0616,
+      "bin_n": 49182,
+      "category": "crypto"
+    },
+    {
+      "market_id": "910098",
+      "question": "Will Rafael Grossi be the next Secretary General of the United Nations?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.345,
+      "first_seen": "2026-02-21T09:00:27Z",
+      "bin_edge": 0.0709,
+      "bin_n": 192167,
       "category": "other"
     }
   ],
