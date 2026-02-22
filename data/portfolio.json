@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T19:00:31.090908+00:00",
+  "updated_at": "2026-02-22T20:00:31.538233+00:00",
   "summary": {
-    "pending": 189,
+    "pending": 196,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
     "total_pnl": -2.0,
-    "avg_bin_edge": 0.057
+    "avg_bin_edge": 0.0564
   },
   "pending_picks": [
     {
@@ -2086,6 +2086,83 @@
       "first_seen": "2026-02-22T19:00:31Z",
       "bin_edge": 0.0875,
       "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1410174",
+      "question": "LoL: Karmine Corp vs Team Vitality (BO3) - LEC Versus Playoffs",
+      "direction": "BUY NO",
+      "order_price": 0.62,
+      "mid_price": 0.385,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0362,
+      "bin_n": 568577,
+      "category": "sports"
+    },
+    {
+      "market_id": "614913",
+      "question": "Will Frankenstein win Best Costume Design at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.91,
+      "mid_price": 0.91,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0436,
+      "bin_n": 369279,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1220190",
+      "question": "Nuggets vs. Grizzlies",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0257,
+      "bin_n": 678948,
+      "category": "sports"
+    },
+    {
+      "market_id": "1232099",
+      "question": "Will India join the Board of Peace?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1385276",
+      "question": "LoL: Cloud9 vs Sentinels (BO5) - LCS Lock In Playoffs",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.825,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0176,
+      "bin_n": 352435,
+      "category": "sports"
+    },
+    {
+      "market_id": "643466",
+      "question": "Will the New York Knicks win the 2025\u20132026 NBA Atlantic Division?",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.395,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0455,
+      "bin_n": 586808,
+      "category": "sports"
+    },
+    {
+      "market_id": "1385915",
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 23?",
+      "direction": "BUY YES",
+      "order_price": 0.15,
+      "mid_price": 0.155,
+      "first_seen": "2026-02-22T20:00:31Z",
+      "bin_edge": 0.0652,
+      "bin_n": 34790,
       "category": "crypto"
     }
   ],
