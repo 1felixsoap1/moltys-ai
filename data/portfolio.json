@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T04:00:26.137738+00:00",
+  "updated_at": "2026-02-22T05:00:25.324383+00:00",
   "summary": {
-    "pending": 126,
+    "pending": 132,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0555
+    "avg_bin_edge": 0.0557
   },
   "pending_picks": [
     {
@@ -1393,6 +1393,72 @@
       "first_seen": "2026-02-22T04:00:26Z",
       "bin_edge": 0.0341,
       "bin_n": 337942,
+      "category": "other"
+    },
+    {
+      "market_id": "1006303",
+      "question": "Will Jean Smart win Best Actress in a Comedy Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.52,
+      "first_seen": "2026-02-22T05:00:25Z",
+      "bin_edge": 0.1056,
+      "bin_n": 57262,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1032869",
+      "question": "Ex-FaZe members form new organization by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-22T05:00:25Z",
+      "bin_edge": 0.0531,
+      "bin_n": 1163272,
+      "category": "other"
+    },
+    {
+      "market_id": "1261938",
+      "question": "Nuggets vs. Grizzlies: O/U 225.5",
+      "direction": "BUY YES",
+      "order_price": 0.59,
+      "mid_price": 0.6,
+      "first_seen": "2026-02-22T05:00:25Z",
+      "bin_edge": 0.0538,
+      "bin_n": 317604,
+      "category": "sports"
+    },
+    {
+      "market_id": "1221318",
+      "question": "Will Israel strike \u22641 countries in February 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.19,
+      "mid_price": 0.795,
+      "first_seen": "2026-02-22T05:00:25Z",
+      "bin_edge": 0.0271,
+      "bin_n": 230410,
+      "category": "other"
+    },
+    {
+      "market_id": "1243294",
+      "question": "French forces seize another oil tanker by Feb 28?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.09,
+      "first_seen": "2026-02-22T05:00:25Z",
+      "bin_edge": 0.0525,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1302443",
+      "question": "Will Elon Musk\u2019s net worth be between $670b and $680b on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.29,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-22T05:00:25Z",
+      "bin_edge": 0.0679,
+      "bin_n": 135420,
       "category": "other"
     }
   ],
