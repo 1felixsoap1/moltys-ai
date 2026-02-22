@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T17:00:32.127002+00:00",
+  "updated_at": "2026-02-22T18:00:37.170296+00:00",
   "summary": {
-    "pending": 179,
+    "pending": 182,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
     "total_pnl": -2.0,
-    "avg_bin_edge": 0.0567
+    "avg_bin_edge": 0.0564
   },
   "pending_picks": [
     {
@@ -1977,6 +1977,39 @@
       "bin_edge": 0.0991,
       "bin_n": 31804,
       "category": "crypto"
+    },
+    {
+      "market_id": "614253",
+      "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.39,
+      "first_seen": "2026-02-22T18:00:37Z",
+      "bin_edge": 0.0813,
+      "bin_n": 124220,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1169205",
+      "question": "Iran Strike on Israel by February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.1,
+      "mid_price": 0.105,
+      "first_seen": "2026-02-22T18:00:37Z",
+      "bin_edge": 0.0274,
+      "bin_n": 338303,
+      "category": "other"
+    },
+    {
+      "market_id": "1375505",
+      "question": "Will Elon Musk post 400-419 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.104,
+      "mid_price": 0.112,
+      "first_seen": "2026-02-22T18:00:37Z",
+      "bin_edge": 0.0204,
+      "bin_n": 338303,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
