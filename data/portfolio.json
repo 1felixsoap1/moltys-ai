@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T03:00:25.747719+00:00",
+  "updated_at": "2026-02-22T04:00:26.137738+00:00",
   "summary": {
-    "pending": 124,
+    "pending": 126,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
     "total_pnl": 0,
-    "avg_bin_edge": 0.0558
+    "avg_bin_edge": 0.0555
   },
   "pending_picks": [
     {
@@ -1372,6 +1372,28 @@
       "bin_edge": 0.071,
       "bin_n": 255915,
       "category": "sports"
+    },
+    {
+      "market_id": "643398",
+      "question": "Will the Phoenix Suns make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.65,
+      "mid_price": 0.71,
+      "first_seen": "2026-02-22T04:00:26Z",
+      "bin_edge": 0.0409,
+      "bin_n": 802516,
+      "category": "sports"
+    },
+    {
+      "market_id": "1277445",
+      "question": "Will Anthropic have the #1 AI model at the end of February 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.117,
+      "mid_price": 0.8915,
+      "first_seen": "2026-02-22T04:00:26Z",
+      "bin_edge": 0.0341,
+      "bin_n": 337942,
+      "category": "other"
     }
   ],
   "recent_resolutions": []
