@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T08:00:25.860315+00:00",
+  "updated_at": "2026-02-22T08:45:59.015259+00:00",
   "summary": {
-    "pending": 140,
+    "pending": 151,
     "wins": 0,
-    "losses": 0,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_pnl": 0,
-    "avg_bin_edge": 0.0563
+    "total_pnl": -2.0,
+    "avg_bin_edge": 0.0567
   },
   "pending_picks": [
     {
@@ -470,17 +470,6 @@
       "bin_edge": 0.0434,
       "bin_n": 397357,
       "category": "other"
-    },
-    {
-      "market_id": "1310506",
-      "question": "UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)",
-      "direction": "BUY NO",
-      "order_price": 0.71,
-      "mid_price": 0.295,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0233,
-      "bin_n": 720092,
-      "category": "sports"
     },
     {
       "market_id": "676710",
@@ -1187,17 +1176,6 @@
       "category": "other"
     },
     {
-      "market_id": "1347169",
-      "question": "Will Canada win the gold medal for Winter Olympics 2026: Curling - Men's at the 2026 Milano Cortina Winter Olympics?",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.38,
-      "first_seen": "2026-02-21T20:00:27Z",
-      "bin_edge": 0.0312,
-      "bin_n": 568577,
-      "category": "sports"
-    },
-    {
       "market_id": "1299197",
       "question": "Will NYC have less than 2 inches of precipitation in February?",
       "direction": "BUY NO",
@@ -1548,7 +1526,173 @@
       "bin_edge": 0.0883,
       "bin_n": 34644,
       "category": "crypto"
+    },
+    {
+      "market_id": "958442",
+      "question": "Will the Iranian regime fall by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.0995,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0576,
+      "bin_n": 1163272,
+      "category": "other"
+    },
+    {
+      "market_id": "1360921",
+      "question": "Will Domino's Pizza (DPZ) beat quarterly earnings?",
+      "direction": "BUY NO",
+      "order_price": 0.35,
+      "mid_price": 0.635,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0538,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1385965",
+      "question": "Will the price of Bitcoin be above $70,000 on February 23?",
+      "direction": "BUY YES",
+      "order_price": 0.14,
+      "mid_price": 0.14,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0802,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1385917",
+      "question": "Will the price of Ethereum be above $1,900 on February 23?",
+      "direction": "BUY NO",
+      "order_price": 0.13,
+      "mid_price": 0.87,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0933,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1369672",
+      "question": "Will Papa John's International (PZZA) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.715,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0461,
+      "bin_n": 196802,
+      "category": "other"
+    },
+    {
+      "market_id": "1385472",
+      "question": "Knicks vs. Bulls",
+      "direction": "BUY YES",
+      "order_price": 0.8,
+      "mid_price": 0.805,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0376,
+      "bin_n": 352435,
+      "category": "sports"
+    },
+    {
+      "market_id": "1370419",
+      "question": "Will Galatasaray SK win on 2026-02-25?",
+      "direction": "BUY NO",
+      "order_price": 0.83,
+      "mid_price": 0.175,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0579,
+      "bin_n": 250528,
+      "category": "sports"
+    },
+    {
+      "market_id": "1321388",
+      "question": "Will Nick Shirley attend the 2026 State of the Union address?",
+      "direction": "BUY NO",
+      "order_price": 0.12,
+      "mid_price": 0.885,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0399,
+      "bin_n": 397357,
+      "category": "other"
+    },
+    {
+      "market_id": "1301878",
+      "question": "Will NVIDIA (NVDA) close above $180 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.28,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0497,
+      "bin_n": 165451,
+      "category": "other"
+    },
+    {
+      "market_id": "1385923",
+      "question": "Will the price of Bitcoin be between $70,000 and $72,000 on February 23?",
+      "direction": "BUY YES",
+      "order_price": 0.11,
+      "mid_price": 0.11,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.1102,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "643390",
+      "question": "Will the Miami Heat make the NBA Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.81,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.061,
+      "bin_n": 255915,
+      "category": "sports"
+    },
+    {
+      "market_id": "1385916",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 23?",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.375,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0768,
+      "bin_n": 18774,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1277922",
+      "question": "Will Israel strike Gaza on February 21, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.08,
+      "first_seen": "2026-02-22T08:45:58Z",
+      "bin_edge": 0.0425,
+      "bin_n": 2193542,
+      "category": "other"
     }
   ],
-  "recent_resolutions": []
+  "recent_resolutions": [
+    {
+      "market_id": "1310506",
+      "question": "UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-22T08:45:24Z",
+      "bin_edge": 0.0233,
+      "bin_n": 720092,
+      "category": "sports"
+    },
+    {
+      "market_id": "1347169",
+      "question": "Will Canada win the gold medal for Winter Olympics 2026: Curling - Men's at the 2026 Milano Cortina Winter Olympics?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-22T08:45:24Z",
+      "bin_edge": 0.0312,
+      "bin_n": 568577,
+      "category": "sports"
+    }
+  ]
 }
