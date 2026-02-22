@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T11:00:31.422527+00:00",
+  "updated_at": "2026-02-22T12:00:37.190680+00:00",
   "summary": {
-    "pending": 163,
+    "pending": 164,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
     "total_pnl": -2.0,
-    "avg_bin_edge": 0.0565
+    "avg_bin_edge": 0.0566
   },
   "pending_picks": [
     {
@@ -1801,6 +1801,17 @@
       "bin_edge": 0.0888,
       "bin_n": 188889,
       "category": "other"
+    },
+    {
+      "market_id": "1385919",
+      "question": "Will the price of Ethereum be above $2,000 on February 23?",
+      "direction": "BUY NO",
+      "order_price": 0.63,
+      "mid_price": 0.375,
+      "first_seen": "2026-02-22T12:00:37Z",
+      "bin_edge": 0.0768,
+      "bin_n": 18774,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
