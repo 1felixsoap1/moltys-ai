@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T08:45:59.015259+00:00",
+  "updated_at": "2026-02-22T09:00:29.655906+00:00",
   "summary": {
-    "pending": 151,
+    "pending": 153,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
     "total_pnl": -2.0,
-    "avg_bin_edge": 0.0567
+    "avg_bin_edge": 0.0565
   },
   "pending_picks": [
     {
@@ -1668,6 +1668,28 @@
       "first_seen": "2026-02-22T08:45:58Z",
       "bin_edge": 0.0425,
       "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1398448",
+      "question": "Will Elon Musk post 65-89 tweets from February 21 to February 23, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.315,
+      "first_seen": "2026-02-22T09:00:29Z",
+      "bin_edge": 0.0389,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1398455",
+      "question": "Will Elon Musk post 115-139 tweets from February 21 to February 23, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.2,
+      "mid_price": 0.2,
+      "first_seen": "2026-02-22T09:00:29Z",
+      "bin_edge": 0.0371,
+      "bin_n": 235059,
       "category": "other"
     }
   ],
