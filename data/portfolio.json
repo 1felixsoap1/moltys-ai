@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T16:00:31.549953+00:00",
+  "updated_at": "2026-02-22T17:00:32.127002+00:00",
   "summary": {
-    "pending": 174,
+    "pending": 179,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
     "total_pnl": -2.0,
-    "avg_bin_edge": 0.0569
+    "avg_bin_edge": 0.0567
   },
   "pending_picks": [
     {
@@ -1922,6 +1922,61 @@
       "bin_edge": 0.0687,
       "bin_n": 236188,
       "category": "entertainment"
+    },
+    {
+      "market_id": "1366824",
+      "question": "Will FK Bod\u00f8/Glimt win on 2026-02-24?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-22T17:00:32Z",
+      "bin_edge": 0.0367,
+      "bin_n": 2899535,
+      "category": "sports"
+    },
+    {
+      "market_id": "643464",
+      "question": "Will the Boston Celtics win the 2025\u20132026 NBA Atlantic Division?",
+      "direction": "BUY NO",
+      "order_price": 0.363,
+      "mid_price": 0.589,
+      "first_seen": "2026-02-22T17:00:32Z",
+      "bin_edge": 0.0478,
+      "bin_n": 815088,
+      "category": "sports"
+    },
+    {
+      "market_id": "550694",
+      "question": "Will Italy qualify for the 2026 FIFA World Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.6,
+      "mid_price": 0.6,
+      "first_seen": "2026-02-22T17:00:32Z",
+      "bin_edge": 0.0217,
+      "bin_n": 687351,
+      "category": "sports"
+    },
+    {
+      "market_id": "1341339",
+      "question": "Will Rosamund Li get engaged in Bridgerton: Season 4?",
+      "direction": "BUY YES",
+      "order_price": 0.914,
+      "mid_price": 0.92,
+      "first_seen": "2026-02-22T17:00:32Z",
+      "bin_edge": 0.0422,
+      "bin_n": 2204595,
+      "category": "other"
+    },
+    {
+      "market_id": "1408319",
+      "question": "Bitcoin Up or Down on February 23?",
+      "direction": "BUY NO",
+      "order_price": 0.51,
+      "mid_price": 0.495,
+      "first_seen": "2026-02-22T17:00:32Z",
+      "bin_edge": 0.0991,
+      "bin_n": 31804,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
