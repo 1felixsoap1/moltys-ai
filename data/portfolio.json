@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T15:00:28.130401+00:00",
+  "updated_at": "2026-02-23T16:00:28.272251+00:00",
   "summary": {
-    "pending": 226,
+    "pending": 229,
     "wins": 9,
     "losses": 10,
     "win_rate": 0.4737,
     "total_pnl": 0.14,
-    "avg_bin_edge": 0.0584
+    "avg_bin_edge": 0.0582
   },
   "pending_picks": [
     {
@@ -2493,6 +2493,39 @@
       "first_seen": "2026-02-23T15:00:28Z",
       "bin_edge": 0.0859,
       "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1301840",
+      "question": "Will Tesla (TSLA) close above $430 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.09,
+      "first_seen": "2026-02-23T16:00:28Z",
+      "bin_edge": 0.0525,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1262871",
+      "question": "Will Netflix dip to $70 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-23T16:00:28Z",
+      "bin_edge": 0.0393,
+      "bin_n": 363783,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1262810",
+      "question": "Will Meta dip to $620 in February?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.31,
+      "first_seen": "2026-02-23T16:00:28Z",
+      "bin_edge": 0.0439,
+      "bin_n": 165014,
       "category": "other"
     }
   ],
