@@ -1,37 +1,37 @@
 [
   {
-    "market_id": "1375496",
-    "question": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
+    "market_id": "1375498",
+    "question": "Will Elon Musk post 360-379 tweets from February 17 to February 24, 2026?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.0709,
+    "bin_edge": 0.0809,
     "bin_win_rate": 0.4409,
     "bin_n": 192167,
     "distinct_markets": 694,
     "ci_lower": 0.4044,
-    "ci_edge": 0.0344,
+    "ci_edge": 0.0444,
     "bonferroni_significant": true,
-    "market_implied": 0.345,
+    "market_implied": 0.335,
     "n_signals": 1,
-    "score": 433.3,
-    "hours_to_resolve": 18.0
+    "score": 482.9,
+    "hours_to_resolve": 17.0
   },
   {
-    "market_id": "1375502",
-    "question": "Will Elon Musk post 380-399 tweets from February 17 to February 24, 2026?",
-    "direction": "BUY YES",
+    "market_id": "1375492",
+    "question": "Will Elon Musk post 320-339 tweets from February 17 to February 24, 2026?",
+    "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0436,
-    "bin_win_rate": 0.1741,
-    "bin_n": 398539,
-    "distinct_markets": 1153,
-    "ci_lower": 0.1535,
-    "ci_edge": 0.023,
+    "bin_edge": 0.0417,
+    "bin_win_rate": 0.9817,
+    "bin_n": 4271214,
+    "distinct_markets": 4447,
+    "ci_lower": 0.9774,
+    "ci_edge": 0.0374,
     "bonferroni_significant": true,
-    "market_implied": 0.1055,
+    "market_implied": 0.915,
     "n_signals": 1,
-    "score": 276.57,
-    "hours_to_resolve": 18.0
+    "score": 283.89,
+    "hours_to_resolve": 17.0
   },
   {
     "market_id": "1366824",
@@ -47,8 +47,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.91,
     "n_signals": 1,
-    "score": 146.52,
-    "hours_to_resolve": 18.0
+    "score": 147.03,
+    "hours_to_resolve": 17.0
   },
   {
     "market_id": "1388809",
@@ -64,42 +64,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.865,
     "n_signals": 1,
-    "score": 99.81,
-    "hours_to_resolve": 18.0
+    "score": 126.06,
+    "hours_to_resolve": 17.0
   },
   {
     "market_id": "1367320",
     "question": "LoL: JD Gaming vs Top Esports (BO5) - LPL Playoffs",
     "direction": "BUY YES",
     "category": "sports",
-    "bin_edge": 0.0424,
+    "bin_edge": 0.0324,
     "bin_win_rate": 0.6724,
     "bin_n": 559960,
     "distinct_markets": 1584,
     "ci_lower": 0.6488,
-    "ci_edge": 0.0188,
+    "ci_edge": 0.0088,
     "bonferroni_significant": true,
-    "market_implied": 0.605,
+    "market_implied": 0.615,
     "n_signals": 1,
-    "score": 98.33,
-    "hours_to_resolve": 18.0
-  },
-  {
-    "market_id": "1389252",
-    "question": "Will the price of Solana be above $80 on February 24?",
-    "direction": "BUY YES",
-    "category": "crypto",
-    "bin_edge": 0.0729,
-    "bin_win_rate": 0.4179,
-    "bin_n": 21824,
-    "distinct_markets": 173,
-    "ci_lower": 0.3453,
-    "ci_edge": 0.0003,
-    "bonferroni_significant": true,
-    "market_implied": 0.31999999999999995,
-    "n_signals": 1,
-    "score": 71.18,
-    "hours_to_resolve": 18.0
+    "score": 75.43,
+    "hours_to_resolve": 17.0
   },
   {
     "market_id": "1321397",
@@ -115,25 +98,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.20500000000000002,
     "n_signals": 1,
-    "score": 70.2,
-    "hours_to_resolve": 18.0
-  },
-  {
-    "market_id": "1230041",
-    "question": "Will Trump say \"Biden\" during the State of the Union address?",
-    "direction": "BUY YES",
-    "category": "politics",
-    "bin_edge": 0.0469,
-    "bin_win_rate": 0.9919,
-    "bin_n": 986649,
-    "distinct_markets": 373,
-    "ci_lower": 0.9766,
-    "ci_edge": 0.0316,
-    "bonferroni_significant": false,
-    "market_implied": 0.92,
-    "n_signals": 1,
-    "score": 61.39,
-    "hours_to_resolve": 18.0
+    "score": 70.21,
+    "hours_to_resolve": 17.0
   },
   {
     "market_id": "1370419",
@@ -149,8 +115,42 @@
     "bonferroni_significant": true,
     "market_implied": 0.825,
     "n_signals": 1,
-    "score": 147.88,
-    "hours_to_resolve": 42.0
+    "score": 151.64,
+    "hours_to_resolve": 41.0
+  },
+  {
+    "market_id": "1363685",
+    "question": "Will NVIDIA (NVDA) beat quarterly earnings?",
+    "direction": "BUY NO",
+    "category": "other",
+    "bin_edge": 0.0376,
+    "bin_win_rate": 0.1676,
+    "bin_n": 337942,
+    "distinct_markets": 1195,
+    "ci_lower": 0.1473,
+    "ci_edge": 0.0173,
+    "bonferroni_significant": false,
+    "market_implied": 0.10499999999999998,
+    "n_signals": 1,
+    "score": 91.71,
+    "hours_to_resolve": 41.0
+  },
+  {
+    "market_id": "1366857",
+    "question": "Will BV Borussia 09 Dortmund win on 2026-02-25?",
+    "direction": "BUY NO",
+    "category": "sports",
+    "bin_edge": 0.0494,
+    "bin_win_rate": 0.7794,
+    "bin_n": 947528,
+    "distinct_markets": 1912,
+    "ci_lower": 0.7601,
+    "ci_edge": 0.0301,
+    "bonferroni_significant": true,
+    "market_implied": 0.7050000000000001,
+    "n_signals": 1,
+    "score": 65.0,
+    "hours_to_resolve": 41.0
   },
   {
     "market_id": "1341342",
@@ -166,25 +166,25 @@
     "bonferroni_significant": false,
     "market_implied": 0.9,
     "n_signals": 1,
-    "score": 146.53,
-    "hours_to_resolve": 66.0
+    "score": 148.78,
+    "hours_to_resolve": 65.0
   },
   {
     "market_id": "1369672",
     "question": "Will Papa John's International (PZZA) beat quarterly earnings?",
     "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0397,
+    "bin_edge": 0.0347,
     "bin_win_rate": 0.3797,
     "bin_n": 165451,
     "distinct_markets": 729,
     "ci_lower": 0.3455,
-    "ci_edge": 0.0055,
+    "ci_edge": 0.0005,
     "bonferroni_significant": true,
-    "market_implied": 0.31499999999999995,
+    "market_implied": 0.32000000000000006,
     "n_signals": 1,
-    "score": 121.59,
-    "hours_to_resolve": 66.0
+    "score": 107.91,
+    "hours_to_resolve": 65.0
   },
   {
     "market_id": "1369645",
@@ -200,8 +200,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.20499999999999996,
     "n_signals": 1,
-    "score": 83.46,
-    "hours_to_resolve": 66.0
+    "score": 84.74,
+    "hours_to_resolve": 65.0
   },
   {
     "market_id": "1301922",
@@ -217,25 +217,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.62,
     "n_signals": 1,
-    "score": 123.34,
-    "hours_to_resolve": 90.0
-  },
-  {
-    "market_id": "1301632",
-    "question": "Will Microsoft (MSFT) close above $405 end of February?",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.0539,
-    "bin_win_rate": 0.3789,
-    "bin_n": 165014,
-    "distinct_markets": 738,
-    "ci_lower": 0.3451,
-    "ci_edge": 0.0201,
-    "bonferroni_significant": true,
-    "market_implied": 0.3,
-    "n_signals": 1,
-    "score": 75.83,
-    "hours_to_resolve": 90.0
+    "score": 124.72,
+    "hours_to_resolve": 89.0
   },
   {
     "market_id": "1301572",
@@ -251,42 +234,42 @@
     "bonferroni_significant": false,
     "market_implied": 0.904,
     "n_signals": 1,
-    "score": 71.59,
-    "hours_to_resolve": 90.0
+    "score": 72.4,
+    "hours_to_resolve": 89.0
   },
   {
-    "market_id": "1169205",
-    "question": "Iran Strike on Israel by February 28?",
+    "market_id": "1301632",
+    "question": "Will Microsoft (MSFT) close above $405 end of February?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.0274,
-    "bin_win_rate": 0.1574,
-    "bin_n": 338303,
-    "distinct_markets": 1207,
-    "ci_lower": 0.138,
-    "ci_edge": 0.008,
-    "bonferroni_significant": false,
-    "market_implied": 0.10500000000000001,
+    "bin_edge": 0.0489,
+    "bin_win_rate": 0.3789,
+    "bin_n": 165014,
+    "distinct_markets": 738,
+    "ci_lower": 0.3451,
+    "ci_edge": 0.0151,
+    "bonferroni_significant": true,
+    "market_implied": 0.305,
     "n_signals": 1,
-    "score": 190.15,
-    "hours_to_resolve": 114.0
+    "score": 69.57,
+    "hours_to_resolve": 89.0
   },
   {
-    "market_id": "1299973",
-    "question": "Will Kevin Warsh be formally nominated to be Chair of the Federal Reserve by February 28, 2026?",
+    "market_id": "1273328",
+    "question": "Will Gold (GC) hit (HIGH) $5,500 by end of February?",
     "direction": "BUY NO",
-    "category": "entertainment",
-    "bin_edge": 0.0588,
-    "bin_win_rate": 0.7163,
-    "bin_n": 124220,
-    "distinct_markets": 425,
-    "ci_lower": 0.6706,
-    "ci_edge": 0.0131,
+    "category": "other",
+    "bin_edge": 0.0585,
+    "bin_win_rate": 0.9875,
+    "bin_n": 2193542,
+    "distinct_markets": 3522,
+    "ci_lower": 0.9833,
+    "ci_edge": 0.0543,
     "bonferroni_significant": false,
-    "market_implied": 0.6325,
+    "market_implied": 0.904,
     "n_signals": 1,
-    "score": 176.53,
-    "hours_to_resolve": 114.0
+    "score": 433.22,
+    "hours_to_resolve": 113.0
   },
   {
     "market_id": "1232099",
@@ -302,8 +285,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 90.8,
-    "hours_to_resolve": 114.0
+    "score": 91.6,
+    "hours_to_resolve": 113.0
   },
   {
     "market_id": "1277445",
@@ -319,8 +302,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.9195,
     "n_signals": 1,
-    "score": 85.2,
-    "hours_to_resolve": 114.0
+    "score": 85.97,
+    "hours_to_resolve": 113.0
   },
   {
     "market_id": "1339355",
@@ -336,25 +319,59 @@
     "bonferroni_significant": false,
     "market_implied": 0.7050000000000001,
     "n_signals": 1,
-    "score": 84.03,
-    "hours_to_resolve": 114.0
+    "score": 84.78,
+    "hours_to_resolve": 113.0
+  },
+  {
+    "market_id": "1361691",
+    "question": "GPT-5.3 released by February 28, 2026?",
+    "direction": "BUY YES",
+    "category": "other",
+    "bin_edge": 0.0479,
+    "bin_win_rate": 0.3979,
+    "bin_n": 135420,
+    "distinct_markets": 687,
+    "ci_lower": 0.3615,
+    "ci_edge": 0.0115,
+    "bonferroni_significant": true,
+    "market_implied": 0.325,
+    "n_signals": 1,
+    "score": 58.31,
+    "hours_to_resolve": 113.0
+  },
+  {
+    "market_id": "1003708",
+    "question": "Will Teyana Taylor win Best Supporting Actress in a Motion Picture at the 2026 SAG Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.1256,
+    "bin_win_rate": 0.6506,
+    "bin_n": 57262,
+    "distinct_markets": 122,
+    "ci_lower": 0.5594,
+    "ci_edge": 0.0344,
+    "bonferroni_significant": true,
+    "market_implied": 0.5,
+    "n_signals": 1,
+    "score": 196.72,
+    "hours_to_resolve": 137.0
   },
   {
     "market_id": "1058746",
     "question": "Will Karmine Corp win the LEC 2026 Versus?",
     "direction": "BUY YES",
     "category": "other",
-    "bin_edge": 0.1154,
+    "bin_edge": 0.1159,
     "bin_win_rate": 0.4409,
     "bin_n": 192167,
     "distinct_markets": 694,
     "ci_lower": 0.4044,
-    "ci_edge": 0.0789,
+    "ci_edge": 0.0794,
     "bonferroni_significant": true,
-    "market_implied": 0.3005,
+    "market_implied": 0.3,
     "n_signals": 1,
-    "score": 180.65,
-    "hours_to_resolve": 138.0
+    "score": 181.43,
+    "hours_to_resolve": 137.0
   },
   {
     "market_id": "1003598",
@@ -371,41 +388,41 @@
     "market_implied": 0.31000000000000005,
     "n_signals": 1,
     "score": 111.07,
-    "hours_to_resolve": 138.0
-  },
-  {
-    "market_id": "1005749",
-    "question": "Will Erin Doherty win Best Actress in a Television Movie or Limited Series at the 2026 SAG Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0482,
-    "bin_win_rate": 0.8082,
-    "bin_n": 150591,
-    "distinct_markets": 347,
-    "ci_lower": 0.7621,
-    "ci_edge": 0.0021,
-    "bonferroni_significant": false,
-    "market_implied": 0.735,
-    "n_signals": 1,
-    "score": 63.97,
-    "hours_to_resolve": 138.0
+    "hours_to_resolve": 137.0
   },
   {
     "market_id": "1280183",
     "question": "Will there be between 18 and 21 US strikes on Somalia in February 2026?",
     "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0569,
+    "bin_edge": 0.0554,
     "bin_win_rate": 0.9884,
     "bin_n": 1374601,
     "distinct_markets": 2722,
     "ci_lower": 0.9835,
-    "ci_edge": 0.052,
+    "ci_edge": 0.0505,
     "bonferroni_significant": false,
-    "market_implied": 0.9065,
+    "market_implied": 0.908,
     "n_signals": 1,
-    "score": 83.05,
-    "hours_to_resolve": 210.0
+    "score": 81.25,
+    "hours_to_resolve": 209.0
+  },
+  {
+    "market_id": "1280181",
+    "question": "Will there be between 10 and 13 US strikes on Somalia in February 2026?",
+    "direction": "BUY YES",
+    "category": "other",
+    "bin_edge": 0.0479,
+    "bin_win_rate": 0.3979,
+    "bin_n": 135420,
+    "distinct_markets": 687,
+    "ci_lower": 0.3615,
+    "ci_edge": 0.0115,
+    "bonferroni_significant": true,
+    "market_implied": 0.325,
+    "n_signals": 1,
+    "score": 64.42,
+    "hours_to_resolve": 209.0
   },
   {
     "market_id": "956349",
@@ -421,8 +438,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.9035,
     "n_signals": 1,
-    "score": 82.68,
-    "hours_to_resolve": 306.0
+    "score": 82.95,
+    "hours_to_resolve": 305.0
   },
   {
     "market_id": "614008",
@@ -438,8 +455,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.71,
     "n_signals": 1,
-    "score": 585.12,
-    "hours_to_resolve": 474.0
+    "score": 587.05,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "613835",
@@ -455,8 +472,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.745,
     "n_signals": 1,
-    "score": 582.48,
-    "hours_to_resolve": 474.0
+    "score": 583.92,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614805",
@@ -472,8 +489,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.705,
     "n_signals": 1,
-    "score": 401.41,
-    "hours_to_resolve": 474.0
+    "score": 402.29,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614719",
@@ -489,42 +506,25 @@
     "bonferroni_significant": false,
     "market_implied": 0.915,
     "n_signals": 1,
-    "score": 220.03,
-    "hours_to_resolve": 474.0
+    "score": 220.55,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614012",
     "question": "Will Michael B. Jordan win Best Actor at the 98th Academy Awards?",
     "direction": "BUY NO",
     "category": "entertainment",
-    "bin_edge": 0.0418,
+    "bin_edge": 0.0398,
     "bin_win_rate": 0.9793,
     "bin_n": 363783,
     "distinct_markets": 471,
     "ci_lower": 0.9614,
-    "ci_edge": 0.0239,
+    "ci_edge": 0.0219,
     "bonferroni_significant": false,
-    "market_implied": 0.9125,
+    "market_implied": 0.9145,
     "n_signals": 1,
-    "score": 198.3,
-    "hours_to_resolve": 474.0
-  },
-  {
-    "market_id": "614870",
-    "question": "Will Frankenstein win Best Production Design at the 98th Academy Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0536,
-    "bin_win_rate": 0.9786,
-    "bin_n": 369279,
-    "distinct_markets": 484,
-    "ci_lower": 0.9624,
-    "ci_edge": 0.0374,
-    "bonferroni_significant": false,
-    "market_implied": 0.9,
-    "n_signals": 1,
-    "score": 149.32,
-    "hours_to_resolve": 474.0
+    "score": 189.21,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614311",
@@ -540,8 +540,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.91,
     "n_signals": 1,
-    "score": 146.72,
-    "hours_to_resolve": 474.0
+    "score": 147.04,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614913",
@@ -557,25 +557,59 @@
     "bonferroni_significant": false,
     "market_implied": 0.9,
     "n_signals": 1,
-    "score": 142.02,
-    "hours_to_resolve": 474.0
+    "score": 142.32,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614766",
     "question": "Will F1: The Movie win Best Film Editing at the 98th Academy Awards?",
     "direction": "BUY NO",
     "category": "sports",
-    "bin_edge": 0.0432,
+    "bin_edge": 0.0437,
     "bin_win_rate": 0.9132,
     "bin_n": 384603,
     "distinct_markets": 843,
     "ci_lower": 0.8925,
-    "ci_edge": 0.0225,
+    "ci_edge": 0.023,
     "bonferroni_significant": true,
-    "market_implied": 0.845,
+    "market_implied": 0.8445,
     "n_signals": 1,
-    "score": 121.69,
-    "hours_to_resolve": 474.0
+    "score": 123.37,
+    "hours_to_resolve": 473.0
+  },
+  {
+    "market_id": "614763",
+    "question": "Will One Battle After Another win Best Film Editing at the 98th Academy Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.0444,
+    "bin_win_rate": 0.8294,
+    "bin_n": 246202,
+    "distinct_markets": 474,
+    "ci_lower": 0.7926,
+    "ci_edge": 0.0076,
+    "bonferroni_significant": false,
+    "market_implied": 0.76,
+    "n_signals": 1,
+    "score": 121.28,
+    "hours_to_resolve": 473.0
+  },
+  {
+    "market_id": "614430",
+    "question": "Will Sinners win Best Original Screenplay at the 98th Academy Awards?",
+    "direction": "BUY YES",
+    "category": "entertainment",
+    "bin_edge": 0.0386,
+    "bin_win_rate": 0.9786,
+    "bin_n": 369279,
+    "distinct_markets": 484,
+    "ci_lower": 0.9624,
+    "ci_edge": 0.0224,
+    "bonferroni_significant": false,
+    "market_implied": 0.915,
+    "n_signals": 1,
+    "score": 87.71,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614565",
@@ -591,25 +625,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.91,
     "n_signals": 1,
-    "score": 84.95,
-    "hours_to_resolve": 474.0
-  },
-  {
-    "market_id": "614430",
-    "question": "Will Sinners win Best Original Screenplay at the 98th Academy Awards?",
-    "direction": "BUY YES",
-    "category": "entertainment",
-    "bin_edge": 0.0336,
-    "bin_win_rate": 0.9786,
-    "bin_n": 369279,
-    "distinct_markets": 484,
-    "ci_lower": 0.9624,
-    "ci_edge": 0.0174,
-    "bonferroni_significant": false,
-    "market_implied": 0.92,
-    "n_signals": 1,
-    "score": 76.08,
-    "hours_to_resolve": 474.0
+    "score": 85.13,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "614566",
@@ -625,25 +642,25 @@
     "bonferroni_significant": false,
     "market_implied": 0.92,
     "n_signals": 1,
-    "score": 72.77,
-    "hours_to_resolve": 474.0
+    "score": 72.92,
+    "hours_to_resolve": 473.0
   },
   {
     "market_id": "991023",
     "question": "Bank of Japan increases interest rates by 25 bps after March 2026 meeting?",
     "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0529,
+    "bin_edge": 0.0559,
     "bin_win_rate": 0.9884,
     "bin_n": 1374601,
     "distinct_markets": 2722,
     "ci_lower": 0.9835,
-    "ci_edge": 0.048,
+    "ci_edge": 0.051,
     "bonferroni_significant": false,
-    "market_implied": 0.9105,
+    "market_implied": 0.9075,
     "n_signals": 1,
-    "score": 63.69,
-    "hours_to_resolve": 570.0
+    "score": 67.42,
+    "hours_to_resolve": 569.0
   },
   {
     "market_id": "676710",
@@ -659,25 +676,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.915,
     "n_signals": 1,
-    "score": 104.5,
-    "hours_to_resolve": 858.0
-  },
-  {
-    "market_id": "1121549",
-    "question": "Nothing Ever Happens: MicroStrategy",
-    "direction": "BUY YES",
-    "category": "other",
-    "bin_edge": 0.0465,
-    "bin_win_rate": 0.9765,
-    "bin_n": 916799,
-    "distinct_markets": 2165,
-    "ci_lower": 0.9692,
-    "ci_edge": 0.0392,
-    "bonferroni_significant": false,
-    "market_implied": 0.905,
-    "n_signals": 1,
-    "score": 103.47,
-    "hours_to_resolve": 858.0
+    "score": 104.65,
+    "hours_to_resolve": 857.0
   },
   {
     "market_id": "676387",
@@ -693,8 +693,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.905,
     "n_signals": 1,
-    "score": 87.87,
-    "hours_to_resolve": 858.0
+    "score": 87.97,
+    "hours_to_resolve": 857.0
   },
   {
     "market_id": "705983",
@@ -710,8 +710,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.825,
     "n_signals": 1,
-    "score": 67.58,
-    "hours_to_resolve": 858.0
+    "score": 67.66,
+    "hours_to_resolve": 857.0
   },
   {
     "market_id": "677397",
@@ -727,25 +727,25 @@
     "bonferroni_significant": false,
     "market_implied": 0.91,
     "n_signals": 1,
-    "score": 67.49,
-    "hours_to_resolve": 858.0
+    "score": 67.56,
+    "hours_to_resolve": 857.0
   },
   {
-    "market_id": "801450",
-    "question": "Will OpenAI have the best AI model at the end of March 2026?",
+    "market_id": "665426",
+    "question": "Will a new country join the Abraham Accords by March 31?",
     "direction": "BUY NO",
     "category": "other",
-    "bin_edge": 0.0391,
-    "bin_win_rate": 0.9831,
-    "bin_n": 1163272,
-    "distinct_markets": 2347,
-    "ci_lower": 0.9769,
-    "ci_edge": 0.0329,
+    "bin_edge": 0.0346,
+    "bin_win_rate": 0.7846,
+    "bin_n": 195298,
+    "distinct_markets": 895,
+    "ci_lower": 0.7562,
+    "ci_edge": 0.0062,
     "bonferroni_significant": false,
-    "market_implied": 0.919,
+    "market_implied": 0.725,
     "n_signals": 1,
-    "score": 57.91,
-    "hours_to_resolve": 858.0
+    "score": 57.74,
+    "hours_to_resolve": 857.0
   },
   {
     "market_id": "678876",
@@ -761,8 +761,8 @@
     "bonferroni_significant": false,
     "market_implied": 0.8300000000000001,
     "n_signals": 1,
-    "score": 67.08,
-    "hours_to_resolve": 882.0
+    "score": 67.16,
+    "hours_to_resolve": 881.0
   },
   {
     "market_id": "644409",
@@ -778,8 +778,8 @@
     "bonferroni_significant": true,
     "market_implied": 0.3005,
     "n_signals": 1,
-    "score": 118.24,
-    "hours_to_resolve": 1146.0
+    "score": 118.34,
+    "hours_to_resolve": 1145.0
   },
   {
     "market_id": "550694",
@@ -795,42 +795,25 @@
     "bonferroni_significant": true,
     "market_implied": 0.405,
     "n_signals": 1,
-    "score": 116.72,
-    "hours_to_resolve": 1146.0
-  },
-  {
-    "market_id": "643386",
-    "question": "Will the Los Angeles Clippers make the NBA Playoffs?",
-    "direction": "BUY YES",
-    "category": "sports",
-    "bin_edge": 0.0481,
-    "bin_win_rate": 0.4781,
-    "bin_n": 769763,
-    "distinct_markets": 2455,
-    "ci_lower": 0.4585,
-    "ci_edge": 0.0285,
-    "bonferroni_significant": true,
-    "market_implied": 0.405,
-    "n_signals": 1,
-    "score": 64.54,
-    "hours_to_resolve": 1146.0
+    "score": 116.82,
+    "hours_to_resolve": 1145.0
   },
   {
     "market_id": "643399",
     "question": "Will the Portland Trail Blazers make the NBA Playoffs?",
     "direction": "BUY NO",
     "category": "sports",
-    "bin_edge": 0.0455,
+    "bin_edge": 0.0505,
     "bin_win_rate": 0.7805,
     "bin_n": 785318,
     "distinct_markets": 1989,
     "ci_lower": 0.7616,
-    "ci_edge": 0.0266,
+    "ci_edge": 0.0316,
     "bonferroni_significant": true,
-    "market_implied": 0.71,
+    "market_implied": 0.705,
     "n_signals": 1,
-    "score": 61.88,
-    "hours_to_resolve": 1146.0
+    "score": 68.75,
+    "hours_to_resolve": 1145.0
   },
   {
     "market_id": "643397",
@@ -846,7 +829,24 @@
     "bonferroni_significant": false,
     "market_implied": 0.8049999999999999,
     "n_signals": 1,
-    "score": 61.34,
-    "hours_to_resolve": 1146.0
+    "score": 61.39,
+    "hours_to_resolve": 1145.0
+  },
+  {
+    "market_id": "550703",
+    "question": "Will Sweden qualify for the 2026 FIFA World Cup?",
+    "direction": "BUY NO",
+    "category": "sports",
+    "bin_edge": 0.0294,
+    "bin_win_rate": 0.7794,
+    "bin_n": 947528,
+    "distinct_markets": 1912,
+    "ci_lower": 0.7601,
+    "ci_edge": 0.0101,
+    "bonferroni_significant": true,
+    "market_implied": 0.725,
+    "n_signals": 1,
+    "score": 57.67,
+    "hours_to_resolve": 1145.0
   }
 ]
