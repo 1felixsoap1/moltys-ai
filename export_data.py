@@ -47,9 +47,14 @@ def sanitize_pick(pick):
         "market_id": pick["market_id"],
         "question": pick["question"],
         "direction": pick["direction"],
+        "category": pick.get("category", "other"),
         "bin_edge": bin_sig["edge"],
         "bin_win_rate": bin_sig.get("win_rate"),
         "bin_n": _parse_sample_size(bin_sig.get("detail")),
+        "distinct_markets": pick.get("distinct_markets"),
+        "ci_lower": pick.get("ci_lower"),
+        "ci_edge": pick.get("ci_edge"),
+        "bonferroni_significant": pick.get("bonferroni_significant", False),
         "market_implied": pick["market_implied"],
         "n_signals": pick["n_signals"],
         "score": pick["score"],
@@ -116,19 +121,31 @@ def export_portfolio():
     conn.row_factory = sqlite3.Row
 
     # Load all picks and filter to aligned bin-backed only
+    # Check if pipeline_mode column exists (schema migration may not have run yet)
+    col_names = {row[1] for row in conn.execute("PRAGMA table_info(tracked_picks)")}
+    has_pipeline_mode = "pipeline_mode" in col_names
+
+    mode_col = ", pipeline_mode" if has_pipeline_mode else ""
     all_rows = conn.execute(
         "SELECT market_id, question, direction, order_price, "
-        "       mid_price, first_seen, status, pnl, resolved_at, signals_json "
+        "       mid_price, first_seen, status, pnl, resolved_at, signals_json, category"
+        f"{mode_col} "
         "FROM tracked_picks"
     ).fetchall()
 
     aligned_rows = []
     for r in all_rows:
+        # Only include bin-only picks in public portfolio
+        if has_pipeline_mode:
+            mode = r["pipeline_mode"]
+            if mode != "bin-only":
+                continue
         bin_sig = _get_aligned_bin_from_json(r["signals_json"], r["direction"])
         if bin_sig is not None:
             d = dict(r)
             d["bin_edge"] = bin_sig["edge"]
             d["bin_n"] = _parse_sample_size(bin_sig.get("detail"))
+            d["category"] = d.get("category") or "other"
             del d["signals_json"]
             aligned_rows.append(d)
 
@@ -147,14 +164,15 @@ def export_portfolio():
         "wins": wins,
         "losses": losses,
         "win_rate": win_rate,
-        "total_pnl": round(total_pnl, 2),
+        "total_pnl": round(total_pnl, 4),
         "avg_bin_edge": avg_bin_edge,
     }
 
     # Pending picks — aligned bin-backed only
     portfolio["pending_picks"] = [
         {k: r[k] for k in ("market_id", "question", "direction", "order_price",
-                            "mid_price", "first_seen", "bin_edge", "bin_n")}
+                            "mid_price", "first_seen", "bin_edge", "bin_n",
+                            "category")}
         for r in aligned_rows if r["status"] == "pending"
     ]
 
@@ -165,7 +183,8 @@ def export_portfolio():
     )[:50]
     portfolio["recent_resolutions"] = [
         {k: r[k] for k in ("market_id", "question", "direction", "status",
-                            "pnl", "resolved_at", "bin_edge", "bin_n")}
+                            "pnl", "resolved_at", "bin_edge", "bin_n",
+                            "category")}
         for r in resolved_rows
     ]
 

@@ -146,7 +146,7 @@ const $ = (sel) => document.querySelector(sel);
 const fmt = (n, d = 2) => Number(n).toFixed(d);
 const fmtPct = (n) => (n * 100).toFixed(1) + '%';
 const fmtEdge = (n) => (n >= 0 ? '+' : '') + (n * 100).toFixed(1) + '%';
-const fmtPnl = (n) => (n >= 0 ? '+' : '') + Number(n).toFixed(2);
+const fmtPnl = (n) => (n >= 0 ? '+' : '') + Number(n).toFixed(4);
 const fmtN = (n) => n != null ? Number(n).toLocaleString() : '—';
 const fmtHours = (h) => {
   if (h < 1) return '<1h';
