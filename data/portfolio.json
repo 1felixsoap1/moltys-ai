@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T19:00:29.666062+00:00",
+  "updated_at": "2026-02-23T20:00:29.438267+00:00",
   "summary": {
-    "pending": 236,
+    "pending": 245,
     "wins": 10,
     "losses": 12,
     "win_rate": 0.4545,
     "total_pnl": -0.0,
-    "avg_bin_edge": 0.0587
+    "avg_bin_edge": 0.0595
   },
   "pending_picks": [
     {
@@ -2604,6 +2604,105 @@
       "bin_edge": 0.037,
       "bin_n": 348454,
       "category": "sports"
+    },
+    {
+      "market_id": "1389183",
+      "question": "Will the price of Bitcoin be between $60,000 and $62,000 on February 24?",
+      "direction": "BUY YES",
+      "order_price": 0.095,
+      "mid_price": 0.103,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.1172,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1375426",
+      "question": "Will Andrew Tate post 0-99 posts from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.685,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.1038,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1375428",
+      "question": "Will Andrew Tate post 100-129 posts from February 17 to February 24, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.315,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.1009,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1389187",
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 24?",
+      "direction": "BUY NO",
+      "order_price": 0.62,
+      "mid_price": 0.38,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.0818,
+      "bin_n": 18774,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414902",
+      "question": "Bitcoin Up or Down on February 24?",
+      "direction": "BUY NO",
+      "order_price": 0.72,
+      "mid_price": 0.285,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.0624,
+      "bin_n": 29954,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389946",
+      "question": "Will \"The Night Agent: Season 3\" be the #2 US Netflix show this week?",
+      "direction": "BUY NO",
+      "order_price": 0.662,
+      "mid_price": 0.299,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.0893,
+      "bin_n": 156028,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1386768",
+      "question": "Will Anthony Kennedy attend the 2026 State of the Union address?",
+      "direction": "BUY NO",
+      "order_price": 0.35,
+      "mid_price": 0.655,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.0738,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1389189",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 24?",
+      "direction": "BUY YES",
+      "order_price": 0.16,
+      "mid_price": 0.16,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.0602,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1277248",
+      "question": "Will Google have the third-best AI model at the end of February 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.9,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-23T20:00:29Z",
+      "bin_edge": 0.0622,
+      "bin_n": 2204595,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
