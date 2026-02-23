@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T21:58:01.031991+00:00",
+  "updated_at": "2026-02-23T22:00:28.096962+00:00",
   "summary": {
-    "pending": 247,
+    "pending": 253,
     "wins": 10,
     "losses": 12,
     "win_rate": 0.4545,
     "total_pnl": -0.0025,
-    "avg_bin_edge": 0.0594
+    "avg_bin_edge": 0.0591
   },
   "pending_picks": [
     {
@@ -2725,6 +2725,72 @@
       "bin_edge": 0.0303,
       "bin_n": 905838,
       "category": "sports"
+    },
+    {
+      "market_id": "1139645",
+      "question": "Will Player 167 win Beast Games: Season 2?",
+      "direction": "BUY YES",
+      "order_price": 0.903,
+      "mid_price": 0.9095,
+      "first_seen": "2026-02-23T22:00:28Z",
+      "bin_edge": 0.047,
+      "bin_n": 4283185,
+      "category": "other"
+    },
+    {
+      "market_id": "1058744",
+      "question": "Will G2 Esports win the LEC 2026 Versus?",
+      "direction": "BUY NO",
+      "order_price": 0.401,
+      "mid_price": 0.595,
+      "first_seen": "2026-02-23T22:00:28Z",
+      "bin_edge": 0.0436,
+      "bin_n": 185418,
+      "category": "other"
+    },
+    {
+      "market_id": "1392405",
+      "question": "Celtics vs. Suns",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-23T22:00:28Z",
+      "bin_edge": 0.0492,
+      "bin_n": 957967,
+      "category": "sports"
+    },
+    {
+      "market_id": "1392891",
+      "question": "Will the price of Bitcoin be above $68,000 on February 25?",
+      "direction": "BUY YES",
+      "order_price": 0.1,
+      "mid_price": 0.1,
+      "first_seen": "2026-02-23T22:00:28Z",
+      "bin_edge": 0.0495,
+      "bin_n": 41308,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1387670",
+      "question": "Will Elon Musk post 260-279 tweets from February 20 to February 27, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.096,
+      "first_seen": "2026-02-23T22:00:28Z",
+      "bin_edge": 0.0541,
+      "bin_n": 1163272,
+      "category": "other"
+    },
+    {
+      "market_id": "1209130",
+      "question": "Will BNK FEARX win the LCK Cup 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.917,
+      "mid_price": 0.0825,
+      "first_seen": "2026-02-23T22:00:28Z",
+      "bin_edge": 0.045,
+      "bin_n": 2193542,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
