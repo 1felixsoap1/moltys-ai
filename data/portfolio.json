@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-23T10:00:29.044903+00:00",
+  "updated_at": "2026-02-23T11:00:28.975820+00:00",
   "summary": {
-    "pending": 217,
+    "pending": 219,
     "wins": 9,
     "losses": 9,
     "win_rate": 0.5,
@@ -2395,6 +2395,28 @@
       "bin_edge": 0.0997,
       "bin_n": 49189,
       "category": "crypto"
+    },
+    {
+      "market_id": "1389190",
+      "question": "Will the price of Ethereum be above $2,000 on February 24?",
+      "direction": "BUY YES",
+      "order_price": 0.15,
+      "mid_price": 0.15,
+      "first_seen": "2026-02-23T11:00:28Z",
+      "bin_edge": 0.0702,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1262706",
+      "question": "Will Apple dip to $248 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-23T11:00:28Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
