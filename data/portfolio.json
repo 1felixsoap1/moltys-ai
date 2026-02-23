@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T20:00:29.438267+00:00",
+  "updated_at": "2026-02-23T21:00:33.800777+00:00",
   "summary": {
-    "pending": 245,
+    "pending": 247,
     "wins": 10,
     "losses": 12,
     "win_rate": 0.4545,
     "total_pnl": -0.0,
-    "avg_bin_edge": 0.0595
+    "avg_bin_edge": 0.0594
   },
   "pending_picks": [
     {
@@ -2703,6 +2703,28 @@
       "bin_edge": 0.0622,
       "bin_n": 2204595,
       "category": "other"
+    },
+    {
+      "market_id": "1388814",
+      "question": "Nicholls Colonels vs. Lamar Cardinals",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.395,
+      "first_seen": "2026-02-23T21:00:33Z",
+      "bin_edge": 0.0462,
+      "bin_n": 568577,
+      "category": "sports"
+    },
+    {
+      "market_id": "1416613",
+      "question": "Spurs vs. Pistons: O/U 228.5",
+      "direction": "BUY NO",
+      "order_price": 0.42,
+      "mid_price": 0.585,
+      "first_seen": "2026-02-23T21:00:33Z",
+      "bin_edge": 0.0303,
+      "bin_n": 905838,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
