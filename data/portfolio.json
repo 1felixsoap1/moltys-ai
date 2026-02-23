@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-22T23:00:29.330019+00:00",
+  "updated_at": "2026-02-23T00:00:29.792725+00:00",
   "summary": {
-    "pending": 204,
+    "pending": 206,
     "wins": 0,
     "losses": 2,
     "win_rate": 0.0,
     "total_pnl": -2.0,
-    "avg_bin_edge": 0.0563
+    "avg_bin_edge": 0.0567
   },
   "pending_picks": [
     {
@@ -2252,6 +2252,28 @@
       "bin_edge": 0.051,
       "bin_n": 2908317,
       "category": "sports"
+    },
+    {
+      "market_id": "1370976",
+      "question": "Will Hilton Grand Vacations (HGV) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-23T00:00:29Z",
+      "bin_edge": 0.0679,
+      "bin_n": 135420,
+      "category": "other"
+    },
+    {
+      "market_id": "1003598",
+      "question": "Will Timoth\u00e9e Chalamet win Outstanding Performance by a Male Actor in a Leading Role at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-23T00:00:29Z",
+      "bin_edge": 0.1138,
+      "bin_n": 188889,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
