@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T22:00:28.096962+00:00",
+  "updated_at": "2026-02-23T23:00:27.151658+00:00",
   "summary": {
-    "pending": 253,
+    "pending": 256,
     "wins": 10,
     "losses": 12,
     "win_rate": 0.4545,
     "total_pnl": -0.0025,
-    "avg_bin_edge": 0.0591
+    "avg_bin_edge": 0.059
   },
   "pending_picks": [
     {
@@ -2790,6 +2790,39 @@
       "first_seen": "2026-02-23T22:00:28Z",
       "bin_edge": 0.045,
       "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1058747",
+      "question": "Will Movistar KOI win the LEC 2026 Versus?",
+      "direction": "BUY YES",
+      "order_price": 0.099,
+      "mid_price": 0.105,
+      "first_seen": "2026-02-23T23:00:27Z",
+      "bin_edge": 0.0441,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1322008",
+      "question": "Will Hyperliquid dip to $20 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.88,
+      "mid_price": 0.096,
+      "first_seen": "2026-02-23T23:00:27Z",
+      "bin_edge": 0.0585,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1301740",
+      "question": "Will Google (GOOGL) close above $320 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.27,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-23T23:00:27Z",
+      "bin_edge": 0.0489,
+      "bin_n": 165014,
       "category": "other"
     }
   ],
