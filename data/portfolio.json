@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T16:00:28.272251+00:00",
+  "updated_at": "2026-02-23T17:00:29.648966+00:00",
   "summary": {
-    "pending": 229,
+    "pending": 232,
     "wins": 9,
     "losses": 10,
     "win_rate": 0.4737,
     "total_pnl": 0.14,
-    "avg_bin_edge": 0.0582
+    "avg_bin_edge": 0.0583
   },
   "pending_picks": [
     {
@@ -2526,6 +2526,39 @@
       "first_seen": "2026-02-23T16:00:28Z",
       "bin_edge": 0.0439,
       "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1392888",
+      "question": "Will the price of Bitcoin be above $64,000 on February 25?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-23T17:00:29Z",
+      "bin_edge": 0.0925,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "956344",
+      "question": "Will India win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.32,
+      "mid_price": 0.32,
+      "first_seen": "2026-02-23T17:00:29Z",
+      "bin_edge": 0.0339,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1301875",
+      "question": "Will NVIDIA (NVDA) close above $170 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.91,
+      "mid_price": 0.91,
+      "first_seen": "2026-02-23T17:00:29Z",
+      "bin_edge": 0.0522,
+      "bin_n": 2204595,
       "category": "other"
     }
   ],
