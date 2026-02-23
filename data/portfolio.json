@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T07:00:28.118146+00:00",
+  "updated_at": "2026-02-23T08:00:28.994332+00:00",
   "summary": {
-    "pending": 209,
+    "pending": 212,
     "wins": 9,
     "losses": 9,
     "win_rate": 0.5,
     "total_pnl": 1.14,
-    "avg_bin_edge": 0.0575
+    "avg_bin_edge": 0.0578
   },
   "pending_picks": [
     {
@@ -2307,6 +2307,39 @@
       "bin_edge": 0.0494,
       "bin_n": 947528,
       "category": "sports"
+    },
+    {
+      "market_id": "1362778",
+      "question": "Will Amer Sports (AS) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.89,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-23T08:00:28Z",
+      "bin_edge": 0.0565,
+      "bin_n": 4283185,
+      "category": "other"
+    },
+    {
+      "market_id": "1389326",
+      "question": "Will the 2026 State of the Union address last 100 minutes or longer?",
+      "direction": "BUY YES",
+      "order_price": 0.34,
+      "mid_price": 0.345,
+      "first_seen": "2026-02-23T08:00:28Z",
+      "bin_edge": 0.0709,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1389277",
+      "question": "Will the price of XRP be between $1.40 and $1.50 on February 24?",
+      "direction": "BUY YES",
+      "order_price": 0.28,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-23T08:00:28Z",
+      "bin_edge": 0.1109,
+      "bin_n": 192167,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
