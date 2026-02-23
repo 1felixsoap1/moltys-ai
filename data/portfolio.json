@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-23T01:00:29.763649+00:00",
+  "updated_at": "2026-02-23T02:00:29.024174+00:00",
   "summary": {
-    "pending": 200,
+    "pending": 204,
     "wins": 4,
     "losses": 7,
     "win_rate": 0.3636,
     "total_pnl": -5.28,
-    "avg_bin_edge": 0.0569
+    "avg_bin_edge": 0.0572
   },
   "pending_picks": [
     {
@@ -2207,6 +2207,50 @@
       "first_seen": "2026-02-23T01:00:29Z",
       "bin_edge": 0.0534,
       "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1058746",
+      "question": "Will Karmine Corp win the LEC 2026 Versus?",
+      "direction": "BUY YES",
+      "order_price": 0.261,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-23T02:00:29Z",
+      "bin_edge": 0.1159,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1389186",
+      "question": "Will the price of Ethereum be above $1,800 on February 24?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.6845,
+      "first_seen": "2026-02-23T02:00:29Z",
+      "bin_edge": 0.082,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1277923",
+      "question": "Will Israel strike Gaza on February 22, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.08,
+      "first_seen": "2026-02-23T02:00:29Z",
+      "bin_edge": 0.0425,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1277498",
+      "question": "Will Anthropic have the #3 AI model at the end of February 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-23T02:00:29Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
       "category": "other"
     }
   ],
