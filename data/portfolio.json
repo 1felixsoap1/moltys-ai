@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-24T20:00:32.903895+00:00",
+  "updated_at": "2026-02-24T21:00:36.326900+00:00",
   "summary": {
-    "pending": 282,
+    "pending": 283,
     "wins": 27,
     "losses": 21,
     "win_rate": 0.5625,
@@ -3109,6 +3109,17 @@
       "first_seen": "2026-02-24T20:00:32Z",
       "bin_edge": 0.0388,
       "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1262910",
+      "question": "Will Opendoor dip to $4.25 in February?",
+      "direction": "BUY NO",
+      "order_price": 0.907,
+      "mid_price": 0.0985,
+      "first_seen": "2026-02-24T21:00:36Z",
+      "bin_edge": 0.061,
+      "bin_n": 2193542,
       "category": "other"
     }
   ],
