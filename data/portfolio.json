@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T21:00:36.326900+00:00",
+  "updated_at": "2026-02-24T22:00:31.006852+00:00",
   "summary": {
-    "pending": 283,
+    "pending": 285,
     "wins": 27,
     "losses": 21,
     "win_rate": 0.5625,
     "total_pnl": 34.1505,
-    "avg_bin_edge": 0.0606
+    "avg_bin_edge": 0.0608
   },
   "pending_picks": [
     {
@@ -3120,6 +3120,28 @@
       "first_seen": "2026-02-24T21:00:36Z",
       "bin_edge": 0.061,
       "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1277926",
+      "question": "Will Israel strike Gaza on February 25, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.32,
+      "mid_price": 0.325,
+      "first_seen": "2026-02-24T22:00:30Z",
+      "bin_edge": 0.0909,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1369646",
+      "question": "Will Warby Parker (WRBY) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.32,
+      "first_seen": "2026-02-24T22:00:30Z",
+      "bin_edge": 0.0959,
+      "bin_n": 192167,
       "category": "other"
     }
   ],
