@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T17:00:32.559265+00:00",
+  "updated_at": "2026-02-24T18:00:33.134258+00:00",
   "summary": {
-    "pending": 271,
+    "pending": 276,
     "wins": 26,
     "losses": 20,
     "win_rate": 0.5652,
     "total_pnl": 34.4838,
-    "avg_bin_edge": 0.0606
+    "avg_bin_edge": 0.0609
   },
   "pending_picks": [
     {
@@ -2988,6 +2988,61 @@
       "first_seen": "2026-02-24T16:00:34Z",
       "bin_edge": 0.0569,
       "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1408324",
+      "question": "Will Elon Musk post 65-89 tweets from February 23 to February 25, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.34,
+      "mid_price": 0.34,
+      "first_seen": "2026-02-24T18:00:33Z",
+      "bin_edge": 0.0759,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1419336",
+      "question": "Bitcoin Up or Down on February 25?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.5,
+      "first_seen": "2026-02-24T18:00:33Z",
+      "bin_edge": 0.0991,
+      "bin_n": 32729,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1398460",
+      "question": "Will the price of Ethereum be above $1,900 on February 26?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-24T18:00:33Z",
+      "bin_edge": 0.0879,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1287317",
+      "question": "Will Russia capture Kupiansk-Vuzlovyi by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.899,
+      "mid_price": 0.098,
+      "first_seen": "2026-02-24T18:00:33Z",
+      "bin_edge": 0.0605,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1388695",
+      "question": "US x Iran meeting by February 28, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.9,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-24T18:00:33Z",
+      "bin_edge": 0.0629,
+      "bin_n": 1385931,
       "category": "other"
     }
   ],
