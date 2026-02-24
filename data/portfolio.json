@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T02:00:27.412364+00:00",
+  "updated_at": "2026-02-24T03:00:27.361990+00:00",
   "summary": {
-    "pending": 249,
+    "pending": 251,
     "wins": 22,
     "losses": 17,
     "win_rate": 0.5641,
     "total_pnl": 35.6199,
-    "avg_bin_edge": 0.0591
+    "avg_bin_edge": 0.0593
   },
   "pending_picks": [
     {
@@ -2746,6 +2746,28 @@
       "first_seen": "2026-02-24T02:00:27Z",
       "bin_edge": 0.0997,
       "bin_n": 49189,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1392861",
+      "question": "Will the price of Ethereum be above $1,800 on February 25?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.685,
+      "first_seen": "2026-02-24T03:00:27Z",
+      "bin_edge": 0.0825,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1398487",
+      "question": "Will the price of Bitcoin be above $60,000 on February 26?",
+      "direction": "BUY NO",
+      "order_price": 0.104,
+      "mid_price": 0.8995,
+      "first_seen": "2026-02-24T03:00:27Z",
+      "bin_edge": 0.1061,
+      "bin_n": 49182,
       "category": "crypto"
     }
   ],
