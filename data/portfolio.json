@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T06:00:27.065454+00:00",
+  "updated_at": "2026-02-24T07:00:26.711827+00:00",
   "summary": {
-    "pending": 258,
-    "wins": 22,
-    "losses": 17,
-    "win_rate": 0.5641,
-    "total_pnl": 35.6199,
-    "avg_bin_edge": 0.0602
+    "pending": 256,
+    "wins": 23,
+    "losses": 19,
+    "win_rate": 0.5476,
+    "total_pnl": 33.8545,
+    "avg_bin_edge": 0.0601
   },
   "pending_picks": [
     {
@@ -2353,17 +2353,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1388868",
-      "question": "Louisville Cardinals vs. North Carolina Tar Heels",
-      "direction": "BUY YES",
-      "order_price": 0.6,
-      "mid_price": 0.605,
-      "first_seen": "2026-02-23T18:00:29Z",
-      "bin_edge": 0.0424,
-      "bin_n": 559960,
-      "category": "sports"
-    },
-    {
       "market_id": "1363003",
       "question": "Will there be at least 1,050 measles cases in the U.S. by February 28, 2026?",
       "direction": "BUY NO",
@@ -2406,17 +2395,6 @@
       "bin_edge": 0.148,
       "bin_n": 17896,
       "category": "crypto"
-    },
-    {
-      "market_id": "1388835",
-      "question": "Kansas State Wildcats vs. Baylor Bears (W)",
-      "direction": "BUY NO",
-      "order_price": 0.81,
-      "mid_price": 0.195,
-      "first_seen": "2026-02-23T19:00:29Z",
-      "bin_edge": 0.037,
-      "bin_n": 348454,
-      "category": "sports"
     },
     {
       "market_id": "1389183",
@@ -2516,17 +2494,6 @@
       "bin_edge": 0.0622,
       "bin_n": 2204595,
       "category": "other"
-    },
-    {
-      "market_id": "1388814",
-      "question": "Nicholls Colonels vs. Lamar Cardinals",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.395,
-      "first_seen": "2026-02-23T21:00:33Z",
-      "bin_edge": 0.0462,
-      "bin_n": 568577,
-      "category": "sports"
     },
     {
       "market_id": "1416613",
@@ -2846,9 +2813,53 @@
       "bin_edge": 0.0484,
       "bin_n": 41383,
       "category": "crypto"
+    },
+    {
+      "market_id": "1397658",
+      "question": "Celtics vs. Nuggets",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.395,
+      "first_seen": "2026-02-24T07:00:26Z",
+      "bin_edge": 0.0455,
+      "bin_n": 586808,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1388868",
+      "question": "Louisville Cardinals vs. North Carolina Tar Heels",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-24T07:00:26Z",
+      "bin_edge": 0.0424,
+      "bin_n": 559960,
+      "category": "sports"
+    },
+    {
+      "market_id": "1388835",
+      "question": "Kansas State Wildcats vs. Baylor Bears (W)",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2346,
+      "resolved_at": "2026-02-24T07:00:26Z",
+      "bin_edge": 0.037,
+      "bin_n": 348454,
+      "category": "sports"
+    },
+    {
+      "market_id": "1388814",
+      "question": "Nicholls Colonels vs. Lamar Cardinals",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-24T07:00:26Z",
+      "bin_edge": 0.0462,
+      "bin_n": 568577,
+      "category": "sports"
+    },
     {
       "market_id": "1373457",
       "question": "Will there be exactly 0 earthquakes of magnitude 6.5 or higher worldwide by February 22?",
