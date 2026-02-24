@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T08:00:28.757432+00:00",
+  "updated_at": "2026-02-24T09:00:28.500120+00:00",
   "summary": {
-    "pending": 258,
+    "pending": 260,
     "wins": 23,
     "losses": 19,
     "win_rate": 0.5476,
     "total_pnl": 33.8545,
-    "avg_bin_edge": 0.06
+    "avg_bin_edge": 0.0603
   },
   "pending_picks": [
     {
@@ -2846,6 +2846,28 @@
       "bin_edge": 0.0624,
       "bin_n": 1385931,
       "category": "other"
+    },
+    {
+      "market_id": "1301626",
+      "question": "Will Microsoft (MSFT) close above $390 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.27,
+      "mid_price": 0.325,
+      "first_seen": "2026-02-24T09:00:28Z",
+      "bin_edge": 0.0909,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1392865",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 25?",
+      "direction": "BUY YES",
+      "order_price": 0.1,
+      "mid_price": 0.1,
+      "first_seen": "2026-02-24T09:00:28Z",
+      "bin_edge": 0.1202,
+      "bin_n": 34790,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
