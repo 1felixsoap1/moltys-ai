@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-02-24T18:00:33.134258+00:00",
+  "updated_at": "2026-02-24T19:00:32.616634+00:00",
   "summary": {
     "pending": 276,
-    "wins": 26,
-    "losses": 20,
-    "win_rate": 0.5652,
-    "total_pnl": 34.4838,
+    "wins": 27,
+    "losses": 21,
+    "win_rate": 0.5625,
+    "total_pnl": 34.1505,
     "avg_bin_edge": 0.0609
   },
   "pending_picks": [
@@ -1539,17 +1539,6 @@
       "category": "politics"
     },
     {
-      "market_id": "1362683",
-      "question": "Will Home Depot (HD) beat quarterly earnings?",
-      "direction": "BUY NO",
-      "order_price": 0.34,
-      "mid_price": 0.665,
-      "first_seen": "2026-02-22T15:00:31Z",
-      "bin_edge": 0.0838,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "1399309",
       "question": "Will \"How to Make a Killing\" Opening Weekend Box Office be greater than 3.5m?",
       "direction": "BUY YES",
@@ -1680,17 +1669,6 @@
       "bin_edge": 0.0341,
       "bin_n": 206941,
       "category": "entertainment"
-    },
-    {
-      "market_id": "1367320",
-      "question": "LoL: JD Gaming vs Top Esports (BO5) - LPL Playoffs",
-      "direction": "BUY YES",
-      "order_price": 0.6,
-      "mid_price": 0.605,
-      "first_seen": "2026-02-22T19:00:31Z",
-      "bin_edge": 0.0424,
-      "bin_n": 559960,
-      "category": "sports"
     },
     {
       "market_id": "1389188",
@@ -3044,9 +3022,53 @@
       "bin_edge": 0.0629,
       "bin_n": 1385931,
       "category": "other"
+    },
+    {
+      "market_id": "1198451",
+      "question": "Israel strikes Iran by February 28, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.12,
+      "mid_price": 0.125,
+      "first_seen": "2026-02-24T19:00:32Z",
+      "bin_edge": 0.0241,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1419339",
+      "question": "Ethereum Up or Down on February 25?",
+      "direction": "BUY NO",
+      "order_price": 0.51,
+      "mid_price": 0.49,
+      "first_seen": "2026-02-24T19:00:32Z",
+      "bin_edge": 0.0941,
+      "bin_n": 31804,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1362683",
+      "question": "Will Home Depot (HD) beat quarterly earnings?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-24T19:00:32Z",
+      "bin_edge": 0.0838,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1367320",
+      "question": "LoL: JD Gaming vs Top Esports (BO5) - LPL Playoffs",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.6667,
+      "resolved_at": "2026-02-24T19:00:32Z",
+      "bin_edge": 0.0424,
+      "bin_n": 559960,
+      "category": "sports"
+    },
     {
       "market_id": "1375492",
       "question": "Will Elon Musk post 320-339 tweets from February 17 to February 24, 2026?",
