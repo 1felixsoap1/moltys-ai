@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T11:00:31.799676+00:00",
+  "updated_at": "2026-02-24T12:00:29.648580+00:00",
   "summary": {
-    "pending": 261,
+    "pending": 262,
     "wins": 23,
     "losses": 19,
     "win_rate": 0.5476,
     "total_pnl": 33.8545,
-    "avg_bin_edge": 0.0605
+    "avg_bin_edge": 0.0604
   },
   "pending_picks": [
     {
@@ -2878,6 +2878,17 @@
       "first_seen": "2026-02-24T11:00:31Z",
       "bin_edge": 0.1159,
       "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1279287",
+      "question": "Hezbollah strike on Israel by February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.09,
+      "first_seen": "2026-02-24T12:00:29Z",
+      "bin_edge": 0.0525,
+      "bin_n": 2193542,
       "category": "other"
     }
   ],
