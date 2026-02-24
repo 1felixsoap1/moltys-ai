@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T13:00:30.887170+00:00",
+  "updated_at": "2026-02-24T14:00:34.902354+00:00",
   "summary": {
-    "pending": 259,
+    "pending": 261,
     "wins": 26,
     "losses": 20,
     "win_rate": 0.5652,
     "total_pnl": 34.4838,
-    "avg_bin_edge": 0.0606
+    "avg_bin_edge": 0.0605
   },
   "pending_picks": [
     {
@@ -2856,6 +2856,28 @@
       "first_seen": "2026-02-24T13:00:30Z",
       "bin_edge": 0.1004,
       "bin_n": 21848,
+      "category": "crypto"
+    },
+    {
+      "market_id": "677361",
+      "question": "Will Russia capture Kostyantynivka by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.73,
+      "mid_price": 0.275,
+      "first_seen": "2026-02-24T14:00:34Z",
+      "bin_edge": 0.0346,
+      "bin_n": 195298,
+      "category": "other"
+    },
+    {
+      "market_id": "1392864",
+      "question": "Will the price of Ethereum be above $1,900 on February 25?",
+      "direction": "BUY YES",
+      "order_price": 0.14,
+      "mid_price": 0.15,
+      "first_seen": "2026-02-24T14:00:34Z",
+      "bin_edge": 0.0702,
+      "bin_n": 34790,
       "category": "crypto"
     }
   ],
