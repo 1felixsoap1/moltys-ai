@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T04:00:28.289395+00:00",
+  "updated_at": "2026-02-24T05:00:26.945480+00:00",
   "summary": {
-    "pending": 252,
+    "pending": 256,
     "wins": 22,
     "losses": 17,
     "win_rate": 0.5641,
     "total_pnl": 35.6199,
-    "avg_bin_edge": 0.0598
+    "avg_bin_edge": 0.0602
   },
   "pending_picks": [
     {
@@ -2780,6 +2780,50 @@
       "bin_edge": 0.2008,
       "bin_n": 19105,
       "category": "crypto"
+    },
+    {
+      "market_id": "1392886",
+      "question": "Will the price of Bitcoin be above $62,000 on February 25?",
+      "direction": "BUY NO",
+      "order_price": 0.311,
+      "mid_price": 0.6895,
+      "first_seen": "2026-02-24T05:00:26Z",
+      "bin_edge": 0.087,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1301884",
+      "question": "Will NVIDIA (NVDA) close above $200 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.32,
+      "mid_price": 0.34,
+      "first_seen": "2026-02-24T05:00:26Z",
+      "bin_edge": 0.0759,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1301978",
+      "question": "Will Opendoor (OPEN) close above $5.00 end of February?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.315,
+      "first_seen": "2026-02-24T05:00:26Z",
+      "bin_edge": 0.1009,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1301827",
+      "question": "Will Tesla (TSLA) close above $390 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.675,
+      "first_seen": "2026-02-24T05:00:26Z",
+      "bin_edge": 0.0938,
+      "bin_n": 188889,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
