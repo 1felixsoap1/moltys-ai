@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-24T22:00:31.006852+00:00",
+  "updated_at": "2026-02-24T23:00:33.410195+00:00",
   "summary": {
-    "pending": 285,
+    "pending": 289,
     "wins": 27,
     "losses": 21,
     "win_rate": 0.5625,
@@ -3142,6 +3142,50 @@
       "first_seen": "2026-02-24T22:00:30Z",
       "bin_edge": 0.0959,
       "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1397649",
+      "question": "Spurs vs. Raptors",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-24T23:00:33Z",
+      "bin_edge": 0.0442,
+      "bin_n": 957967,
+      "category": "sports"
+    },
+    {
+      "market_id": "1352797",
+      "question": "Will Russia enter Verkhnia Tersa by February 28, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-24T23:00:33Z",
+      "bin_edge": 0.0475,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1402985",
+      "question": "Will the price of Bitcoin be above $60,000 on February 27?",
+      "direction": "BUY NO",
+      "order_price": 0.099,
+      "mid_price": 0.897,
+      "first_seen": "2026-02-24T23:00:33Z",
+      "bin_edge": 0.1036,
+      "bin_n": 49182,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1333272",
+      "question": "Will Russia capture Sofiivka by March 31?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-24T23:00:33Z",
+      "bin_edge": 0.0489,
+      "bin_n": 165014,
       "category": "other"
     }
   ],
