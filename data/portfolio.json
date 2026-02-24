@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T15:00:34.290612+00:00",
+  "updated_at": "2026-02-24T16:00:34.206598+00:00",
   "summary": {
-    "pending": 266,
+    "pending": 271,
     "wins": 26,
     "losses": 20,
     "win_rate": 0.5652,
     "total_pnl": 34.4838,
-    "avg_bin_edge": 0.0605
+    "avg_bin_edge": 0.0606
   },
   "pending_picks": [
     {
@@ -2933,6 +2933,61 @@
       "first_seen": "2026-02-24T15:00:34Z",
       "bin_edge": 0.044,
       "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1392859",
+      "question": "Will the price of Bitcoin be between $60,000 and $62,000 on February 25?",
+      "direction": "BUY YES",
+      "order_price": 0.117,
+      "mid_price": 0.119,
+      "first_seen": "2026-02-24T16:00:34Z",
+      "bin_edge": 0.1012,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "614268",
+      "question": "Will Benicio Del Toro win Best Supporting Actor at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.901,
+      "mid_price": 0.09,
+      "first_seen": "2026-02-24T16:00:34Z",
+      "bin_edge": 0.0443,
+      "bin_n": 363783,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1301831",
+      "question": "Will Tesla (TSLA) close above $400 end of February?",
+      "direction": "BUY NO",
+      "order_price": 0.33,
+      "mid_price": 0.67,
+      "first_seen": "2026-02-24T16:00:34Z",
+      "bin_edge": 0.0888,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "677357",
+      "question": "Will Hamas agree to disarm by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-24T16:00:34Z",
+      "bin_edge": 0.0584,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1387684",
+      "question": "Will Elon Musk post 340-359 tweets from February 20 to February 27, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.195,
+      "first_seen": "2026-02-24T16:00:34Z",
+      "bin_edge": 0.0569,
+      "bin_n": 289008,
       "category": "other"
     }
   ],
