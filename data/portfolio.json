@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T00:00:35.656732+00:00",
+  "updated_at": "2026-02-25T01:00:32.212026+00:00",
   "summary": {
-    "pending": 290,
-    "wins": 27,
-    "losses": 21,
-    "win_rate": 0.5625,
-    "total_pnl": 34.1505,
-    "avg_bin_edge": 0.0609
+    "pending": 270,
+    "wins": 35,
+    "losses": 35,
+    "win_rate": 0.5,
+    "total_pnl": 26.1783,
+    "avg_bin_edge": 0.0608
   },
   "pending_picks": [
     {
@@ -283,17 +283,6 @@
       "bin_edge": 0.0405,
       "bin_n": 785318,
       "category": "sports"
-    },
-    {
-      "market_id": "1375508",
-      "question": "Will Elon Musk post 420-439 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.92,
-      "mid_price": 0.0895,
-      "first_seen": "2026-02-21T08:00:28Z",
-      "bin_edge": 0.0529,
-      "bin_n": 1374601,
-      "category": "other"
     },
     {
       "market_id": "1302446",
@@ -769,17 +758,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1375498",
-      "question": "Will Elon Musk post 360-379 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.81,
-      "mid_price": 0.195,
-      "first_seen": "2026-02-21T12:00:27Z",
-      "bin_edge": 0.0569,
-      "bin_n": 289008,
-      "category": "other"
-    },
-    {
       "market_id": "1280183",
       "question": "Will there be between 18 and 21 US strikes on Somalia in February 2026?",
       "direction": "BUY NO",
@@ -901,17 +879,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1375496",
-      "question": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.81,
-      "mid_price": 0.19,
-      "first_seen": "2026-02-21T14:00:27Z",
-      "bin_edge": 0.0519,
-      "bin_n": 289008,
-      "category": "other"
-    },
-    {
       "market_id": "1277193",
       "question": "Will Anthropic have the best AI model at the end of February 2026?",
       "direction": "BUY NO",
@@ -954,17 +921,6 @@
       "bin_edge": 0.0469,
       "bin_n": 986649,
       "category": "politics"
-    },
-    {
-      "market_id": "1375502",
-      "question": "Will Elon Musk post 380-399 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.812,
-      "mid_price": 0.1935,
-      "first_seen": "2026-02-21T17:00:28Z",
-      "bin_edge": 0.0554,
-      "bin_n": 289008,
-      "category": "other"
     },
     {
       "market_id": "1003708",
@@ -1616,17 +1572,6 @@
       "category": "other"
     },
     {
-      "market_id": "1375505",
-      "question": "Will Elon Musk post 400-419 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.104,
-      "mid_price": 0.112,
-      "first_seen": "2026-02-22T18:00:37Z",
-      "bin_edge": 0.0204,
-      "bin_n": 338303,
-      "category": "other"
-    },
-    {
       "market_id": "614805",
       "question": "Will One Battle After Another win Best Cinematography at the 98th Academy Awards?",
       "direction": "BUY YES",
@@ -1669,17 +1614,6 @@
       "bin_edge": 0.0341,
       "bin_n": 206941,
       "category": "entertainment"
-    },
-    {
-      "market_id": "1389188",
-      "question": "Will the price of Ethereum be above $1,900 on February 24?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.69,
-      "first_seen": "2026-02-22T19:00:31Z",
-      "bin_edge": 0.0875,
-      "bin_n": 21696,
-      "category": "crypto"
     },
     {
       "market_id": "614913",
@@ -1836,17 +1770,6 @@
       "category": "politics"
     },
     {
-      "market_id": "1389226",
-      "question": "Will the price of Bitcoin be above $68,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.3,
-      "first_seen": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0929,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
       "market_id": "1363602",
       "question": "Nancy Guthrie kidnapper arrested by February 28?",
       "direction": "BUY NO",
@@ -1867,17 +1790,6 @@
       "bin_edge": 0.1159,
       "bin_n": 192167,
       "category": "other"
-    },
-    {
-      "market_id": "1389186",
-      "question": "Will the price of Ethereum be above $1,800 on February 24?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.6845,
-      "first_seen": "2026-02-23T02:00:29Z",
-      "bin_edge": 0.082,
-      "bin_n": 21696,
-      "category": "crypto"
     },
     {
       "market_id": "1277923",
@@ -1968,17 +1880,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1389224",
-      "question": "Will the price of Bitcoin be above $66,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.32,
-      "mid_price": 0.32,
-      "first_seen": "2026-02-23T05:00:29Z",
-      "bin_edge": 0.0729,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
       "market_id": "1369645",
       "question": "Will Rocket Lab (RKLB) beat quarterly earnings?",
       "direction": "BUY NO",
@@ -2023,17 +1924,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1362778",
-      "question": "Will Amer Sports (AS) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "order_price": 0.89,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-23T08:00:28Z",
-      "bin_edge": 0.0565,
-      "bin_n": 4283185,
-      "category": "other"
-    },
-    {
       "market_id": "1389326",
       "question": "Will the 2026 State of the Union address last 100 minutes or longer?",
       "direction": "BUY YES",
@@ -2041,17 +1931,6 @@
       "mid_price": 0.345,
       "first_seen": "2026-02-23T08:00:28Z",
       "bin_edge": 0.0709,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1389277",
-      "question": "Will the price of XRP be between $1.40 and $1.50 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.28,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-23T08:00:28Z",
-      "bin_edge": 0.1109,
       "bin_n": 192167,
       "category": "other"
     },
@@ -2065,28 +1944,6 @@
       "bin_edge": 0.0439,
       "bin_n": 165014,
       "category": "other"
-    },
-    {
-      "market_id": "1389191",
-      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.09,
-      "mid_price": 0.105,
-      "first_seen": "2026-02-23T09:00:28Z",
-      "bin_edge": 0.1152,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1389222",
-      "question": "Will the price of Bitcoin be above $64,000 on February 24?",
-      "direction": "BUY NO",
-      "order_price": 0.15,
-      "mid_price": 0.85,
-      "first_seen": "2026-02-23T10:00:29Z",
-      "bin_edge": 0.0733,
-      "bin_n": 34644,
-      "category": "crypto"
     },
     {
       "market_id": "1386780",
@@ -2111,17 +1968,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1389190",
-      "question": "Will the price of Ethereum be above $2,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.15,
-      "mid_price": 0.15,
-      "first_seen": "2026-02-23T11:00:28Z",
-      "bin_edge": 0.0702,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
       "market_id": "1262706",
       "question": "Will Apple dip to $248 in February?",
       "direction": "BUY NO",
@@ -2131,17 +1977,6 @@
       "bin_edge": 0.0575,
       "bin_n": 2193542,
       "category": "other"
-    },
-    {
-      "market_id": "1389185",
-      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.124,
-      "mid_price": 0.126,
-      "first_seen": "2026-02-23T12:00:28Z",
-      "bin_edge": 0.0942,
-      "bin_n": 34790,
-      "category": "crypto"
     },
     {
       "market_id": "1321393",
@@ -2287,17 +2122,6 @@
       "category": "other"
     },
     {
-      "market_id": "1389220",
-      "question": "Will the price of Bitcoin be above $62,000 on February 24?",
-      "direction": "BUY NO",
-      "order_price": 0.112,
-      "mid_price": 0.894,
-      "first_seen": "2026-02-23T18:00:29Z",
-      "bin_edge": 0.1173,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
       "market_id": "1363003",
       "question": "Will there be at least 1,050 measles cases in the U.S. by February 28, 2026?",
       "direction": "BUY NO",
@@ -2342,28 +2166,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1389183",
-      "question": "Will the price of Bitcoin be between $60,000 and $62,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.095,
-      "mid_price": 0.103,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.1172,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1375426",
-      "question": "Will Andrew Tate post 0-99 posts from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.685,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.1038,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "1375428",
       "question": "Will Andrew Tate post 100-129 posts from February 17 to February 24, 2026?",
       "direction": "BUY YES",
@@ -2375,39 +2177,6 @@
       "category": "other"
     },
     {
-      "market_id": "1389187",
-      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 24?",
-      "direction": "BUY NO",
-      "order_price": 0.62,
-      "mid_price": 0.38,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.0818,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1414902",
-      "question": "Bitcoin Up or Down on February 24?",
-      "direction": "BUY NO",
-      "order_price": 0.72,
-      "mid_price": 0.285,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.0624,
-      "bin_n": 29954,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1389946",
-      "question": "Will \"The Night Agent: Season 3\" be the #2 US Netflix show this week?",
-      "direction": "BUY NO",
-      "order_price": 0.662,
-      "mid_price": 0.299,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.0893,
-      "bin_n": 156028,
-      "category": "entertainment"
-    },
-    {
       "market_id": "1386768",
       "question": "Will Anthony Kennedy attend the 2026 State of the Union address?",
       "direction": "BUY NO",
@@ -2417,17 +2186,6 @@
       "bin_edge": 0.0738,
       "bin_n": 188889,
       "category": "other"
-    },
-    {
-      "market_id": "1389189",
-      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 24?",
-      "direction": "BUY YES",
-      "order_price": 0.16,
-      "mid_price": 0.16,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.0602,
-      "bin_n": 34790,
-      "category": "crypto"
     },
     {
       "market_id": "1277248",
@@ -3198,9 +2956,273 @@
       "bin_edge": 0.0909,
       "bin_n": 192167,
       "category": "other"
+    },
+    {
+      "market_id": "835893",
+      "question": "Ukraine officially agrees to a US backed ceasefire framework by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0584,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1285271",
+      "question": "Will Google Gemini score at least 45% on Humanity\u2019s Last Exam?",
+      "direction": "BUY NO",
+      "order_price": 0.13,
+      "mid_price": 0.875,
+      "first_seen": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0299,
+      "bin_n": 397357,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1375508",
+      "question": "Will Elon Musk post 420-439 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.087,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0529,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1375498",
+      "question": "Will Elon Musk post 360-379 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0569,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1375496",
+      "question": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2346,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0519,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1375502",
+      "question": "Will Elon Musk post 380-399 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2315,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0554,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1375505",
+      "question": "Will Elon Musk post 400-419 tweets from February 17 to February 24, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0204,
+      "bin_n": 338303,
+      "category": "other"
+    },
+    {
+      "market_id": "1389188",
+      "question": "Will the price of Ethereum be above $1,900 on February 24?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0875,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389226",
+      "question": "Will the price of Bitcoin be above $68,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0929,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389186",
+      "question": "Will the price of Ethereum be above $1,800 on February 24?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.082,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389224",
+      "question": "Will the price of Bitcoin be above $66,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0729,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1362778",
+      "question": "Will Amer Sports (AS) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1236,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0565,
+      "bin_n": 4283185,
+      "category": "other"
+    },
+    {
+      "market_id": "1389277",
+      "question": "Will the price of XRP be between $1.40 and $1.50 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.1109,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1389191",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.1152,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389222",
+      "question": "Will the price of Bitcoin be above $64,000 on February 24?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0733,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389190",
+      "question": "Will the price of Ethereum be above $2,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0702,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389185",
+      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0942,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389220",
+      "question": "Will the price of Bitcoin be above $62,000 on February 24?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.1173,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389183",
+      "question": "Will the price of Bitcoin be between $60,000 and $62,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.1172,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1375426",
+      "question": "Will Andrew Tate post 0-99 posts from February 17 to February 24, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.1038,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1389187",
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 24?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0818,
+      "bin_n": 18774,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414902",
+      "question": "Bitcoin Up or Down on February 24?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.3889,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0624,
+      "bin_n": 29954,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1389946",
+      "question": "Will \"The Night Agent: Season 3\" be the #2 US Netflix show this week?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.5106,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0893,
+      "bin_n": 156028,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1389189",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 24?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T01:00:32Z",
+      "bin_edge": 0.0602,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
     {
       "market_id": "1362683",
       "question": "Will Home Depot (HD) beat quarterly earnings?",
@@ -3508,226 +3530,6 @@
       "bin_edge": 0.0492,
       "bin_n": 180494,
       "category": "other"
-    },
-    {
-      "market_id": "1360921",
-      "question": "Will Domino's Pizza (DPZ) beat quarterly earnings?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 1.8571,
-      "resolved_at": "2026-02-23T19:00:29Z",
-      "bin_edge": 0.0538,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1385475",
-      "question": "Trail Blazers vs. Suns",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T13:00:28Z",
-      "bin_edge": 0.0293,
-      "bin_n": 686360,
-      "category": "sports"
-    },
-    {
-      "market_id": "1144455",
-      "question": "Will \"One Battle After Another\" win Best Film at the 2026 BAFTA Awards?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.3699,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0532,
-      "bin_n": 150591,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1146054",
-      "question": "Will Timoth\u00e9e Chalamet win Best Actor at the 2026 BAFTA Awards?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0687,
-      "bin_n": 236188,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1144457",
-      "question": "Will \"Hamnet\" win Best Film at the 2026 BAFTA Awards?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.25,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0688,
-      "bin_n": 235388,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1384006",
-      "question": "Will Ethereum dip to $1,900 February 16-22?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 7.3333,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0952,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385472",
-      "question": "Knicks vs. Bulls",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.25,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0376,
-      "bin_n": 352435,
-      "category": "sports"
-    },
-    {
-      "market_id": "1410241",
-      "question": "Ethereum Up or Down - February 22, 4:00PM-8:00PM ET",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0991,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385276",
-      "question": "LoL: Cloud9 vs Sentinels (BO5) - LCS Lock In Playoffs",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.2195,
-      "resolved_at": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0176,
-      "bin_n": 352435,
-      "category": "sports"
-    },
-    {
-      "market_id": "1199485",
-      "question": "Will Inga Ibsdotter Lilleaas win Best Supporting Actress at the 2026 BAFTA Awards?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.4706,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0603,
-      "bin_n": 156028,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "897037",
-      "question": "Will Italy win the third most gold medals in the 2026 Winter Olympics?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0434,
-      "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1146172",
-      "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 2026 BAFTA Awards?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0682,
-      "bin_n": 150591,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "903315",
-      "question": "Will Italy win the third most medals in the 2026 Winter Olympics?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1074,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.05,
-      "bin_n": 4283185,
-      "category": "other"
-    },
-    {
-      "market_id": "1145161",
-      "question": "Will \"Sentimental Value\" win Best Original Screenplay at the 2026 BAFTA Awards?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 1.0408,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0872,
-      "bin_n": 59528,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1382273",
-      "question": "Will the price of Bitcoin be above $68,000 on February 22?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0934,
-      "bin_n": 18275,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1382276",
-      "question": "Will the price of Bitcoin be above $70,000 on February 22?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0379,
-      "bin_n": 616602,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1386956",
-      "question": "Winter Olympics: Norway (-6.5) vs. USA (+6.5) gold medals?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0732,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1410174",
-      "question": "LoL: Karmine Corp vs Team Vitality (BO3) - LEC Versus Playoffs",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0362,
-      "bin_n": 568577,
-      "category": "sports"
-    },
-    {
-      "market_id": "1310506",
-      "question": "UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-22T08:45:24Z",
-      "bin_edge": 0.0233,
-      "bin_n": 720092,
-      "category": "sports"
-    },
-    {
-      "market_id": "1347169",
-      "question": "Will Canada win the gold medal for Winter Olympics 2026: Curling - Men's at the 2026 Milano Cortina Winter Olympics?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-22T08:45:24Z",
-      "bin_edge": 0.0312,
-      "bin_n": 568577,
-      "category": "sports"
     }
   ]
 }
