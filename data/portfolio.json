@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T18:00:40.003180+00:00",
+  "updated_at": "2026-02-25T19:00:41.810142+00:00",
   "summary": {
-    "pending": 291,
+    "pending": 293,
     "wins": 48,
     "losses": 44,
     "win_rate": 0.5217,
     "total_pnl": 28.3502,
-    "avg_bin_edge": 0.0622
+    "avg_bin_edge": 0.0624
   },
   "pending_picks": [
     {
@@ -3208,6 +3208,28 @@
       "first_seen": "2026-02-25T18:00:39Z",
       "bin_edge": 0.0728,
       "bin_n": 18774,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1398502",
+      "question": "Will the price of Bitcoin be above $72,000 on February 26?",
+      "direction": "BUY NO",
+      "order_price": 0.905,
+      "mid_price": 0.0985,
+      "first_seen": "2026-02-25T19:00:41Z",
+      "bin_edge": 0.0409,
+      "bin_n": 616602,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1408380",
+      "question": "Will the price of Bitcoin be above $70,000 on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.41,
+      "mid_price": 0.42,
+      "first_seen": "2026-02-25T19:00:41Z",
+      "bin_edge": 0.1502,
+      "bin_n": 17896,
       "category": "crypto"
     }
   ],
