@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T12:00:35.596346+00:00",
+  "updated_at": "2026-02-25T13:00:46.727137+00:00",
   "summary": {
-    "pending": 286,
-    "wins": 39,
-    "losses": 37,
-    "win_rate": 0.5132,
-    "total_pnl": 24.8798,
-    "avg_bin_edge": 0.0609
+    "pending": 273,
+    "wins": 48,
+    "losses": 44,
+    "win_rate": 0.5217,
+    "total_pnl": 28.3502,
+    "avg_bin_edge": 0.0611
   },
   "pending_picks": [
     {
@@ -184,17 +184,6 @@
       "bin_edge": 0.0529,
       "bin_n": 135420,
       "category": "other"
-    },
-    {
-      "market_id": "1230254",
-      "question": "Will Trump say \"Iran\" during the State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.91,
-      "mid_price": 0.915,
-      "first_seen": "2026-02-21T01:35:42Z",
-      "bin_edge": 0.0519,
-      "bin_n": 986649,
-      "category": "politics"
     },
     {
       "market_id": "1301922",
@@ -923,17 +912,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1321386",
-      "question": "Will Erika Kirk attend the 2026 State of the Union address?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.69,
-      "first_seen": "2026-02-21T20:00:27Z",
-      "bin_edge": 0.1088,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "665426",
       "question": "Will a new country join the Abraham Accords by March 31?",
       "direction": "BUY NO",
@@ -975,17 +953,6 @@
       "first_seen": "2026-02-21T21:00:27Z",
       "bin_edge": 0.0534,
       "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1321389",
-      "question": "Will Elon Musk attend the 2026 State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.21,
-      "mid_price": 0.21,
-      "first_seen": "2026-02-21T23:00:25Z",
-      "bin_edge": 0.0307,
-      "bin_n": 287534,
       "category": "other"
     },
     {
@@ -1074,17 +1041,6 @@
       "first_seen": "2026-02-22T02:00:25Z",
       "bin_edge": 0.0572,
       "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "1321387",
-      "question": "Will Nicki Minaj attend the 2026 State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.31,
-      "first_seen": "2026-02-22T03:00:25Z",
-      "bin_edge": 0.1059,
-      "bin_n": 192167,
       "category": "other"
     },
     {
@@ -1374,17 +1330,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1321391",
-      "question": "Will Dana White attend the 2026 State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.19,
-      "mid_price": 0.2,
-      "first_seen": "2026-02-22T11:00:31Z",
-      "bin_edge": 0.0407,
-      "bin_n": 287534,
-      "category": "other"
-    },
-    {
       "market_id": "1003557",
       "question": "Will \"Sinners\" win Outstanding Performance by a Cast in a Motion Picture at the 32nd Actor Awards?",
       "direction": "BUY NO",
@@ -1396,17 +1341,6 @@
       "category": "other"
     },
     {
-      "market_id": "1321397",
-      "question": "Will Gianni Infantino attend the 2026 State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.19,
-      "mid_price": 0.2,
-      "first_seen": "2026-02-22T13:00:32Z",
-      "bin_edge": 0.0407,
-      "bin_n": 287534,
-      "category": "other"
-    },
-    {
       "market_id": "1117242",
       "question": "Nothing Ever Happens: Khamenei",
       "direction": "BUY YES",
@@ -1415,17 +1349,6 @@
       "first_seen": "2026-02-22T13:00:32Z",
       "bin_edge": 0.039,
       "bin_n": 246418,
-      "category": "other"
-    },
-    {
-      "market_id": "1321390",
-      "question": "Will Al Green attend the 2026 State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.36,
-      "mid_price": 0.375,
-      "first_seen": "2026-02-22T13:00:32Z",
-      "bin_edge": 0.0409,
-      "bin_n": 192167,
       "category": "other"
     },
     {
@@ -1869,17 +1792,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1389326",
-      "question": "Will the 2026 State of the Union address last 100 minutes or longer?",
-      "direction": "BUY YES",
-      "order_price": 0.34,
-      "mid_price": 0.345,
-      "first_seen": "2026-02-23T08:00:28Z",
-      "bin_edge": 0.0709,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
       "market_id": "1334172",
       "question": "Will USD reach 1.7M Iranian rials by February 28?",
       "direction": "BUY YES",
@@ -1888,17 +1800,6 @@
       "first_seen": "2026-02-23T09:00:28Z",
       "bin_edge": 0.0439,
       "bin_n": 165014,
-      "category": "other"
-    },
-    {
-      "market_id": "1386780",
-      "question": "Will George Santos attend the 2026 State of the Union address?",
-      "direction": "BUY NO",
-      "order_price": 0.35,
-      "mid_price": 0.635,
-      "first_seen": "2026-02-23T10:00:29Z",
-      "bin_edge": 0.0538,
-      "bin_n": 188889,
       "category": "other"
     },
     {
@@ -1921,17 +1822,6 @@
       "first_seen": "2026-02-23T11:00:28Z",
       "bin_edge": 0.0575,
       "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1321393",
-      "question": "Will Alexandria Ocasio-Cortez attend the 2026 State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.1,
-      "mid_price": 0.105,
-      "first_seen": "2026-02-23T13:00:28Z",
-      "bin_edge": 0.0441,
-      "bin_n": 398539,
       "category": "other"
     },
     {
@@ -2111,28 +2001,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1375428",
-      "question": "Will Andrew Tate post 100-129 posts from February 17 to February 24, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.315,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.1009,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1386768",
-      "question": "Will Anthony Kennedy attend the 2026 State of the Union address?",
-      "direction": "BUY NO",
-      "order_price": 0.35,
-      "mid_price": 0.655,
-      "first_seen": "2026-02-23T20:00:29Z",
-      "bin_edge": 0.0738,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "1277248",
       "question": "Will Google have the third-best AI model at the end of February 2026?",
       "direction": "BUY YES",
@@ -2141,17 +2009,6 @@
       "first_seen": "2026-02-23T20:00:29Z",
       "bin_edge": 0.0622,
       "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "1139645",
-      "question": "Will Player 167 win Beast Games: Season 2?",
-      "direction": "BUY YES",
-      "order_price": 0.903,
-      "mid_price": 0.9095,
-      "first_seen": "2026-02-23T22:00:28Z",
-      "bin_edge": 0.047,
-      "bin_n": 4283185,
       "category": "other"
     },
     {
@@ -2164,17 +2021,6 @@
       "bin_edge": 0.0436,
       "bin_n": 185418,
       "category": "other"
-    },
-    {
-      "market_id": "1392405",
-      "question": "Celtics vs. Suns",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.7,
-      "first_seen": "2026-02-23T22:00:28Z",
-      "bin_edge": 0.0492,
-      "bin_n": 957967,
-      "category": "sports"
     },
     {
       "market_id": "1392891",
@@ -2254,17 +2100,6 @@
       "category": "other"
     },
     {
-      "market_id": "1392390",
-      "question": "Wizards vs. Hawks",
-      "direction": "BUY NO",
-      "order_price": 0.85,
-      "mid_price": 0.155,
-      "first_seen": "2026-02-24T00:00:26Z",
-      "bin_edge": 0.0432,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
       "market_id": "531202",
       "question": "BitBoy convicted?",
       "direction": "BUY YES",
@@ -2317,17 +2152,6 @@
       "first_seen": "2026-02-24T01:00:27Z",
       "bin_edge": 0.0758,
       "bin_n": 392103,
-      "category": "sports"
-    },
-    {
-      "market_id": "1392396",
-      "question": "Knicks vs. Cavaliers",
-      "direction": "BUY YES",
-      "order_price": 0.4,
-      "mid_price": 0.405,
-      "first_seen": "2026-02-24T02:00:27Z",
-      "bin_edge": 0.0373,
-      "bin_n": 865556,
       "category": "sports"
     },
     {
@@ -3154,9 +2978,218 @@
       "bin_edge": 0.0558,
       "bin_n": 392103,
       "category": "sports"
+    },
+    {
+      "market_id": "663472",
+      "question": "Will Trump meet with Putin by March 31, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0669,
+      "bin_n": 148089,
+      "category": "politics"
+    },
+    {
+      "market_id": "1398456",
+      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on February 26?",
+      "direction": "BUY YES",
+      "order_price": 0.09,
+      "mid_price": 0.1,
+      "first_seen": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.1202,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1353462",
+      "question": "UFC Fight Night: Jose Daniel Medina vs. Ryan Gandra (Middleweight, Prelims)",
+      "direction": "BUY NO",
+      "order_price": 0.82,
+      "mid_price": 0.185,
+      "first_seen": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0732,
+      "bin_n": 384603,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1230254",
+      "question": "Will Trump say \"Iran\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0519,
+      "bin_n": 986649,
+      "category": "politics"
+    },
+    {
+      "market_id": "1321386",
+      "question": "Will Erika Kirk attend the 2026 State of the Union address?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.1088,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1321389",
+      "question": "Will Elon Musk attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0307,
+      "bin_n": 287534,
+      "category": "other"
+    },
+    {
+      "market_id": "1321387",
+      "question": "Will Nicki Minaj attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.1059,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1321391",
+      "question": "Will Dana White attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0407,
+      "bin_n": 287534,
+      "category": "other"
+    },
+    {
+      "market_id": "1321397",
+      "question": "Will Gianni Infantino attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0407,
+      "bin_n": 287534,
+      "category": "other"
+    },
+    {
+      "market_id": "1321390",
+      "question": "Will Al Green attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 1.7778,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0409,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1389326",
+      "question": "Will the 2026 State of the Union address last 100 minutes or longer?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 1.9412,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0709,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1386780",
+      "question": "Will George Santos attend the 2026 State of the Union address?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 1.8571,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0538,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1321393",
+      "question": "Will Alexandria Ocasio-Cortez attend the 2026 State of the Union address?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0441,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1375428",
+      "question": "Will Andrew Tate post 100-129 posts from February 17 to February 24, 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.1009,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1386768",
+      "question": "Will Anthony Kennedy attend the 2026 State of the Union address?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 1.8571,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0738,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1139645",
+      "question": "Will Player 167 win Beast Games: Season 2?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1074,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.047,
+      "bin_n": 4283185,
+      "category": "other"
+    },
+    {
+      "market_id": "1392405",
+      "question": "Celtics vs. Suns",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4286,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0492,
+      "bin_n": 957967,
+      "category": "sports"
+    },
+    {
+      "market_id": "1392390",
+      "question": "Wizards vs. Hawks",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1765,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0432,
+      "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1392396",
+      "question": "Knicks vs. Cavaliers",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T13:00:46Z",
+      "bin_edge": 0.0373,
+      "bin_n": 865556,
+      "category": "sports"
+    },
     {
       "market_id": "1363649",
       "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-24?",
@@ -3530,182 +3563,6 @@
       "bin_edge": 0.0303,
       "bin_n": 905838,
       "category": "sports"
-    },
-    {
-      "market_id": "1388868",
-      "question": "Louisville Cardinals vs. North Carolina Tar Heels",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T07:00:26Z",
-      "bin_edge": 0.0424,
-      "bin_n": 559960,
-      "category": "sports"
-    },
-    {
-      "market_id": "1388835",
-      "question": "Kansas State Wildcats vs. Baylor Bears (W)",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.2346,
-      "resolved_at": "2026-02-24T07:00:26Z",
-      "bin_edge": 0.037,
-      "bin_n": 348454,
-      "category": "sports"
-    },
-    {
-      "market_id": "1388814",
-      "question": "Nicholls Colonels vs. Lamar Cardinals",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T07:00:26Z",
-      "bin_edge": 0.0462,
-      "bin_n": 568577,
-      "category": "sports"
-    },
-    {
-      "market_id": "1373457",
-      "question": "Will there be exactly 0 earthquakes of magnitude 6.5 or higher worldwide by February 22?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 8.0909,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0299,
-      "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1360922",
-      "question": "Will Hims & Hers Health (HIMS) beat quarterly earnings?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0988,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1385960",
-      "question": "Will the price of Bitcoin be above $66,000 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 6.1429,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0883,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385965",
-      "question": "Will the price of Bitcoin be above $70,000 on February 23?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0802,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385917",
-      "question": "Will the price of Ethereum be above $1,900 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 6.6923,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0933,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385923",
-      "question": "Will the price of Bitcoin be between $70,000 and $72,000 on February 23?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.1102,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385916",
-      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0768,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398448",
-      "question": "Will Elon Musk post 65-89 tweets from February 21 to February 23, 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0389,
-      "bin_n": 165014,
-      "category": "other"
-    },
-    {
-      "market_id": "1398455",
-      "question": "Will Elon Musk post 115-139 tweets from February 21 to February 23, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0371,
-      "bin_n": 235059,
-      "category": "other"
-    },
-    {
-      "market_id": "1388982",
-      "question": "Will \"GOAT\" Second Weekend Box Office be between 15m and 17.5m?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.2195,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0487,
-      "bin_n": 236188,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1385920",
-      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6667,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0868,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385919",
-      "question": "Will the price of Ethereum be above $2,000 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.5873,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0768,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1386008",
-      "question": "Will the price of Solana be above $80 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 8.0909,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.1033,
-      "bin_n": 34644,
-      "category": "crypto"
     }
   ]
 }
