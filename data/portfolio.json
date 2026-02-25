@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T13:00:46.727137+00:00",
+  "updated_at": "2026-02-25T14:00:42.673268+00:00",
   "summary": {
-    "pending": 273,
+    "pending": 275,
     "wins": 48,
     "losses": 44,
     "win_rate": 0.5217,
     "total_pnl": 28.3502,
-    "avg_bin_edge": 0.0611
+    "avg_bin_edge": 0.061
   },
   "pending_picks": [
     {
@@ -3010,6 +3010,28 @@
       "first_seen": "2026-02-25T13:00:46Z",
       "bin_edge": 0.0732,
       "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1293877",
+      "question": "Kraken vs. Stars",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.395,
+      "first_seen": "2026-02-25T14:00:42Z",
+      "bin_edge": 0.0462,
+      "bin_n": 568577,
+      "category": "sports"
+    },
+    {
+      "market_id": "1430649",
+      "question": "Dota 2: Aurora vs MOUZ (BO3) - DreamLeague Stage 2",
+      "direction": "BUY YES",
+      "order_price": 0.81,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-25T14:00:42Z",
+      "bin_edge": 0.061,
+      "bin_n": 255915,
       "category": "sports"
     }
   ],
