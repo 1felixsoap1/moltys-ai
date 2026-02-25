@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T01:00:32.212026+00:00",
+  "updated_at": "2026-02-25T02:00:33.496100+00:00",
   "summary": {
-    "pending": 270,
+    "pending": 271,
     "wins": 35,
     "losses": 35,
     "win_rate": 0.5,
     "total_pnl": 26.1783,
-    "avg_bin_edge": 0.0608
+    "avg_bin_edge": 0.0609
   },
   "pending_picks": [
     {
@@ -2978,6 +2978,17 @@
       "bin_edge": 0.0299,
       "bin_n": 397357,
       "category": "other"
+    },
+    {
+      "market_id": "1398493",
+      "question": "Will the price of Bitcoin be above $66,000 on February 26?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.51,
+      "first_seen": "2026-02-25T02:00:33Z",
+      "bin_edge": 0.0891,
+      "bin_n": 32729,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
