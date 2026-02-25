@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-24T23:00:33.410195+00:00",
+  "updated_at": "2026-02-25T00:00:35.656732+00:00",
   "summary": {
-    "pending": 289,
+    "pending": 290,
     "wins": 27,
     "losses": 21,
     "win_rate": 0.5625,
     "total_pnl": 34.1505,
-    "avg_bin_edge": 0.0608
+    "avg_bin_edge": 0.0609
   },
   "pending_picks": [
     {
@@ -3186,6 +3186,17 @@
       "first_seen": "2026-02-24T23:00:33Z",
       "bin_edge": 0.0489,
       "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1277650",
+      "question": "Will Israel strike Lebanon on February 25, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.325,
+      "first_seen": "2026-02-25T00:00:35Z",
+      "bin_edge": 0.0909,
+      "bin_n": 192167,
       "category": "other"
     }
   ],
