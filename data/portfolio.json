@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T17:00:40.200103+00:00",
+  "updated_at": "2026-02-25T18:00:40.003180+00:00",
   "summary": {
-    "pending": 287,
+    "pending": 291,
     "wins": 48,
     "losses": 44,
     "win_rate": 0.5217,
     "total_pnl": 28.3502,
-    "avg_bin_edge": 0.0617
+    "avg_bin_edge": 0.0622
   },
   "pending_picks": [
     {
@@ -3164,6 +3164,50 @@
       "first_seen": "2026-02-25T17:00:40Z",
       "bin_edge": 0.0674,
       "bin_n": 29954,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402992",
+      "question": "Will the price of Bitcoin be above $70,000 on February 27?",
+      "direction": "BUY YES",
+      "order_price": 0.303,
+      "mid_price": 0.308,
+      "first_seen": "2026-02-25T18:00:39Z",
+      "bin_edge": 0.0849,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1277651",
+      "question": "Will Israel strike Lebanon on February 26, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.315,
+      "first_seen": "2026-02-25T18:00:39Z",
+      "bin_edge": 0.1009,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1414967",
+      "question": "Will the price of Bitcoin be above $68,000 on March 1?",
+      "direction": "BUY NO",
+      "order_price": 0.42,
+      "mid_price": 0.58,
+      "first_seen": "2026-02-25T18:00:39Z",
+      "bin_edge": 0.1858,
+      "bin_n": 19105,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1398524",
+      "question": "Will the price of Solana be between $90 and $100 on February 26?",
+      "direction": "BUY NO",
+      "order_price": 0.604,
+      "mid_price": 0.371,
+      "first_seen": "2026-02-25T18:00:39Z",
+      "bin_edge": 0.0728,
+      "bin_n": 18774,
       "category": "crypto"
     }
   ],
