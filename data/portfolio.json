@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T16:00:41.870910+00:00",
+  "updated_at": "2026-02-25T17:00:40.200103+00:00",
   "summary": {
-    "pending": 282,
+    "pending": 287,
     "wins": 48,
     "losses": 44,
     "win_rate": 0.5217,
     "total_pnl": 28.3502,
-    "avg_bin_edge": 0.0616
+    "avg_bin_edge": 0.0617
   },
   "pending_picks": [
     {
@@ -3109,6 +3109,61 @@
       "first_seen": "2026-02-25T16:00:41Z",
       "bin_edge": 0.0299,
       "bin_n": 616602,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1262847",
+      "question": "Will NVIDIA reach $208 in February?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.34,
+      "first_seen": "2026-02-25T17:00:40Z",
+      "bin_edge": 0.0759,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1280182",
+      "question": "Will there be between 14 and 17 US strikes on Somalia in February 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-25T17:00:40Z",
+      "bin_edge": 0.0489,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1398464",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 26?",
+      "direction": "BUY NO",
+      "order_price": 0.621,
+      "mid_price": 0.3875,
+      "first_seen": "2026-02-25T17:00:40Z",
+      "bin_edge": 0.0893,
+      "bin_n": 18774,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402963",
+      "question": "Will the price of Ethereum be above $2,100 on February 27?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.303,
+      "first_seen": "2026-02-25T17:00:40Z",
+      "bin_edge": 0.0899,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1398525",
+      "question": "Will the price of Solana be above $90 on February 26?",
+      "direction": "BUY NO",
+      "order_price": 0.696,
+      "mid_price": 0.29,
+      "first_seen": "2026-02-25T17:00:40Z",
+      "bin_edge": 0.0674,
+      "bin_n": 29954,
       "category": "crypto"
     }
   ],
