@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-25T04:00:38.634670+00:00",
+  "updated_at": "2026-02-25T05:00:36.655617+00:00",
   "summary": {
-    "pending": 279,
+    "pending": 283,
     "wins": 35,
     "losses": 35,
     "win_rate": 0.5,
@@ -3076,6 +3076,50 @@
       "first_seen": "2026-02-25T04:00:38Z",
       "bin_edge": 0.05,
       "bin_n": 221153,
+      "category": "other"
+    },
+    {
+      "market_id": "1397636",
+      "question": "Thunder vs. Pistons",
+      "direction": "BUY NO",
+      "order_price": 0.72,
+      "mid_price": 0.285,
+      "first_seen": "2026-02-25T05:00:36Z",
+      "bin_edge": 0.0394,
+      "bin_n": 947528,
+      "category": "sports"
+    },
+    {
+      "market_id": "1387102",
+      "question": "Will Teleflex (TFX) beat quarterly earnings?",
+      "direction": "BUY NO",
+      "order_price": 0.28,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-25T05:00:36Z",
+      "bin_edge": 0.1138,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1302442",
+      "question": "Will Elon Musk\u2019s net worth be between $660b and $670b on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.34,
+      "mid_price": 0.355,
+      "first_seen": "2026-02-25T05:00:36Z",
+      "bin_edge": 0.0609,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1302848",
+      "question": "Will Russia enter Rizdvianka by February 28, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.125,
+      "mid_price": 0.128,
+      "first_seen": "2026-02-25T05:00:36Z",
+      "bin_edge": 0.0211,
+      "bin_n": 398539,
       "category": "other"
     }
   ],
