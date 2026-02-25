@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-25T02:00:33.496100+00:00",
+  "updated_at": "2026-02-25T03:00:34.290012+00:00",
   "summary": {
-    "pending": 271,
+    "pending": 274,
     "wins": 35,
     "losses": 35,
     "win_rate": 0.5,
     "total_pnl": 26.1783,
-    "avg_bin_edge": 0.0609
+    "avg_bin_edge": 0.061
   },
   "pending_picks": [
     {
@@ -2988,6 +2988,39 @@
       "first_seen": "2026-02-25T02:00:33Z",
       "bin_edge": 0.0891,
       "bin_n": 32729,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1322263",
+      "question": "Will Linda Lampenius & Pete Parkkonen win UMK 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.9,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-25T03:00:34Z",
+      "bin_edge": 0.0622,
+      "bin_n": 2204595,
+      "category": "other"
+    },
+    {
+      "market_id": "1005914",
+      "question": "Will Rhea Seehorn win Best Actress in a Drama Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.75,
+      "mid_price": 0.805,
+      "first_seen": "2026-02-25T03:00:34Z",
+      "bin_edge": 0.0687,
+      "bin_n": 236188,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1398461",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 26?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.32,
+      "first_seen": "2026-02-25T03:00:34Z",
+      "bin_edge": 0.0729,
+      "bin_n": 21824,
       "category": "crypto"
     }
   ],
