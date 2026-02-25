@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-25T07:00:38.410891+00:00",
+  "updated_at": "2026-02-25T08:00:36.201525+00:00",
   "summary": {
-    "pending": 280,
+    "pending": 281,
     "wins": 39,
     "losses": 37,
     "win_rate": 0.5132,
@@ -3088,6 +3088,17 @@
       "bin_edge": 0.0847,
       "bin_n": 49189,
       "category": "crypto"
+    },
+    {
+      "market_id": "1402330",
+      "question": "Trail Blazers vs. Bulls",
+      "direction": "BUY NO",
+      "order_price": 0.43,
+      "mid_price": 0.575,
+      "first_seen": "2026-02-25T08:00:36Z",
+      "bin_edge": 0.0338,
+      "bin_n": 815088,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
