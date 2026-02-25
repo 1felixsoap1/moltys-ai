@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-02-25T06:00:41.426126+00:00",
+  "updated_at": "2026-02-25T07:00:38.410891+00:00",
   "summary": {
-    "pending": 286,
-    "wins": 35,
-    "losses": 35,
-    "win_rate": 0.5,
-    "total_pnl": 26.1783,
+    "pending": 280,
+    "wins": 39,
+    "losses": 37,
+    "win_rate": 0.5132,
+    "total_pnl": 24.8798,
     "avg_bin_edge": 0.0609
   },
   "pending_picks": [
@@ -538,17 +538,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1363649",
-      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-24?",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.705,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0442,
-      "bin_n": 957967,
-      "category": "sports"
-    },
-    {
       "market_id": "550708",
       "question": "Will Ukraine qualify for the 2026 FIFA World Cup?",
       "direction": "BUY YES",
@@ -569,17 +558,6 @@
       "bin_edge": 0.0484,
       "bin_n": 1374601,
       "category": "other"
-    },
-    {
-      "market_id": "1230295",
-      "question": "Will Trump say \"Venezuela\" during the State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.91,
-      "mid_price": 0.91,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0569,
-      "bin_n": 986649,
-      "category": "politics"
     },
     {
       "market_id": "1277222",
@@ -910,17 +888,6 @@
       "bin_edge": 0.0575,
       "bin_n": 2193542,
       "category": "other"
-    },
-    {
-      "market_id": "1230041",
-      "question": "Will Trump say \"Biden\" during the State of the Union address?",
-      "direction": "BUY YES",
-      "order_price": 0.92,
-      "mid_price": 0.92,
-      "first_seen": "2026-02-21T16:00:27Z",
-      "bin_edge": 0.0469,
-      "bin_n": 986649,
-      "category": "politics"
     },
     {
       "market_id": "1003708",
@@ -1352,17 +1319,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1277922",
-      "question": "Will Israel strike Gaza on February 21, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.92,
-      "mid_price": 0.08,
-      "first_seen": "2026-02-22T08:45:58Z",
-      "bin_edge": 0.0425,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "1388964",
       "question": "Will \"How to Make a Killing\" Opening Weekend Box Office be between 3.5m and 5m?",
       "direction": "BUY YES",
@@ -1504,17 +1460,6 @@
       "bin_edge": 0.0687,
       "bin_n": 236188,
       "category": "entertainment"
-    },
-    {
-      "market_id": "1366824",
-      "question": "Will FK Bod\u00f8/Glimt win on 2026-02-24?",
-      "direction": "BUY NO",
-      "order_price": 0.92,
-      "mid_price": 0.085,
-      "first_seen": "2026-02-22T17:00:32Z",
-      "bin_edge": 0.0367,
-      "bin_n": 2899535,
-      "category": "sports"
     },
     {
       "market_id": "643464",
@@ -2518,17 +2463,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1392380",
-      "question": "76ers vs. Pacers",
-      "direction": "BUY NO",
-      "order_price": 0.21,
-      "mid_price": 0.795,
-      "first_seen": "2026-02-24T08:00:28Z",
-      "bin_edge": 0.0213,
-      "bin_n": 740243,
-      "category": "sports"
-    },
-    {
       "market_id": "991022",
       "question": "No change in Bank of Japan's interest rates after March 2026 meeting?",
       "direction": "BUY YES",
@@ -3158,6 +3092,72 @@
   ],
   "recent_resolutions": [
     {
+      "market_id": "1363649",
+      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-24?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4286,
+      "resolved_at": "2026-02-25T07:00:38Z",
+      "bin_edge": 0.0442,
+      "bin_n": 957967,
+      "category": "sports"
+    },
+    {
+      "market_id": "1230295",
+      "question": "Will Trump say \"Venezuela\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-02-25T07:00:38Z",
+      "bin_edge": 0.0569,
+      "bin_n": 986649,
+      "category": "politics"
+    },
+    {
+      "market_id": "1230041",
+      "question": "Will Trump say \"Biden\" during the State of the Union address?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.087,
+      "resolved_at": "2026-02-25T07:00:38Z",
+      "bin_edge": 0.0469,
+      "bin_n": 986649,
+      "category": "politics"
+    },
+    {
+      "market_id": "1277922",
+      "question": "Will Israel strike Gaza on February 21, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.087,
+      "resolved_at": "2026-02-25T07:00:38Z",
+      "bin_edge": 0.0425,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1366824",
+      "question": "Will FK Bod\u00f8/Glimt win on 2026-02-24?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T07:00:38Z",
+      "bin_edge": 0.0367,
+      "bin_n": 2899535,
+      "category": "sports"
+    },
+    {
+      "market_id": "1392380",
+      "question": "76ers vs. Pacers",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-25T07:00:38Z",
+      "bin_edge": 0.0213,
+      "bin_n": 740243,
+      "category": "sports"
+    },
+    {
       "market_id": "1375508",
       "question": "Will Elon Musk post 420-439 tweets from February 17 to February 24, 2026?",
       "direction": "BUY NO",
@@ -3640,72 +3640,6 @@
       "bin_edge": 0.1033,
       "bin_n": 34644,
       "category": "crypto"
-    },
-    {
-      "market_id": "1385963",
-      "question": "Will the price of Bitcoin be above $68,000 on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0868,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408319",
-      "question": "Bitcoin Up or Down on February 23?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.9608,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0991,
-      "bin_n": 31804,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1385915",
-      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 23?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 5.6667,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0652,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398452",
-      "question": "Will Elon Musk post 90-114 tweets from February 21 to February 23, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0559,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1116335",
-      "question": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate after the February decision?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T19:00:29Z",
-      "bin_edge": 0.0436,
-      "bin_n": 185418,
-      "category": "other"
-    },
-    {
-      "market_id": "1116334",
-      "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the February decision?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-23T19:00:29Z",
-      "bin_edge": 0.0492,
-      "bin_n": 180494,
-      "category": "other"
     }
   ]
 }
