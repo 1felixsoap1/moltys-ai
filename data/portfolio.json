@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-25T10:00:38.924442+00:00",
+  "updated_at": "2026-02-25T11:00:43.540944+00:00",
   "summary": {
-    "pending": 285,
+    "pending": 286,
     "wins": 39,
     "losses": 37,
     "win_rate": 0.5132,
@@ -3143,6 +3143,17 @@
       "bin_edge": 0.0321,
       "bin_n": 235059,
       "category": "other"
+    },
+    {
+      "market_id": "1374916",
+      "question": "Al Ittihad Saudi Club vs. Al Khaleej Saudi Club: O/U 1.5",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.825,
+      "first_seen": "2026-02-25T11:00:43Z",
+      "bin_edge": 0.0558,
+      "bin_n": 392103,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
