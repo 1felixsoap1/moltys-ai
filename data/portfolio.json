@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-26T20:00:37.098330+00:00",
+  "updated_at": "2026-02-26T21:00:34.848206+00:00",
   "summary": {
-    "pending": 306,
+    "pending": 310,
     "wins": 70,
     "losses": 61,
     "win_rate": 0.5344,
     "total_pnl": 41.6674,
-    "avg_bin_edge": 0.0632
+    "avg_bin_edge": 0.0631
   },
   "pending_picks": [
     {
@@ -3373,6 +3373,50 @@
       "first_seen": "2026-02-26T20:00:37Z",
       "bin_edge": 0.0659,
       "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1402962",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 27?",
+      "direction": "BUY NO",
+      "order_price": 0.71,
+      "mid_price": 0.29,
+      "first_seen": "2026-02-26T21:00:34Z",
+      "bin_edge": 0.0674,
+      "bin_n": 29954,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1436150",
+      "question": "Ethereum Up or Down on February 27?",
+      "direction": "BUY YES",
+      "order_price": 0.71,
+      "mid_price": 0.715,
+      "first_seen": "2026-02-26T21:00:34Z",
+      "bin_edge": 0.0626,
+      "bin_n": 30064,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1373736",
+      "question": "Will there be at least 1,150 measles cases in the U.S. by February 28, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.113,
+      "mid_price": 0.1205,
+      "first_seen": "2026-02-26T21:00:34Z",
+      "bin_edge": 0.0286,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1426128",
+      "question": "Will MrBeast's latest video get 41 million or more views on week 1?",
+      "direction": "BUY YES",
+      "order_price": 0.301,
+      "mid_price": 0.306,
+      "first_seen": "2026-02-26T21:00:34Z",
+      "bin_edge": 0.0669,
+      "bin_n": 135420,
       "category": "other"
     }
   ],
