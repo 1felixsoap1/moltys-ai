@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-26T21:37:58.380148+00:00",
+  "updated_at": "2026-02-26T22:00:42.257379+00:00",
   "summary": {
-    "pending": 314,
+    "pending": 323,
     "wins": 70,
     "losses": 61,
     "win_rate": 0.5344,
@@ -3461,6 +3461,105 @@
       "first_seen": "2026-02-26T21:37:58Z",
       "bin_edge": 0.0927,
       "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1003635",
+      "question": "Will Jessie Buckley win Best Actress in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.9,
+      "mid_price": 0.905,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0455,
+      "bin_n": 697983,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1048118",
+      "question": "Will another country recognize Somaliland by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0531,
+      "bin_n": 1163272,
+      "category": "other"
+    },
+    {
+      "market_id": "1399376",
+      "question": "Will \"Scream 7\" Opening Weekend Box Office be greater than 65m?",
+      "direction": "BUY NO",
+      "order_price": 0.73,
+      "mid_price": 0.27,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.1016,
+      "bin_n": 227589,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1242523",
+      "question": "Will Two People Exchanging Saliva win Best Live Action Short Film at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.41,
+      "mid_price": 0.415,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.1225,
+      "bin_n": 38089,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1117230",
+      "question": "Will Israel strike Greater Beirut by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.31,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0502,
+      "bin_n": 138094,
+      "category": "other"
+    },
+    {
+      "market_id": "1004797",
+      "question": "Will Apple be the second-largest company in the world by market cap on March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.68,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0423,
+      "bin_n": 135761,
+      "category": "other"
+    },
+    {
+      "market_id": "1426127",
+      "question": "Will MrBeast's latest video get between 39 and 41 million views on week 1?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0561,
+      "bin_n": 196802,
+      "category": "other"
+    },
+    {
+      "market_id": "1145544",
+      "question": "Kristi Noem out by March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0431,
+      "bin_n": 1163272,
+      "category": "other"
+    },
+    {
+      "market_id": "1414913",
+      "question": "Will the price of Ethereum be above $1,900 on March 1?",
+      "direction": "BUY NO",
+      "order_price": 0.13,
+      "mid_price": 0.875,
+      "first_seen": "2026-02-26T22:00:42Z",
+      "bin_edge": 0.0816,
+      "bin_n": 49182,
       "category": "crypto"
     }
   ],
