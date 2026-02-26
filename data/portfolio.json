@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-26T17:01:07.494783+00:00",
+  "updated_at": "2026-02-26T18:01:08.679114+00:00",
   "summary": {
-    "pending": 305,
+    "pending": 306,
     "wins": 66,
     "losses": 59,
     "win_rate": 0.528,
     "total_pnl": 40.107,
-    "avg_bin_edge": 0.0632
+    "avg_bin_edge": 0.0633
   },
   "pending_picks": [
     {
@@ -3363,6 +3363,17 @@
       "bin_edge": 0.0708,
       "bin_n": 34644,
       "category": "crypto"
+    },
+    {
+      "market_id": "1404263",
+      "question": "Will Palantir (PLTR) finish week of February 23 above $132?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.68,
+      "first_seen": "2026-02-26T18:01:08Z",
+      "bin_edge": 0.0988,
+      "bin_n": 188889,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
