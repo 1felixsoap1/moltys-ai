@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-26T01:00:54.306381+00:00",
+  "updated_at": "2026-02-26T02:00:45.965317+00:00",
   "summary": {
-    "pending": 293,
+    "pending": 295,
     "wins": 54,
     "losses": 55,
     "win_rate": 0.4954,
@@ -3231,6 +3231,28 @@
       "bin_edge": 0.0859,
       "bin_n": 192167,
       "category": "other"
+    },
+    {
+      "market_id": "1314033",
+      "question": "Flames vs. Kings",
+      "direction": "BUY YES",
+      "order_price": 0.4,
+      "mid_price": 0.405,
+      "first_seen": "2026-02-26T02:00:45Z",
+      "bin_edge": 0.0373,
+      "bin_n": 865556,
+      "category": "sports"
+    },
+    {
+      "market_id": "1419248",
+      "question": "Will Bitcoin reach $70,000 February 23-March 1?",
+      "direction": "BUY NO",
+      "order_price": 0.4,
+      "mid_price": 0.59,
+      "first_seen": "2026-02-26T02:00:45Z",
+      "bin_edge": 0.1091,
+      "bin_n": 22715,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
