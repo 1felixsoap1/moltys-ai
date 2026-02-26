@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-26T18:01:08.679114+00:00",
+  "updated_at": "2026-02-26T19:01:07.112202+00:00",
   "summary": {
-    "pending": 306,
-    "wins": 66,
-    "losses": 59,
-    "win_rate": 0.528,
-    "total_pnl": 40.107,
-    "avg_bin_edge": 0.0633
+    "pending": 303,
+    "wins": 70,
+    "losses": 61,
+    "win_rate": 0.5344,
+    "total_pnl": 41.6674,
+    "avg_bin_edge": 0.063
   },
   "pending_picks": [
     {
@@ -923,17 +923,6 @@
       "category": "other"
     },
     {
-      "market_id": "1299197",
-      "question": "Will NYC have less than 2 inches of precipitation in February?",
-      "direction": "BUY NO",
-      "order_price": 0.69,
-      "mid_price": 0.29,
-      "first_seen": "2026-02-21T20:00:27Z",
-      "bin_edge": 0.0496,
-      "bin_n": 195298,
-      "category": "other"
-    },
-    {
       "market_id": "1277219",
       "question": "Will Google have the second-best AI model at the end of February 2026?",
       "direction": "BUY NO",
@@ -1206,17 +1195,6 @@
       "first_seen": "2026-02-22T08:45:58Z",
       "bin_edge": 0.0576,
       "bin_n": 1163272,
-      "category": "other"
-    },
-    {
-      "market_id": "1369672",
-      "question": "Will Papa John's International (PZZA) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.715,
-      "first_seen": "2026-02-22T08:45:58Z",
-      "bin_edge": 0.0461,
-      "bin_n": 196802,
       "category": "other"
     },
     {
@@ -1559,17 +1537,6 @@
       "bin_edge": 0.051,
       "bin_n": 2908317,
       "category": "sports"
-    },
-    {
-      "market_id": "1370976",
-      "question": "Will Hilton Grand Vacations (HGV) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-23T00:00:29Z",
-      "bin_edge": 0.0679,
-      "bin_n": 135420,
-      "category": "other"
     },
     {
       "market_id": "1003598",
@@ -2276,17 +2243,6 @@
       "category": "other"
     },
     {
-      "market_id": "1388695",
-      "question": "US x Iran meeting by February 28, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.9,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-24T18:00:33Z",
-      "bin_edge": 0.0629,
-      "bin_n": 1385931,
-      "category": "other"
-    },
-    {
       "market_id": "1198451",
       "question": "Israel strikes Iran by February 28, 2026?",
       "direction": "BUY YES",
@@ -2371,17 +2327,6 @@
       "mid_price": 0.325,
       "first_seen": "2026-02-24T22:00:30Z",
       "bin_edge": 0.0909,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1369646",
-      "question": "Will Warby Parker (WRBY) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.32,
-      "first_seen": "2026-02-24T22:00:30Z",
-      "bin_edge": 0.0959,
       "bin_n": 192167,
       "category": "other"
     },
@@ -2537,17 +2482,6 @@
       "first_seen": "2026-02-25T04:00:38Z",
       "bin_edge": 0.05,
       "bin_n": 221153,
-      "category": "other"
-    },
-    {
-      "market_id": "1387102",
-      "question": "Will Teleflex (TFX) beat quarterly earnings?",
-      "direction": "BUY NO",
-      "order_price": 0.28,
-      "mid_price": 0.695,
-      "first_seen": "2026-02-25T05:00:36Z",
-      "bin_edge": 0.1138,
-      "bin_n": 188889,
       "category": "other"
     },
     {
@@ -3374,9 +3308,108 @@
       "bin_edge": 0.0988,
       "bin_n": 188889,
       "category": "other"
+    },
+    {
+      "market_id": "1439485",
+      "question": "Dota 2: Aurora vs Xtreme Gaming (BO3) - DreamLeague Stage 2",
+      "direction": "BUY YES",
+      "order_price": 0.84,
+      "mid_price": 0.84,
+      "first_seen": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0408,
+      "bin_n": 392103,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402336",
+      "question": "Pelicans vs. Jazz",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0237,
+      "bin_n": 740243,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402325",
+      "question": "Spurs vs. Nets",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.825,
+      "first_seen": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0176,
+      "bin_n": 352435,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1299197",
+      "question": "Will NYC have less than 2 inches of precipitation in February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.4493,
+      "resolved_at": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0496,
+      "bin_n": 195298,
+      "category": "other"
+    },
+    {
+      "market_id": "1369672",
+      "question": "Will Papa John's International (PZZA) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4286,
+      "resolved_at": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0461,
+      "bin_n": 196802,
+      "category": "other"
+    },
+    {
+      "market_id": "1370976",
+      "question": "Will Hilton Grand Vacations (HGV) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0679,
+      "bin_n": 135420,
+      "category": "other"
+    },
+    {
+      "market_id": "1388695",
+      "question": "US x Iran meeting by February 28, 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1111,
+      "resolved_at": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0629,
+      "bin_n": 1385931,
+      "category": "other"
+    },
+    {
+      "market_id": "1369646",
+      "question": "Will Warby Parker (WRBY) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.0959,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1387102",
+      "question": "Will Teleflex (TFX) beat quarterly earnings?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 2.5714,
+      "resolved_at": "2026-02-26T19:01:07Z",
+      "bin_edge": 0.1138,
+      "bin_n": 188889,
+      "category": "other"
+    },
     {
       "market_id": "1366857",
       "question": "Will BV Borussia 09 Dortmund win on 2026-02-25?",
@@ -3860,72 +3893,6 @@
       "bin_edge": 0.1009,
       "bin_n": 192167,
       "category": "other"
-    },
-    {
-      "market_id": "1386768",
-      "question": "Will Anthony Kennedy attend the 2026 State of the Union address?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 1.8571,
-      "resolved_at": "2026-02-25T13:00:46Z",
-      "bin_edge": 0.0738,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1139645",
-      "question": "Will Player 167 win Beast Games: Season 2?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1074,
-      "resolved_at": "2026-02-25T13:00:46Z",
-      "bin_edge": 0.047,
-      "bin_n": 4283185,
-      "category": "other"
-    },
-    {
-      "market_id": "1392405",
-      "question": "Celtics vs. Suns",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.4286,
-      "resolved_at": "2026-02-25T13:00:46Z",
-      "bin_edge": 0.0492,
-      "bin_n": 957967,
-      "category": "sports"
-    },
-    {
-      "market_id": "1392390",
-      "question": "Wizards vs. Hawks",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1765,
-      "resolved_at": "2026-02-25T13:00:46Z",
-      "bin_edge": 0.0432,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1392396",
-      "question": "Knicks vs. Cavaliers",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-25T13:00:46Z",
-      "bin_edge": 0.0373,
-      "bin_n": 865556,
-      "category": "sports"
-    },
-    {
-      "market_id": "1363649",
-      "question": "Will Club Atl\u00e9tico de Madrid win on 2026-02-24?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.4286,
-      "resolved_at": "2026-02-25T07:00:38Z",
-      "bin_edge": 0.0442,
-      "bin_n": 957967,
-      "category": "sports"
     }
   ]
 }
