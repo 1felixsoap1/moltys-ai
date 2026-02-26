@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-26T11:00:57.360037+00:00",
+  "updated_at": "2026-02-26T12:00:58.494742+00:00",
   "summary": {
-    "pending": 300,
+    "pending": 301,
     "wins": 61,
     "losses": 57,
     "win_rate": 0.5169,
     "total_pnl": 39.6024,
-    "avg_bin_edge": 0.0628
+    "avg_bin_edge": 0.0629
   },
   "pending_picks": [
     {
@@ -3306,6 +3306,17 @@
       "mid_price": 0.376,
       "first_seen": "2026-02-26T10:00:41Z",
       "bin_edge": 0.0399,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1373732",
+      "question": "Will Russia enter Rai-Oleksandrivka by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.31,
+      "mid_price": 0.315,
+      "first_seen": "2026-02-26T12:00:58Z",
+      "bin_edge": 0.1009,
       "bin_n": 192167,
       "category": "other"
     }
