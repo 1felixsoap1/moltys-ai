@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-26T14:00:59.520742+00:00",
+  "updated_at": "2026-02-26T15:01:06.074718+00:00",
   "summary": {
-    "pending": 298,
+    "pending": 300,
     "wins": 66,
     "losses": 59,
     "win_rate": 0.528,
@@ -3286,6 +3286,28 @@
       "bin_edge": 0.0342,
       "bin_n": 957967,
       "category": "sports"
+    },
+    {
+      "market_id": "1384032",
+      "question": "Will Chelsea FC win on 2026-03-01?",
+      "direction": "BUY NO",
+      "order_price": 0.83,
+      "mid_price": 0.175,
+      "first_seen": "2026-02-26T15:01:06Z",
+      "bin_edge": 0.0632,
+      "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402959",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 27?",
+      "direction": "BUY NO",
+      "order_price": 0.62,
+      "mid_price": 0.375,
+      "first_seen": "2026-02-26T15:01:06Z",
+      "bin_edge": 0.0768,
+      "bin_n": 18774,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
