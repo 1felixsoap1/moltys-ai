@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-02-26T12:00:58.494742+00:00",
+  "updated_at": "2026-02-26T13:01:03.517509+00:00",
   "summary": {
-    "pending": 301,
-    "wins": 61,
-    "losses": 57,
-    "win_rate": 0.5169,
-    "total_pnl": 39.6024,
+    "pending": 295,
+    "wins": 66,
+    "losses": 59,
+    "win_rate": 0.528,
+    "total_pnl": 40.107,
     "avg_bin_edge": 0.0629
   },
   "pending_picks": [
@@ -1704,17 +1704,6 @@
       "category": "other"
     },
     {
-      "market_id": "1366857",
-      "question": "Will BV Borussia 09 Dortmund win on 2026-02-25?",
-      "direction": "BUY NO",
-      "order_price": 0.71,
-      "mid_price": 0.295,
-      "first_seen": "2026-02-23T07:00:28Z",
-      "bin_edge": 0.0494,
-      "bin_n": 947528,
-      "category": "sports"
-    },
-    {
       "market_id": "1334172",
       "question": "Will USD reach 1.7M Iranian rials by February 28?",
       "direction": "BUY YES",
@@ -2111,17 +2100,6 @@
       "category": "other"
     },
     {
-      "market_id": "1397658",
-      "question": "Celtics vs. Nuggets",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.395,
-      "first_seen": "2026-02-24T07:00:26Z",
-      "bin_edge": 0.0455,
-      "bin_n": 586808,
-      "category": "sports"
-    },
-    {
       "market_id": "991022",
       "question": "No change in Bank of Japan's interest rates after March 2026 meeting?",
       "direction": "BUY YES",
@@ -2408,17 +2386,6 @@
       "category": "other"
     },
     {
-      "market_id": "1397649",
-      "question": "Spurs vs. Raptors",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.705,
-      "first_seen": "2026-02-24T23:00:33Z",
-      "bin_edge": 0.0442,
-      "bin_n": 957967,
-      "category": "sports"
-    },
-    {
       "market_id": "1352797",
       "question": "Will Russia enter Verkhnia Tersa by February 28, 2026?",
       "direction": "BUY NO",
@@ -2571,17 +2538,6 @@
       "bin_edge": 0.05,
       "bin_n": 221153,
       "category": "other"
-    },
-    {
-      "market_id": "1397636",
-      "question": "Thunder vs. Pistons",
-      "direction": "BUY NO",
-      "order_price": 0.72,
-      "mid_price": 0.285,
-      "first_seen": "2026-02-25T05:00:36Z",
-      "bin_edge": 0.0394,
-      "bin_n": 947528,
-      "category": "sports"
     },
     {
       "market_id": "1387102",
@@ -2746,17 +2702,6 @@
       "first_seen": "2026-02-25T13:00:46Z",
       "bin_edge": 0.0732,
       "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1293877",
-      "question": "Kraken vs. Stars",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.395,
-      "first_seen": "2026-02-25T14:00:42Z",
-      "bin_edge": 0.0462,
-      "bin_n": 568577,
       "category": "sports"
     },
     {
@@ -2966,28 +2911,6 @@
       "first_seen": "2026-02-25T20:00:38Z",
       "bin_edge": 0.1059,
       "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1429076",
-      "question": "Spread: Pistons (-5.5)",
-      "direction": "BUY NO",
-      "order_price": 0.37,
-      "mid_price": 0.635,
-      "first_seen": "2026-02-25T20:00:38Z",
-      "bin_edge": 0.0538,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1429443",
-      "question": "Spread: Pistons (-6.5)",
-      "direction": "BUY NO",
-      "order_price": 0.37,
-      "mid_price": 0.63,
-      "first_seen": "2026-02-25T20:00:38Z",
-      "bin_edge": 0.0488,
-      "bin_n": 188889,
       "category": "other"
     },
     {
@@ -3319,9 +3242,97 @@
       "bin_edge": 0.1009,
       "bin_n": 192167,
       "category": "other"
+    },
+    {
+      "market_id": "956347",
+      "question": "Will South Africa win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0489,
+      "bin_n": 165014,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1366857",
+      "question": "Will BV Borussia 09 Dortmund win on 2026-02-25?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.4085,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0494,
+      "bin_n": 947528,
+      "category": "sports"
+    },
+    {
+      "market_id": "1397658",
+      "question": "Celtics vs. Nuggets",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6393,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0455,
+      "bin_n": 586808,
+      "category": "sports"
+    },
+    {
+      "market_id": "1397649",
+      "question": "Spurs vs. Raptors",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4286,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0442,
+      "bin_n": 957967,
+      "category": "sports"
+    },
+    {
+      "market_id": "1397636",
+      "question": "Thunder vs. Pistons",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.3889,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0394,
+      "bin_n": 947528,
+      "category": "sports"
+    },
+    {
+      "market_id": "1293877",
+      "question": "Kraken vs. Stars",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6393,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0462,
+      "bin_n": 568577,
+      "category": "sports"
+    },
+    {
+      "market_id": "1429076",
+      "question": "Spread: Pistons (-5.5)",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0538,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1429443",
+      "question": "Spread: Pistons (-6.5)",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-26T13:01:03Z",
+      "bin_edge": 0.0488,
+      "bin_n": 188889,
+      "category": "other"
+    },
     {
       "market_id": "1363685",
       "question": "Will NVIDIA (NVDA) beat quarterly earnings?",
@@ -3794,83 +3805,6 @@
       "bin_edge": 0.0442,
       "bin_n": 957967,
       "category": "sports"
-    },
-    {
-      "market_id": "1230295",
-      "question": "Will Trump say \"Venezuela\" during the State of the Union address?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-02-25T07:00:38Z",
-      "bin_edge": 0.0569,
-      "bin_n": 986649,
-      "category": "politics"
-    },
-    {
-      "market_id": "1230041",
-      "question": "Will Trump say \"Biden\" during the State of the Union address?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.087,
-      "resolved_at": "2026-02-25T07:00:38Z",
-      "bin_edge": 0.0469,
-      "bin_n": 986649,
-      "category": "politics"
-    },
-    {
-      "market_id": "1277922",
-      "question": "Will Israel strike Gaza on February 21, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.087,
-      "resolved_at": "2026-02-25T07:00:38Z",
-      "bin_edge": 0.0425,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1366824",
-      "question": "Will FK Bod\u00f8/Glimt win on 2026-02-24?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-25T07:00:38Z",
-      "bin_edge": 0.0367,
-      "bin_n": 2899535,
-      "category": "sports"
-    },
-    {
-      "market_id": "1392380",
-      "question": "76ers vs. Pacers",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-25T07:00:38Z",
-      "bin_edge": 0.0213,
-      "bin_n": 740243,
-      "category": "sports"
-    },
-    {
-      "market_id": "1375508",
-      "question": "Will Elon Musk post 420-439 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.087,
-      "resolved_at": "2026-02-25T01:00:32Z",
-      "bin_edge": 0.0529,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1375498",
-      "question": "Will Elon Musk post 360-379 tweets from February 17 to February 24, 2026?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-25T01:00:32Z",
-      "bin_edge": 0.0569,
-      "bin_n": 289008,
-      "category": "other"
     }
   ]
 }
