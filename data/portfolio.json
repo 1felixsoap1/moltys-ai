@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-26T16:01:27.395199+00:00",
+  "updated_at": "2026-02-26T17:01:07.494783+00:00",
   "summary": {
-    "pending": 301,
+    "pending": 305,
     "wins": 66,
     "losses": 59,
     "win_rate": 0.528,
     "total_pnl": 40.107,
-    "avg_bin_edge": 0.063
+    "avg_bin_edge": 0.0632
   },
   "pending_picks": [
     {
@@ -3319,6 +3319,50 @@
       "bin_edge": 0.1088,
       "bin_n": 188889,
       "category": "other"
+    },
+    {
+      "market_id": "1402958",
+      "question": "Will the price of Ethereum be above $1,900 on February 27?",
+      "direction": "BUY NO",
+      "order_price": 0.14,
+      "mid_price": 0.8455,
+      "first_seen": "2026-02-26T17:01:07Z",
+      "bin_edge": 0.0688,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1408378",
+      "question": "Will the price of Bitcoin be above $68,000 on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-26T17:01:07Z",
+      "bin_edge": 0.0929,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403015",
+      "question": "Will the price of Solana be above $90 on February 27?",
+      "direction": "BUY YES",
+      "order_price": 0.093,
+      "mid_price": 0.1065,
+      "first_seen": "2026-02-26T17:01:07Z",
+      "bin_edge": 0.1137,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403014",
+      "question": "Will the price of Solana be above $80 on February 27?",
+      "direction": "BUY NO",
+      "order_price": 0.136,
+      "mid_price": 0.8475,
+      "first_seen": "2026-02-26T17:01:07Z",
+      "bin_edge": 0.0708,
+      "bin_n": 34644,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
