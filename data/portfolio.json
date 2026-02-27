@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T13:00:31.848303+00:00",
+  "updated_at": "2026-02-27T14:00:30.757536+00:00",
   "summary": {
-    "pending": 328,
+    "pending": 334,
     "wins": 90,
     "losses": 75,
     "win_rate": 0.5455,
     "total_pnl": 42.0888,
-    "avg_bin_edge": 0.0638
+    "avg_bin_edge": 0.0639
   },
   "pending_picks": [
     {
@@ -3615,6 +3615,72 @@
       "first_seen": "2026-02-27T13:00:31Z",
       "bin_edge": 0.0939,
       "bin_n": 63351,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1419323",
+      "question": "Will Jes\u00fas Alfredo Guzm\u00e1n Salazar be arrested in 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-27T14:00:30Z",
+      "bin_edge": 0.0901,
+      "bin_n": 205356,
+      "category": "other"
+    },
+    {
+      "market_id": "1405360",
+      "question": "Will Elon Musk post 280-299 tweets from February 24 to March 3, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.19,
+      "first_seen": "2026-02-27T14:00:30Z",
+      "bin_edge": 0.0587,
+      "bin_n": 340981,
+      "category": "other"
+    },
+    {
+      "market_id": "1405355",
+      "question": "Will Elon Musk post 260-279 tweets from February 24 to March 3, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-27T14:00:30Z",
+      "bin_edge": 0.0505,
+      "bin_n": 1536568,
+      "category": "other"
+    },
+    {
+      "market_id": "920285",
+      "question": "Will OpenAI have the best AI model for coding on March 31?",
+      "direction": "BUY YES",
+      "order_price": 0.78,
+      "mid_price": 0.8,
+      "first_seen": "2026-02-27T14:00:30Z",
+      "bin_edge": 0.0666,
+      "bin_n": 328066,
+      "category": "other"
+    },
+    {
+      "market_id": "1004798",
+      "question": "Will Alphabet be the second-largest company in the world by market cap on March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.71,
+      "mid_price": 0.265,
+      "first_seen": "2026-02-27T14:00:30Z",
+      "bin_edge": 0.0376,
+      "bin_n": 262215,
+      "category": "other"
+    },
+    {
+      "market_id": "1428021",
+      "question": "Will the price of Bitcoin be above $66,000 on March 3?",
+      "direction": "BUY NO",
+      "order_price": 0.47,
+      "mid_price": 0.525,
+      "first_seen": "2026-02-27T14:00:30Z",
+      "bin_edge": 0.1308,
+      "bin_n": 19105,
       "category": "crypto"
     }
   ],
