@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-27T07:00:53.927931+00:00",
+  "updated_at": "2026-02-27T08:00:50.095076+00:00",
   "summary": {
-    "pending": 315,
+    "pending": 318,
     "wins": 86,
     "losses": 73,
     "win_rate": 0.5409,
@@ -3472,6 +3472,39 @@
       "first_seen": "2026-02-27T07:00:53Z",
       "bin_edge": 0.0324,
       "bin_n": 338303,
+      "category": "other"
+    },
+    {
+      "market_id": "1408375",
+      "question": "Will the price of Bitcoin be above $66,000 on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.16,
+      "mid_price": 0.84,
+      "first_seen": "2026-02-27T08:00:50Z",
+      "bin_edge": 0.0633,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1299166",
+      "question": "Will February 2026 be the 4th or lower hottest on record?",
+      "direction": "BUY YES",
+      "order_price": 0.89,
+      "mid_price": 0.9135,
+      "first_seen": "2026-02-27T08:00:50Z",
+      "bin_edge": 0.0494,
+      "bin_n": 1385931,
+      "category": "other"
+    },
+    {
+      "market_id": "1261937",
+      "question": "Spread: Grizzlies (-2.5)",
+      "direction": "BUY YES",
+      "order_price": 0.24,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-27T08:00:50Z",
+      "bin_edge": 0.0552,
+      "bin_n": 138094,
       "category": "other"
     }
   ],
