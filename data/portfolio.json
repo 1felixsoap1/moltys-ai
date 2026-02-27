@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-27T04:00:49.661422+00:00",
+  "updated_at": "2026-02-27T05:00:46.068761+00:00",
   "summary": {
-    "pending": 316,
+    "pending": 319,
     "wins": 81,
     "losses": 70,
     "win_rate": 0.5364,
@@ -3483,6 +3483,39 @@
       "first_seen": "2026-02-27T04:00:49Z",
       "bin_edge": 0.0389,
       "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1373662",
+      "question": "Will Russia enter Rizdvianka by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.33,
+      "mid_price": 0.335,
+      "first_seen": "2026-02-27T05:00:46Z",
+      "bin_edge": 0.0809,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1004795",
+      "question": "Will NVIDIA be the second-largest company in the world by market cap on March 31?",
+      "direction": "BUY NO",
+      "order_price": 0.9,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-27T05:00:46Z",
+      "bin_edge": 0.0531,
+      "bin_n": 1163272,
+      "category": "other"
+    },
+    {
+      "market_id": "1361175",
+      "question": "Will there be 1 NYT banner headline by February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.07,
+      "mid_price": 0.895,
+      "first_seen": "2026-02-27T05:00:46Z",
+      "bin_edge": 0.0499,
+      "bin_n": 397357,
       "category": "other"
     }
   ],
