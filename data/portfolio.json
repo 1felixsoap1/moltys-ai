@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T12:00:29.540453+00:00",
+  "updated_at": "2026-02-27T13:00:31.848303+00:00",
   "summary": {
-    "pending": 330,
-    "wins": 86,
-    "losses": 73,
-    "win_rate": 0.5409,
-    "total_pnl": 42.7667,
-    "avg_bin_edge": 0.0637
+    "pending": 328,
+    "wins": 90,
+    "losses": 75,
+    "win_rate": 0.5455,
+    "total_pnl": 42.0888,
+    "avg_bin_edge": 0.0638
   },
   "pending_picks": [
     {
@@ -767,17 +767,6 @@
       "bin_edge": 0.0269,
       "bin_n": 289008,
       "category": "other"
-    },
-    {
-      "market_id": "1273714",
-      "question": "Will Angeliki Stogia - Labour win the Gorton and Denton by-election?",
-      "direction": "BUY NO",
-      "order_price": 0.922,
-      "mid_price": 0.081,
-      "first_seen": "2026-02-21T13:00:27Z",
-      "bin_edge": 0.0318,
-      "bin_n": 294729,
-      "category": "politics"
     },
     {
       "market_id": "1301572",
@@ -2408,17 +2397,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1402330",
-      "question": "Trail Blazers vs. Bulls",
-      "direction": "BUY NO",
-      "order_price": 0.43,
-      "mid_price": 0.575,
-      "first_seen": "2026-02-25T08:00:36Z",
-      "bin_edge": 0.0338,
-      "bin_n": 815088,
-      "category": "sports"
-    },
-    {
       "market_id": "1334173",
       "question": "US downs another Iranian drone by February 28?",
       "direction": "BUY NO",
@@ -2782,17 +2760,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1402332",
-      "question": "Kings vs. Mavericks",
-      "direction": "BUY NO",
-      "order_price": 0.71,
-      "mid_price": 0.295,
-      "first_seen": "2026-02-26T06:00:41Z",
-      "bin_edge": 0.0494,
-      "bin_n": 947528,
-      "category": "sports"
-    },
-    {
       "market_id": "1367172",
       "question": "North Korea missile launch by February 28?",
       "direction": "BUY NO",
@@ -2835,17 +2802,6 @@
       "bin_edge": 0.1702,
       "bin_n": 17896,
       "category": "crypto"
-    },
-    {
-      "market_id": "1299553",
-      "question": "Blackhawks vs. Predators",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.395,
-      "first_seen": "2026-02-26T08:00:48Z",
-      "bin_edge": 0.0462,
-      "bin_n": 568577,
-      "category": "sports"
     },
     {
       "market_id": "1402957",
@@ -3033,17 +2989,6 @@
       "bin_edge": 0.0988,
       "bin_n": 188889,
       "category": "other"
-    },
-    {
-      "market_id": "1402336",
-      "question": "Pelicans vs. Jazz",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.7,
-      "first_seen": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0237,
-      "bin_n": 740243,
-      "category": "sports"
     },
     {
       "market_id": "1322340",
@@ -3286,17 +3231,6 @@
       "bin_edge": 0.0491,
       "bin_n": 398539,
       "category": "other"
-    },
-    {
-      "market_id": "669488",
-      "question": "Will BL\u0245\u03fdKPI\u0418K release an album by February 28?",
-      "direction": "BUY YES",
-      "order_price": 0.855,
-      "mid_price": 0.9125,
-      "first_seen": "2026-02-27T00:00:45Z",
-      "bin_edge": 0.038,
-      "bin_n": 697983,
-      "category": "entertainment"
     },
     {
       "market_id": "1394437",
@@ -3638,9 +3572,119 @@
       "bin_edge": 0.0457,
       "bin_n": 421232,
       "category": "other"
+    },
+    {
+      "market_id": "1273936",
+      "question": "Will the US next strike Iran on February 27, 2026 (ET)?",
+      "direction": "BUY NO",
+      "order_price": 0.927,
+      "mid_price": 0.081,
+      "first_seen": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0381,
+      "bin_n": 4512972,
+      "category": "other"
+    },
+    {
+      "market_id": "1402767",
+      "question": "Will the total number of TSA passengers for February 28 be between 2,000,000 and 2,200,000?",
+      "direction": "BUY YES",
+      "order_price": 0.34,
+      "mid_price": 0.35,
+      "first_seen": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0728,
+      "bin_n": 196458,
+      "category": "other"
+    },
+    {
+      "market_id": "1408337",
+      "question": "Will the price of Ethereum be above $2,000 on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.71,
+      "mid_price": 0.295,
+      "first_seen": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0724,
+      "bin_n": 29954,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1419252",
+      "question": "Will Bitcoin dip to $60,000 February 23-March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.099,
+      "mid_price": 0.1065,
+      "first_seen": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0939,
+      "bin_n": 63351,
+      "category": "crypto"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1273714",
+      "question": "Will Angeliki Stogia - Labour win the Gorton and Denton by-election?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0846,
+      "resolved_at": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0318,
+      "bin_n": 294729,
+      "category": "politics"
+    },
+    {
+      "market_id": "1402330",
+      "question": "Trail Blazers vs. Bulls",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0338,
+      "bin_n": 815088,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402332",
+      "question": "Kings vs. Mavericks",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0494,
+      "bin_n": 947528,
+      "category": "sports"
+    },
+    {
+      "market_id": "1299553",
+      "question": "Blackhawks vs. Predators",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6393,
+      "resolved_at": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0462,
+      "bin_n": 568577,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402336",
+      "question": "Pelicans vs. Jazz",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4286,
+      "resolved_at": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.0237,
+      "bin_n": 740243,
+      "category": "sports"
+    },
+    {
+      "market_id": "669488",
+      "question": "Will BL\u0245\u03fdKPI\u0418K release an album by February 28?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1696,
+      "resolved_at": "2026-02-27T13:00:31Z",
+      "bin_edge": 0.038,
+      "bin_n": 697983,
+      "category": "entertainment"
+    },
     {
       "market_id": "1341342",
       "question": "Will Violet Bridgerton get engaged in Bridgerton: Season 4?",
@@ -4124,72 +4168,6 @@
       "bin_edge": 0.0525,
       "bin_n": 2193542,
       "category": "other"
-    },
-    {
-      "market_id": "1277647",
-      "question": "Will Israel strike Lebanon on February 22, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.0475,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1277923",
-      "question": "Will Israel strike Gaza on February 22, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.087,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.0425,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1289950",
-      "question": "Will Sheffield United FC win on 2026-02-25?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.0462,
-      "bin_n": 568577,
-      "category": "sports"
-    },
-    {
-      "market_id": "1397652",
-      "question": "Warriors vs. Grizzlies",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.0403,
-      "bin_n": 905838,
-      "category": "sports"
-    },
-    {
-      "market_id": "1430649",
-      "question": "Dota 2: Aurora vs MOUZ (BO3) - DreamLeague Stage 2",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.061,
-      "bin_n": 255915,
-      "category": "sports"
-    },
-    {
-      "market_id": "1434236",
-      "question": "Warriors vs. Grizzlies: O/U 229.5",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 1.439,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.0323,
-      "bin_n": 865556,
-      "category": "sports"
     }
   ]
 }
