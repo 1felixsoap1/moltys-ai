@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T21:00:41.316274+00:00",
+  "updated_at": "2026-02-27T22:00:30.009721+00:00",
   "summary": {
-    "pending": 369,
+    "pending": 377,
     "wins": 92,
     "losses": 75,
     "win_rate": 0.5509,
     "total_pnl": 44.0448,
-    "avg_bin_edge": 0.0638
+    "avg_bin_edge": 0.0639
   },
   "pending_picks": [
     {
@@ -4067,6 +4067,94 @@
       "bin_edge": 0.036,
       "bin_n": 1536568,
       "category": "other"
+    },
+    {
+      "market_id": "1414912",
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on March 1?",
+      "direction": "BUY NO",
+      "order_price": 0.51,
+      "mid_price": 0.48,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0841,
+      "bin_n": 31804,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1265257",
+      "question": "Spread: Grizzlies (-4.5)",
+      "direction": "BUY NO",
+      "order_price": 0.89,
+      "mid_price": 0.09,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0455,
+      "bin_n": 1536568,
+      "category": "other"
+    },
+    {
+      "market_id": "1419381",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on March 2?",
+      "direction": "BUY YES",
+      "order_price": 0.11,
+      "mid_price": 0.115,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0928,
+      "bin_n": 49600,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1011908",
+      "question": "Will the Bank of Russia make no change to the key rate after the March Meeting?",
+      "direction": "BUY YES",
+      "order_price": 0.32,
+      "mid_price": 0.32,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.06,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1428049",
+      "question": "Will the price of Bitcoin be above $74,000 on March 3?",
+      "direction": "BUY YES",
+      "order_price": 0.001,
+      "mid_price": 0.0105,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0468,
+      "bin_n": 361533,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414964",
+      "question": "Will the price of Ethereum be between $2,000 and $2,100 on March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.1,
+      "mid_price": 0.105,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0445,
+      "bin_n": 41308,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1385811",
+      "question": "Will Communist Party of Nepal (UML) win the second-most seats in the Nepal House of Representatives election?",
+      "direction": "BUY NO",
+      "order_price": 0.92,
+      "mid_price": 0.085,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0577,
+      "bin_n": 198576,
+      "category": "politics"
+    },
+    {
+      "market_id": "1427247",
+      "question": "Will \"GOAT\" Third Weekend Box Office be between 10m and 11m?",
+      "direction": "BUY YES",
+      "order_price": 0.4,
+      "mid_price": 0.415,
+      "first_seen": "2026-02-27T22:00:29Z",
+      "bin_edge": 0.0855,
+      "bin_n": 41410,
+      "category": "entertainment"
     }
   ],
   "recent_resolutions": [
