@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T06:00:51.145676+00:00",
+  "updated_at": "2026-02-27T07:00:53.927931+00:00",
   "summary": {
-    "pending": 321,
-    "wins": 81,
-    "losses": 70,
-    "win_rate": 0.5364,
-    "total_pnl": 42.8603,
-    "avg_bin_edge": 0.0634
+    "pending": 315,
+    "wins": 86,
+    "losses": 73,
+    "win_rate": 0.5409,
+    "total_pnl": 42.7667,
+    "avg_bin_edge": 0.0633
   },
   "pending_picks": [
     {
@@ -1165,17 +1165,6 @@
       "category": "other"
     },
     {
-      "market_id": "1341342",
-      "question": "Will Violet Bridgerton get engaged in Bridgerton: Season 4?",
-      "direction": "BUY NO",
-      "order_price": 0.11,
-      "mid_price": 0.895,
-      "first_seen": "2026-02-22T07:00:25Z",
-      "bin_edge": 0.0376,
-      "bin_n": 337942,
-      "category": "other"
-    },
-    {
       "market_id": "1266856",
       "question": "Spread: Bucks (-2.5)",
       "direction": "BUY YES",
@@ -1350,17 +1339,6 @@
       "bin_edge": 0.0217,
       "bin_n": 687351,
       "category": "sports"
-    },
-    {
-      "market_id": "1341339",
-      "question": "Will Rosamund Li get engaged in Bridgerton: Season 4?",
-      "direction": "BUY YES",
-      "order_price": 0.914,
-      "mid_price": 0.92,
-      "first_seen": "2026-02-22T17:00:32Z",
-      "bin_edge": 0.0422,
-      "bin_n": 2204595,
-      "category": "other"
     },
     {
       "market_id": "614253",
@@ -1647,17 +1625,6 @@
       "bin_edge": 0.0433,
       "bin_n": 363783,
       "category": "entertainment"
-    },
-    {
-      "market_id": "1369645",
-      "question": "Will Rocket Lab (RKLB) beat quarterly earnings?",
-      "direction": "BUY NO",
-      "order_price": 0.21,
-      "mid_price": 0.795,
-      "first_seen": "2026-02-23T05:00:29Z",
-      "bin_edge": 0.0271,
-      "bin_n": 230410,
-      "category": "other"
     },
     {
       "market_id": "801450",
@@ -2683,17 +2650,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1277927",
-      "question": "Will Israel strike Gaza on February 26, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.31,
-      "first_seen": "2026-02-25T22:00:57Z",
-      "bin_edge": 0.1059,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
       "market_id": "1280316",
       "question": "Will Google Gemini score at least 45% on the FrontierMath Benchmark?",
       "direction": "BUY YES",
@@ -2813,28 +2769,6 @@
       "bin_edge": 0.1091,
       "bin_n": 22715,
       "category": "crypto"
-    },
-    {
-      "market_id": "1402321",
-      "question": "Wizards vs. Hawks",
-      "direction": "BUY NO",
-      "order_price": 0.84,
-      "mid_price": 0.165,
-      "first_seen": "2026-02-26T05:00:50Z",
-      "bin_edge": 0.0532,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1402309",
-      "question": "Hornets vs. Pacers",
-      "direction": "BUY YES",
-      "order_price": 0.85,
-      "mid_price": 0.855,
-      "first_seen": "2026-02-26T05:00:50Z",
-      "bin_edge": 0.0258,
-      "bin_n": 392103,
-      "category": "sports"
     },
     {
       "market_id": "1003671",
@@ -3112,17 +3046,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1402325",
-      "question": "Spurs vs. Nets",
-      "direction": "BUY YES",
-      "order_price": 0.82,
-      "mid_price": 0.825,
-      "first_seen": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0176,
-      "bin_n": 352435,
-      "category": "sports"
-    },
-    {
       "market_id": "1322340",
       "question": "Will S&P 500 (SPX) close over $6,940 on the final trading day of February 2026?",
       "direction": "BUY YES",
@@ -3208,17 +3131,6 @@
       "first_seen": "2026-02-26T21:37:20Z",
       "bin_edge": 0.0988,
       "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1435570",
-      "question": "Spread: Hurricanes (-1.5)",
-      "direction": "BUY YES",
-      "order_price": 0.34,
-      "mid_price": 0.345,
-      "first_seen": "2026-02-26T21:37:20Z",
-      "bin_edge": 0.0709,
-      "bin_n": 192167,
       "category": "other"
     },
     {
@@ -3539,9 +3451,119 @@
       "bin_edge": 0.0563,
       "bin_n": 87500,
       "category": "politics"
+    },
+    {
+      "market_id": "1419261",
+      "question": "Will Ethereum reach $2,200 February 23-March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.138,
+      "mid_price": 0.139,
+      "first_seen": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0629,
+      "bin_n": 62944,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1419363",
+      "question": "Will Elon Musk post 115-139 tweets from February 26 to February 28, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.1,
+      "mid_price": 0.1,
+      "first_seen": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0324,
+      "bin_n": 338303,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1341342",
+      "question": "Will Violet Bridgerton get engaged in Bridgerton: Season 4?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0376,
+      "bin_n": 337942,
+      "category": "other"
+    },
+    {
+      "market_id": "1341339",
+      "question": "Will Rosamund Li get engaged in Bridgerton: Season 4?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.0941,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0422,
+      "bin_n": 2204595,
+      "category": "other"
+    },
+    {
+      "market_id": "1369645",
+      "question": "Will Rocket Lab (RKLB) beat quarterly earnings?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0271,
+      "bin_n": 230410,
+      "category": "other"
+    },
+    {
+      "market_id": "1277927",
+      "question": "Will Israel strike Gaza on February 26, 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.1059,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1402321",
+      "question": "Wizards vs. Hawks",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1905,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0532,
+      "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402309",
+      "question": "Hornets vs. Pacers",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1765,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0258,
+      "bin_n": 392103,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402325",
+      "question": "Spurs vs. Nets",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.2195,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0176,
+      "bin_n": 352435,
+      "category": "sports"
+    },
+    {
+      "market_id": "1435570",
+      "question": "Spread: Hurricanes (-1.5)",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-27T07:00:53Z",
+      "bin_edge": 0.0709,
+      "bin_n": 192167,
+      "category": "other"
+    },
     {
       "market_id": "1398491",
       "question": "Will the price of Bitcoin be above $64,000 on February 26?",
@@ -4003,94 +4025,6 @@
       "bin_edge": 0.0323,
       "bin_n": 865556,
       "category": "sports"
-    },
-    {
-      "market_id": "1392884",
-      "question": "Will the price of Bitcoin be above $60,000 on February 25?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.1016,
-      "bin_n": 49182,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1389252",
-      "question": "Will the price of Solana be above $80 on February 24?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0729,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1392895",
-      "question": "Will the price of Bitcoin be above $70,000 on February 25?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0997,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1392889",
-      "question": "Will the price of Bitcoin be above $66,000 on February 25?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 1.0408,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0991,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1392888",
-      "question": "Will the price of Bitcoin be above $64,000 on February 25?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0925,
-      "bin_n": 21696,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1392891",
-      "question": "Will the price of Bitcoin be above $68,000 on February 25?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 9.0,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0495,
-      "bin_n": 41308,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1392919",
-      "question": "Will the price of Solana be above $80 on February 25?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.4483,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0829,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1392861",
-      "question": "Will the price of Ethereum be above $1,800 on February 25?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0825,
-      "bin_n": 21696,
-      "category": "crypto"
     }
   ]
 }
