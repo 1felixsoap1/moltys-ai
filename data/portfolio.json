@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T22:00:30.009721+00:00",
+  "updated_at": "2026-02-27T23:00:43.191161+00:00",
   "summary": {
-    "pending": 377,
+    "pending": 382,
     "wins": 92,
     "losses": 75,
     "win_rate": 0.5509,
     "total_pnl": 44.0448,
-    "avg_bin_edge": 0.0639
+    "avg_bin_edge": 0.0638
   },
   "pending_picks": [
     {
@@ -4155,6 +4155,61 @@
       "bin_edge": 0.0855,
       "bin_n": 41410,
       "category": "entertainment"
+    },
+    {
+      "market_id": "1422382",
+      "question": "Will Marco Rubio visit Israel by March 2?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-27T23:00:43Z",
+      "bin_edge": 0.0409,
+      "bin_n": 159914,
+      "category": "other"
+    },
+    {
+      "market_id": "1242805",
+      "question": "Will F1 win Best Sound at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.85,
+      "first_seen": "2026-02-27T23:00:43Z",
+      "bin_edge": 0.0382,
+      "bin_n": 291985,
+      "category": "sports"
+    },
+    {
+      "market_id": "646271",
+      "question": "Will the Edmonton Oilers make the NHL Playoffs?",
+      "direction": "BUY YES",
+      "order_price": 0.8,
+      "mid_price": 0.805,
+      "first_seen": "2026-02-27T23:00:43Z",
+      "bin_edge": 0.0832,
+      "bin_n": 291985,
+      "category": "sports"
+    },
+    {
+      "market_id": "1242453",
+      "question": "Will Mr. Nobody Against Putin win Best Documentary Feature Film at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.78,
+      "mid_price": 0.225,
+      "first_seen": "2026-02-27T23:00:43Z",
+      "bin_edge": 0.0565,
+      "bin_n": 262241,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1388018",
+      "question": "Will Real Madrid CF vs. Getafe CF end in a draw?",
+      "direction": "BUY NO",
+      "order_price": 0.83,
+      "mid_price": 0.175,
+      "first_seen": "2026-02-27T23:00:43Z",
+      "bin_edge": 0.0622,
+      "bin_n": 411033,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
