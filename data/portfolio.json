@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-27T14:00:30.757536+00:00",
+  "updated_at": "2026-02-27T15:00:30.936032+00:00",
   "summary": {
-    "pending": 334,
+    "pending": 337,
     "wins": 90,
     "losses": 75,
     "win_rate": 0.5455,
@@ -3682,6 +3682,39 @@
       "bin_edge": 0.1308,
       "bin_n": 19105,
       "category": "crypto"
+    },
+    {
+      "market_id": "1414962",
+      "question": "Will the price of Bitcoin be above $66,000 on March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.5,
+      "mid_price": 0.5,
+      "first_seen": "2026-02-27T15:00:30Z",
+      "bin_edge": 0.0991,
+      "bin_n": 32729,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1232093",
+      "question": "Will Russia join the Board of Peace?",
+      "direction": "BUY YES",
+      "order_price": 0.09,
+      "mid_price": 0.129,
+      "first_seen": "2026-02-27T15:00:30Z",
+      "bin_edge": 0.0217,
+      "bin_n": 421232,
+      "category": "other"
+    },
+    {
+      "market_id": "1378906",
+      "question": "Will the DHS shutdown last 30 days or more?",
+      "direction": "BUY YES",
+      "order_price": 0.81,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-27T15:00:30Z",
+      "bin_edge": 0.0623,
+      "bin_n": 283875,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
