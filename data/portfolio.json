@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T15:00:30.936032+00:00",
+  "updated_at": "2026-02-27T16:00:31.871198+00:00",
   "summary": {
-    "pending": 337,
+    "pending": 343,
     "wins": 90,
     "losses": 75,
     "win_rate": 0.5455,
     "total_pnl": 42.0888,
-    "avg_bin_edge": 0.0639
+    "avg_bin_edge": 0.0637
   },
   "pending_picks": [
     {
@@ -3714,6 +3714,72 @@
       "first_seen": "2026-02-27T15:00:30Z",
       "bin_edge": 0.0623,
       "bin_n": 283875,
+      "category": "other"
+    },
+    {
+      "market_id": "666696",
+      "question": "Israel x Iran ceasefire broken by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.72,
+      "mid_price": 0.725,
+      "first_seen": "2026-02-27T16:00:31Z",
+      "bin_edge": 0.0373,
+      "bin_n": 233869,
+      "category": "other"
+    },
+    {
+      "market_id": "1288112",
+      "question": "Will Israel or the US target an Iranian oil or gas facility?",
+      "direction": "BUY NO",
+      "order_price": 0.923,
+      "mid_price": 0.0815,
+      "first_seen": "2026-02-27T16:00:31Z",
+      "bin_edge": 0.0386,
+      "bin_n": 4512972,
+      "category": "other"
+    },
+    {
+      "market_id": "1405372",
+      "question": "Will Elon Musk post 340-359 tweets from February 24 to March 3, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.91,
+      "mid_price": 0.095,
+      "first_seen": "2026-02-27T16:00:31Z",
+      "bin_edge": 0.0505,
+      "bin_n": 1536568,
+      "category": "other"
+    },
+    {
+      "market_id": "1393676",
+      "question": "Odds of Khamenei out by March 31 over 40% in February?",
+      "direction": "BUY YES",
+      "order_price": 0.117,
+      "mid_price": 0.1295,
+      "first_seen": "2026-02-27T16:00:31Z",
+      "bin_edge": 0.0212,
+      "bin_n": 421232,
+      "category": "other"
+    },
+    {
+      "market_id": "1408402",
+      "question": "Will the price of XRP be between $1.30 and $1.40 on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.685,
+      "first_seen": "2026-02-27T16:00:31Z",
+      "bin_edge": 0.1059,
+      "bin_n": 195251,
+      "category": "other"
+    },
+    {
+      "market_id": "950001",
+      "question": "Naim Qassem out as Hezbollah\u2019s secretary-general by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.27,
+      "mid_price": 0.315,
+      "first_seen": "2026-02-27T16:00:31Z",
+      "bin_edge": 0.065,
+      "bin_n": 148479,
       "category": "other"
     }
   ],
