@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-27T01:00:46.000353+00:00",
+  "updated_at": "2026-02-27T02:00:44.665624+00:00",
   "summary": {
-    "pending": 312,
+    "pending": 315,
     "wins": 81,
     "losses": 70,
     "win_rate": 0.5364,
@@ -3440,6 +3440,39 @@
       "bin_edge": 0.0535,
       "bin_n": 4283185,
       "category": "other"
+    },
+    {
+      "market_id": "1005958",
+      "question": "Will Seth Rogen win Best Actor in a Comedy Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.89,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-27T02:00:44Z",
+      "bin_edge": 0.0505,
+      "bin_n": 697983,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1419346",
+      "question": "Will Elon Musk post 40-64 tweets from February 26 to February 28, 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.928,
+      "mid_price": 0.081,
+      "first_seen": "2026-02-27T02:00:44Z",
+      "bin_edge": 0.0435,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1003758",
+      "question": "Will Sinners win Best Cast in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.69,
+      "mid_price": 0.72,
+      "first_seen": "2026-02-27T02:00:44Z",
+      "bin_edge": 0.0632,
+      "bin_n": 150591,
+      "category": "entertainment"
     }
   ],
   "recent_resolutions": [
