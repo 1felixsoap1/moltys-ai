@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-27T17:00:34.364412+00:00",
+  "updated_at": "2026-02-27T18:00:40.490509+00:00",
   "summary": {
-    "pending": 347,
+    "pending": 355,
     "wins": 90,
     "losses": 75,
     "win_rate": 0.5455,
     "total_pnl": 42.0888,
-    "avg_bin_edge": 0.0639
+    "avg_bin_edge": 0.0638
   },
   "pending_picks": [
     {
@@ -3825,6 +3825,94 @@
       "bin_edge": 0.0779,
       "bin_n": 21824,
       "category": "crypto"
+    },
+    {
+      "market_id": "951178",
+      "question": "Ethereum all time high by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.001,
+      "mid_price": 0.0105,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0374,
+      "bin_n": 352328,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1408379",
+      "question": "Will the price of Solana be between $80 and $90 on February 28?",
+      "direction": "BUY YES",
+      "order_price": 0.69,
+      "mid_price": 0.71,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0676,
+      "bin_n": 30064,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403606",
+      "question": "Will \"Apple Watch\" be said during the NYC Apple event on March 4?",
+      "direction": "BUY YES",
+      "order_price": 0.66,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0681,
+      "bin_n": 261832,
+      "category": "other"
+    },
+    {
+      "market_id": "1242278",
+      "question": "Will KPop Demon Hunters win Best Animated Feature Film at the 98th Academy Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.9,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0575,
+      "bin_n": 547501,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1419242",
+      "question": "Will Bitcoin reach $74,000 February 23-March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.001,
+      "mid_price": 0.0105,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0374,
+      "bin_n": 352328,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1408427",
+      "question": "Will the price of XRP be above $1.30 on February 28?",
+      "direction": "BUY NO",
+      "order_price": 0.091,
+      "mid_price": 0.8945,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0518,
+      "bin_n": 420572,
+      "category": "other"
+    },
+    {
+      "market_id": "1242496",
+      "question": "Will The Girl Who Cried Pearls win Best Animated Short Film at the 98th Academy Awards?",
+      "direction": "BUY NO",
+      "order_price": 0.71,
+      "mid_price": 0.26,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0915,
+      "bin_n": 262241,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1011905",
+      "question": "Will the Bank of Russia decrease the key rate after the March Meeting?",
+      "direction": "BUY NO",
+      "order_price": 0.3,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-27T18:00:40Z",
+      "bin_edge": 0.0849,
+      "bin_n": 145772,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
