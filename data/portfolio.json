@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-28T08:00:53.664819+00:00",
+  "updated_at": "2026-02-28T09:01:01.086752+00:00",
   "summary": {
-    "pending": 391,
+    "pending": 399,
     "wins": 119,
     "losses": 115,
     "win_rate": 0.5085,
@@ -4309,6 +4309,94 @@
       "bin_edge": 0.0418,
       "bin_n": 163494,
       "category": "other"
+    },
+    {
+      "market_id": "1414910",
+      "question": "Will the price of Ethereum be above $1,800 on March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.701,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.0766,
+      "bin_n": 30064,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1314028",
+      "question": "Capitals vs. Canadiens",
+      "direction": "BUY NO",
+      "order_price": 0.61,
+      "mid_price": 0.395,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.0459,
+      "bin_n": 571214,
+      "category": "sports"
+    },
+    {
+      "market_id": "643901",
+      "question": "Will Nikola Jokic lead the NBA in rebounds during the 2025\u201326 NBA season?",
+      "direction": "BUY YES",
+      "order_price": 0.76,
+      "mid_price": 0.81,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.0782,
+      "bin_n": 291985,
+      "category": "sports"
+    },
+    {
+      "market_id": "1419294",
+      "question": "Will XRP dip to $1.20 February 23-March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.295,
+      "mid_price": 0.321,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.059,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1003601",
+      "question": "Will Ethan Hawke win Outstanding Performance by a Male Actor in a Leading Role at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "order_price": 0.065,
+      "mid_price": 0.1025,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.0482,
+      "bin_n": 421232,
+      "category": "other"
+    },
+    {
+      "market_id": "1428027",
+      "question": "Will the price of Bitcoin be above $68,000 on March 3?",
+      "direction": "BUY YES",
+      "order_price": 0.11,
+      "mid_price": 0.115,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.0854,
+      "bin_n": 63351,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1427145",
+      "question": "Kings vs. Lakers",
+      "direction": "BUY NO",
+      "order_price": 0.84,
+      "mid_price": 0.165,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.061,
+      "bin_n": 292197,
+      "category": "sports"
+    },
+    {
+      "market_id": "1265934",
+      "question": "Nuggets vs. Grizzlies: O/U 222.5",
+      "direction": "BUY YES",
+      "order_price": 0.6,
+      "mid_price": 0.63,
+      "first_seen": "2026-02-28T09:01:01Z",
+      "bin_edge": 0.0404,
+      "bin_n": 562100,
+      "category": "sports"
     }
   ],
   "recent_resolutions": [
