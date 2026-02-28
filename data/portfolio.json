@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-28T01:00:50.859292+00:00",
+  "updated_at": "2026-02-28T02:00:47.390698+00:00",
   "summary": {
-    "pending": 353,
+    "pending": 374,
     "wins": 107,
     "losses": 99,
     "win_rate": 0.5194,
     "total_pnl": 44.8762,
-    "avg_bin_edge": 0.0638
+    "avg_bin_edge": 0.063
   },
   "pending_picks": [
     {
@@ -3890,6 +3890,237 @@
       "first_seen": "2026-02-28T01:00:50Z",
       "bin_edge": 0.0637,
       "bin_n": 340981,
+      "category": "other"
+    },
+    {
+      "market_id": "1209135",
+      "question": "Will Gen.G win the LCK Cup 2026?",
+      "direction": "BUY NO",
+      "order_price": 0.11,
+      "mid_price": 0.865,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0223,
+      "bin_n": 420572,
+      "category": "other"
+    },
+    {
+      "market_id": "1414975",
+      "question": "Will the price of Bitcoin be above $72,000 on March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.002,
+      "mid_price": 0.01,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0162,
+      "bin_n": 563995,
+      "category": "crypto"
+    },
+    {
+      "market_id": "954194",
+      "question": "Will Vertiv Holdings (VRT) be added to the S&P 500 by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.825,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0416,
+      "bin_n": 328066,
+      "category": "other"
+    },
+    {
+      "market_id": "1366274",
+      "question": "Will the US add less than 25k jobs in February?",
+      "direction": "BUY YES",
+      "order_price": 0.28,
+      "mid_price": 0.3,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.08,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1419254",
+      "question": "Will Bitcoin dip to $56,000 February 23-March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.004,
+      "mid_price": 0.0125,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0147,
+      "bin_n": 415113,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1327161",
+      "question": "Will 'Arirang' - BTS debut week album sales be less than 3m?",
+      "direction": "BUY YES",
+      "order_price": 0.89,
+      "mid_price": 0.9,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0506,
+      "bin_n": 146385,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1428043",
+      "question": "Will the price of Bitcoin be above $72,000 on March 3?",
+      "direction": "BUY YES",
+      "order_price": 0.013,
+      "mid_price": 0.0215,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0358,
+      "bin_n": 361533,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1405308",
+      "question": "Will Andrew Tate post 130-159 posts from February 24 to March 3, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.332,
+      "mid_price": 0.34,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.04,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1428002",
+      "question": "Will the price of Ethereum be above $1,800 on March 3?",
+      "direction": "BUY NO",
+      "order_price": 0.119,
+      "mid_price": 0.882,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0457,
+      "bin_n": 76600,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403601",
+      "question": "Will \"Macbook\" be said 10+ times during the NYC Apple event on March 4?",
+      "direction": "BUY YES",
+      "order_price": 0.79,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0506,
+      "bin_n": 333396,
+      "category": "other"
+    },
+    {
+      "market_id": "1437324",
+      "question": "Will \"Project Hail Mary\" score at least 90 on the Rotten Tomatoes Tomatometer?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0359,
+      "bin_n": 159914,
+      "category": "other"
+    },
+    {
+      "market_id": "1399738",
+      "question": "Will GitLab (GTLB) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.73,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0323,
+      "bin_n": 233869,
+      "category": "other"
+    },
+    {
+      "market_id": "1403604",
+      "question": "Will \"Apple TV\" be said during the NYC Apple event on March 4?",
+      "direction": "BUY NO",
+      "order_price": 0.28,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0359,
+      "bin_n": 159914,
+      "category": "other"
+    },
+    {
+      "market_id": "1419392",
+      "question": "Will the price of Ethereum be between $2,000 and $2,100 on March 2?",
+      "direction": "BUY YES",
+      "order_price": 0.15,
+      "mid_price": 0.155,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0528,
+      "bin_n": 49600,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1436217",
+      "question": "Will the price of Ethereum be above $2,200 on March 4?",
+      "direction": "BUY YES",
+      "order_price": 0.024,
+      "mid_price": 0.0275,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0389,
+      "bin_n": 385118,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1363504",
+      "question": "Will Kylie Jenner attend the Oscars?",
+      "direction": "BUY YES",
+      "order_price": 0.861,
+      "mid_price": 0.9195,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0345,
+      "bin_n": 1116059,
+      "category": "other"
+    },
+    {
+      "market_id": "1448467",
+      "question": "Will Elon Musk post 90-114 tweets from February 28 to March 2, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.3,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0461,
+      "bin_n": 139705,
+      "category": "other"
+    },
+    {
+      "market_id": "1427976",
+      "question": "Will the price of Bitcoin be less than $56,000 on March 3?",
+      "direction": "BUY YES",
+      "order_price": 0.021,
+      "mid_price": 0.0225,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0348,
+      "bin_n": 361533,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403852",
+      "question": "Will The Gap (GAP) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.69,
+      "mid_price": 0.705,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0631,
+      "bin_n": 261832,
+      "category": "other"
+    },
+    {
+      "market_id": "1436234",
+      "question": "Will the price of Bitcoin be above $74,000 on March 4?",
+      "direction": "BUY YES",
+      "order_price": 0.011,
+      "mid_price": 0.02,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0464,
+      "bin_n": 385118,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1354852",
+      "question": "Will England win?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.69,
+      "first_seen": "2026-02-28T02:00:47Z",
+      "bin_edge": 0.0462,
+      "bin_n": 136506,
       "category": "other"
     }
   ],
