@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-28T03:00:51.326945+00:00",
+  "updated_at": "2026-02-28T04:00:56.473866+00:00",
   "summary": {
-    "pending": 380,
+    "pending": 388,
     "wins": 107,
     "losses": 99,
     "win_rate": 0.5194,
     "total_pnl": 44.8762,
-    "avg_bin_edge": 0.0628
+    "avg_bin_edge": 0.0629
   },
   "pending_picks": [
     {
@@ -4188,6 +4188,94 @@
       "bin_edge": 0.0209,
       "bin_n": 385118,
       "category": "crypto"
+    },
+    {
+      "market_id": "1414915",
+      "question": "Will the price of Ethereum be above $2,000 on March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.1,
+      "mid_price": 0.105,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.0445,
+      "bin_n": 41308,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1415011",
+      "question": "Will the price of Solana be above $80 on March 1?",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.68,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.0775,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1428017",
+      "question": "Will the price of Solana be above $80 on March 3?",
+      "direction": "BUY NO",
+      "order_price": 0.39,
+      "mid_price": 0.595,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.2008,
+      "bin_n": 19105,
+      "category": "crypto"
+    },
+    {
+      "market_id": "693781",
+      "question": "Will Intercontinental Exchange self-certify sports event contracts by March 31, 2026?",
+      "direction": "BUY YES",
+      "order_price": 0.28,
+      "mid_price": 0.32,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.06,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1414907",
+      "question": "Will the price of Bitcoin be between $58,000 and $60,000 on March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.002,
+      "mid_price": 0.0115,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.0147,
+      "bin_n": 563995,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1419380",
+      "question": "Will the price of Solana be between $80 and $90 on March 2?",
+      "direction": "BUY NO",
+      "order_price": 0.39,
+      "mid_price": 0.595,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.1004,
+      "bin_n": 21848,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1428037",
+      "question": "Will the price of Ethereum be above $2,200 on March 3?",
+      "direction": "BUY YES",
+      "order_price": 0.015,
+      "mid_price": 0.021,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.0363,
+      "bin_n": 361533,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1437323",
+      "question": "Will \"Project Hail Mary\" score at least 80 on the Rotten Tomatoes Tomatometer?",
+      "direction": "BUY YES",
+      "order_price": 0.78,
+      "mid_price": 0.815,
+      "first_seen": "2026-02-28T04:00:56Z",
+      "bin_edge": 0.0506,
+      "bin_n": 333396,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
