@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-28T05:01:02.395907+00:00",
+  "updated_at": "2026-02-28T06:00:55.803831+00:00",
   "summary": {
-    "pending": 396,
+    "pending": 402,
     "wins": 107,
     "losses": 99,
     "win_rate": 0.5194,
     "total_pnl": 44.8762,
-    "avg_bin_edge": 0.0629
+    "avg_bin_edge": 0.0628
   },
   "pending_picks": [
     {
@@ -4362,6 +4362,72 @@
       "mid_price": 0.845,
       "first_seen": "2026-02-28T05:01:02Z",
       "bin_edge": 0.0206,
+      "bin_n": 333396,
+      "category": "other"
+    },
+    {
+      "market_id": "1427587",
+      "question": "Will \"Wuthering Heights\" Third Weekend Box Office be between 6m and 7m?",
+      "direction": "BUY NO",
+      "order_price": 0.7,
+      "mid_price": 0.265,
+      "first_seen": "2026-02-28T06:00:55Z",
+      "bin_edge": 0.0965,
+      "bin_n": 262241,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "706000",
+      "question": "Robinhood self-certifies sports event contract by March 31? ",
+      "direction": "BUY YES",
+      "order_price": 0.28,
+      "mid_price": 0.32,
+      "first_seen": "2026-02-28T06:00:55Z",
+      "bin_edge": 0.06,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1436186",
+      "question": "Will the price of Solana be above $80 on March 4?",
+      "direction": "BUY NO",
+      "order_price": 0.4,
+      "mid_price": 0.59,
+      "first_seen": "2026-02-28T06:00:55Z",
+      "bin_edge": 0.1091,
+      "bin_n": 22715,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1427249",
+      "question": "Will \"GOAT\" Third Weekend Box Office be greater than 12m?",
+      "direction": "BUY NO",
+      "order_price": 0.753,
+      "mid_price": 0.1835,
+      "first_seen": "2026-02-28T06:00:55Z",
+      "bin_edge": 0.0354,
+      "bin_n": 296114,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1363503",
+      "question": "Will Leonardo DiCaprio attend the Oscars?",
+      "direction": "BUY YES",
+      "order_price": 0.907,
+      "mid_price": 0.917,
+      "first_seen": "2026-02-28T06:00:55Z",
+      "bin_edge": 0.037,
+      "bin_n": 1116059,
+      "category": "other"
+    },
+    {
+      "market_id": "1404329",
+      "question": "Will Samsara (IOT) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "order_price": 0.82,
+      "mid_price": 0.835,
+      "first_seen": "2026-02-28T06:00:55Z",
+      "bin_edge": 0.0306,
       "bin_n": 333396,
       "category": "other"
     }
