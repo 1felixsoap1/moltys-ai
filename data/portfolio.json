@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-28T04:00:56.473866+00:00",
+  "updated_at": "2026-02-28T05:01:02.395907+00:00",
   "summary": {
-    "pending": 388,
+    "pending": 396,
     "wins": 107,
     "losses": 99,
     "win_rate": 0.5194,
@@ -4274,6 +4274,94 @@
       "mid_price": 0.815,
       "first_seen": "2026-02-28T04:00:56Z",
       "bin_edge": 0.0506,
+      "bin_n": 333396,
+      "category": "other"
+    },
+    {
+      "market_id": "1428005",
+      "question": "Will the price of Bitcoin be above $62,000 on March 3?",
+      "direction": "BUY NO",
+      "order_price": 0.11,
+      "mid_price": 0.895,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0952,
+      "bin_n": 63876,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1415010",
+      "question": "Will the price of Solana be between $80 and $90 on March 1?",
+      "direction": "BUY NO",
+      "order_price": 0.28,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0925,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1428033",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on March 3?",
+      "direction": "BUY YES",
+      "order_price": 0.11,
+      "mid_price": 0.12,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0804,
+      "bin_n": 63351,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1427246",
+      "question": "Will \"GOAT\" Third Weekend Box Office be between 9m and 10m?",
+      "direction": "BUY NO",
+      "order_price": 0.58,
+      "mid_price": 0.375,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0538,
+      "bin_n": 119154,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1436184",
+      "question": "Will the price of Bitcoin be above $64,000 on March 4?",
+      "direction": "BUY YES",
+      "order_price": 0.7,
+      "mid_price": 0.7,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0608,
+      "bin_n": 54232,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1454055",
+      "question": "S&P 500 (SPX) Opens Up or Down on March 2?",
+      "direction": "BUY YES",
+      "order_price": 0.51,
+      "mid_price": 0.515,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0505,
+      "bin_n": 93508,
+      "category": "other"
+    },
+    {
+      "market_id": "1419343",
+      "question": "Will the price of Bitcoin be less than $56,000 on March 2?",
+      "direction": "BUY YES",
+      "order_price": 0.003,
+      "mid_price": 0.01,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0172,
+      "bin_n": 415113,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403603",
+      "question": "Will \"Apple Intelligence\" be said 5+ times during the NYC Apple event on March 4?",
+      "direction": "BUY YES",
+      "order_price": 0.8,
+      "mid_price": 0.845,
+      "first_seen": "2026-02-28T05:01:02Z",
+      "bin_edge": 0.0206,
       "bin_n": 333396,
       "category": "other"
     }
