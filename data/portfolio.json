@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-28T00:00:51.567324+00:00",
+  "updated_at": "2026-02-28T01:00:50.859292+00:00",
   "summary": {
-    "pending": 388,
-    "wins": 92,
-    "losses": 75,
-    "win_rate": 0.5509,
-    "total_pnl": 44.0448,
-    "avg_bin_edge": 0.0639
+    "pending": 353,
+    "wins": 107,
+    "losses": 99,
+    "win_rate": 0.5194,
+    "total_pnl": 44.8762,
+    "avg_bin_edge": 0.0638
   },
   "pending_picks": [
     {
@@ -98,17 +98,6 @@
       "category": "other"
     },
     {
-      "market_id": "1286548",
-      "question": "Will Russia enter Bilytske by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.82,
-      "mid_price": 0.18,
-      "first_seen": "2026-02-21T01:35:42Z",
-      "bin_edge": 0.0419,
-      "bin_n": 289008,
-      "category": "other"
-    },
-    {
       "market_id": "1221319",
       "question": "Will Israel strike 2 countries in February 2026?",
       "direction": "BUY YES",
@@ -184,17 +173,6 @@
       "bin_edge": 0.0529,
       "bin_n": 135420,
       "category": "other"
-    },
-    {
-      "market_id": "1301922",
-      "question": "Will Netflix (NFLX) close above $80 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.39,
-      "first_seen": "2026-02-21T01:35:42Z",
-      "bin_edge": 0.0587,
-      "bin_n": 111467,
-      "category": "entertainment"
     },
     {
       "market_id": "1242301",
@@ -692,17 +670,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1301637",
-      "question": "Will Microsoft (MSFT) close above $420 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.9,
-      "mid_price": 0.095,
-      "first_seen": "2026-02-21T11:00:27Z",
-      "bin_edge": 0.0575,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "614566",
       "question": "Will Hamnet win Best Adapted Screenplay at the 98th Academy Awards?",
       "direction": "BUY NO",
@@ -766,17 +733,6 @@
       "first_seen": "2026-02-21T13:00:27Z",
       "bin_edge": 0.0269,
       "bin_n": 289008,
-      "category": "other"
-    },
-    {
-      "market_id": "1301572",
-      "question": "Will Apple (AAPL) close above $250 end of February?",
-      "direction": "BUY YES",
-      "order_price": 0.9,
-      "mid_price": 0.908,
-      "first_seen": "2026-02-21T13:00:27Z",
-      "bin_edge": 0.0542,
-      "bin_n": 2204595,
       "category": "other"
     },
     {
@@ -987,17 +943,6 @@
       "bin_edge": 0.0431,
       "bin_n": 769763,
       "category": "sports"
-    },
-    {
-      "market_id": "1339355",
-      "question": "Will there be at least 1,100 measles cases in the U.S. by February 28, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.3,
-      "first_seen": "2026-02-22T02:00:25Z",
-      "bin_edge": 0.0729,
-      "bin_n": 135420,
-      "category": "other"
     },
     {
       "market_id": "1323418",
@@ -1704,17 +1649,6 @@
       "category": "other"
     },
     {
-      "market_id": "1301840",
-      "question": "Will Tesla (TSLA) close above $430 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.9,
-      "mid_price": 0.09,
-      "first_seen": "2026-02-23T16:00:28Z",
-      "bin_edge": 0.0525,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "1262871",
       "question": "Will Netflix dip to $70 in February?",
       "direction": "BUY NO",
@@ -1756,17 +1690,6 @@
       "first_seen": "2026-02-23T17:00:29Z",
       "bin_edge": 0.0522,
       "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "1363003",
-      "question": "Will there be at least 1,050 measles cases in the U.S. by February 28, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.6985,
-      "first_seen": "2026-02-23T18:00:29Z",
-      "bin_edge": 0.0794,
-      "bin_n": 132215,
       "category": "other"
     },
     {
@@ -1924,50 +1847,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1402956",
-      "question": "Will the price of Ethereum be above $1,800 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.4,
-      "mid_price": 0.595,
-      "first_seen": "2026-02-24T04:00:28Z",
-      "bin_edge": 0.2008,
-      "bin_n": 19105,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1301884",
-      "question": "Will NVIDIA (NVDA) close above $200 end of February?",
-      "direction": "BUY YES",
-      "order_price": 0.32,
-      "mid_price": 0.34,
-      "first_seen": "2026-02-24T05:00:26Z",
-      "bin_edge": 0.0759,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1301978",
-      "question": "Will Opendoor (OPEN) close above $5.00 end of February?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.315,
-      "first_seen": "2026-02-24T05:00:26Z",
-      "bin_edge": 0.1009,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1301827",
-      "question": "Will Tesla (TSLA) close above $390 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.675,
-      "first_seen": "2026-02-24T05:00:26Z",
-      "bin_edge": 0.0938,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "991022",
       "question": "No change in Bank of Japan's interest rates after March 2026 meeting?",
       "direction": "BUY YES",
@@ -1986,17 +1865,6 @@
       "mid_price": 0.325,
       "first_seen": "2026-02-24T09:00:28Z",
       "bin_edge": 0.0909,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1301689",
-      "question": "Will Amazon (AMZN) close above $210 end of February?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.3,
-      "first_seen": "2026-02-24T11:00:31Z",
-      "bin_edge": 0.1159,
       "bin_n": 192167,
       "category": "other"
     },
@@ -2067,17 +1935,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1301831",
-      "question": "Will Tesla (TSLA) close above $400 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.33,
-      "mid_price": 0.67,
-      "first_seen": "2026-02-24T16:00:34Z",
-      "bin_edge": 0.0888,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "677357",
       "question": "Will Hamas agree to disarm by March 31?",
       "direction": "BUY NO",
@@ -2086,17 +1943,6 @@
       "first_seen": "2026-02-24T16:00:34Z",
       "bin_edge": 0.0584,
       "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1387684",
-      "question": "Will Elon Musk post 340-359 tweets from February 20 to February 27, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.81,
-      "mid_price": 0.195,
-      "first_seen": "2026-02-24T16:00:34Z",
-      "bin_edge": 0.0569,
-      "bin_n": 289008,
       "category": "other"
     },
     {
@@ -2144,17 +1990,6 @@
       "category": "other"
     },
     {
-      "market_id": "1387675",
-      "question": "Will Elon Musk post 300-319 tweets from February 20 to February 27, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.82,
-      "mid_price": 0.18,
-      "first_seen": "2026-02-24T20:00:32Z",
-      "bin_edge": 0.0419,
-      "bin_n": 289008,
-      "category": "other"
-    },
-    {
       "market_id": "1277495",
       "question": "Will Google have the #3 AI model at the end of February 2026?",
       "direction": "BUY NO",
@@ -2163,17 +1998,6 @@
       "first_seen": "2026-02-24T20:00:32Z",
       "bin_edge": 0.0399,
       "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1301882",
-      "question": "Will NVIDIA (NVDA) close above $190 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.38,
-      "mid_price": 0.62,
-      "first_seen": "2026-02-24T20:00:32Z",
-      "bin_edge": 0.0388,
-      "bin_n": 188889,
       "category": "other"
     },
     {
@@ -2208,17 +2032,6 @@
       "bin_edge": 0.0475,
       "bin_n": 2193542,
       "category": "other"
-    },
-    {
-      "market_id": "1402985",
-      "question": "Will the price of Bitcoin be above $60,000 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.099,
-      "mid_price": 0.897,
-      "first_seen": "2026-02-24T23:00:33Z",
-      "bin_edge": 0.1036,
-      "bin_n": 49182,
-      "category": "crypto"
     },
     {
       "market_id": "1333272",
@@ -2285,17 +2098,6 @@
       "bin_edge": 0.0687,
       "bin_n": 236188,
       "category": "entertainment"
-    },
-    {
-      "market_id": "1387687",
-      "question": "Will Elon Musk post 360-379 tweets from February 20 to February 27, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.095,
-      "first_seen": "2026-02-25T04:00:38Z",
-      "bin_edge": 0.0575,
-      "bin_n": 2193542,
-      "category": "other"
     },
     {
       "market_id": "1277653",
@@ -2375,17 +2177,6 @@
       "category": "other"
     },
     {
-      "market_id": "1402990",
-      "question": "Will the price of Bitcoin be above $68,000 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.12,
-      "mid_price": 0.125,
-      "first_seen": "2026-02-25T06:00:41Z",
-      "bin_edge": 0.0847,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
       "market_id": "1334173",
       "question": "US downs another Iranian drone by February 28?",
       "direction": "BUY NO",
@@ -2405,17 +2196,6 @@
       "first_seen": "2026-02-25T09:00:43Z",
       "bin_edge": 0.0399,
       "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1387679",
-      "question": "Will Elon Musk post 320-339 tweets from February 20 to February 27, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.2,
-      "mid_price": 0.205,
-      "first_seen": "2026-02-25T09:00:43Z",
-      "bin_edge": 0.0321,
-      "bin_n": 235059,
       "category": "other"
     },
     {
@@ -2452,17 +2232,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1402960",
-      "question": "Will the price of Ethereum be above $2,000 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.5,
-      "mid_price": 0.49,
-      "first_seen": "2026-02-25T15:00:42Z",
-      "bin_edge": 0.0941,
-      "bin_n": 31804,
-      "category": "crypto"
-    },
-    {
       "market_id": "1262895",
       "question": "Will Palantir dip to $126 in February?",
       "direction": "BUY YES",
@@ -2496,17 +2265,6 @@
       "category": "other"
     },
     {
-      "market_id": "1301834",
-      "question": "Will Tesla (TSLA) close above $410 end of February?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.68,
-      "first_seen": "2026-02-25T16:00:41Z",
-      "bin_edge": 0.0988,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
       "market_id": "1262847",
       "question": "Will NVIDIA reach $208 in February?",
       "direction": "BUY YES",
@@ -2529,28 +2287,6 @@
       "category": "other"
     },
     {
-      "market_id": "1402963",
-      "question": "Will the price of Ethereum be above $2,100 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.303,
-      "first_seen": "2026-02-25T17:00:40Z",
-      "bin_edge": 0.0899,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1402992",
-      "question": "Will the price of Bitcoin be above $70,000 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.303,
-      "mid_price": 0.308,
-      "first_seen": "2026-02-25T18:00:39Z",
-      "bin_edge": 0.0849,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
       "market_id": "1414967",
       "question": "Will the price of Bitcoin be above $68,000 on March 1?",
       "direction": "BUY NO",
@@ -2571,17 +2307,6 @@
       "bin_edge": 0.1502,
       "bin_n": 17896,
       "category": "crypto"
-    },
-    {
-      "market_id": "1301781",
-      "question": "Will Meta (META) close above $660 end of February?",
-      "direction": "BUY YES",
-      "order_price": 0.29,
-      "mid_price": 0.31,
-      "first_seen": "2026-02-25T20:00:38Z",
-      "bin_edge": 0.1059,
-      "bin_n": 192167,
-      "category": "other"
     },
     {
       "market_id": "1322360",
@@ -2661,17 +2386,6 @@
       "category": "other"
     },
     {
-      "market_id": "1387639",
-      "question": "Will Donald Trump post 120-139 Truth Social posts from February 20 to February 27, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.095,
-      "first_seen": "2026-02-26T00:00:58Z",
-      "bin_edge": 0.0619,
-      "bin_n": 983439,
-      "category": "politics"
-    },
-    {
       "market_id": "1397805",
       "question": "U.S. strike on Somalia by February 28?",
       "direction": "BUY YES",
@@ -2681,17 +2395,6 @@
       "bin_edge": 0.0564,
       "bin_n": 285491,
       "category": "other"
-    },
-    {
-      "market_id": "1402988",
-      "question": "Will the price of Bitcoin be above $64,000 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.11,
-      "mid_price": 0.895,
-      "first_seen": "2026-02-26T00:00:58Z",
-      "bin_edge": 0.0439,
-      "bin_n": 41383,
-      "category": "crypto"
     },
     {
       "market_id": "1303949",
@@ -2782,17 +2485,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1402957",
-      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.13,
-      "mid_price": 0.135,
-      "first_seen": "2026-02-26T09:00:55Z",
-      "bin_edge": 0.0852,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
       "market_id": "1322356",
       "question": "Will S&P 500 (SPX) hit $7,040 (HIGH) in February 2026?",
       "direction": "BUY YES",
@@ -2802,28 +2494,6 @@
       "bin_edge": 0.0381,
       "bin_n": 398539,
       "category": "other"
-    },
-    {
-      "market_id": "1402989",
-      "question": "Will the price of Bitcoin be above $66,000 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.13,
-      "mid_price": 0.87,
-      "first_seen": "2026-02-26T10:00:41Z",
-      "bin_edge": 0.0933,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1402966",
-      "question": "Will the price of Ethereum be above $2,200 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.1,
-      "mid_price": 0.1015,
-      "first_seen": "2026-02-26T10:00:41Z",
-      "bin_edge": 0.1187,
-      "bin_n": 34790,
-      "category": "crypto"
     },
     {
       "market_id": "1366917",
@@ -2859,17 +2529,6 @@
       "category": "other"
     },
     {
-      "market_id": "1416717",
-      "question": "LoL: GIANTX vs Karmine Corp (BO5) - LEC Versus Playoffs",
-      "direction": "BUY NO",
-      "order_price": 0.81,
-      "mid_price": 0.195,
-      "first_seen": "2026-02-26T14:00:59Z",
-      "bin_edge": 0.0832,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
       "market_id": "1389074",
       "question": "Will Kevin Warsh be formally nominated to be Chair of the Federal Reserve by March 31, 2026?",
       "direction": "BUY YES",
@@ -2892,17 +2551,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1402959",
-      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.62,
-      "mid_price": 0.375,
-      "first_seen": "2026-02-26T15:01:06Z",
-      "bin_edge": 0.0768,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
       "market_id": "1404170",
       "question": "Will Tesla (TSLA) finish week of February 23 above $405?",
       "direction": "BUY NO",
@@ -2914,17 +2562,6 @@
       "category": "other"
     },
     {
-      "market_id": "1402958",
-      "question": "Will the price of Ethereum be above $1,900 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.14,
-      "mid_price": 0.8455,
-      "first_seen": "2026-02-26T17:01:07Z",
-      "bin_edge": 0.0688,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
       "market_id": "1408378",
       "question": "Will the price of Bitcoin be above $68,000 on February 28?",
       "direction": "BUY YES",
@@ -2933,28 +2570,6 @@
       "first_seen": "2026-02-26T17:01:07Z",
       "bin_edge": 0.0929,
       "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1403015",
-      "question": "Will the price of Solana be above $90 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.093,
-      "mid_price": 0.1065,
-      "first_seen": "2026-02-26T17:01:07Z",
-      "bin_edge": 0.1137,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1403014",
-      "question": "Will the price of Solana be above $80 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.136,
-      "mid_price": 0.8475,
-      "first_seen": "2026-02-26T17:01:07Z",
-      "bin_edge": 0.0708,
-      "bin_n": 34644,
       "category": "crypto"
     },
     {
@@ -2980,17 +2595,6 @@
       "category": "other"
     },
     {
-      "market_id": "1436149",
-      "question": "Bitcoin Up or Down on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.7,
-      "first_seen": "2026-02-26T20:00:37Z",
-      "bin_edge": 0.0776,
-      "bin_n": 30064,
-      "category": "crypto"
-    },
-    {
       "market_id": "1277929",
       "question": "Will Israel strike Gaza on February 28, 2026?",
       "direction": "BUY YES",
@@ -3000,28 +2604,6 @@
       "bin_edge": 0.0659,
       "bin_n": 192167,
       "category": "other"
-    },
-    {
-      "market_id": "1402962",
-      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 27?",
-      "direction": "BUY NO",
-      "order_price": 0.71,
-      "mid_price": 0.29,
-      "first_seen": "2026-02-26T21:00:34Z",
-      "bin_edge": 0.0674,
-      "bin_n": 29954,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1436150",
-      "question": "Ethereum Up or Down on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.71,
-      "mid_price": 0.715,
-      "first_seen": "2026-02-26T21:00:34Z",
-      "bin_edge": 0.0626,
-      "bin_n": 30064,
-      "category": "crypto"
     },
     {
       "market_id": "1373736",
@@ -3065,17 +2647,6 @@
       "first_seen": "2026-02-26T21:37:20Z",
       "bin_edge": 0.1016,
       "bin_n": 49182,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1403005",
-      "question": "Will the price of Ethereum be between $2,100 and $2,200 on February 27?",
-      "direction": "BUY YES",
-      "order_price": 0.121,
-      "mid_price": 0.1275,
-      "first_seen": "2026-02-26T21:37:58Z",
-      "bin_edge": 0.0927,
-      "bin_n": 34790,
       "category": "crypto"
     },
     {
@@ -4276,9 +3847,482 @@
       "bin_edge": 0.0493,
       "bin_n": 1131951,
       "category": "other"
+    },
+    {
+      "market_id": "1414460",
+      "question": "Lakers vs. Warriors",
+      "direction": "BUY NO",
+      "order_price": 0.41,
+      "mid_price": 0.595,
+      "first_seen": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.039,
+      "bin_n": 911085,
+      "category": "sports"
+    },
+    {
+      "market_id": "1414462",
+      "question": "Pelicans vs. Jazz",
+      "direction": "BUY NO",
+      "order_price": 0.31,
+      "mid_price": 0.695,
+      "first_seen": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0274,
+      "bin_n": 702098,
+      "category": "sports"
+    },
+    {
+      "market_id": "1419293",
+      "question": "Will XRP dip to $1.30 February 23-March 1?",
+      "direction": "BUY YES",
+      "order_price": 0.29,
+      "mid_price": 0.305,
+      "first_seen": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.075,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
+      "market_id": "1235861",
+      "question": "Will Dominican Republic win the 2026 World Baseball Classic?",
+      "direction": "BUY NO",
+      "order_price": 0.81,
+      "mid_price": 0.195,
+      "first_seen": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0637,
+      "bin_n": 340981,
+      "category": "other"
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1286548",
+      "question": "Will Russia enter Bilytske by February 28?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0419,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1301922",
+      "question": "Will Netflix (NFLX) close above $80 end of February?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0587,
+      "bin_n": 111467,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1301637",
+      "question": "Will Microsoft (MSFT) close above $420 end of February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1111,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1301572",
+      "question": "Will Apple (AAPL) close above $250 end of February?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1111,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0542,
+      "bin_n": 2204595,
+      "category": "other"
+    },
+    {
+      "market_id": "1339355",
+      "question": "Will there be at least 1,100 measles cases in the U.S. by February 28, 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.3333,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0729,
+      "bin_n": 135420,
+      "category": "other"
+    },
+    {
+      "market_id": "1301840",
+      "question": "Will Tesla (TSLA) close above $430 end of February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1111,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0525,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1363003",
+      "question": "Will there be at least 1,050 measles cases in the U.S. by February 28, 2026?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0794,
+      "bin_n": 132215,
+      "category": "other"
+    },
+    {
+      "market_id": "1402956",
+      "question": "Will the price of Ethereum be above $1,800 on February 27?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.2008,
+      "bin_n": 19105,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1301884",
+      "question": "Will NVIDIA (NVDA) close above $200 end of February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0759,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1301978",
+      "question": "Will Opendoor (OPEN) close above $5.00 end of February?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.3333,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.1009,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1301827",
+      "question": "Will Tesla (TSLA) close above $390 end of February?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0938,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1301689",
+      "question": "Will Amazon (AMZN) close above $210 end of February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.1159,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1301831",
+      "question": "Will Tesla (TSLA) close above $400 end of February?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0888,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1387684",
+      "question": "Will Elon Musk post 340-359 tweets from February 20 to February 27, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2346,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0569,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1387675",
+      "question": "Will Elon Musk post 300-319 tweets from February 20 to February 27, 2026?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0419,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1301882",
+      "question": "Will NVIDIA (NVDA) close above $190 end of February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 1.6316,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0388,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1402985",
+      "question": "Will the price of Bitcoin be above $60,000 on February 27?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.1036,
+      "bin_n": 49182,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1387687",
+      "question": "Will Elon Musk post 360-379 tweets from February 20 to February 27, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1402990",
+      "question": "Will the price of Bitcoin be above $68,000 on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0847,
+      "bin_n": 49189,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1387679",
+      "question": "Will Elon Musk post 320-339 tweets from February 20 to February 27, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0321,
+      "bin_n": 235059,
+      "category": "other"
+    },
+    {
+      "market_id": "1402960",
+      "question": "Will the price of Ethereum be above $2,000 on February 27?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0941,
+      "bin_n": 31804,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1301834",
+      "question": "Will Tesla (TSLA) close above $410 end of February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0988,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1402963",
+      "question": "Will the price of Ethereum be above $2,100 on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0899,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402992",
+      "question": "Will the price of Bitcoin be above $70,000 on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0849,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1301781",
+      "question": "Will Meta (META) close above $660 end of February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.1059,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1387639",
+      "question": "Will Donald Trump post 120-139 Truth Social posts from February 20 to February 27, 2026?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0619,
+      "bin_n": 983439,
+      "category": "politics"
+    },
+    {
+      "market_id": "1402988",
+      "question": "Will the price of Bitcoin be above $64,000 on February 27?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0439,
+      "bin_n": 41383,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402957",
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 27?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 6.6923,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0852,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402989",
+      "question": "Will the price of Bitcoin be above $66,000 on February 27?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 6.6923,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0933,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402966",
+      "question": "Will the price of Ethereum be above $2,200 on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.1187,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1416717",
+      "question": "LoL: GIANTX vs Karmine Corp (BO5) - LEC Versus Playoffs",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2346,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0832,
+      "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1402959",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 27?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6129,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0768,
+      "bin_n": 18774,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402958",
+      "question": "Will the price of Ethereum be above $1,900 on February 27?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0688,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403015",
+      "question": "Will the price of Solana be above $90 on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.1137,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403014",
+      "question": "Will the price of Solana be above $80 on February 27?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0708,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1436149",
+      "question": "Bitcoin Up or Down on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0776,
+      "bin_n": 30064,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1402962",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 27?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.4085,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0674,
+      "bin_n": 29954,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1436150",
+      "question": "Ethereum Up or Down on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0626,
+      "bin_n": 30064,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1403005",
+      "question": "Will the price of Ethereum be between $2,100 and $2,200 on February 27?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-02-28T01:00:50Z",
+      "bin_edge": 0.0927,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
     {
       "market_id": "1387673",
       "question": "Will Elon Musk post 280-299 tweets from February 20 to February 27, 2026?",
@@ -4398,435 +4442,6 @@
       "resolved_at": "2026-02-27T07:00:53Z",
       "bin_edge": 0.0271,
       "bin_n": 230410,
-      "category": "other"
-    },
-    {
-      "market_id": "1277927",
-      "question": "Will Israel strike Gaza on February 26, 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-02-27T07:00:53Z",
-      "bin_edge": 0.1059,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1402321",
-      "question": "Wizards vs. Hawks",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1905,
-      "resolved_at": "2026-02-27T07:00:53Z",
-      "bin_edge": 0.0532,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1402309",
-      "question": "Hornets vs. Pacers",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1765,
-      "resolved_at": "2026-02-27T07:00:53Z",
-      "bin_edge": 0.0258,
-      "bin_n": 392103,
-      "category": "sports"
-    },
-    {
-      "market_id": "1402325",
-      "question": "Spurs vs. Nets",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.2195,
-      "resolved_at": "2026-02-27T07:00:53Z",
-      "bin_edge": 0.0176,
-      "bin_n": 352435,
-      "category": "sports"
-    },
-    {
-      "market_id": "1435570",
-      "question": "Spread: Hurricanes (-1.5)",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T07:00:53Z",
-      "bin_edge": 0.0709,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1398491",
-      "question": "Will the price of Bitcoin be above $64,000 on February 26?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.148,
-      "bin_n": 17896,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1387670",
-      "question": "Will Elon Musk post 260-279 tweets from February 20 to February 27, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0541,
-      "bin_n": 1163272,
-      "category": "other"
-    },
-    {
-      "market_id": "1398496",
-      "question": "Will the price of Bitcoin be above $68,000 on February 26?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0997,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398487",
-      "question": "Will the price of Bitcoin be above $60,000 on February 26?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.1061,
-      "bin_n": 49182,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398457",
-      "question": "Will the price of Ethereum be above $1,800 on February 26?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.1004,
-      "bin_n": 21848,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398489",
-      "question": "Will the price of Bitcoin be above $62,000 on February 26?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0825,
-      "bin_n": 21696,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398460",
-      "question": "Will the price of Ethereum be above $1,900 on February 26?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.3333,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0879,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398493",
-      "question": "Will the price of Bitcoin be above $66,000 on February 26?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0891,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398461",
-      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 26?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0729,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398463",
-      "question": "Will the price of Ethereum be above $2,000 on February 26?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.1112,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398456",
-      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on February 26?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.1202,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398466",
-      "question": "Will the price of Ethereum be above $2,100 on February 26?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.1107,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398498",
-      "question": "Will the price of Bitcoin be above $70,000 on February 26?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0929,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0299,
-      "bin_n": 616602,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398464",
-      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on February 26?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6103,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0893,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398525",
-      "question": "Will the price of Solana be above $90 on February 26?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.4368,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0674,
-      "bin_n": 29954,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1277651",
-      "question": "Will Israel strike Lebanon on February 26, 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.1009,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1398524",
-      "question": "Will the price of Solana be between $90 and $100 on February 26?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6556,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0728,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1398502",
-      "question": "Will the price of Bitcoin be above $72,000 on February 26?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.105,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0409,
-      "bin_n": 616602,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1421276",
-      "question": "LoL: Verdant vs Bulldog Esports (BO1) - NLC Regular Season",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.4085,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0342,
-      "bin_n": 957967,
-      "category": "sports"
-    },
-    {
-      "market_id": "1439485",
-      "question": "Dota 2: Aurora vs Xtreme Gaming (BO3) - DreamLeague Stage 2",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0408,
-      "bin_n": 392103,
-      "category": "sports"
-    },
-    {
-      "market_id": "1299197",
-      "question": "Will NYC have less than 2 inches of precipitation in February?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.4493,
-      "resolved_at": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0496,
-      "bin_n": 195298,
-      "category": "other"
-    },
-    {
-      "market_id": "1369672",
-      "question": "Will Papa John's International (PZZA) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.4286,
-      "resolved_at": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0461,
-      "bin_n": 196802,
-      "category": "other"
-    },
-    {
-      "market_id": "1370976",
-      "question": "Will Hilton Grand Vacations (HGV) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0679,
-      "bin_n": 135420,
-      "category": "other"
-    },
-    {
-      "market_id": "1388695",
-      "question": "US x Iran meeting by February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1111,
-      "resolved_at": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0629,
-      "bin_n": 1385931,
-      "category": "other"
-    },
-    {
-      "market_id": "1369646",
-      "question": "Will Warby Parker (WRBY) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.0959,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1387102",
-      "question": "Will Teleflex (TFX) beat quarterly earnings?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 2.5714,
-      "resolved_at": "2026-02-26T19:01:07Z",
-      "bin_edge": 0.1138,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1366857",
-      "question": "Will BV Borussia 09 Dortmund win on 2026-02-25?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.4085,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0494,
-      "bin_n": 947528,
-      "category": "sports"
-    },
-    {
-      "market_id": "1397658",
-      "question": "Celtics vs. Nuggets",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0455,
-      "bin_n": 586808,
-      "category": "sports"
-    },
-    {
-      "market_id": "1397649",
-      "question": "Spurs vs. Raptors",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.4286,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0442,
-      "bin_n": 957967,
-      "category": "sports"
-    },
-    {
-      "market_id": "1397636",
-      "question": "Thunder vs. Pistons",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.3889,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0394,
-      "bin_n": 947528,
-      "category": "sports"
-    },
-    {
-      "market_id": "1293877",
-      "question": "Kraken vs. Stars",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0462,
-      "bin_n": 568577,
-      "category": "sports"
-    },
-    {
-      "market_id": "1429076",
-      "question": "Spread: Pistons (-5.5)",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0538,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1429443",
-      "question": "Spread: Pistons (-6.5)",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-26T13:01:03Z",
-      "bin_edge": 0.0488,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1363685",
-      "question": "Will NVIDIA (NVDA) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1111,
-      "resolved_at": "2026-02-26T07:00:47Z",
-      "bin_edge": 0.0572,
-      "bin_n": 2204595,
       "category": "other"
     }
   ]
