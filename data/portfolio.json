@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-01T06:00:01.734415+00:00",
+  "updated_at": "2026-03-01T07:00:01.224197+00:00",
   "summary": {
-    "pending": 349,
-    "wins": 146,
-    "losses": 147,
-    "win_rate": 0.4983,
-    "total_pnl": 62.2033,
+    "pending": 338,
+    "wins": 150,
+    "losses": 154,
+    "win_rate": 0.4934,
+    "total_pnl": 58.5951,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -945,17 +945,6 @@
       "category": "other"
     },
     {
-      "market_id": "1117242",
-      "question": "Nothing Ever Happens: Khamenei",
-      "direction": "BUY YES",
-      "order_price": 0.8,
-      "mid_price": 0.8,
-      "first_seen": "2026-02-22T13:00:32Z",
-      "bin_edge": 0.039,
-      "bin_n": 246418,
-      "category": "other"
-    },
-    {
       "market_id": "644020",
       "question": "Will Stephen Curry lead the NBA in three pointers made during the 2025\u201326 NBA season?",
       "direction": "BUY NO",
@@ -1539,17 +1528,6 @@
       "category": "other"
     },
     {
-      "market_id": "1277926",
-      "question": "Will Israel strike Gaza on February 25, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.32,
-      "mid_price": 0.325,
-      "first_seen": "2026-02-24T22:00:30Z",
-      "bin_edge": 0.0909,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
       "market_id": "1352797",
       "question": "Will Russia enter Verkhnia Tersa by February 28, 2026?",
       "direction": "BUY NO",
@@ -1569,17 +1547,6 @@
       "first_seen": "2026-02-24T23:00:33Z",
       "bin_edge": 0.0489,
       "bin_n": 165014,
-      "category": "other"
-    },
-    {
-      "market_id": "1277650",
-      "question": "Will Israel strike Lebanon on February 25, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.325,
-      "first_seen": "2026-02-25T00:00:35Z",
-      "bin_edge": 0.0909,
-      "bin_n": 192167,
       "category": "other"
     },
     {
@@ -1605,17 +1572,6 @@
       "category": "other"
     },
     {
-      "market_id": "1322263",
-      "question": "Will Linda Lampenius & Pete Parkkonen win UMK 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.9,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-25T03:00:34Z",
-      "bin_edge": 0.0622,
-      "bin_n": 2204595,
-      "category": "other"
-    },
-    {
       "market_id": "1005914",
       "question": "Will Rhea Seehorn win Best Actress in a Drama Series at the 2026 SAG Awards?",
       "direction": "BUY YES",
@@ -1625,17 +1581,6 @@
       "bin_edge": 0.0687,
       "bin_n": 236188,
       "category": "entertainment"
-    },
-    {
-      "market_id": "974319",
-      "question": "Will Fedez & Marco Masini win Sanremo 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.28,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-25T04:00:38Z",
-      "bin_edge": 0.1109,
-      "bin_n": 192167,
-      "category": "other"
     },
     {
       "market_id": "1285886",
@@ -1715,17 +1660,6 @@
       "category": "politics"
     },
     {
-      "market_id": "1353462",
-      "question": "UFC Fight Night: Jose Daniel Medina vs. Ryan Gandra (Middleweight, Prelims)",
-      "direction": "BUY NO",
-      "order_price": 0.82,
-      "mid_price": 0.185,
-      "first_seen": "2026-02-25T13:00:46Z",
-      "bin_edge": 0.0732,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
       "market_id": "1280182",
       "question": "Will there be between 14 and 17 US strikes on Somalia in February 2026?",
       "direction": "BUY YES",
@@ -1790,17 +1724,6 @@
       "bin_edge": 0.0435,
       "bin_n": 2193542,
       "category": "other"
-    },
-    {
-      "market_id": "1314033",
-      "question": "Flames vs. Kings",
-      "direction": "BUY YES",
-      "order_price": 0.4,
-      "mid_price": 0.405,
-      "first_seen": "2026-02-26T02:00:45Z",
-      "bin_edge": 0.0373,
-      "bin_n": 865556,
-      "category": "sports"
     },
     {
       "market_id": "1419248",
@@ -2053,17 +1976,6 @@
       "first_seen": "2026-02-26T23:00:44Z",
       "bin_edge": 0.0491,
       "bin_n": 398539,
-      "category": "other"
-    },
-    {
-      "market_id": "1394437",
-      "question": "Iran Strike on Israel by December 31?",
-      "direction": "BUY NO",
-      "order_price": 0.32,
-      "mid_price": 0.675,
-      "first_seen": "2026-02-27T00:00:45Z",
-      "bin_edge": 0.0938,
-      "bin_n": 188889,
       "category": "other"
     },
     {
@@ -2441,17 +2353,6 @@
       "category": "other"
     },
     {
-      "market_id": "1394436",
-      "question": "Iran Strike on Israel by March 31?",
-      "direction": "BUY NO",
-      "order_price": 0.33,
-      "mid_price": 0.645,
-      "first_seen": "2026-02-27T17:00:34Z",
-      "bin_edge": 0.0659,
-      "bin_n": 195251,
-      "category": "other"
-    },
-    {
       "market_id": "1405369",
       "question": "Will Elon Musk post 320-339 tweets from February 24 to March 3, 2026?",
       "direction": "BUY NO",
@@ -2548,17 +2449,6 @@
       "first_seen": "2026-02-27T19:00:42Z",
       "bin_edge": 0.0421,
       "bin_n": 562539,
-      "category": "sports"
-    },
-    {
-      "market_id": "1353473",
-      "question": "UFC Fight Night: Macy Chiasson vs. Ailin Perez (Women's Bantamweight, Prelims)",
-      "direction": "BUY NO",
-      "order_price": 0.62,
-      "mid_price": 0.385,
-      "first_seen": "2026-02-27T19:00:42Z",
-      "bin_edge": 0.0359,
-      "bin_n": 571214,
       "category": "sports"
     },
     {
@@ -2912,17 +2802,6 @@
       "bin_edge": 0.0274,
       "bin_n": 702098,
       "category": "sports"
-    },
-    {
-      "market_id": "1419293",
-      "question": "Will XRP dip to $1.30 February 23-March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.29,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-28T01:00:50Z",
-      "bin_edge": 0.075,
-      "bin_n": 148479,
-      "category": "other"
     },
     {
       "market_id": "1235861",
@@ -3851,6 +3730,127 @@
   ],
   "recent_resolutions": [
     {
+      "market_id": "1117242",
+      "question": "Nothing Ever Happens: Khamenei",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.039,
+      "bin_n": 246418,
+      "category": "other"
+    },
+    {
+      "market_id": "1277926",
+      "question": "Will Israel strike Gaza on February 25, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0909,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1277650",
+      "question": "Will Israel strike Lebanon on February 25, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0909,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1322263",
+      "question": "Will Linda Lampenius & Pete Parkkonen win UMK 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1111,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0622,
+      "bin_n": 2204595,
+      "category": "other"
+    },
+    {
+      "market_id": "974319",
+      "question": "Will Fedez & Marco Masini win Sanremo 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.1109,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1353462",
+      "question": "UFC Fight Night: Jose Daniel Medina vs. Ryan Gandra (Middleweight, Prelims)",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2195,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0732,
+      "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1314033",
+      "question": "Flames vs. Kings",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0373,
+      "bin_n": 865556,
+      "category": "sports"
+    },
+    {
+      "market_id": "1394437",
+      "question": "Iran Strike on Israel by December 31?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0938,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1394436",
+      "question": "Iran Strike on Israel by March 31?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0659,
+      "bin_n": 195251,
+      "category": "other"
+    },
+    {
+      "market_id": "1353473",
+      "question": "UFC Fight Night: Macy Chiasson vs. Ailin Perez (Women's Bantamweight, Prelims)",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6129,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.0359,
+      "bin_n": 571214,
+      "category": "sports"
+    },
+    {
+      "market_id": "1419293",
+      "question": "Will XRP dip to $1.30 February 23-March 1?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.4483,
+      "resolved_at": "2026-03-01T07:00:01Z",
+      "bin_edge": 0.075,
+      "bin_n": 148479,
+      "category": "other"
+    },
+    {
       "market_id": "1277190",
       "question": "Will Google have the best AI model at the end of February 2026?",
       "direction": "BUY NO",
@@ -4277,127 +4277,6 @@
       "resolved_at": "2026-02-28T19:00:01Z",
       "bin_edge": 0.0469,
       "bin_n": 289008,
-      "category": "other"
-    },
-    {
-      "market_id": "1237549",
-      "question": "Will Apple be the third-largest company in the world by market cap on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0439,
-      "bin_n": 165014,
-      "category": "other"
-    },
-    {
-      "market_id": "1237550",
-      "question": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0447,
-      "bin_n": 165451,
-      "category": "other"
-    },
-    {
-      "market_id": "1221318",
-      "question": "Will Israel strike \u22641 countries in February 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 4.2632,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0271,
-      "bin_n": 230410,
-      "category": "other"
-    },
-    {
-      "market_id": "1301486",
-      "question": "Will the US strike 2 countries in February 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0709,
-      "bin_n": 132215,
-      "category": "other"
-    },
-    {
-      "market_id": "1321388",
-      "question": "Will Nick Shirley attend the 2026 State of the Union address?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0399,
-      "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1209133",
-      "question": "Will Dplus Kia win the LCK Cup 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.044,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1361175",
-      "question": "Will there be 1 NYT banner headline by February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0499,
-      "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1397814",
-      "question": "Odds of Khamenei being out as Supreme Leader by March 31 over 30% in February?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 9.0,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0457,
-      "bin_n": 421232,
-      "category": "other"
-    },
-    {
-      "market_id": "997170",
-      "question": "Nothing Ever Happens: Israel Edition",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T13:00:01Z",
-      "bin_edge": 0.0452,
-      "bin_n": 138094,
-      "category": "other"
-    },
-    {
-      "market_id": "1273938",
-      "question": "Will the US not strike Iran by February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T13:00:01Z",
-      "bin_edge": 0.0414,
-      "bin_n": 285491,
-      "category": "other"
-    },
-    {
-      "market_id": "1117207",
-      "question": "Nothing Ever Happens: US Strike Edition",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.4085,
-      "resolved_at": "2026-02-28T13:00:01Z",
-      "bin_edge": 0.0676,
-      "bin_n": 262215,
       "category": "other"
     }
   ]
