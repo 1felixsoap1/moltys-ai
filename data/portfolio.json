@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-01T18:00:01.970246+00:00",
+  "updated_at": "2026-03-01T19:00:02.048558+00:00",
   "summary": {
-    "pending": 307,
-    "wins": 168,
-    "losses": 167,
-    "win_rate": 0.5015,
-    "total_pnl": 60.3039,
+    "pending": 301,
+    "wins": 170,
+    "losses": 171,
+    "win_rate": 0.4985,
+    "total_pnl": 56.5055,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -736,17 +736,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1243294",
-      "question": "French forces seize another oil tanker by Feb 28?",
-      "direction": "BUY NO",
-      "order_price": 0.9,
-      "mid_price": 0.09,
-      "first_seen": "2026-02-22T05:00:25Z",
-      "bin_edge": 0.0525,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "643461",
       "question": "Will the Orlando Magic win the 2025\u20132026 NBA Southeast Division?",
       "direction": "BUY YES",
@@ -1198,17 +1187,6 @@
       "category": "other"
     },
     {
-      "market_id": "1209130",
-      "question": "Will BNK FEARX win the LCK Cup 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.917,
-      "mid_price": 0.0825,
-      "first_seen": "2026-02-23T22:00:28Z",
-      "bin_edge": 0.045,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "531202",
       "question": "BitBoy convicted?",
       "direction": "BUY YES",
@@ -1250,17 +1228,6 @@
       "first_seen": "2026-02-24T08:00:28Z",
       "bin_edge": 0.0624,
       "bin_n": 1385931,
-      "category": "other"
-    },
-    {
-      "market_id": "1279287",
-      "question": "Hezbollah strike on Israel by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.9,
-      "mid_price": 0.09,
-      "first_seen": "2026-02-24T12:00:29Z",
-      "bin_edge": 0.0525,
-      "bin_n": 2193542,
       "category": "other"
     },
     {
@@ -1393,17 +1360,6 @@
       "first_seen": "2026-02-25T06:00:41Z",
       "bin_edge": 0.0454,
       "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1299198",
-      "question": "Will NYC have between 2 and 3 inches of precipitation in February?",
-      "direction": "BUY NO",
-      "order_price": 0.11,
-      "mid_price": 0.885,
-      "first_seen": "2026-02-25T09:00:43Z",
-      "bin_edge": 0.0399,
-      "bin_n": 397357,
       "category": "other"
     },
     {
@@ -1833,17 +1789,6 @@
       "first_seen": "2026-02-27T08:00:50Z",
       "bin_edge": 0.0552,
       "bin_n": 138094,
-      "category": "other"
-    },
-    {
-      "market_id": "1301519",
-      "question": "Will the median home value in the DC Metro area be between $517,000 and $527,000 by March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.25,
-      "mid_price": 0.695,
-      "first_seen": "2026-02-27T09:00:45Z",
-      "bin_edge": 0.1138,
-      "bin_n": 188889,
       "category": "other"
     },
     {
@@ -2504,17 +2449,6 @@
       "first_seen": "2026-02-28T01:00:50Z",
       "bin_edge": 0.0637,
       "bin_n": 340981,
-      "category": "other"
-    },
-    {
-      "market_id": "1209135",
-      "question": "Will Gen.G win the LCK Cup 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.11,
-      "mid_price": 0.865,
-      "first_seen": "2026-02-28T02:00:47Z",
-      "bin_edge": 0.0223,
-      "bin_n": 420572,
       "category": "other"
     },
     {
@@ -3389,6 +3323,72 @@
   ],
   "recent_resolutions": [
     {
+      "market_id": "1243294",
+      "question": "French forces seize another oil tanker by Feb 28?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T19:00:02Z",
+      "bin_edge": 0.0525,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1209130",
+      "question": "Will BNK FEARX win the LCK Cup 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0905,
+      "resolved_at": "2026-03-01T19:00:02Z",
+      "bin_edge": 0.045,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1279287",
+      "question": "Hezbollah strike on Israel by February 28?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1111,
+      "resolved_at": "2026-03-01T19:00:02Z",
+      "bin_edge": 0.0525,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1299198",
+      "question": "Will NYC have between 2 and 3 inches of precipitation in February?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T19:00:02Z",
+      "bin_edge": 0.0399,
+      "bin_n": 397357,
+      "category": "other"
+    },
+    {
+      "market_id": "1301519",
+      "question": "Will the median home value in the DC Metro area be between $517,000 and $527,000 by March 1?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T19:00:02Z",
+      "bin_edge": 0.1138,
+      "bin_n": 188889,
+      "category": "other"
+    },
+    {
+      "market_id": "1209135",
+      "question": "Will Gen.G win the LCK Cup 2026?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T19:00:02Z",
+      "bin_edge": 0.0223,
+      "bin_n": 420572,
+      "category": "other"
+    },
+    {
       "market_id": "1299973",
       "question": "Will Kevin Warsh be formally nominated to be Chair of the Federal Reserve by February 28, 2026?",
       "direction": "BUY NO",
@@ -3871,72 +3871,6 @@
       "bin_edge": 0.0454,
       "bin_n": 285491,
       "category": "other"
-    },
-    {
-      "market_id": "1277442",
-      "question": "Will Google have the #1 AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1211,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0629,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1277193",
-      "question": "Will Anthropic have the best AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0306,
-      "bin_n": 337942,
-      "category": "other"
-    },
-    {
-      "market_id": "1277219",
-      "question": "Will Google have the second-best AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1236,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0575,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1277445",
-      "question": "Will Anthropic have the #1 AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0341,
-      "bin_n": 337942,
-      "category": "other"
-    },
-    {
-      "market_id": "1277473",
-      "question": "Will Anthropic have the #2 AI model at the end of February 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1111,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0622,
-      "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "1388964",
-      "question": "Will \"How to Make a Killing\" Opening Weekend Box Office be between 3.5m and 5m?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0587,
-      "bin_n": 236188,
-      "category": "entertainment"
     }
   ]
 }
