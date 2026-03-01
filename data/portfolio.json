@@ -1,25 +1,14 @@
 {
-  "updated_at": "2026-03-01T12:00:01.334100+00:00",
+  "updated_at": "2026-03-01T13:00:01.747198+00:00",
   "summary": {
-    "pending": 338,
-    "wins": 150,
-    "losses": 154,
-    "win_rate": 0.4934,
-    "total_pnl": 58.5951,
+    "pending": 307,
+    "wins": 168,
+    "losses": 167,
+    "win_rate": 0.5015,
+    "total_pnl": 60.3039,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
-    {
-      "market_id": "1299973",
-      "question": "Will Kevin Warsh be formally nominated to be Chair of the Federal Reserve by February 28, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.777,
-      "mid_price": 0.232,
-      "first_seen": "2026-02-21T01:35:42Z",
-      "bin_edge": 0.0636,
-      "bin_n": 227589,
-      "category": "entertainment"
-    },
     {
       "market_id": "1242303",
       "question": "Will Sentimental Value win Best International Feature Film at the 98th Academy Awards?",
@@ -51,17 +40,6 @@
       "first_seen": "2026-02-21T01:35:42Z",
       "bin_edge": 0.0579,
       "bin_n": 289008,
-      "category": "other"
-    },
-    {
-      "market_id": "1221319",
-      "question": "Will Israel strike 2 countries in February 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.315,
-      "first_seen": "2026-02-21T01:35:42Z",
-      "bin_edge": 0.0389,
-      "bin_n": 165014,
       "category": "other"
     },
     {
@@ -186,28 +164,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1302446",
-      "question": "Will Elon Musk\u2019s net worth be at least $700b on February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.095,
-      "first_seen": "2026-02-21T08:00:28Z",
-      "bin_edge": 0.0584,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1316499",
-      "question": "Will Epstein Data Set 13 be released by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.889,
-      "mid_price": 0.0925,
-      "first_seen": "2026-02-21T08:11:03Z",
-      "bin_edge": 0.0559,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
       "market_id": "613835",
       "question": "Will One Battle After Another win Best Picture at the 98th Academy Awards?",
       "direction": "BUY YES",
@@ -241,17 +197,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1345641",
-      "question": "Will Bitcoin reach $75,000 in February?",
-      "direction": "BUY YES",
-      "order_price": 0.14,
-      "mid_price": 0.145,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0569,
-      "bin_n": 62944,
-      "category": "crypto"
-    },
-    {
       "market_id": "614008",
       "question": "Will Timoth\u00e9e Chalamet win Best Actor at the 98th Academy Awards?",
       "direction": "BUY YES",
@@ -272,17 +217,6 @@
       "bin_edge": 0.0519,
       "bin_n": 986649,
       "category": "politics"
-    },
-    {
-      "market_id": "1345690",
-      "question": "Will Bitcoin dip to $60,000 in February?",
-      "direction": "BUY YES",
-      "order_price": 0.15,
-      "mid_price": 0.155,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0469,
-      "bin_n": 62944,
-      "category": "crypto"
     },
     {
       "market_id": "569259",
@@ -349,17 +283,6 @@
       "bin_edge": 0.0494,
       "bin_n": 947528,
       "category": "sports"
-    },
-    {
-      "market_id": "1303404",
-      "question": "Will Ethereum dip to $1,600 in February?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.0985,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0197,
-      "bin_n": 402605,
-      "category": "crypto"
     },
     {
       "market_id": "676387",
@@ -505,17 +428,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1322007",
-      "question": "Will Hyperliquid dip to $24 in February?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.095,
-      "first_seen": "2026-02-21T10:00:27Z",
-      "bin_edge": 0.0584,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
       "market_id": "1005867",
       "question": "Will Noah Wyle win Best Actor in a Drama Series at the 2026 SAG Awards?",
       "direction": "BUY YES",
@@ -602,17 +514,6 @@
       "bin_edge": 0.0509,
       "bin_n": 802516,
       "category": "sports"
-    },
-    {
-      "market_id": "1336363",
-      "question": "Will Russia capture all of Huliaipole by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.84,
-      "mid_price": 0.165,
-      "first_seen": "2026-02-21T13:00:27Z",
-      "bin_edge": 0.0269,
-      "bin_n": 289008,
-      "category": "other"
     },
     {
       "market_id": "550706",
@@ -843,17 +744,6 @@
       "first_seen": "2026-02-22T05:00:25Z",
       "bin_edge": 0.0525,
       "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1302443",
-      "question": "Will Elon Musk\u2019s net worth be between $670b and $680b on February 28?",
-      "direction": "BUY YES",
-      "order_price": 0.29,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-22T05:00:25Z",
-      "bin_edge": 0.0679,
-      "bin_n": 135420,
       "category": "other"
     },
     {
@@ -1132,17 +1022,6 @@
       "category": "other"
     },
     {
-      "market_id": "1361691",
-      "question": "GPT-5.3 released by February 28, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.31,
-      "first_seen": "2026-02-22T23:00:29Z",
-      "bin_edge": 0.0629,
-      "bin_n": 135420,
-      "category": "other"
-    },
-    {
       "market_id": "662906",
       "question": "Will Florida win the 2025-2026 SEC Men's Basketball regular season championship?",
       "direction": "BUY YES",
@@ -1176,17 +1055,6 @@
       "category": "politics"
     },
     {
-      "market_id": "1363602",
-      "question": "Nancy Guthrie kidnapper arrested by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.09,
-      "first_seen": "2026-02-23T01:00:29Z",
-      "bin_edge": 0.0534,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
       "market_id": "1058746",
       "question": "Will Karmine Corp win the LEC 2026 Versus?",
       "direction": "BUY YES",
@@ -1196,28 +1064,6 @@
       "bin_edge": 0.1159,
       "bin_n": 192167,
       "category": "other"
-    },
-    {
-      "market_id": "1303400",
-      "question": "Will Bitcoin dip to $55,000 in February?",
-      "direction": "BUY YES",
-      "order_price": 0.091,
-      "mid_price": 0.1005,
-      "first_seen": "2026-02-23T04:00:27Z",
-      "bin_edge": 0.1092,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1303674",
-      "question": "Will Solana dip to $60 in February?",
-      "direction": "BUY YES",
-      "order_price": 0.127,
-      "mid_price": 0.1315,
-      "first_seen": "2026-02-23T04:00:27Z",
-      "bin_edge": 0.0782,
-      "bin_n": 49189,
-      "category": "crypto"
     },
     {
       "market_id": "614012",
@@ -1363,28 +1209,6 @@
       "category": "other"
     },
     {
-      "market_id": "1322008",
-      "question": "Will Hyperliquid dip to $20 in February?",
-      "direction": "BUY NO",
-      "order_price": 0.88,
-      "mid_price": 0.096,
-      "first_seen": "2026-02-23T23:00:27Z",
-      "bin_edge": 0.0585,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1198784",
-      "question": "Iran strike on US military by February 28?",
-      "direction": "BUY YES",
-      "order_price": 0.12,
-      "mid_price": 0.12,
-      "first_seen": "2026-02-24T00:00:26Z",
-      "bin_edge": 0.0291,
-      "bin_n": 398539,
-      "category": "other"
-    },
-    {
       "market_id": "531202",
       "question": "BitBoy convicted?",
       "direction": "BUY YES",
@@ -1416,17 +1240,6 @@
       "bin_edge": 0.0401,
       "bin_n": 831253,
       "category": "other"
-    },
-    {
-      "market_id": "1294962",
-      "question": "Will The Pitt win Best Producer of a TV Drama Series at the 37th PGA Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.76,
-      "mid_price": 0.805,
-      "first_seen": "2026-02-24T01:00:27Z",
-      "bin_edge": 0.0758,
-      "bin_n": 392103,
-      "category": "sports"
     },
     {
       "market_id": "991022",
@@ -1506,17 +1319,6 @@
       "category": "other"
     },
     {
-      "market_id": "1221084",
-      "question": "Will Trump talk to Vladimir Putin in February?",
-      "direction": "BUY NO",
-      "order_price": 0.88,
-      "mid_price": 0.09,
-      "first_seen": "2026-02-24T20:00:32Z",
-      "bin_edge": 0.0569,
-      "bin_n": 983439,
-      "category": "politics"
-    },
-    {
       "market_id": "1370552",
       "question": "GPT-5.3 released by March 31, 2026?",
       "direction": "BUY YES",
@@ -1525,17 +1327,6 @@
       "first_seen": "2026-02-24T20:00:32Z",
       "bin_edge": 0.0607,
       "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "1352797",
-      "question": "Will Russia enter Verkhnia Tersa by February 28, 2026?",
-      "direction": "BUY NO",
-      "order_price": 0.92,
-      "mid_price": 0.085,
-      "first_seen": "2026-02-24T23:00:33Z",
-      "bin_edge": 0.0475,
-      "bin_n": 2193542,
       "category": "other"
     },
     {
@@ -1594,28 +1385,6 @@
       "category": "other"
     },
     {
-      "market_id": "1302442",
-      "question": "Will Elon Musk\u2019s net worth be between $660b and $670b on February 28?",
-      "direction": "BUY YES",
-      "order_price": 0.34,
-      "mid_price": 0.355,
-      "first_seen": "2026-02-25T05:00:36Z",
-      "bin_edge": 0.0609,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1302848",
-      "question": "Will Russia enter Rizdvianka by February 28, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.125,
-      "mid_price": 0.128,
-      "first_seen": "2026-02-25T05:00:36Z",
-      "bin_edge": 0.0211,
-      "bin_n": 398539,
-      "category": "other"
-    },
-    {
       "market_id": "676712",
       "question": "Will Apple be the largest company in the world by market cap on March 31?",
       "direction": "BUY NO",
@@ -1624,17 +1393,6 @@
       "first_seen": "2026-02-25T06:00:41Z",
       "bin_edge": 0.0454,
       "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1334173",
-      "question": "US downs another Iranian drone by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.9,
-      "mid_price": 0.095,
-      "first_seen": "2026-02-25T09:00:43Z",
-      "bin_edge": 0.0575,
-      "bin_n": 2193542,
       "category": "other"
     },
     {
@@ -1715,17 +1473,6 @@
       "category": "other"
     },
     {
-      "market_id": "1303949",
-      "question": "Will Dogecoin reach $0.15 in February?",
-      "direction": "BUY NO",
-      "order_price": 0.864,
-      "mid_price": 0.081,
-      "first_seen": "2026-02-26T01:00:54Z",
-      "bin_edge": 0.0435,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "1419248",
       "question": "Will Bitcoin reach $70,000 February 23-March 1?",
       "direction": "BUY NO",
@@ -1748,17 +1495,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1367172",
-      "question": "North Korea missile launch by February 28?",
-      "direction": "BUY NO",
-      "order_price": 0.91,
-      "mid_price": 0.085,
-      "first_seen": "2026-02-26T06:00:41Z",
-      "bin_edge": 0.0475,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "1068327",
       "question": "Will Pump.fun perform an airdrop by December 31, 2026",
       "direction": "BUY YES",
@@ -1768,17 +1504,6 @@
       "bin_edge": 0.1702,
       "bin_n": 17896,
       "category": "crypto"
-    },
-    {
-      "market_id": "1366917",
-      "question": "Will Russia enter Ternuvate again by February 28?",
-      "direction": "BUY YES",
-      "order_price": 0.362,
-      "mid_price": 0.376,
-      "first_seen": "2026-02-26T10:00:41Z",
-      "bin_edge": 0.0399,
-      "bin_n": 192167,
-      "category": "other"
     },
     {
       "market_id": "1373732",
@@ -1833,17 +1558,6 @@
       "first_seen": "2026-02-26T20:00:37Z",
       "bin_edge": 0.0659,
       "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1373736",
-      "question": "Will there be at least 1,150 measles cases in the U.S. by February 28, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.113,
-      "mid_price": 0.1205,
-      "first_seen": "2026-02-26T21:00:34Z",
-      "bin_edge": 0.0286,
-      "bin_n": 398539,
       "category": "other"
     },
     {
@@ -2782,28 +2496,6 @@
       "category": "other"
     },
     {
-      "market_id": "1414460",
-      "question": "Lakers vs. Warriors",
-      "direction": "BUY NO",
-      "order_price": 0.41,
-      "mid_price": 0.595,
-      "first_seen": "2026-02-28T01:00:50Z",
-      "bin_edge": 0.039,
-      "bin_n": 911085,
-      "category": "sports"
-    },
-    {
-      "market_id": "1414462",
-      "question": "Pelicans vs. Jazz",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.695,
-      "first_seen": "2026-02-28T01:00:50Z",
-      "bin_edge": 0.0274,
-      "bin_n": 702098,
-      "category": "sports"
-    },
-    {
       "market_id": "1235861",
       "question": "Will Dominican Republic win the 2026 World Baseball Classic?",
       "direction": "BUY NO",
@@ -3387,17 +3079,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1178643",
-      "question": "US forcibly removes Khamenei from power by March 31?",
-      "direction": "BUY YES",
-      "order_price": 0.28,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-28T07:01:00Z",
-      "bin_edge": 0.0461,
-      "bin_n": 139705,
-      "category": "other"
-    },
-    {
       "market_id": "1427996",
       "question": "Will the price of Ethereum be above $1,700 on March 3?",
       "direction": "BUY NO",
@@ -3552,17 +3233,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1314028",
-      "question": "Capitals vs. Canadiens",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.395,
-      "first_seen": "2026-02-28T09:01:01Z",
-      "bin_edge": 0.0459,
-      "bin_n": 571214,
-      "category": "sports"
-    },
-    {
       "market_id": "643901",
       "question": "Will Nikola Jokic lead the NBA in rebounds during the 2025\u201326 NBA season?",
       "direction": "BUY YES",
@@ -3695,17 +3365,6 @@
       "category": "other"
     },
     {
-      "market_id": "1314048",
-      "question": "Canucks vs. Kraken",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.395,
-      "first_seen": "2026-02-28T12:00:56Z",
-      "bin_edge": 0.0459,
-      "bin_n": 571214,
-      "category": "sports"
-    },
-    {
       "market_id": "669662",
       "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
       "direction": "BUY YES",
@@ -3729,6 +3388,347 @@
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1299973",
+      "question": "Will Kevin Warsh be formally nominated to be Chair of the Federal Reserve by February 28, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.287,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0636,
+      "bin_n": 227589,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1221319",
+      "question": "Will Israel strike 2 countries in February 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0389,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1302446",
+      "question": "Will Elon Musk\u2019s net worth be at least $700b on February 28?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0584,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1316499",
+      "question": "Will Epstein Data Set 13 be released by February 28?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1249,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0559,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1345641",
+      "question": "Will Bitcoin reach $75,000 in February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0569,
+      "bin_n": 62944,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1345690",
+      "question": "Will Bitcoin dip to $60,000 in February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0469,
+      "bin_n": 62944,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1303404",
+      "question": "Will Ethereum dip to $1,600 in February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0197,
+      "bin_n": 402605,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1322007",
+      "question": "Will Hyperliquid dip to $24 in February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0584,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1336363",
+      "question": "Will Russia capture all of Huliaipole by February 28?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1905,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0269,
+      "bin_n": 289008,
+      "category": "other"
+    },
+    {
+      "market_id": "1302443",
+      "question": "Will Elon Musk\u2019s net worth be between $670b and $680b on February 28?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0679,
+      "bin_n": 135420,
+      "category": "other"
+    },
+    {
+      "market_id": "1361691",
+      "question": "GPT-5.3 released by February 28, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0629,
+      "bin_n": 135420,
+      "category": "other"
+    },
+    {
+      "market_id": "1363602",
+      "question": "Nancy Guthrie kidnapper arrested by February 28?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0534,
+      "bin_n": 1374601,
+      "category": "other"
+    },
+    {
+      "market_id": "1303400",
+      "question": "Will Bitcoin dip to $55,000 in February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.1092,
+      "bin_n": 49189,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1303674",
+      "question": "Will Solana dip to $60 in February?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0782,
+      "bin_n": 49189,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1322008",
+      "question": "Will Hyperliquid dip to $20 in February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1364,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0585,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1198784",
+      "question": "Iran strike on US military by February 28?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 7.3333,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0291,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1294962",
+      "question": "Will The Pitt win Best Producer of a TV Drama Series at the 37th PGA Awards?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.3158,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0758,
+      "bin_n": 392103,
+      "category": "sports"
+    },
+    {
+      "market_id": "1221084",
+      "question": "Will Trump talk to Vladimir Putin in February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1364,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0569,
+      "bin_n": 983439,
+      "category": "politics"
+    },
+    {
+      "market_id": "1352797",
+      "question": "Will Russia enter Verkhnia Tersa by February 28, 2026?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.087,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0475,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1302442",
+      "question": "Will Elon Musk\u2019s net worth be between $660b and $670b on February 28?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 1.9412,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0609,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1302848",
+      "question": "Will Russia enter Rizdvianka by February 28, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0211,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1334173",
+      "question": "US downs another Iranian drone by February 28?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0575,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1303949",
+      "question": "Will Dogecoin reach $0.15 in February?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.1574,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0435,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1367172",
+      "question": "North Korea missile launch by February 28?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0475,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1366917",
+      "question": "Will Russia enter Ternuvate again by February 28?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0399,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1373736",
+      "question": "Will there be at least 1,150 measles cases in the U.S. by February 28, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0286,
+      "bin_n": 398539,
+      "category": "other"
+    },
+    {
+      "market_id": "1414460",
+      "question": "Lakers vs. Warriors",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.039,
+      "bin_n": 911085,
+      "category": "sports"
+    },
+    {
+      "market_id": "1414462",
+      "question": "Pelicans vs. Jazz",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0274,
+      "bin_n": 702098,
+      "category": "sports"
+    },
+    {
+      "market_id": "1178643",
+      "question": "US forcibly removes Khamenei from power by March 31?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0461,
+      "bin_n": 139705,
+      "category": "other"
+    },
+    {
+      "market_id": "1314028",
+      "question": "Capitals vs. Canadiens",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6393,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0459,
+      "bin_n": 571214,
+      "category": "sports"
+    },
+    {
+      "market_id": "1314048",
+      "question": "Canucks vs. Kraken",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6393,
+      "resolved_at": "2026-03-01T13:00:01Z",
+      "bin_edge": 0.0459,
+      "bin_n": 571214,
+      "category": "sports"
+    },
     {
       "market_id": "1117242",
       "question": "Nothing Ever Happens: Khamenei",
@@ -3937,347 +3937,6 @@
       "bin_edge": 0.0587,
       "bin_n": 236188,
       "category": "entertainment"
-    },
-    {
-      "market_id": "1388963",
-      "question": "Will \"How to Make a Killing\" Opening Weekend Box Office be less than 3.5m?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0538,
-      "bin_n": 235388,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1399309",
-      "question": "Will \"How to Make a Killing\" Opening Weekend Box Office be greater than 3.5m?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0687,
-      "bin_n": 236188,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1169205",
-      "question": "Iran Strike on Israel by February 28?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 9.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0274,
-      "bin_n": 338303,
-      "category": "other"
-    },
-    {
-      "market_id": "1277498",
-      "question": "Will Anthropic have the #3 AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1111,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0575,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1277248",
-      "question": "Will Google have the third-best AI model at the end of February 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1111,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0622,
-      "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "1058747",
-      "question": "Will Movistar KOI win the LEC 2026 Versus?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0441,
-      "bin_n": 398539,
-      "category": "other"
-    },
-    {
-      "market_id": "1379932",
-      "question": "Will Manchester City FC win on 2026-02-28?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.6667,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0552,
-      "bin_n": 462086,
-      "category": "sports"
-    },
-    {
-      "market_id": "1277495",
-      "question": "Will Google have the #3 AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0399,
-      "bin_n": 397357,
-      "category": "other"
-    },
-    {
-      "market_id": "1408380",
-      "question": "Will the price of Bitcoin be above $70,000 on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1502,
-      "bin_n": 17896,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1379928",
-      "question": "Will FC Bayern M\u00fcnchen win on 2026-02-28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0403,
-      "bin_n": 905838,
-      "category": "sports"
-    },
-    {
-      "market_id": "1408383",
-      "question": "Will the price of Bitcoin be above $72,000 on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1032,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408378",
-      "question": "Will the price of Bitcoin be above $68,000 on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0929,
-      "bin_n": 21824,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1426128",
-      "question": "Will MrBeast's latest video get 41 million or more views on week 1?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.3223,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0669,
-      "bin_n": 135420,
-      "category": "other"
-    },
-    {
-      "market_id": "1426127",
-      "question": "Will MrBeast's latest video get between 39 and 41 million views on week 1?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0561,
-      "bin_n": 196802,
-      "category": "other"
-    },
-    {
-      "market_id": "1419346",
-      "question": "Will Elon Musk post 40-64 tweets from February 26 to February 28, 2026?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0435,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1419357",
-      "question": "Will Elon Musk post 90-114 tweets from February 26 to February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0389,
-      "bin_n": 165014,
-      "category": "other"
-    },
-    {
-      "market_id": "1419363",
-      "question": "Will Elon Musk post 115-139 tweets from February 26 to February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0324,
-      "bin_n": 338303,
-      "category": "other"
-    },
-    {
-      "market_id": "1408375",
-      "question": "Will the price of Bitcoin be above $66,000 on February 28?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 5.25,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0633,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408340",
-      "question": "Will the price of Ethereum be above $2,100 on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0642,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408341",
-      "question": "Will the price of Ethereum be between $1,900 and $2,000 on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0918,
-      "bin_n": 18774,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408334",
-      "question": "Will the price of Ethereum be above $1,900 on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1038,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408405",
-      "question": "Will the price of Solana be above $80 on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1083,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408372",
-      "question": "Will the price of Bitcoin be above $64,000 on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1148,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408337",
-      "question": "Will the price of Ethereum be above $2,000 on February 28?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.4085,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0724,
-      "bin_n": 29954,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1393676",
-      "question": "Odds of Khamenei out by March 31 over 40% in February?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 7.547,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0212,
-      "bin_n": 421232,
-      "category": "other"
-    },
-    {
-      "market_id": "1408402",
-      "question": "Will the price of XRP be between $1.30 and $1.40 on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1059,
-      "bin_n": 195251,
-      "category": "other"
-    },
-    {
-      "market_id": "1408344",
-      "question": "Will the price of Ethereum be between $2,000 and $2,100 on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1102,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408379",
-      "question": "Will the price of Solana be between $80 and $90 on February 28?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.4493,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0676,
-      "bin_n": 30064,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1408427",
-      "question": "Will the price of XRP be above $1.30 on February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0518,
-      "bin_n": 420572,
-      "category": "other"
-    },
-    {
-      "market_id": "1419350",
-      "question": "Will Elon Musk post 65-89 tweets from February 26 to February 28, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.1109,
-      "bin_n": 195251,
-      "category": "other"
-    },
-    {
-      "market_id": "1288113",
-      "question": "Will Israel or the US target Tehran?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-02-28T19:00:01Z",
-      "bin_edge": 0.0469,
-      "bin_n": 289008,
-      "category": "other"
     }
   ]
 }
