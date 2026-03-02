@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-02T00:00:01.653509+00:00",
+  "updated_at": "2026-03-02T01:00:01.498875+00:00",
   "summary": {
-    "pending": 301,
-    "wins": 170,
-    "losses": 171,
-    "win_rate": 0.4985,
-    "total_pnl": 56.5055,
+    "pending": 276,
+    "wins": 182,
+    "losses": 184,
+    "win_rate": 0.4973,
+    "total_pnl": 57.0043,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -1121,17 +1121,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "956350",
-      "question": "Will West Indies win the 2026 ICC Men\u2019s T20 World Cup?",
-      "direction": "BUY NO",
-      "order_price": 0.918,
-      "mid_price": 0.084,
-      "first_seen": "2026-02-23T15:00:28Z",
-      "bin_edge": 0.0465,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
       "market_id": "1003556",
       "question": "Will \"One Battle After Another\" win Outstanding Performance by a Cast in a Motion Picture at the 32nd Actor Awards?",
       "direction": "BUY YES",
@@ -1385,17 +1374,6 @@
       "category": "other"
     },
     {
-      "market_id": "1414967",
-      "question": "Will the price of Bitcoin be above $68,000 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.42,
-      "mid_price": 0.58,
-      "first_seen": "2026-02-25T18:00:39Z",
-      "bin_edge": 0.1858,
-      "bin_n": 19105,
-      "category": "crypto"
-    },
-    {
       "market_id": "569255",
       "question": "Will PH win the most seats in the 2026 Colombian Senate election?",
       "direction": "BUY YES",
@@ -1495,17 +1473,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1384032",
-      "question": "Will Chelsea FC win on 2026-03-01?",
-      "direction": "BUY NO",
-      "order_price": 0.83,
-      "mid_price": 0.175,
-      "first_seen": "2026-02-26T15:01:06Z",
-      "bin_edge": 0.0632,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
       "market_id": "1277929",
       "question": "Will Israel strike Gaza on February 28, 2026?",
       "direction": "BUY YES",
@@ -1515,17 +1482,6 @@
       "bin_edge": 0.0659,
       "bin_n": 192167,
       "category": "other"
-    },
-    {
-      "market_id": "1414958",
-      "question": "Will the price of Bitcoin be above $64,000 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.11,
-      "mid_price": 0.895,
-      "first_seen": "2026-02-26T21:37:20Z",
-      "bin_edge": 0.1016,
-      "bin_n": 49182,
-      "category": "crypto"
     },
     {
       "market_id": "1003635",
@@ -1605,17 +1561,6 @@
       "category": "other"
     },
     {
-      "market_id": "1414913",
-      "question": "Will the price of Ethereum be above $1,900 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.13,
-      "mid_price": 0.875,
-      "first_seen": "2026-02-26T22:00:42Z",
-      "bin_edge": 0.0816,
-      "bin_n": 49182,
-      "category": "crypto"
-    },
-    {
       "market_id": "1299151",
       "question": "Will 30 to 59 tornadoes occur in the United States in February 2026?",
       "direction": "BUY YES",
@@ -1669,17 +1614,6 @@
       "bin_edge": 0.0609,
       "bin_n": 132215,
       "category": "other"
-    },
-    {
-      "market_id": "1414971",
-      "question": "Will the price of Bitcoin be above $70,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.117,
-      "mid_price": 0.117,
-      "first_seen": "2026-02-27T01:00:45Z",
-      "bin_edge": 0.0927,
-      "bin_n": 49189,
-      "category": "crypto"
     },
     {
       "market_id": "1280313",
@@ -1946,17 +1880,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1414962",
-      "question": "Will the price of Bitcoin be above $66,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.5,
-      "mid_price": 0.5,
-      "first_seen": "2026-02-27T15:00:30Z",
-      "bin_edge": 0.0991,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
       "market_id": "1232093",
       "question": "Will Russia join the Board of Peace?",
       "direction": "BUY YES",
@@ -1976,17 +1899,6 @@
       "first_seen": "2026-02-27T15:00:30Z",
       "bin_edge": 0.0623,
       "bin_n": 283875,
-      "category": "other"
-    },
-    {
-      "market_id": "1288112",
-      "question": "Will Israel or the US target an Iranian oil or gas facility?",
-      "direction": "BUY NO",
-      "order_price": 0.923,
-      "mid_price": 0.0815,
-      "first_seen": "2026-02-27T16:00:31Z",
-      "bin_edge": 0.0386,
-      "bin_n": 4512972,
       "category": "other"
     },
     {
@@ -2021,17 +1933,6 @@
       "bin_edge": 0.0637,
       "bin_n": 340981,
       "category": "other"
-    },
-    {
-      "market_id": "1414914",
-      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.315,
-      "first_seen": "2026-02-27T17:00:34Z",
-      "bin_edge": 0.0779,
-      "bin_n": 21824,
-      "category": "crypto"
     },
     {
       "market_id": "951178",
@@ -2098,17 +1999,6 @@
       "bin_edge": 0.0849,
       "bin_n": 145772,
       "category": "other"
-    },
-    {
-      "market_id": "1384029",
-      "question": "Will Arsenal FC win on 2026-03-01?",
-      "direction": "BUY YES",
-      "order_price": 0.6,
-      "mid_price": 0.605,
-      "first_seen": "2026-02-27T19:00:42Z",
-      "bin_edge": 0.0421,
-      "bin_n": 562539,
-      "category": "sports"
     },
     {
       "market_id": "1262307",
@@ -2199,17 +2089,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1414959",
-      "question": "Will the price of Ethereum be between $1,900 and $2,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.49,
-      "mid_price": 0.5,
-      "first_seen": "2026-02-27T20:00:37Z",
-      "bin_edge": 0.0991,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
       "market_id": "1405365",
       "question": "Will Elon Musk post 300-319 tweets from February 24 to March 3, 2026?",
       "direction": "BUY NO",
@@ -2230,17 +2109,6 @@
       "bin_edge": 0.036,
       "bin_n": 1536568,
       "category": "other"
-    },
-    {
-      "market_id": "1414912",
-      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.51,
-      "mid_price": 0.48,
-      "first_seen": "2026-02-27T22:00:29Z",
-      "bin_edge": 0.0841,
-      "bin_n": 31804,
-      "category": "crypto"
     },
     {
       "market_id": "1265257",
@@ -2284,17 +2152,6 @@
       "first_seen": "2026-02-27T22:00:29Z",
       "bin_edge": 0.0468,
       "bin_n": 361533,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1414964",
-      "question": "Will the price of Ethereum be between $2,000 and $2,100 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.1,
-      "mid_price": 0.105,
-      "first_seen": "2026-02-27T22:00:29Z",
-      "bin_edge": 0.0445,
-      "bin_n": 41308,
       "category": "crypto"
     },
     {
@@ -2375,17 +2232,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1299649",
-      "question": "Will Tundra Esports win DreamLeague 28?",
-      "direction": "BUY YES",
-      "order_price": 0.26,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-28T00:00:51Z",
-      "bin_edge": 0.1178,
-      "bin_n": 196458,
-      "category": "other"
-    },
-    {
       "market_id": "1395538",
       "question": "Will James Talarico and John Cornyn be the candidates for the Texas Senate Election?",
       "direction": "BUY NO",
@@ -2450,17 +2296,6 @@
       "bin_edge": 0.0637,
       "bin_n": 340981,
       "category": "other"
-    },
-    {
-      "market_id": "1414975",
-      "question": "Will the price of Bitcoin be above $72,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.002,
-      "mid_price": 0.01,
-      "first_seen": "2026-02-28T02:00:47Z",
-      "bin_edge": 0.0162,
-      "bin_n": 563995,
-      "category": "crypto"
     },
     {
       "market_id": "954194",
@@ -2738,28 +2573,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1414915",
-      "question": "Will the price of Ethereum be above $2,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.1,
-      "mid_price": 0.105,
-      "first_seen": "2026-02-28T04:00:56Z",
-      "bin_edge": 0.0445,
-      "bin_n": 41308,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1415011",
-      "question": "Will the price of Solana be above $80 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.31,
-      "mid_price": 0.68,
-      "first_seen": "2026-02-28T04:00:56Z",
-      "bin_edge": 0.0775,
-      "bin_n": 21696,
-      "category": "crypto"
-    },
-    {
       "market_id": "1428017",
       "question": "Will the price of Solana be above $80 on March 3?",
       "direction": "BUY NO",
@@ -2780,17 +2593,6 @@
       "bin_edge": 0.06,
       "bin_n": 148479,
       "category": "other"
-    },
-    {
-      "market_id": "1414907",
-      "question": "Will the price of Bitcoin be between $58,000 and $60,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.002,
-      "mid_price": 0.0115,
-      "first_seen": "2026-02-28T04:00:56Z",
-      "bin_edge": 0.0147,
-      "bin_n": 563995,
-      "category": "crypto"
     },
     {
       "market_id": "1419380",
@@ -2834,17 +2636,6 @@
       "first_seen": "2026-02-28T05:01:02Z",
       "bin_edge": 0.0952,
       "bin_n": 63876,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1415010",
-      "question": "Will the price of Solana be between $80 and $90 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.28,
-      "mid_price": 0.695,
-      "first_seen": "2026-02-28T05:01:02Z",
-      "bin_edge": 0.0925,
-      "bin_n": 21696,
       "category": "crypto"
     },
     {
@@ -2991,17 +2782,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1414956",
-      "question": "Will the price of Ethereum be between $1,800 and $1,900 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.497,
-      "mid_price": 0.5065,
-      "first_seen": "2026-02-28T07:01:00Z",
-      "bin_edge": 0.0926,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
       "market_id": "1419265",
       "question": "Will Ethereum dip to $1,700 February 23-March 1?",
       "direction": "BUY YES",
@@ -3090,17 +2870,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1414909",
-      "question": "Will the price of Bitcoin be between $60,000 and $62,000 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.142,
-      "mid_price": 0.1545,
-      "first_seen": "2026-02-28T08:00:53Z",
-      "bin_edge": 0.0657,
-      "bin_n": 34790,
-      "category": "crypto"
-    },
-    {
       "market_id": "1419279",
       "question": "Will Solana dip to $70 February 23-March 1?",
       "direction": "BUY YES",
@@ -3143,28 +2912,6 @@
       "bin_edge": 0.0511,
       "bin_n": 139705,
       "category": "other"
-    },
-    {
-      "market_id": "1453655",
-      "question": "Will the highest temperature in Miami be between 80-81\u00b0F on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.29,
-      "mid_price": 0.3,
-      "first_seen": "2026-02-28T08:00:53Z",
-      "bin_edge": 0.0418,
-      "bin_n": 163494,
-      "category": "other"
-    },
-    {
-      "market_id": "1414910",
-      "question": "Will the price of Ethereum be above $1,800 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.7,
-      "mid_price": 0.701,
-      "first_seen": "2026-02-28T09:01:01Z",
-      "bin_edge": 0.0766,
-      "bin_n": 30064,
-      "category": "crypto"
     },
     {
       "market_id": "643901",
@@ -3231,28 +2978,6 @@
       "bin_edge": 0.0404,
       "bin_n": 562100,
       "category": "sports"
-    },
-    {
-      "market_id": "1414949",
-      "question": "Will the price of Bitcoin be above $60,000 on March 1?",
-      "direction": "BUY NO",
-      "order_price": 0.114,
-      "mid_price": 0.8945,
-      "first_seen": "2026-02-28T10:00:55Z",
-      "bin_edge": 0.1178,
-      "bin_n": 34644,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1415051",
-      "question": "Will the price of XRP be between $1.30 and $1.40 on March 1?",
-      "direction": "BUY YES",
-      "order_price": 0.28,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-28T10:00:55Z",
-      "bin_edge": 0.1178,
-      "bin_n": 196458,
-      "category": "other"
     },
     {
       "market_id": "1386619",
@@ -3322,6 +3047,281 @@
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "956350",
+      "question": "Will West Indies win the 2026 ICC Men\u2019s T20 World Cup?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0893,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0465,
+      "bin_n": 2193542,
+      "category": "other"
+    },
+    {
+      "market_id": "1414967",
+      "question": "Will the price of Bitcoin be above $68,000 on March 1?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 1.381,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.1858,
+      "bin_n": 19105,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1384032",
+      "question": "Will Chelsea FC win on 2026-03-01?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.2048,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0632,
+      "bin_n": 384603,
+      "category": "sports"
+    },
+    {
+      "market_id": "1414958",
+      "question": "Will the price of Bitcoin be above $64,000 on March 1?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.1016,
+      "bin_n": 49182,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414913",
+      "question": "Will the price of Ethereum be above $1,900 on March 1?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0816,
+      "bin_n": 49182,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414971",
+      "question": "Will the price of Bitcoin be above $70,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0927,
+      "bin_n": 49189,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414962",
+      "question": "Will the price of Bitcoin be above $66,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0991,
+      "bin_n": 32729,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1288112",
+      "question": "Will Israel or the US target an Iranian oil or gas facility?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.0834,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0386,
+      "bin_n": 4512972,
+      "category": "other"
+    },
+    {
+      "market_id": "1414914",
+      "question": "Will the price of Bitcoin be between $66,000 and $68,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0779,
+      "bin_n": 21824,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1384029",
+      "question": "Will Arsenal FC win on 2026-03-01?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.6667,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0421,
+      "bin_n": 562539,
+      "category": "sports"
+    },
+    {
+      "market_id": "1414959",
+      "question": "Will the price of Ethereum be between $1,900 and $2,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 1.0408,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0991,
+      "bin_n": 32729,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414912",
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on March 1?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.9608,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0841,
+      "bin_n": 31804,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414964",
+      "question": "Will the price of Ethereum be between $2,000 and $2,100 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0445,
+      "bin_n": 41308,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1299649",
+      "question": "Will Tundra Esports win DreamLeague 28?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.8462,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.1178,
+      "bin_n": 196458,
+      "category": "other"
+    },
+    {
+      "market_id": "1414975",
+      "question": "Will the price of Bitcoin be above $72,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0162,
+      "bin_n": 563995,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414915",
+      "question": "Will the price of Ethereum be above $2,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0445,
+      "bin_n": 41308,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1415011",
+      "question": "Will the price of Solana be above $80 on March 1?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0775,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414907",
+      "question": "Will the price of Bitcoin be between $58,000 and $60,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0147,
+      "bin_n": 563995,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1415010",
+      "question": "Will the price of Solana be between $80 and $90 on March 1?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0925,
+      "bin_n": 21696,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414956",
+      "question": "Will the price of Ethereum be between $1,800 and $1,900 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0926,
+      "bin_n": 32729,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414909",
+      "question": "Will the price of Bitcoin be between $60,000 and $62,000 on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0657,
+      "bin_n": 34790,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1453655",
+      "question": "Will the highest temperature in Miami be between 80-81\u00b0F on March 1?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0418,
+      "bin_n": 163494,
+      "category": "other"
+    },
+    {
+      "market_id": "1414910",
+      "question": "Will the price of Ethereum be above $1,800 on March 1?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4286,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.0766,
+      "bin_n": 30064,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1414949",
+      "question": "Will the price of Bitcoin be above $60,000 on March 1?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.1178,
+      "bin_n": 34644,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1415051",
+      "question": "Will the price of XRP be between $1.30 and $1.40 on March 1?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.5714,
+      "resolved_at": "2026-03-02T01:00:01Z",
+      "bin_edge": 0.1178,
+      "bin_n": 196458,
+      "category": "other"
+    },
     {
       "market_id": "1243294",
       "question": "French forces seize another oil tanker by Feb 28?",
@@ -3595,281 +3595,6 @@
       "resolved_at": "2026-03-01T13:00:01Z",
       "bin_edge": 0.0475,
       "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1302442",
-      "question": "Will Elon Musk\u2019s net worth be between $660b and $670b on February 28?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 1.9412,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0609,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1302848",
-      "question": "Will Russia enter Rizdvianka by February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0211,
-      "bin_n": 398539,
-      "category": "other"
-    },
-    {
-      "market_id": "1334173",
-      "question": "US downs another Iranian drone by February 28?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0575,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1303949",
-      "question": "Will Dogecoin reach $0.15 in February?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1574,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0435,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1367172",
-      "question": "North Korea missile launch by February 28?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0475,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1366917",
-      "question": "Will Russia enter Ternuvate again by February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0399,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1373736",
-      "question": "Will there be at least 1,150 measles cases in the U.S. by February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0286,
-      "bin_n": 398539,
-      "category": "other"
-    },
-    {
-      "market_id": "1414460",
-      "question": "Lakers vs. Warriors",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.039,
-      "bin_n": 911085,
-      "category": "sports"
-    },
-    {
-      "market_id": "1414462",
-      "question": "Pelicans vs. Jazz",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0274,
-      "bin_n": 702098,
-      "category": "sports"
-    },
-    {
-      "market_id": "1178643",
-      "question": "US forcibly removes Khamenei from power by March 31?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0461,
-      "bin_n": 139705,
-      "category": "other"
-    },
-    {
-      "market_id": "1314028",
-      "question": "Capitals vs. Canadiens",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0459,
-      "bin_n": 571214,
-      "category": "sports"
-    },
-    {
-      "market_id": "1314048",
-      "question": "Canucks vs. Kraken",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6393,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0459,
-      "bin_n": 571214,
-      "category": "sports"
-    },
-    {
-      "market_id": "1117242",
-      "question": "Nothing Ever Happens: Khamenei",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.039,
-      "bin_n": 246418,
-      "category": "other"
-    },
-    {
-      "market_id": "1277926",
-      "question": "Will Israel strike Gaza on February 25, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0909,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1277650",
-      "question": "Will Israel strike Lebanon on February 25, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0909,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1322263",
-      "question": "Will Linda Lampenius & Pete Parkkonen win UMK 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1111,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0622,
-      "bin_n": 2204595,
-      "category": "other"
-    },
-    {
-      "market_id": "974319",
-      "question": "Will Fedez & Marco Masini win Sanremo 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.1109,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
-      "market_id": "1353462",
-      "question": "UFC Fight Night: Jose Daniel Medina vs. Ryan Gandra (Middleweight, Prelims)",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.2195,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0732,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1314033",
-      "question": "Flames vs. Kings",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0373,
-      "bin_n": 865556,
-      "category": "sports"
-    },
-    {
-      "market_id": "1394437",
-      "question": "Iran Strike on Israel by December 31?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0938,
-      "bin_n": 188889,
-      "category": "other"
-    },
-    {
-      "market_id": "1394436",
-      "question": "Iran Strike on Israel by March 31?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0659,
-      "bin_n": 195251,
-      "category": "other"
-    },
-    {
-      "market_id": "1353473",
-      "question": "UFC Fight Night: Macy Chiasson vs. Ailin Perez (Women's Bantamweight, Prelims)",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.6129,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.0359,
-      "bin_n": 571214,
-      "category": "sports"
-    },
-    {
-      "market_id": "1419293",
-      "question": "Will XRP dip to $1.30 February 23-March 1?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.4483,
-      "resolved_at": "2026-03-01T07:00:01Z",
-      "bin_edge": 0.075,
-      "bin_n": 148479,
-      "category": "other"
-    },
-    {
-      "market_id": "1277190",
-      "question": "Will Google have the best AI model at the end of February 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0584,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1277222",
-      "question": "Will Anthropic have the second-best AI model at the end of February 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.2346,
-      "resolved_at": "2026-03-01T01:00:01Z",
-      "bin_edge": 0.0454,
-      "bin_n": 285491,
       "category": "other"
     }
   ]
