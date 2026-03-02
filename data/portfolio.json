@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-02T06:00:01.702177+00:00",
+  "updated_at": "2026-03-02T07:00:01.477282+00:00",
   "summary": {
-    "pending": 276,
-    "wins": 182,
-    "losses": 184,
-    "win_rate": 0.4973,
-    "total_pnl": 57.0043,
+    "pending": 260,
+    "wins": 189,
+    "losses": 193,
+    "win_rate": 0.4948,
+    "total_pnl": 53.9642,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -74,17 +74,6 @@
       "bin_edge": 0.0519,
       "bin_n": 289008,
       "category": "other"
-    },
-    {
-      "market_id": "1003675",
-      "question": "Will Jacob Elordi win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "order_price": 0.6,
-      "mid_price": 0.375,
-      "first_seen": "2026-02-21T01:35:42Z",
-      "bin_edge": 0.0663,
-      "bin_n": 124220,
-      "category": "entertainment"
     },
     {
       "market_id": "1242301",
@@ -307,17 +296,6 @@
       "category": "other"
     },
     {
-      "market_id": "1005749",
-      "question": "Will Erin Doherty win Best Actress in a Television Movie or Limited Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.72,
-      "mid_price": 0.73,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0744,
-      "bin_n": 246202,
-      "category": "entertainment"
-    },
-    {
       "market_id": "801448",
       "question": "Will Google have the best AI model at the end of March 2026?",
       "direction": "BUY YES",
@@ -428,17 +406,6 @@
       "category": "sports"
     },
     {
-      "market_id": "1005867",
-      "question": "Will Noah Wyle win Best Actor in a Drama Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.88,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-21T10:00:27Z",
-      "bin_edge": 0.0536,
-      "bin_n": 369279,
-      "category": "entertainment"
-    },
-    {
       "market_id": "1121549",
       "question": "Nothing Ever Happens: MicroStrategy",
       "direction": "BUY YES",
@@ -448,17 +415,6 @@
       "bin_edge": 0.0415,
       "bin_n": 916799,
       "category": "other"
-    },
-    {
-      "market_id": "1006313",
-      "question": "Will Catherine O'Hara win Best Actress in a Comedy Series at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "order_price": 0.61,
-      "mid_price": 0.3715,
-      "first_seen": "2026-02-21T11:00:27Z",
-      "bin_edge": 0.0628,
-      "bin_n": 124220,
-      "category": "entertainment"
     },
     {
       "market_id": "614566",
@@ -648,17 +604,6 @@
       "category": "other"
     },
     {
-      "market_id": "1003711",
-      "question": "Will Amy Madigan win Best Supporting Actress in a Motion Picture at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "order_price": 0.71,
-      "mid_price": 0.27,
-      "first_seen": "2026-02-22T01:00:25Z",
-      "bin_edge": 0.0766,
-      "bin_n": 251278,
-      "category": "entertainment"
-    },
-    {
       "market_id": "643460",
       "question": "Will the Miami Heat win the 2025\u20132026 NBA Southeast Division?",
       "direction": "BUY YES",
@@ -701,17 +646,6 @@
       "bin_edge": 0.0409,
       "bin_n": 802516,
       "category": "sports"
-    },
-    {
-      "market_id": "1006303",
-      "question": "Will Jean Smart win Best Actress in a Comedy Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.5,
-      "mid_price": 0.52,
-      "first_seen": "2026-02-22T05:00:25Z",
-      "bin_edge": 0.1056,
-      "bin_n": 57262,
-      "category": "entertainment"
     },
     {
       "market_id": "1032869",
@@ -989,17 +923,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1003672",
-      "question": "Will Sean Penn win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "order_price": 0.53,
-      "mid_price": 0.46,
-      "first_seen": "2026-02-22T21:00:46Z",
-      "bin_edge": 0.0922,
-      "bin_n": 59528,
-      "category": "entertainment"
-    },
-    {
       "market_id": "678876",
       "question": "Kraken IPO by March 31, 2026?",
       "direction": "BUY NO",
@@ -1044,17 +967,6 @@
       "category": "politics"
     },
     {
-      "market_id": "1058746",
-      "question": "Will Karmine Corp win the LEC 2026 Versus?",
-      "direction": "BUY YES",
-      "order_price": 0.261,
-      "mid_price": 0.3,
-      "first_seen": "2026-02-23T02:00:29Z",
-      "bin_edge": 0.1159,
-      "bin_n": 192167,
-      "category": "other"
-    },
-    {
       "market_id": "614012",
       "question": "Will Michael B. Jordan win Best Actor at the 98th Academy Awards?",
       "direction": "BUY NO",
@@ -1077,17 +989,6 @@
       "category": "other"
     },
     {
-      "market_id": "1334172",
-      "question": "Will USD reach 1.7M Iranian rials by February 28?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.31,
-      "first_seen": "2026-02-23T09:00:28Z",
-      "bin_edge": 0.0439,
-      "bin_n": 165014,
-      "category": "other"
-    },
-    {
       "market_id": "916732",
       "question": "Khamenei out as Supreme Leader of Iran by March 31?",
       "direction": "BUY NO",
@@ -1107,17 +1008,6 @@
       "first_seen": "2026-02-23T14:00:29Z",
       "bin_edge": 0.0473,
       "bin_n": 363783,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1006353",
-      "question": "Will The Pitt win Best Ensemble in a Drama Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.79,
-      "mid_price": 0.82,
-      "first_seen": "2026-02-23T14:00:29Z",
-      "bin_edge": 0.0537,
-      "bin_n": 236188,
       "category": "entertainment"
     },
     {
@@ -1162,17 +1052,6 @@
       "first_seen": "2026-02-23T19:00:29Z",
       "bin_edge": 0.0434,
       "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1058744",
-      "question": "Will G2 Esports win the LEC 2026 Versus?",
-      "direction": "BUY NO",
-      "order_price": 0.401,
-      "mid_price": 0.595,
-      "first_seen": "2026-02-23T22:00:28Z",
-      "bin_edge": 0.0436,
-      "bin_n": 185418,
       "category": "other"
     },
     {
@@ -1319,17 +1198,6 @@
       "category": "other"
     },
     {
-      "market_id": "1005914",
-      "question": "Will Rhea Seehorn win Best Actress in a Drama Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.75,
-      "mid_price": 0.805,
-      "first_seen": "2026-02-25T03:00:34Z",
-      "bin_edge": 0.0687,
-      "bin_n": 236188,
-      "category": "entertainment"
-    },
-    {
       "market_id": "1285886",
       "question": " Iran agrees to end enrichment of uranium by March 31?",
       "direction": "BUY NO",
@@ -1416,17 +1284,6 @@
       "bin_edge": 0.1091,
       "bin_n": 22715,
       "category": "crypto"
-    },
-    {
-      "market_id": "1003671",
-      "question": "Will Benicio del Toro win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "order_price": 0.76,
-      "mid_price": 0.195,
-      "first_seen": "2026-02-26T05:00:50Z",
-      "bin_edge": 0.0688,
-      "bin_n": 235388,
-      "category": "entertainment"
     },
     {
       "market_id": "1068327",
@@ -1528,17 +1385,6 @@
       "category": "entertainment"
     },
     {
-      "market_id": "1117230",
-      "question": "Will Israel strike Greater Beirut by March 31, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.31,
-      "mid_price": 0.31,
-      "first_seen": "2026-02-26T22:00:42Z",
-      "bin_edge": 0.0502,
-      "bin_n": 138094,
-      "category": "other"
-    },
-    {
       "market_id": "1004797",
       "question": "Will Apple be the second-largest company in the world by market cap on March 31?",
       "direction": "BUY NO",
@@ -1625,17 +1471,6 @@
       "bin_edge": 0.0535,
       "bin_n": 4283185,
       "category": "other"
-    },
-    {
-      "market_id": "1005958",
-      "question": "Will Seth Rogen win Best Actor in a Comedy Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "order_price": 0.89,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-27T02:00:44Z",
-      "bin_edge": 0.0505,
-      "bin_n": 697983,
-      "category": "entertainment"
     },
     {
       "market_id": "1003758",
@@ -2881,17 +2716,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1419673",
-      "question": "Will Austin Smotherman win the 2026 Cognizant Classic in The Palm Beaches?",
-      "direction": "BUY YES",
-      "order_price": 0.293,
-      "mid_price": 0.314,
-      "first_seen": "2026-02-28T08:00:53Z",
-      "bin_edge": 0.0811,
-      "bin_n": 205356,
-      "category": "other"
-    },
-    {
       "market_id": "1427997",
       "question": "Will the price of Bitcoin be above $60,000 on March 3?",
       "direction": "BUY NO",
@@ -3047,6 +2871,182 @@
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1003675",
+      "question": "Will Jacob Elordi win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.6667,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0663,
+      "bin_n": 124220,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1005749",
+      "question": "Will Erin Doherty win Best Actress in a Television Movie or Limited Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0744,
+      "bin_n": 246202,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1005867",
+      "question": "Will Noah Wyle win Best Actor in a Drama Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1364,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0536,
+      "bin_n": 369279,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1006313",
+      "question": "Will Catherine O'Hara win Best Actress in a Comedy Series at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0628,
+      "bin_n": 124220,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1003711",
+      "question": "Will Amy Madigan win Best Supporting Actress in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0766,
+      "bin_n": 251278,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1006303",
+      "question": "Will Jean Smart win Best Actress in a Comedy Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.1056,
+      "bin_n": 57262,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1003672",
+      "question": "Will Sean Penn win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0922,
+      "bin_n": 59528,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1058746",
+      "question": "Will Karmine Corp win the LEC 2026 Versus?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.1159,
+      "bin_n": 192167,
+      "category": "other"
+    },
+    {
+      "market_id": "1334172",
+      "question": "Will USD reach 1.7M Iranian rials by February 28?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0439,
+      "bin_n": 165014,
+      "category": "other"
+    },
+    {
+      "market_id": "1006353",
+      "question": "Will The Pitt win Best Ensemble in a Drama Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.2658,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0537,
+      "bin_n": 236188,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1058744",
+      "question": "Will G2 Esports win the LEC 2026 Versus?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0436,
+      "bin_n": 185418,
+      "category": "other"
+    },
+    {
+      "market_id": "1005914",
+      "question": "Will Rhea Seehorn win Best Actress in a Drama Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0687,
+      "bin_n": 236188,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1003671",
+      "question": "Will Benicio del Toro win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.3158,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0688,
+      "bin_n": 235388,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1117230",
+      "question": "Will Israel strike Greater Beirut by March 31, 2026?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 2.2258,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0502,
+      "bin_n": 138094,
+      "category": "other"
+    },
+    {
+      "market_id": "1005958",
+      "question": "Will Seth Rogen win Best Actor in a Comedy Series at the 2026 SAG Awards?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1236,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0505,
+      "bin_n": 697983,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1419673",
+      "question": "Will Austin Smotherman win the 2026 Cognizant Classic in The Palm Beaches?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-02T07:00:01Z",
+      "bin_edge": 0.0811,
+      "bin_n": 205356,
+      "category": "other"
+    },
     {
       "market_id": "956350",
       "question": "Will West Indies win the 2026 ICC Men\u2019s T20 World Cup?",
@@ -3419,182 +3419,6 @@
       "resolved_at": "2026-03-01T13:00:01Z",
       "bin_edge": 0.0584,
       "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1316499",
-      "question": "Will Epstein Data Set 13 be released by February 28?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1249,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0559,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1345641",
-      "question": "Will Bitcoin reach $75,000 in February?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0569,
-      "bin_n": 62944,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1345690",
-      "question": "Will Bitcoin dip to $60,000 in February?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0469,
-      "bin_n": 62944,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1303404",
-      "question": "Will Ethereum dip to $1,600 in February?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0197,
-      "bin_n": 402605,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1322007",
-      "question": "Will Hyperliquid dip to $24 in February?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0584,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1336363",
-      "question": "Will Russia capture all of Huliaipole by February 28?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1905,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0269,
-      "bin_n": 289008,
-      "category": "other"
-    },
-    {
-      "market_id": "1302443",
-      "question": "Will Elon Musk\u2019s net worth be between $670b and $680b on February 28?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0679,
-      "bin_n": 135420,
-      "category": "other"
-    },
-    {
-      "market_id": "1361691",
-      "question": "GPT-5.3 released by February 28, 2026?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0629,
-      "bin_n": 135420,
-      "category": "other"
-    },
-    {
-      "market_id": "1363602",
-      "question": "Nancy Guthrie kidnapper arrested by February 28?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0989,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0534,
-      "bin_n": 1374601,
-      "category": "other"
-    },
-    {
-      "market_id": "1303400",
-      "question": "Will Bitcoin dip to $55,000 in February?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.1092,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1303674",
-      "question": "Will Solana dip to $60 in February?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0782,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1322008",
-      "question": "Will Hyperliquid dip to $20 in February?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1364,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0585,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1198784",
-      "question": "Iran strike on US military by February 28?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 7.3333,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0291,
-      "bin_n": 398539,
-      "category": "other"
-    },
-    {
-      "market_id": "1294962",
-      "question": "Will The Pitt win Best Producer of a TV Drama Series at the 37th PGA Awards?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.3158,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0758,
-      "bin_n": 392103,
-      "category": "sports"
-    },
-    {
-      "market_id": "1221084",
-      "question": "Will Trump talk to Vladimir Putin in February?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.1364,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0569,
-      "bin_n": 983439,
-      "category": "politics"
-    },
-    {
-      "market_id": "1352797",
-      "question": "Will Russia enter Verkhnia Tersa by February 28, 2026?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.087,
-      "resolved_at": "2026-03-01T13:00:01Z",
-      "bin_edge": 0.0475,
-      "bin_n": 2193542,
       "category": "other"
     }
   ]
