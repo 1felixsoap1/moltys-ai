@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-03T00:00:02.129079+00:00",
+  "updated_at": "2026-03-03T01:00:01.616204+00:00",
   "summary": {
-    "pending": 234,
-    "wins": 199,
-    "losses": 209,
-    "win_rate": 0.4877,
-    "total_pnl": 49.5351,
+    "pending": 221,
+    "wins": 204,
+    "losses": 217,
+    "win_rate": 0.4846,
+    "total_pnl": 56.7381,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -1264,17 +1264,6 @@
       "category": "other"
     },
     {
-      "market_id": "1399376",
-      "question": "Will \"Scream 7\" Opening Weekend Box Office be greater than 65m?",
-      "direction": "BUY NO",
-      "order_price": 0.73,
-      "mid_price": 0.27,
-      "first_seen": "2026-02-26T22:00:42Z",
-      "bin_edge": 0.1016,
-      "bin_n": 227589,
-      "category": "entertainment"
-    },
-    {
       "market_id": "1242523",
       "question": "Will Two People Exchanging Saliva win Best Live Action Short Film at the 98th Academy Awards?",
       "direction": "BUY YES",
@@ -1330,17 +1319,6 @@
       "category": "other"
     },
     {
-      "market_id": "1399375",
-      "question": "Will \"Scream 7\" Opening Weekend Box Office be between 60m and 65m?",
-      "direction": "BUY NO",
-      "order_price": 0.7,
-      "mid_price": 0.295,
-      "first_seen": "2026-02-27T00:00:45Z",
-      "bin_edge": 0.1266,
-      "bin_n": 227589,
-      "category": "entertainment"
-    },
-    {
       "market_id": "1280313",
       "question": "Will Google Gemini score at least 40% on the FrontierMath Benchmark?",
       "direction": "BUY YES",
@@ -1372,17 +1350,6 @@
       "bin_edge": 0.0531,
       "bin_n": 1163272,
       "category": "other"
-    },
-    {
-      "market_id": "1399374",
-      "question": "Will \"Scream 7\" Opening Weekend Box Office be between 55m and 60m?",
-      "direction": "BUY NO",
-      "order_price": 0.74,
-      "mid_price": 0.25,
-      "first_seen": "2026-02-27T06:00:51Z",
-      "bin_edge": 0.0816,
-      "bin_n": 227589,
-      "category": "entertainment"
     },
     {
       "market_id": "954518",
@@ -1748,17 +1715,6 @@
       "category": "other"
     },
     {
-      "market_id": "1419381",
-      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on March 2?",
-      "direction": "BUY YES",
-      "order_price": 0.11,
-      "mid_price": 0.115,
-      "first_seen": "2026-02-27T22:00:29Z",
-      "bin_edge": 0.0928,
-      "bin_n": 49600,
-      "category": "crypto"
-    },
-    {
       "market_id": "1011908",
       "question": "Will the Bank of Russia make no change to the key rate after the March Meeting?",
       "direction": "BUY YES",
@@ -1790,17 +1746,6 @@
       "bin_edge": 0.0577,
       "bin_n": 198576,
       "category": "politics"
-    },
-    {
-      "market_id": "1427247",
-      "question": "Will \"GOAT\" Third Weekend Box Office be between 10m and 11m?",
-      "direction": "BUY YES",
-      "order_price": 0.4,
-      "mid_price": 0.415,
-      "first_seen": "2026-02-27T22:00:29Z",
-      "bin_edge": 0.0855,
-      "bin_n": 41410,
-      "category": "entertainment"
     },
     {
       "market_id": "1422382",
@@ -2034,17 +1979,6 @@
       "category": "other"
     },
     {
-      "market_id": "1419392",
-      "question": "Will the price of Ethereum be between $2,000 and $2,100 on March 2?",
-      "direction": "BUY YES",
-      "order_price": 0.15,
-      "mid_price": 0.155,
-      "first_seen": "2026-02-28T02:00:47Z",
-      "bin_edge": 0.0528,
-      "bin_n": 49600,
-      "category": "crypto"
-    },
-    {
       "market_id": "1436217",
       "question": "Will the price of Ethereum be above $2,200 on March 4?",
       "direction": "BUY YES",
@@ -2064,17 +1998,6 @@
       "first_seen": "2026-02-28T02:00:47Z",
       "bin_edge": 0.0345,
       "bin_n": 1116059,
-      "category": "other"
-    },
-    {
-      "market_id": "1448467",
-      "question": "Will Elon Musk post 90-114 tweets from February 28 to March 2, 2026?",
-      "direction": "BUY YES",
-      "order_price": 0.3,
-      "mid_price": 0.305,
-      "first_seen": "2026-02-28T02:00:47Z",
-      "bin_edge": 0.0461,
-      "bin_n": 139705,
       "category": "other"
     },
     {
@@ -2144,17 +2067,6 @@
       "category": "other"
     },
     {
-      "market_id": "1419364",
-      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on March 2?",
-      "direction": "BUY YES",
-      "order_price": 0.13,
-      "mid_price": 0.145,
-      "first_seen": "2026-02-28T03:00:51Z",
-      "bin_edge": 0.0628,
-      "bin_n": 49600,
-      "category": "crypto"
-    },
-    {
       "market_id": "1116538",
       "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the March decision?",
       "direction": "BUY YES",
@@ -2210,17 +2122,6 @@
       "category": "other"
     },
     {
-      "market_id": "1419380",
-      "question": "Will the price of Solana be between $80 and $90 on March 2?",
-      "direction": "BUY NO",
-      "order_price": 0.39,
-      "mid_price": 0.595,
-      "first_seen": "2026-02-28T04:00:56Z",
-      "bin_edge": 0.1004,
-      "bin_n": 21848,
-      "category": "crypto"
-    },
-    {
       "market_id": "1428037",
       "question": "Will the price of Ethereum be above $2,200 on March 3?",
       "direction": "BUY YES",
@@ -2265,17 +2166,6 @@
       "category": "crypto"
     },
     {
-      "market_id": "1427246",
-      "question": "Will \"GOAT\" Third Weekend Box Office be between 9m and 10m?",
-      "direction": "BUY NO",
-      "order_price": 0.58,
-      "mid_price": 0.375,
-      "first_seen": "2026-02-28T05:01:02Z",
-      "bin_edge": 0.0538,
-      "bin_n": 119154,
-      "category": "entertainment"
-    },
-    {
       "market_id": "1436184",
       "question": "Will the price of Bitcoin be above $64,000 on March 4?",
       "direction": "BUY YES",
@@ -2298,17 +2188,6 @@
       "category": "other"
     },
     {
-      "market_id": "1419343",
-      "question": "Will the price of Bitcoin be less than $56,000 on March 2?",
-      "direction": "BUY YES",
-      "order_price": 0.003,
-      "mid_price": 0.01,
-      "first_seen": "2026-02-28T05:01:02Z",
-      "bin_edge": 0.0172,
-      "bin_n": 415113,
-      "category": "crypto"
-    },
-    {
       "market_id": "1403603",
       "question": "Will \"Apple Intelligence\" be said 5+ times during the NYC Apple event on March 4?",
       "direction": "BUY YES",
@@ -2318,17 +2197,6 @@
       "bin_edge": 0.0206,
       "bin_n": 333396,
       "category": "other"
-    },
-    {
-      "market_id": "1427587",
-      "question": "Will \"Wuthering Heights\" Third Weekend Box Office be between 6m and 7m?",
-      "direction": "BUY NO",
-      "order_price": 0.7,
-      "mid_price": 0.265,
-      "first_seen": "2026-02-28T06:00:55Z",
-      "bin_edge": 0.0965,
-      "bin_n": 262241,
-      "category": "entertainment"
     },
     {
       "market_id": "706000",
@@ -2351,17 +2219,6 @@
       "bin_edge": 0.1091,
       "bin_n": 22715,
       "category": "crypto"
-    },
-    {
-      "market_id": "1427249",
-      "question": "Will \"GOAT\" Third Weekend Box Office be greater than 12m?",
-      "direction": "BUY NO",
-      "order_price": 0.753,
-      "mid_price": 0.1835,
-      "first_seen": "2026-02-28T06:00:55Z",
-      "bin_edge": 0.0354,
-      "bin_n": 296114,
-      "category": "entertainment"
     },
     {
       "market_id": "1363503",
@@ -2585,6 +2442,149 @@
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1399376",
+      "question": "Will \"Scream 7\" Opening Weekend Box Office be greater than 65m?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.3699,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.1016,
+      "bin_n": 227589,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1399375",
+      "question": "Will \"Scream 7\" Opening Weekend Box Office be between 60m and 65m?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.1266,
+      "bin_n": 227589,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1399374",
+      "question": "Will \"Scream 7\" Opening Weekend Box Office be between 55m and 60m?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.3514,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0816,
+      "bin_n": 227589,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1419381",
+      "question": "Will the price of Bitcoin be between $68,000 and $70,000 on March 2?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 8.0909,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0928,
+      "bin_n": 49600,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1427247",
+      "question": "Will \"GOAT\" Third Weekend Box Office be between 10m and 11m?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0855,
+      "bin_n": 41410,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1419392",
+      "question": "Will the price of Ethereum be between $2,000 and $2,100 on March 2?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 5.6667,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0528,
+      "bin_n": 49600,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1448467",
+      "question": "Will Elon Musk post 90-114 tweets from February 28 to March 2, 2026?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0461,
+      "bin_n": 139705,
+      "category": "other"
+    },
+    {
+      "market_id": "1419364",
+      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on March 2?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0628,
+      "bin_n": 49600,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1419380",
+      "question": "Will the price of Solana be between $80 and $90 on March 2?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.1004,
+      "bin_n": 21848,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1427246",
+      "question": "Will \"GOAT\" Third Weekend Box Office be between 9m and 10m?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 0.7241,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0538,
+      "bin_n": 119154,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1419343",
+      "question": "Will the price of Bitcoin be less than $56,000 on March 2?",
+      "direction": "BUY YES",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0172,
+      "bin_n": 415113,
+      "category": "crypto"
+    },
+    {
+      "market_id": "1427587",
+      "question": "Will \"Wuthering Heights\" Third Weekend Box Office be between 6m and 7m?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0965,
+      "bin_n": 262241,
+      "category": "entertainment"
+    },
+    {
+      "market_id": "1427249",
+      "question": "Will \"GOAT\" Third Weekend Box Office be greater than 12m?",
+      "direction": "BUY NO",
+      "status": "lost",
+      "pnl": -1.0,
+      "resolved_at": "2026-03-03T01:00:01Z",
+      "bin_edge": 0.0354,
+      "bin_n": 296114,
+      "category": "entertainment"
+    },
     {
       "market_id": "1299205",
       "question": "Will Seattle have between 3 and 4 inches of precipitation in February?",
@@ -2990,149 +2990,6 @@
       "resolved_at": "2026-03-02T07:00:01Z",
       "bin_edge": 0.0436,
       "bin_n": 185418,
-      "category": "other"
-    },
-    {
-      "market_id": "1005914",
-      "question": "Will Rhea Seehorn win Best Actress in a Drama Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0687,
-      "bin_n": 236188,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1003671",
-      "question": "Will Benicio del Toro win Best Supporting Actor in a Motion Picture at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.3158,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0688,
-      "bin_n": 235388,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1117230",
-      "question": "Will Israel strike Greater Beirut by March 31, 2026?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 2.2258,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0502,
-      "bin_n": 138094,
-      "category": "other"
-    },
-    {
-      "market_id": "1005958",
-      "question": "Will Seth Rogen win Best Actor in a Comedy Series at the 2026 SAG Awards?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 0.1236,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0505,
-      "bin_n": 697983,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1419673",
-      "question": "Will Austin Smotherman win the 2026 Cognizant Classic in The Palm Beaches?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0811,
-      "bin_n": 205356,
-      "category": "other"
-    },
-    {
-      "market_id": "956350",
-      "question": "Will West Indies win the 2026 ICC Men\u2019s T20 World Cup?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0893,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.0465,
-      "bin_n": 2193542,
-      "category": "other"
-    },
-    {
-      "market_id": "1414967",
-      "question": "Will the price of Bitcoin be above $68,000 on March 1?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 1.381,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.1858,
-      "bin_n": 19105,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1384032",
-      "question": "Will Chelsea FC win on 2026-03-01?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.2048,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.0632,
-      "bin_n": 384603,
-      "category": "sports"
-    },
-    {
-      "market_id": "1414958",
-      "question": "Will the price of Bitcoin be above $64,000 on March 1?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.1016,
-      "bin_n": 49182,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1414913",
-      "question": "Will the price of Ethereum be above $1,900 on March 1?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.0816,
-      "bin_n": 49182,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1414971",
-      "question": "Will the price of Bitcoin be above $70,000 on March 1?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.0927,
-      "bin_n": 49189,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1414962",
-      "question": "Will the price of Bitcoin be above $66,000 on March 1?",
-      "direction": "BUY YES",
-      "status": "won",
-      "pnl": 1.0,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.0991,
-      "bin_n": 32729,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1288112",
-      "question": "Will Israel or the US target an Iranian oil or gas facility?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.0834,
-      "resolved_at": "2026-03-02T01:00:01Z",
-      "bin_edge": 0.0386,
-      "bin_n": 4512972,
       "category": "other"
     }
   ]
