@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-03T18:00:01.276114+00:00",
+  "updated_at": "2026-03-03T19:00:01.447233+00:00",
   "summary": {
-    "pending": 214,
-    "wins": 208,
+    "pending": 213,
+    "wins": 209,
     "losses": 220,
-    "win_rate": 0.486,
-    "total_pnl": 56.5109,
+    "win_rate": 0.4872,
+    "total_pnl": 56.9602,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -2221,17 +2221,6 @@
       "category": "other"
     },
     {
-      "market_id": "1399734",
-      "question": "Will Best Buy (BBY) beat quarterly earnings?",
-      "direction": "BUY YES",
-      "order_price": 0.69,
-      "mid_price": 0.715,
-      "first_seen": "2026-02-28T07:01:00Z",
-      "bin_edge": 0.0473,
-      "bin_n": 233869,
-      "category": "other"
-    },
-    {
       "market_id": "1428035",
       "question": "Will the price of Bitcoin be above $70,000 on March 3?",
       "direction": "BUY YES",
@@ -2365,6 +2354,17 @@
     }
   ],
   "recent_resolutions": [
+    {
+      "market_id": "1399734",
+      "question": "Will Best Buy (BBY) beat quarterly earnings?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.4493,
+      "resolved_at": "2026-03-03T19:00:01Z",
+      "bin_edge": 0.0473,
+      "bin_n": 233869,
+      "category": "other"
+    },
     {
       "market_id": "1422382",
       "question": "Will Marco Rubio visit Israel by March 2?",
@@ -2902,17 +2902,6 @@
       "resolved_at": "2026-03-02T07:00:01Z",
       "bin_edge": 0.0536,
       "bin_n": 369279,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1006313",
-      "question": "Will Catherine O'Hara win Best Actress in a Comedy Series at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0628,
-      "bin_n": 124220,
       "category": "entertainment"
     }
   ]
