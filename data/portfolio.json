@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-03T12:00:01.681466+00:00",
+  "updated_at": "2026-03-03T13:00:01.713382+00:00",
   "summary": {
-    "pending": 215,
-    "wins": 207,
+    "pending": 214,
+    "wins": 208,
     "losses": 220,
-    "win_rate": 0.4848,
-    "total_pnl": 54.1776,
+    "win_rate": 0.486,
+    "total_pnl": 56.5109,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -1704,17 +1704,6 @@
       "category": "politics"
     },
     {
-      "market_id": "1422382",
-      "question": "Will Marco Rubio visit Israel by March 2?",
-      "direction": "BUY NO",
-      "order_price": 0.3,
-      "mid_price": 0.695,
-      "first_seen": "2026-02-27T23:00:43Z",
-      "bin_edge": 0.0409,
-      "bin_n": 159914,
-      "category": "other"
-    },
-    {
       "market_id": "1242805",
       "question": "Will F1 win Best Sound at the 98th Academy Awards?",
       "direction": "BUY YES",
@@ -2377,6 +2366,17 @@
   ],
   "recent_resolutions": [
     {
+      "market_id": "1422382",
+      "question": "Will Marco Rubio visit Israel by March 2?",
+      "direction": "BUY NO",
+      "status": "won",
+      "pnl": 2.3333,
+      "resolved_at": "2026-03-03T13:00:01Z",
+      "bin_edge": 0.0409,
+      "bin_n": 159914,
+      "category": "other"
+    },
+    {
       "market_id": "1309347",
       "question": "Another US bank failure by February 28?",
       "direction": "BUY NO",
@@ -2913,17 +2913,6 @@
       "resolved_at": "2026-03-02T07:00:01Z",
       "bin_edge": 0.0628,
       "bin_n": 124220,
-      "category": "entertainment"
-    },
-    {
-      "market_id": "1003711",
-      "question": "Will Amy Madigan win Best Supporting Actress in a Motion Picture at the 2026 SAG Awards?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-02T07:00:01Z",
-      "bin_edge": 0.0766,
-      "bin_n": 251278,
       "category": "entertainment"
     }
   ]
