@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-04T12:00:02.010875+00:00",
+  "updated_at": "2026-03-04T13:00:01.585882+00:00",
   "summary": {
-    "pending": 181,
-    "wins": 221,
+    "pending": 179,
+    "wins": 223,
     "losses": 240,
-    "win_rate": 0.4794,
-    "total_pnl": 58.0539,
+    "win_rate": 0.4816,
+    "total_pnl": 58.3011,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -670,17 +670,6 @@
       "category": "sports"
     },
     {
-      "market_id": "704392",
-      "question": "Will John Carter be the Republican nominee for TX-31?",
-      "direction": "BUY YES",
-      "order_price": 0.89,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-22T14:00:30Z",
-      "bin_edge": 0.0669,
-      "bin_n": 986649,
-      "category": "politics"
-    },
-    {
       "market_id": "643464",
       "question": "Will the Boston Celtics win the 2025\u20132026 NBA Atlantic Division?",
       "direction": "BUY NO",
@@ -833,17 +822,6 @@
       "bin_edge": 0.0369,
       "bin_n": 289008,
       "category": "other"
-    },
-    {
-      "market_id": "662906",
-      "question": "Will Florida win the 2025-2026 SEC Men's Basketball regular season championship?",
-      "direction": "BUY YES",
-      "order_price": 0.89,
-      "mid_price": 0.9,
-      "first_seen": "2026-02-22T23:00:29Z",
-      "bin_edge": 0.051,
-      "bin_n": 2908317,
-      "category": "sports"
     },
     {
       "market_id": "1168124",
@@ -2003,6 +1981,28 @@
   ],
   "recent_resolutions": [
     {
+      "market_id": "704392",
+      "question": "Will John Carter be the Republican nominee for TX-31?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1236,
+      "resolved_at": "2026-03-04T13:00:01Z",
+      "bin_edge": 0.0669,
+      "bin_n": 986649,
+      "category": "politics"
+    },
+    {
+      "market_id": "662906",
+      "question": "Will Florida win the 2025-2026 SEC Men's Basketball regular season championship?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.1236,
+      "resolved_at": "2026-03-04T13:00:01Z",
+      "bin_edge": 0.051,
+      "bin_n": 2908317,
+      "category": "sports"
+    },
+    {
       "market_id": "1288111",
       "question": "Will Israel or the US target an Iranian nuclear facility?",
       "direction": "BUY NO",
@@ -2529,28 +2529,6 @@
       "bin_edge": 0.0628,
       "bin_n": 49600,
       "category": "crypto"
-    },
-    {
-      "market_id": "1419380",
-      "question": "Will the price of Solana be between $80 and $90 on March 2?",
-      "direction": "BUY NO",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-03T01:00:01Z",
-      "bin_edge": 0.1004,
-      "bin_n": 21848,
-      "category": "crypto"
-    },
-    {
-      "market_id": "1427246",
-      "question": "Will \"GOAT\" Third Weekend Box Office be between 9m and 10m?",
-      "direction": "BUY NO",
-      "status": "won",
-      "pnl": 0.7241,
-      "resolved_at": "2026-03-03T01:00:01Z",
-      "bin_edge": 0.0538,
-      "bin_n": 119154,
-      "category": "entertainment"
     }
   ]
 }
