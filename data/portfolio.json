@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-04T18:00:01.285881+00:00",
+  "updated_at": "2026-03-04T19:00:01.230514+00:00",
   "summary": {
-    "pending": 179,
-    "wins": 223,
+    "pending": 178,
+    "wins": 224,
     "losses": 240,
-    "win_rate": 0.4816,
-    "total_pnl": 58.3011,
+    "win_rate": 0.4828,
+    "total_pnl": 58.4,
     "avg_bin_edge": 0.063
   },
   "pending_picks": [
@@ -184,17 +184,6 @@
       "bin_edge": 0.0444,
       "bin_n": 246202,
       "category": "entertainment"
-    },
-    {
-      "market_id": "703643",
-      "question": "Will Wesley Hunt come in 3rd in the 2026 Texas Republican Primary?",
-      "direction": "BUY YES",
-      "order_price": 0.91,
-      "mid_price": 0.915,
-      "first_seen": "2026-02-21T08:46:45Z",
-      "bin_edge": 0.0519,
-      "bin_n": 986649,
-      "category": "politics"
     },
     {
       "market_id": "569259",
@@ -1981,6 +1970,17 @@
   ],
   "recent_resolutions": [
     {
+      "market_id": "703643",
+      "question": "Will Wesley Hunt come in 3rd in the 2026 Texas Republican Primary?",
+      "direction": "BUY YES",
+      "status": "won",
+      "pnl": 0.0989,
+      "resolved_at": "2026-03-04T19:00:01Z",
+      "bin_edge": 0.0519,
+      "bin_n": 986649,
+      "category": "politics"
+    },
+    {
       "market_id": "704392",
       "question": "Will John Carter be the Republican nominee for TX-31?",
       "direction": "BUY YES",
@@ -2518,17 +2518,6 @@
       "bin_edge": 0.0461,
       "bin_n": 139705,
       "category": "other"
-    },
-    {
-      "market_id": "1419364",
-      "question": "Will the price of Bitcoin be between $62,000 and $64,000 on March 2?",
-      "direction": "BUY YES",
-      "status": "lost",
-      "pnl": -1.0,
-      "resolved_at": "2026-03-03T01:00:01Z",
-      "bin_edge": 0.0628,
-      "bin_n": 49600,
-      "category": "crypto"
     }
   ]
 }
